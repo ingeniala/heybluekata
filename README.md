@@ -44,7 +44,7 @@
 
 ## Evolution Roadmap
 
-## Adption Practices
+## Adoption Practices
 
 ## Team organization
 
