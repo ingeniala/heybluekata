@@ -1,17 +1,18 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Default View"
-    id="id-6e6a97b5f7714eb390ce17b45b5441dc">
+    name="Police Officer Workflow"
+    id="id-8f49f286932545d88c8b984b9b118c25"
+    viewpoint="application_usage">
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-5ebfebe5fea042689acc24ae9bf1bdca"
+      id="id-2766f2c11223456e8ba8c398d7f1a23c"
       textAlignment="1"
-      content="Hello world">
+      content="WIP fsclavo&#xA;">
     <bounds
-        x="36"
-        y="24"
-        width="185"
-        height="80"/>
+        x="24"
+        y="12"
+        width="84"
+        height="31"/>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -1,0 +1,54 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Civilian / Police Officer Interaction"
+    id="id-6dd927485b6249e1a151792eea0bdb4f"
+    viewpoint="application_usage">
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-31d3d508237949a0ad477ce2023fbb14"
+      textAlignment="1"
+      content="WIP fsclavo&#xA;">
+    <bounds
+        x="24"
+        y="12"
+        width="84"
+        height="31"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-05147bf8ba49471d9cc667dfd05df03d">
+    <bounds
+        x="144"
+        y="180"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessInteraction"
+        href="BusinessInteraction_id-27ca332ff8f64380a8e52aeb900a851b.xml#id-27ca332ff8f64380a8e52aeb900a851b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-3bafbfc671904c4a898057cb50e06124">
+    <bounds
+        x="72"
+        y="72"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessActor"
+        href="BusinessActor_id-71706798856d4549acb4e91b55db920b.xml#id-71706798856d4549acb4e91b55db920b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-6493de8aab3b4944a6c32e700755cb4b">
+    <bounds
+        x="204"
+        y="72"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessActor"
+        href="BusinessActor_id-b464eee28308487f8811679d62c98dff.xml#id-b464eee28308487f8811679d62c98dff"/>
+  </children>
+</archimate:ArchimateDiagramModel>
