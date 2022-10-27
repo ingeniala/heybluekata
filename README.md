@@ -1,4 +1,4 @@
-# O'reilly Architectural Katas - Fall 2022 - HeyBLue
+# O'Reilly Architectural Katas - Fall 2022 - HeyBLue
 
 ## Table of Contents
 
