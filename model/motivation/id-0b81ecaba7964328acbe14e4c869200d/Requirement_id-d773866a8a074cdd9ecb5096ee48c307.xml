@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AC.USA.01 - Web App Usability"
+    id="id-d773866a8a074cdd9ecb5096ee48c307">
+  <profiles
+      href="folder.xml#id-9f9a33df2fc04254918def06a0735e48"/>
+</archimate:Requirement>

@@ -120,4 +120,15 @@
         xsi:type="archimate:Goal"
         href="Goal_id-68daf0f1427842b0ade1207ad3f965c7.xml#id-68daf0f1427842b0ade1207ad3f965c7"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-2855eae01cc24c2e989c11903050c919"
+      textAlignment="1"
+      content="WIP Sblanco">
+    <bounds
+        x="33"
+        y="41"
+        width="98"
+        height="30"/>
+  </children>
 </archimate:ArchimateDiagramModel>
