@@ -61,6 +61,18 @@
           xsi:type="archimate:Requirement"
           href="Requirement_id-0acb8b43b3d44deb8ee00c5532f4bf0b.xml#id-0acb8b43b3d44deb8ee00c5532f4bf0b"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-628a859112854a6f94660e8808b85664">
+      <bounds
+          x="180"
+          y="132"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-f7cd29cabd8f457a96accfd03e2e5ff1.xml#id-f7cd29cabd8f457a96accfd03e2e5ff1"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -95,6 +107,53 @@
       <archimateElement
           xsi:type="archimate:Requirement"
           href="Requirement_id-36dd96f6e4bd4bc7894d41ab4c5483a3.xml#id-36dd96f6e4bd4bc7894d41ab4c5483a3"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-bc6f67f30111487296b5d501916d84d6"
+      name="Confidence Characteristics"
+      textAlignment="1">
+    <bounds
+        x="36"
+        y="240"
+        width="400"
+        height="217"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-5d5aa04126eb427d8ad10365d8bf4b69">
+      <bounds
+          x="72"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-77ec9c61675c481bab6df09f56b0b2a9.xml#id-77ec9c61675c481bab6df09f56b0b2a9"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-10e8ad92694541d19f4782a19a31f7b9">
+      <bounds
+          x="216"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-2deba5a12e32430db9f44ba2cd089388.xml#id-2deba5a12e32430db9f44ba2cd089388"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-d5af35a5282d4d6f9b8d020b575b1427">
+      <bounds
+          x="72"
+          y="132"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-b3375eac5d8241c6afe60ba224f6a4d9.xml#id-b3375eac5d8241c6afe60ba224f6a4d9"/>
     </children>
   </children>
 </archimate:ArchimateDiagramModel>

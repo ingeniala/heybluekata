@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UC13. As a municipality I want to allow civilians to redeem the points to pay fines or fees"
+    id="id-041e2eb07e594e91b52194529c78d177">
+  <profiles
+      href="folder.xml#id-4b3c4f54b247449e8cae05e8ec7799ed"/>
+</archimate:Requirement>

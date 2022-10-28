@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UC03. As a local media outlet I want to subscribe to get access to aggregated data"
+    id="id-2eaf71a42d644771bb0e6b55699c81ec">
+  <profiles
+      href="folder.xml#id-4b3c4f54b247449e8cae05e8ec7799ed"/>
+</archimate:Requirement>

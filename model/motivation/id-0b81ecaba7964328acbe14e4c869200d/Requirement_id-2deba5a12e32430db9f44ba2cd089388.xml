@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AC.CON.02. A connection can only happen if the community member and the police officer are within a 10 ft distance from each other"
+    id="id-2deba5a12e32430db9f44ba2cd089388">
+  <profiles
+      href="folder.xml#id-9f9a33df2fc04254918def06a0735e48"/>
+</archimate:Requirement>

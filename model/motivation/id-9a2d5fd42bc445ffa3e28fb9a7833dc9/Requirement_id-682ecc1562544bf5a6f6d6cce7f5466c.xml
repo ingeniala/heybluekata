@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UC06. [HARD] As HeyBlue Admin I want the app to track the location of the users"
+    id="id-682ecc1562544bf5a6f6d6cce7f5466c">
+  <profiles
+      href="folder.xml#id-4b3c4f54b247449e8cae05e8ec7799ed"/>
+</archimate:Requirement>
