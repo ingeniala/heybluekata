@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Civilian / Police Onboarding Mobile"
+    name="Civilian / Police Officer / Charity Onboarding Mobile"
     id="id-9514057af7cf489c8c9971ccc5f4073d"
     viewpoint="application_usage">
   <children
@@ -27,9 +27,9 @@
           endX="204"
           endY="-105"/>
       <bendpoints
-          startX="-180"
+          startX="-168"
           startY="45"
-          endX="36"
+          endX="48"
           endY="-105"/>
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
@@ -198,13 +198,13 @@
       <bendpoints
           startX="-12"
           startY="57"
-          endX="336"
-          endY="-161"/>
+          endX="324"
+          endY="-167"/>
       <bendpoints
           startX="-300"
           startY="57"
-          endX="48"
-          endY="-161"/>
+          endX="36"
+          endY="-167"/>
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-a81a558eb64b47918e07dc4069b782fe.xml#id-a81a558eb64b47918e07dc4069b782fe"/>
@@ -585,8 +585,8 @@
             href="FlowRelationship_id-64e0dbf4fb6f4a7fb330f5c43f86bce7.xml#id-64e0dbf4fb6f4a7fb330f5c43f86bce7"/>
       </sourceConnections>
       <bounds
-          x="36"
-          y="98"
+          x="48"
+          y="104"
           width="120"
           height="55"/>
       <archimateElement
@@ -639,5 +639,17 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-6cfaccf617d34273b879f85e6b512720.xml#id-6cfaccf617d34273b879f85e6b512720"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-a915ef09553e4fb690b468c6f2835b8d">
+    <bounds
+        x="108"
+        y="12"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessActor"
+        href="BusinessActor_id-4bac0e06cb534729b3a84c1c3aa6eda3.xml#id-4bac0e06cb534729b3a84c1c3aa6eda3"/>
   </children>
 </archimate:ArchimateDiagramModel>
