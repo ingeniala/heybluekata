@@ -2,4 +2,13 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="ING.ARCHI.HEY-BLUE"
     id="id-82442a4c03634d388a1bc2a24ed05a99"
-    version="4.9.0"/>
+    version="4.9.0">
+  <profiles
+      name="Functional Requirement"
+      id="id-4b3c4f54b247449e8cae05e8ec7799ed"
+      conceptType="Requirement"/>
+  <profiles
+      name="Architecture Characteristic"
+      id="id-9f9a33df2fc04254918def06a0735e48"
+      conceptType="Requirement"/>
+</archimate:ArchimateModel>
