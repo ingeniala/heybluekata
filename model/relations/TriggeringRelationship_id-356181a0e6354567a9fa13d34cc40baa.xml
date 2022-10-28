@@ -1,6 +1,7 @@
 <archimate:TriggeringRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="notification"
     id="id-356181a0e6354567a9fa13d34cc40baa">
   <source
       xsi:type="archimate:BusinessEvent"

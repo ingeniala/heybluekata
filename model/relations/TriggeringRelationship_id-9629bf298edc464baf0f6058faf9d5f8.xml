@@ -2,10 +2,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="notification"
-    id="id-54ce19657718478ba535889bca26dae5">
+    id="id-9629bf298edc464baf0f6058faf9d5f8">
   <source
       xsi:type="archimate:BusinessEvent"
-      href="BusinessEvent_id-e7ad56934bed42e294ebd99888710afd.xml#id-e7ad56934bed42e294ebd99888710afd"/>
+      href="BusinessEvent_id-6a30ad9119ca4c02b7f67c010b36f3e7.xml#id-6a30ad9119ca4c02b7f67c010b36f3e7"/>
   <target
       xsi:type="archimate:BusinessActor"
       href="BusinessActor_id-b464eee28308487f8811679d62c98dff.xml#id-b464eee28308487f8811679d62c98dff"/>

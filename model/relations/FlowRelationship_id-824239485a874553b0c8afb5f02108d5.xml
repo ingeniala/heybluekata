@@ -1,6 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="state not changed"
     id="id-824239485a874553b0c8afb5f02108d5">
   <source
       xsi:type="archimate:BusinessEvent"
