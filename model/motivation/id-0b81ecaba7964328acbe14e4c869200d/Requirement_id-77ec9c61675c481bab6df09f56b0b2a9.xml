@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AC.CON.01 - Users can only have one connection per officer per 24 hours period."
+    id="id-77ec9c61675c481bab6df09f56b0b2a9">
+  <profiles
+      href="folder.xml#id-9f9a33df2fc04254918def06a0735e48"/>
+</archimate:Requirement>

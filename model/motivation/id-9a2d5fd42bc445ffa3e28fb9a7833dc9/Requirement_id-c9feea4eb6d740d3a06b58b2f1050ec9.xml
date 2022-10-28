@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UC05. [HARD] As a user I want to share information about my profile in social media"
+    id="id-c9feea4eb6d740d3a06b58b2f1050ec9">
+  <profiles
+      href="folder.xml#id-4b3c4f54b247449e8cae05e8ec7799ed"/>
+</archimate:Requirement>

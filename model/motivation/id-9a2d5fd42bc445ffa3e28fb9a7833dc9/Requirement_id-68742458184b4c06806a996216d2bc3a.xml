@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UC01. As hey blue administrator I want to get reports and analytics of the application activity"
+    id="id-68742458184b4c06806a996216d2bc3a"
+    documentation="The reports and analytics should take the internal tracking information and aggregate it with other available public data to build comprehensive reports to show impact of app in community.">
+  <profiles
+      href="folder.xml#id-4b3c4f54b247449e8cae05e8ec7799ed"/>
+</archimate:Requirement>

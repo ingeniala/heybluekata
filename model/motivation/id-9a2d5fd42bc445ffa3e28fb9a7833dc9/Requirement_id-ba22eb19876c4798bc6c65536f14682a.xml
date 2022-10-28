@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UC10. As an officer I want to find charities where I can gift the points"
+    id="id-ba22eb19876c4798bc6c65536f14682a">
+  <profiles
+      href="folder.xml#id-4b3c4f54b247449e8cae05e8ec7799ed"/>
+</archimate:Requirement>

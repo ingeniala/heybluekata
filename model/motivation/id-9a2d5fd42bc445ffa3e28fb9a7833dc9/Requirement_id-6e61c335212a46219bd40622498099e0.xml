@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UC04. [HARD] As a User I want to connect to another users"
+    id="id-6e61c335212a46219bd40622498099e0">
+  <profiles
+      href="folder.xml#id-4b3c4f54b247449e8cae05e8ec7799ed"/>
+</archimate:Requirement>

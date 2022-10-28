@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AC.CON.03. [HARD] Officers location must automatically shut off after 15 minutes"
+    id="id-b3375eac5d8241c6afe60ba224f6a4d9">
+  <profiles
+      href="folder.xml#id-9f9a33df2fc04254918def06a0735e48"/>
+</archimate:Requirement>

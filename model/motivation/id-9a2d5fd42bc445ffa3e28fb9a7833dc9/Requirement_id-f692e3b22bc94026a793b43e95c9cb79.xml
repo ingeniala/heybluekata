@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="UC08. [HARD] As a user i want to opt-in and out of push notifications"
+    id="id-f692e3b22bc94026a793b43e95c9cb79">
+  <profiles
+      href="folder.xml#id-4b3c4f54b247449e8cae05e8ec7799ed"/>
+</archimate:Requirement>
