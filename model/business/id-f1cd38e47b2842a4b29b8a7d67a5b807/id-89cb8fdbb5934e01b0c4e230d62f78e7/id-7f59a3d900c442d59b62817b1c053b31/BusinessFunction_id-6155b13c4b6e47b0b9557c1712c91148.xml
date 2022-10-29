@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="5.4. Notifications"
+    id="id-6155b13c4b6e47b0b9557c1712c91148"
+    documentation="Notification of the activity in the platform to a user, per instance via mobile or browser."/>

@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="1.2. Messaging"
+    id="id-380e41001d5d4857aa02785fe2a42046"
+    documentation="Direct messaging between users. Include:&#xA;* Text messages&#xA;* Email&#xA;* Voice Chat&#xA;* Video Char&#xA;* Reactions"/>

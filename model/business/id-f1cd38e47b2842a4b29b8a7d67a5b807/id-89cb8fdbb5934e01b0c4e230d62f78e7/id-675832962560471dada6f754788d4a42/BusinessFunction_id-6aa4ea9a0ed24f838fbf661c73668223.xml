@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="2.4. Profile"
+    id="id-6aa4ea9a0ed24f838fbf661c73668223"
+    documentation="Profile management of the user in the social network, including:&#xA;* Profile page&#xA;* Profile Data&#xA;* Presence&#xA;* Location&#xA;* Skills / habilities"/>
