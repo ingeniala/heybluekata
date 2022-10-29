@@ -5,17 +5,6 @@
     id="id-d0b9c4f8f405468a85df3dd306379ed2"
     viewpoint="goal_realization">
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-d5e9d27e4b1046fa8cc92a4d31c59bc0"
-      textAlignment="1"
-      content="WIP Sblanco">
-    <bounds
-        x="12"
-        y="12"
-        width="98"
-        height="30"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-83bed150828a4108be7978bf63518a29"
       name="Security Characteristics"
@@ -154,6 +143,132 @@
       <archimateElement
           xsi:type="archimate:Requirement"
           href="Requirement_id-b3375eac5d8241c6afe60ba224f6a4d9.xml#id-b3375eac5d8241c6afe60ba224f6a4d9"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-5e63b28b92474beaa0e8065c9a2f93e5"
+      name="Stability Characteristics"
+      textAlignment="1">
+    <bounds
+        x="456"
+        y="317"
+        width="400"
+        height="140"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-02e21c0523a140a98cf6a64166ab99b2">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-65601eab1d9c41a1bb7e734aaa87c951"
+          source="id-02e21c0523a140a98cf6a64166ab99b2"
+          target="id-2029e66617064160aee082a7222c6d7c">
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-5fe3d69831514fff9425fb5a2ffb335d.xml#id-5fe3d69831514fff9425fb5a2ffb335d"/>
+      </sourceConnections>
+      <bounds
+          x="24"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-d7f9fe3914c34042aa94e3b14a17e46a.xml#id-d7f9fe3914c34042aa94e3b14a17e46a"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-2029e66617064160aee082a7222c6d7c"
+        targetConnections="id-65601eab1d9c41a1bb7e734aaa87c951">
+      <bounds
+          x="192"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-338b945e88d04a1297fea8254a2683b4.xml#id-338b945e88d04a1297fea8254a2683b4"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-714679f1d7324331b0743b7ce8e9249e"
+      name="Modifiability Characteristics"
+      textAlignment="1">
+    <bounds
+        x="36"
+        y="480"
+        width="400"
+        height="140"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-90f3143f721f4196aa155f635e3e6e6b">
+      <bounds
+          x="72"
+          y="60"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-261d46a3d0364ea48ad37e719da447b2.xml#id-261d46a3d0364ea48ad37e719da447b2"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-8bdf1e61a56441a7a918d69f6e3bf653"
+      name="Scalability Characteristics"
+      textAlignment="1">
+    <bounds
+        x="456"
+        y="480"
+        width="400"
+        height="140"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c979ff02397e4a0cbbea2c0968a3b23e">
+      <bounds
+          x="24"
+          y="60"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-717649665e004e29845c03782a5e2a7b.xml#id-717649665e004e29845c03782a5e2a7b"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-c04bde56c99e405fab5019b28bc6e697"
+      name="Performance Characteristics"
+      textAlignment="1">
+    <bounds
+        x="36"
+        y="636"
+        width="400"
+        height="140"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-f41e8749e7144f4085ea6e14bca5e939">
+      <bounds
+          x="72"
+          y="60"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-4e62b6592bb349058fec214693ad1d3d.xml#id-4e62b6592bb349058fec214693ad1d3d"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-5b2ea01b4efd444cae8b46b8fa348752">
+      <bounds
+          x="228"
+          y="60"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-7b82aceb3cd84951b7907872d28d6d5a.xml#id-7b82aceb3cd84951b7907872d28d6d5a"/>
     </children>
   </children>
 </archimate:ArchimateDiagramModel>

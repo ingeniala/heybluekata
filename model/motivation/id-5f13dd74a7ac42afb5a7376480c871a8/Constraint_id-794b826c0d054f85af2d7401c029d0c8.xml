@@ -1,0 +1,5 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CONS.06. [Assumption] Define a solution that evolve with a team"
+    id="id-794b826c0d054f85af2d7401c029d0c8"
+    documentation="Currently ther is no IT team. Define a solution that can be implemented in a simple way, with a simple team first, and evolve later."/>

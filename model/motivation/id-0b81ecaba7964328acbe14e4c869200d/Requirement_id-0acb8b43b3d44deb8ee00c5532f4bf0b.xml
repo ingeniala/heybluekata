@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="AC.SEC.03 - Device linking"
+    name="AC.SEC.03. Device linking"
     id="id-0acb8b43b3d44deb8ee00c5532f4bf0b"
     documentation="Users must link an email address to a particular phone or device. No user must be able to register multiple devices linked to an email address.">
   <profiles

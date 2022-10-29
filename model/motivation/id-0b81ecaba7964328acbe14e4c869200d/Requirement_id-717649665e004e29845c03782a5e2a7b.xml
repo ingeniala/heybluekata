@@ -1,7 +1,7 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="AC.SEC.04. Community members find the officers that are willing to connect, officers cannot find the community members"
-    id="id-f7cd29cabd8f457a96accfd03e2e5ff1">
+    name="AC.SCA.01. [Assumption] Start with little use rate (Friends and Family) and scalate the solution as usage rate increase"
+    id="id-717649665e004e29845c03782a5e2a7b">
   <profiles
       href="folder.xml#id-9f9a33df2fc04254918def06a0735e48"/>
 </archimate:Requirement>

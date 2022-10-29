@@ -1,7 +1,7 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="AC.SEC.04. Community members find the officers that are willing to connect, officers cannot find the community members"
-    id="id-f7cd29cabd8f457a96accfd03e2e5ff1">
+    name="AC.MOD.01. [Assumption] Integrate with another social media in less than two agile iterations"
+    id="id-261d46a3d0364ea48ad37e719da447b2">
   <profiles
       href="folder.xml#id-9f9a33df2fc04254918def06a0735e48"/>
 </archimate:Requirement>

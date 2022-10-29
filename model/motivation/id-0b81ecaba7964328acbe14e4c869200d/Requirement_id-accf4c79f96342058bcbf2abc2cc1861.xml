@@ -1,6 +1,6 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="AC.SEC.01 - Secure information"
+    name="AC.SEC.01. Secure information"
     id="id-accf4c79f96342058bcbf2abc2cc1861"
     documentation="The application must protect user data, considering what data is stored and what data is transient&#xA;">
   <profiles

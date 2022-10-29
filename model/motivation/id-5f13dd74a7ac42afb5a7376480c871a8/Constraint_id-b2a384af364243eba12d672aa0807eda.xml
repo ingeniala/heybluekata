@@ -1,0 +1,5 @@
+<archimate:Constraint
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="CONS.01. The cost should be as little as possible"
+    id="id-b2a384af364243eba12d672aa0807eda"
+    documentation="HeyBlue is a non-profit company. The use of resources should be wisely defined. Choose the cheapest alternative if it is possible."/>

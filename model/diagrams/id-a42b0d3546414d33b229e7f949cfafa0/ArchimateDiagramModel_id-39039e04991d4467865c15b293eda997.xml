@@ -8,8 +8,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ddc3224198914dbc80370af407f8789b">
     <bounds
-        x="84"
-        y="132"
+        x="216"
+        y="96"
         width="120"
         height="55"/>
     <archimateElement
@@ -20,8 +20,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b1a229954d0948359c6fa58f0acf692b">
     <bounds
-        x="240"
-        y="132"
+        x="72"
+        y="168"
         width="120"
         height="55"/>
     <archimateElement
@@ -29,26 +29,63 @@
         href="Constraint_id-e3b4867f791a46e6b9ecbb317c4487ea.xml#id-e3b4867f791a46e6b9ecbb317c4487ea"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-52f705852b764d8894cba30b77cf2cdf"
-      textAlignment="1"
-      content="WIP Sblanco">
-    <bounds
-        x="23"
-        y="31"
-        width="98"
-        height="30"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e1e518abcaa74df8990421f21daf3a40">
     <bounds
-        x="396"
-        y="132"
+        x="216"
+        y="168"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Constraint"
         href="Constraint_id-e375df5432d74360bac834fa3fc2bc07.xml#id-e375df5432d74360bac834fa3fc2bc07"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5a0fca1a2e844e80a40ca37a598e8a52">
+    <bounds
+        x="72"
+        y="96"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-b2a384af364243eba12d672aa0807eda.xml#id-b2a384af364243eba12d672aa0807eda"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-6c4e0c229f3d4bd2a38d21c8a5280cbf">
+    <bounds
+        x="360"
+        y="96"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-ac3a992488f8406fbc27431738228181.xml#id-ac3a992488f8406fbc27431738228181"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-502894b4392149d983c11f9bb6e60bba">
+    <bounds
+        x="360"
+        y="168"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-794b826c0d054f85af2d7401c029d0c8.xml#id-794b826c0d054f85af2d7401c029d0c8"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-d4876b35afab4221b671bbc0d99df49d">
+    <bounds
+        x="72"
+        y="240"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Constraint"
+        href="Constraint_id-3bd009eaba2949dfacd88ca825ab98d3.xml#id-3bd009eaba2949dfacd88ca825ab98d3"/>
   </children>
 </archimate:ArchimateDiagramModel>
