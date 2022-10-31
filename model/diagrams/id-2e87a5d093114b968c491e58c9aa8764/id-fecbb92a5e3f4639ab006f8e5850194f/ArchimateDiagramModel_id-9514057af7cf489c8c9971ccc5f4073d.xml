@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Civilian Onboarding Mobile"
+    name="Civilian Onboarding"
     id="id-9514057af7cf489c8c9971ccc5f4073d"
     viewpoint="application_usage">
   <children
@@ -595,5 +595,17 @@
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-5f9e8a6725104cb09fd6b188435455bc.xml#id-5f9e8a6725104cb09fd6b188435455bc"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5b348b043df44e4e8115020e6dfe38d1">
+    <bounds
+        x="428"
+        y="498"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-7d1e4cec8006415db6569ec2be73ccd5.xml#id-7d1e4cec8006415db6569ec2be73ccd5"/>
   </children>
 </archimate:ArchimateDiagramModel>
