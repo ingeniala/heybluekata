@@ -14,14 +14,14 @@
         target="id-2d708275a6dd42809f0575195f6411b9">
       <bendpoints
           startX="48"
-          startY="-38"
-          endX="-150"
-          endY="140"/>
+          startY="-51"
+          endX="-151"
+          endY="128"/>
       <bendpoints
           startX="180"
-          startY="-38"
-          endX="-18"
-          endY="140"/>
+          startY="-51"
+          endX="-19"
+          endY="128"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-88871c4c2cc34c1caf302b91e467cc71.xml#id-88871c4c2cc34c1caf302b91e467cc71"/>
@@ -73,14 +73,14 @@
         target="id-e863fb686a82406784683ed17a141b13">
       <bendpoints
           startX="-12"
-          startY="-50"
-          endX="114"
-          endY="128"/>
+          startY="-63"
+          endX="113"
+          endY="116"/>
       <bendpoints
           startX="-120"
-          startY="-50"
-          endX="6"
-          endY="128"/>
+          startY="-63"
+          endX="5"
+          endY="116"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-86af400487b54133a8f4cef801c2a191.xml#id-86af400487b54133a8f4cef801c2a191"/>
