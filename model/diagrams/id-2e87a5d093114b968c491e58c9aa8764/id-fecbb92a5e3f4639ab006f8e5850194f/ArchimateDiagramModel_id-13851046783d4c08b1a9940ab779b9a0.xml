@@ -8,7 +8,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e423080891344a0290316b80f8fdc010">
     <bounds
-        x="60"
+        x="84"
         y="72"
         width="120"
         height="55"/>
@@ -20,7 +20,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-938225d028f54cc5bce1408e36b575c6">
     <bounds
-        x="210"
+        x="228"
         y="72"
         width="120"
         height="55"/>
@@ -32,8 +32,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-93602357539345ebbe4662ef6c718dfd">
     <bounds
-        x="120"
-        y="192"
+        x="210"
+        y="348"
         width="120"
         height="55"/>
     <archimateElement
