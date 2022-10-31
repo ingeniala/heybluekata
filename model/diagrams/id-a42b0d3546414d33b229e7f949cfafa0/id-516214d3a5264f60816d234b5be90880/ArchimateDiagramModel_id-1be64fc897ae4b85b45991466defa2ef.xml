@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="1.2.3. Motivation - Ubiquity mapping"
-    id="id-1be64fc897ae4b85b45991466defa2ef">
+    id="id-1be64fc897ae4b85b45991466defa2ef"
+    viewpoint="requirements_realization">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ca008f42f16241239880822dd97e4361">
