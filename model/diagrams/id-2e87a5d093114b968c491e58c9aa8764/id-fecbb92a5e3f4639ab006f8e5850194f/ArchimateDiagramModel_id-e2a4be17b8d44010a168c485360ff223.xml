@@ -94,7 +94,7 @@
         source="id-fdd1b1cf651b4328913437a6786c5b55"
         target="id-c0b34107e74c4ffe8c84967abf008e8e">
       <bendpoints
-          startY="-171"
+          startY="-135"
           endX="756"
           endY="-3"/>
       <archimateRelationship
@@ -134,14 +134,9 @@
         source="id-c0b34107e74c4ffe8c84967abf008e8e"
         target="id-dbe7f2fc2c9a475788bcb7ada9412156">
       <bendpoints
-          startX="-24"
-          startY="45"
-          endX="264"
-          endY="-127"/>
-      <bendpoints
           startX="-288"
-          startY="45"
-          endY="-127"/>
+          startY="-3"
+          endY="-135"/>
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-a81a558eb64b47918e07dc4069b782fe.xml#id-a81a558eb64b47918e07dc4069b782fe"/>
@@ -165,22 +160,17 @@
         source="id-c0b34107e74c4ffe8c84967abf008e8e"
         target="id-dca12bd5973944c4b57b26d6f4ee6119">
       <bendpoints
-          startX="-12"
-          startY="57"
-          endX="130"
-          endY="-115"/>
-      <bendpoints
-          startX="-108"
-          startY="57"
-          endX="34"
-          endY="-115"/>
+          startX="-144"
+          startY="9"
+          endX="-2"
+          endY="-127"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-48010c79bb574c56bb057fd39962336d.xml#id-48010c79bb574c56bb057fd39962336d"/>
     </sourceConnections>
     <bounds
         x="348"
-        y="36"
+        y="72"
         width="120"
         height="55"/>
     <archimateElement
@@ -446,9 +436,9 @@
           source="id-5aa68d5a84f74c2f9202670d08a110a2"
           target="id-c0b34107e74c4ffe8c84967abf008e8e">
         <bendpoints
-            startX="-12"
-            startY="-203"
-            endX="204"
+            startX="-36"
+            startY="-167"
+            endX="180"
             endY="9"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
