@@ -677,8 +677,19 @@
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-1d4a1830812148748a9473291364541f"
+          fontColor="#888a85"
+          lineColor="#888a85"
           source="id-d6ddbcae421f4e578273638cf3bda259"
           target="id-22b33271f06f45db950fd9cb3ea35511">
+        <bendpoints
+            startY="-87"
+            endX="-109"
+            endY="45"/>
+        <bendpoints
+            startX="60"
+            startY="-87"
+            endX="-49"
+            endY="45"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_id-4982e1e6ee9143eabd3bdc18c9b721fb.xml#id-4982e1e6ee9143eabd3bdc18c9b721fb"/>
