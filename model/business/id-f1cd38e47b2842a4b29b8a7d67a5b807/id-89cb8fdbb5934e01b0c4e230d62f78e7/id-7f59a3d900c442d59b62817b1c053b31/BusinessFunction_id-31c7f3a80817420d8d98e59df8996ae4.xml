@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="5.5. Authentication &amp; Authorization"
     id="id-31c7f3a80817420d8d98e59df8996ae4"
-    documentation="Authentication and authorization capabilities. Including the ability to validate the user credentials with a third party (e.g. oauth identity provider)"/>
+    documentation="Authentication and authorization capabilities. Including the ability to validate the user credentials with a third party (e.g. oauth identity provider)">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>

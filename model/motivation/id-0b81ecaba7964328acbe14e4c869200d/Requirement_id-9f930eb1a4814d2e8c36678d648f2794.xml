@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AC.SEC.05 [Assumption] User profile should be validated for each user (civilian, police officer, family in needs, business, charity)"
+    id="id-9f930eb1a4814d2e8c36678d648f2794">
+  <profiles
+      href="folder.xml#id-9f9a33df2fc04254918def06a0735e48"/>
+</archimate:Requirement>
