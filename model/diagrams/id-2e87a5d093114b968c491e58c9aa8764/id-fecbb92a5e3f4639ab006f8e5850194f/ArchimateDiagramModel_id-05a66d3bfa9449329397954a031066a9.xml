@@ -108,7 +108,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-4de9db7c728e4800a0f5a8c15c2a6158"
-        targetConnections="id-2bc360964fd448f89afd0fc89b1f667f id-c209ea211801422595b66a7bdac93960">
+        targetConnections="id-2bc360964fd448f89afd0fc89b1f667f id-e1f7603ff9564850b24b262ade67a35d">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-1c6df3e9879f4471a90e3e56ff075de8"
@@ -235,7 +235,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b26049d3bf8c4db6b3b7be8c2e1d216c"
-        targetConnections="id-5234e3b32ae1484c84463c2161260eeb id-3f78109a4e6f46e582461b4e1c50310e">
+        targetConnections="id-5234e3b32ae1484c84463c2161260eeb id-eed20e25a2784513bd3c064a6d69eb2b">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-1efc7d676bc8405fa32ea181df23094b"
@@ -258,9 +258,9 @@
           source="id-b26049d3bf8c4db6b3b7be8c2e1d216c"
           target="id-1f1b727bdfaa48f0a58f660d3228ba68">
         <bendpoints
-            startX="-35"
+            startX="-23"
             startY="-179"
-            endX="156"
+            endX="168"
             endY="9"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
@@ -526,6 +526,34 @@
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-fe46e88d86a14a1b8b0acc78f9cdc2c7.xml#id-fe46e88d86a14a1b8b0acc78f9cdc2c7"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-eed20e25a2784513bd3c064a6d69eb2b"
+        source="id-1f1b727bdfaa48f0a58f660d3228ba68"
+        target="id-b26049d3bf8c4db6b3b7be8c2e1d216c">
+      <bendpoints
+          startX="156"
+          startY="21"
+          endX="-35"
+          endY="-167"/>
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_id-7b3bde6870454b2a8537c829440ad99b.xml#id-7b3bde6870454b2a8537c829440ad99b"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-e1f7603ff9564850b24b262ade67a35d"
+        source="id-1f1b727bdfaa48f0a58f660d3228ba68"
+        target="id-4de9db7c728e4800a0f5a8c15c2a6158">
+      <bendpoints
+          startX="264"
+          startY="-3"
+          endX="-2"
+          endY="-111"/>
+      <archimateRelationship
+          xsi:type="archimate:TriggeringRelationship"
+          href="TriggeringRelationship_id-c1058da5132048918d2f0218e014cec1.xml#id-c1058da5132048918d2f0218e014cec1"/>
+    </sourceConnections>
     <bounds
         x="348"
         y="24"
@@ -570,9 +598,9 @@
         target="id-1f1b727bdfaa48f0a58f660d3228ba68">
       <bendpoints
           startX="1"
-          startY="-144"
+          startY="-159"
           endX="732"
-          endY="-3"/>
+          endY="-15"/>
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-97d65d6f2a9d409f824be549525e8c85.xml#id-97d65d6f2a9d409f824be549525e8c85"/>
@@ -596,7 +624,7 @@
         source="id-f0042c4b2d2b4b64aa32215b285a7664"
         target="id-157415216b3749408157be6e96459b87"/>
     <bounds
-        x="36"
+        x="24"
         y="305"
         width="185"
         height="80"/>
@@ -606,14 +634,6 @@
       id="id-c21922b417774d74a6a0acf21ebd114a"
       textAlignment="1"
       content="SB: Quien es el que dispara estos eventos?&#xA;">
-    <sourceConnections
-        id="id-3f78109a4e6f46e582461b4e1c50310e"
-        source="id-c21922b417774d74a6a0acf21ebd114a"
-        target="id-b26049d3bf8c4db6b3b7be8c2e1d216c"/>
-    <sourceConnections
-        id="id-c209ea211801422595b66a7bdac93960"
-        source="id-c21922b417774d74a6a0acf21ebd114a"
-        target="id-4de9db7c728e4800a0f5a8c15c2a6158"/>
     <sourceConnections
         id="id-36586dcb160449a083380348af253658"
         source="id-c21922b417774d74a6a0acf21ebd114a"
@@ -627,8 +647,8 @@
         source="id-c21922b417774d74a6a0acf21ebd114a"
         target="id-17807ebe0fc34eb698792c03121820d9"/>
     <bounds
-        x="609"
-        y="-36"
+        x="840"
+        y="-72"
         width="185"
         height="80"/>
   </children>
