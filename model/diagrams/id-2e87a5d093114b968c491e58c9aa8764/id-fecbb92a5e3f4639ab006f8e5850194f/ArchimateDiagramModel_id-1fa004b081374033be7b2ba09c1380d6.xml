@@ -528,20 +528,6 @@
             xsi:type="archimate:FlowRelationship"
             href="FlowRelationship_id-533a3566b59747b789fa2e39c54a04b0.xml#id-533a3566b59747b789fa2e39c54a04b0"/>
       </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-45d939098a124a99a15be90d88c1c74a"
-          source="id-733ca232fa9542b3803f497867c2a5af"
-          target="id-cd8818ca0cb747adb2d8eb6befa37465">
-        <bendpoints
-            startX="15"
-            startY="61"
-            endX="-144"
-            endY="-4"/>
-        <archimateRelationship
-            xsi:type="archimate:FlowRelationship"
-            href="FlowRelationship_id-533a3566b59747b789fa2e39c54a04b0.xml#id-533a3566b59747b789fa2e39c54a04b0"/>
-      </sourceConnections>
       <bounds
           x="530"
           y="68"
@@ -677,6 +663,15 @@
             xsi:type="archimate:FlowRelationship"
             href="FlowRelationship_id-7d7593f7af0f4991a8a908278753a434.xml#id-7d7593f7af0f4991a8a908278753a434"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-4b5f9c85bc66493eb000da911c1b1f6b"
+          source="id-ce413800ddb04fcb81fd11164999a6f6"
+          target="id-cd8818ca0cb747adb2d8eb6befa37465">
+        <archimateRelationship
+            xsi:type="archimate:FlowRelationship"
+            href="FlowRelationship_id-4d024049704144778cf24864b0c5bf49.xml#id-4d024049704144778cf24864b0c5bf49"/>
+      </sourceConnections>
       <bounds
           x="516"
           y="133"
@@ -774,7 +769,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-cd8818ca0cb747adb2d8eb6befa37465"
-        targetConnections="id-4c57c4ef871349f3b57121d1306d479b id-45d939098a124a99a15be90d88c1c74a">
+        targetConnections="id-4c57c4ef871349f3b57121d1306d479b id-4b5f9c85bc66493eb000da911c1b1f6b">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-65a961e967554b14abccbabc6da104f5"
