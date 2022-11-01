@@ -14,9 +14,9 @@
         source="id-b829bbf352854679947490e0b12e5151"
         target="id-858700517ce34fc6836c11b320dab9b6">
       <bendpoints
-          startX="48"
+          startX="24"
           startY="57"
-          endX="-372"
+          endX="-396"
           endY="-101"/>
       <bendpoints
           startX="384"
@@ -33,9 +33,9 @@
         source="id-b829bbf352854679947490e0b12e5151"
         target="id-24aa2aadbcbe4ce9a1259dffc172129d">
       <bendpoints
-          startX="36"
+          startX="12"
           startY="69"
-          endX="-336"
+          endX="-360"
           endY="-159"/>
       <bendpoints
           startX="324"
@@ -400,9 +400,8 @@
           endX="924"
           endY="-51"/>
       <bendpoints
-          startX="-900"
+          startX="-924"
           startY="-231"
-          endX="24"
           endY="-51"/>
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
@@ -776,9 +775,8 @@
             endX="528"
             endY="81"/>
         <bendpoints
-            startX="-510"
+            startX="-534"
             startY="-147"
-            endX="24"
             endY="81"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
@@ -818,8 +816,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-9142c4279d3946b4818e1d86f91c7a5f"
-        targetConnections="id-cac7b6d91c7b4029a834553edb572d70 id-2f977a6811514b13aa437aa5493c525c id-ee75a949483448b4b8a842437b816e83"
-        font="1|Nunito|8.0|0|GTK|1|">
+        targetConnections="id-cac7b6d91c7b4029a834553edb572d70 id-2f977a6811514b13aa437aa5493c525c id-ee75a949483448b4b8a842437b816e83">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-168ae70de6de4199b04c0798cbc91c5d"
