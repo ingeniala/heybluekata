@@ -85,7 +85,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-fdd1b1cf651b4328913437a6786c5b55"
-      targetConnections="id-c01886f060a244389c5cc1483c5cf1a8">
+      targetConnections="id-c01886f060a244389c5cc1483c5cf1a8 id-7f6b6c04842e4cbebbad79671983cb42">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ec79c248a58c45b7a9bc15a200e114fa"
@@ -180,7 +180,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c75e2c49114f400098b0d2aebcdb114e"
-      targetConnections="id-a540eb4877f64c47916653a88d685f03 id-a0be36120fb94a289d2ba0f7ba16f476">
+      targetConnections="id-a540eb4877f64c47916653a88d685f03 id-a0be36120fb94a289d2ba0f7ba16f476 id-6b1a7bfd0e0b45a18066de76ccf30dc9">
     <bounds
         x="1092"
         y="276"
@@ -286,7 +286,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-33583dfc03734a56a554a2cc82289d44"
-        targetConnections="id-6ec126c93c374c96a0c9bf234afdc20e">
+        targetConnections="id-6ec126c93c374c96a0c9bf234afdc20e id-9a32a5f6b43c42adad517b28840e6e23">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-eab3c14329b64d33a3e237c36d079b37"
@@ -335,7 +335,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-682bf4002ecd478090dc46ed5249d522"
-        targetConnections="id-43697a54fdf34223a49808d54b35595f id-ab4665f0c7f04895937fb2a7182eda82 id-6738251a39db4a2e81a1db91e1f72fb7 id-ec1ea7183ca44e5c9c929eb295444f5d id-d7715467d9d64ac3b35dbdd37610bfaa id-061f6a9cabf44faf974da9e0ca5a5101">
+        targetConnections="id-43697a54fdf34223a49808d54b35595f id-ab4665f0c7f04895937fb2a7182eda82 id-6738251a39db4a2e81a1db91e1f72fb7 id-ec1ea7183ca44e5c9c929eb295444f5d id-d7715467d9d64ac3b35dbdd37610bfaa id-061f6a9cabf44faf974da9e0ca5a5101 id-bbfe8bb9ad9f4409a1e9722604fa1e7a">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-a0be36120fb94a289d2ba0f7ba16f476"
@@ -413,7 +413,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-5aa68d5a84f74c2f9202670d08a110a2"
-        targetConnections="id-741e19ef296e45928217e6ff2eedcd95">
+        targetConnections="id-741e19ef296e45928217e6ff2eedcd95 id-1f327cbbd3574ee2965df7df2fe1b9aa id-60aea95576f14111b2de380766ab8f40">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-c2cc0a4ad7604e6aa5fc5daa7eda9ca1"
@@ -519,7 +519,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b700d9eaed114656b82ef5c868fe85f8"
-        targetConnections="id-64d8e9a5fa5644c09f8617b602f7bf2a">
+        targetConnections="id-64d8e9a5fa5644c09f8617b602f7bf2a id-c219287c81ea441f89e1ff70ba81e2f3">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-c01886f060a244389c5cc1483c5cf1a8"
@@ -566,7 +566,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-dbe7f2fc2c9a475788bcb7ada9412156"
-      targetConnections="id-6b4492fc67964160b806abf0c9dea1fd">
+      targetConnections="id-6b4492fc67964160b806abf0c9dea1fd id-0e1b0da746394668b8ced827380530ef">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-1338dbd8668540119bdfd8bbc23198fc"
@@ -672,5 +672,70 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-7d1e4cec8006415db6569ec2be73ccd5.xml#id-7d1e4cec8006415db6569ec2be73ccd5"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-b628d01dbcfb4ec3941ca430e17909c1"
+      textAlignment="1"
+      content="SB: ¿Como se registra? ¿Quien lo acepta?">
+    <sourceConnections
+        id="id-0e1b0da746394668b8ced827380530ef"
+        source="id-b628d01dbcfb4ec3941ca430e17909c1"
+        target="id-dbe7f2fc2c9a475788bcb7ada9412156"/>
+    <bounds
+        x="32"
+        y="284"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-bd2ba8049f4d43f0b2dfc6bf3c79b496"
+      textAlignment="1"
+      content="SB: ¿Aca se valida que sea policía? Si es diferente a la del resto de los actores, sería otra actividad diferente">
+    <sourceConnections
+        id="id-1f327cbbd3574ee2965df7df2fe1b9aa"
+        source="id-bd2ba8049f4d43f0b2dfc6bf3c79b496"
+        target="id-5aa68d5a84f74c2f9202670d08a110a2"/>
+    <sourceConnections
+        id="id-bbfe8bb9ad9f4409a1e9722604fa1e7a"
+        source="id-bd2ba8049f4d43f0b2dfc6bf3c79b496"
+        target="id-682bf4002ecd478090dc46ed5249d522"/>
+    <bounds
+        x="528"
+        y="-36"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-fff19c36b4e947cd8392d67bc2ccc0bb"
+      textAlignment="1"
+      content="SB: ¿Quien dispara eventos?">
+    <sourceConnections
+        id="id-9a32a5f6b43c42adad517b28840e6e23"
+        source="id-fff19c36b4e947cd8392d67bc2ccc0bb"
+        target="id-33583dfc03734a56a554a2cc82289d44"/>
+    <sourceConnections
+        id="id-7f6b6c04842e4cbebbad79671983cb42"
+        source="id-fff19c36b4e947cd8392d67bc2ccc0bb"
+        target="id-fdd1b1cf651b4328913437a6786c5b55"/>
+    <sourceConnections
+        id="id-c219287c81ea441f89e1ff70ba81e2f3"
+        source="id-fff19c36b4e947cd8392d67bc2ccc0bb"
+        target="id-b700d9eaed114656b82ef5c868fe85f8"/>
+    <sourceConnections
+        id="id-6b1a7bfd0e0b45a18066de76ccf30dc9"
+        source="id-fff19c36b4e947cd8392d67bc2ccc0bb"
+        target="id-c75e2c49114f400098b0d2aebcdb114e"/>
+    <sourceConnections
+        id="id-60aea95576f14111b2de380766ab8f40"
+        source="id-fff19c36b4e947cd8392d67bc2ccc0bb"
+        target="id-5aa68d5a84f74c2f9202670d08a110a2"/>
+    <bounds
+        x="879"
+        y="-34"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

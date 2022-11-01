@@ -85,7 +85,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-929af92a4e714747afe2352065900a99"
-      targetConnections="id-deeafa3ab1b949e69fd1c06b52cd405f id-412e0f2375c74773ae89c88966ae2c2b">
+      targetConnections="id-deeafa3ab1b949e69fd1c06b52cd405f id-412e0f2375c74773ae89c88966ae2c2b id-e32ebb231e6440d2bae582b7bf52d289">
     <bounds
         x="1079"
         y="276"
@@ -318,7 +318,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b95a62f4167a4e2ca65961c9c5d1cff2"
-        targetConnections="id-1ef0725fd9e84899bd3ffa99eea9823f">
+        targetConnections="id-1ef0725fd9e84899bd3ffa99eea9823f id-33811345c4294204b4cc969fb3da9043">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-74224bfd3c1f42eabe0f6a2a979c03c1"
@@ -424,7 +424,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a12d0992677141dda0b5a7bde55b9ba4"
-        targetConnections="id-67c5aad309a9457bbdc3314d9ee75f71">
+        targetConnections="id-67c5aad309a9457bbdc3314d9ee75f71 id-a58ea82de54a44d1a441705f8ebbba7b">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-246b713cd04d45a1aa0066ea67944c45"
@@ -534,7 +534,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-87ff5e783e594414b2ded77a29541997"
-      targetConnections="id-246b713cd04d45a1aa0066ea67944c45">
+      targetConnections="id-246b713cd04d45a1aa0066ea67944c45 id-2b3b5a0f82fa47deaf2239f1e1993b57">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-c89609d77be44c159b0e2d963490e207"
@@ -572,6 +572,10 @@
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-4e5f4d4dd98f4112a7e6c5bd7349b4b6.xml#id-4e5f4d4dd98f4112a7e6c5bd7349b4b6"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-43066466d69245909c2cf6de8113ed07"
+        source="id-c53d271b3ee8490699c5bfa9065313ba"
+        target="id-e97276d7406d47e78d452d7c63188386"/>
     <bounds
         x="35"
         y="168"
@@ -667,5 +671,61 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-7d1e4cec8006415db6569ec2be73ccd5.xml#id-7d1e4cec8006415db6569ec2be73ccd5"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-e97276d7406d47e78d452d7c63188386"
+      targetConnections="id-43066466d69245909c2cf6de8113ed07"
+      textAlignment="1"
+      content="SB: Como es el ingreso de la registración de charity? ¿quien la aprueba?">
+    <bounds
+        x="12"
+        y="305"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-fff26e364e484a0ba480621b73686f06"
+      textAlignment="1"
+      content="SB: Agregaría quien dispara el evento &quot;ID Validated&quot;. Entiendo que desde el punto de vista de Negocio, quien guia el proceso es HeyBlue Mobile, por lo que seria esa app">
+    <sourceConnections
+        id="id-33811345c4294204b4cc969fb3da9043"
+        source="id-fff26e364e484a0ba480621b73686f06"
+        target="id-b95a62f4167a4e2ca65961c9c5d1cff2"/>
+    <bounds
+        x="648"
+        y="-48"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-33ce023b09e949ab9720efa642661e88"
+      textAlignment="1"
+      content="SB: Idem anterior, que app dispara estos eventos?">
+    <sourceConnections
+        id="id-a58ea82de54a44d1a441705f8ebbba7b"
+        source="id-33ce023b09e949ab9720efa642661e88"
+        target="id-a12d0992677141dda0b5a7bde55b9ba4"/>
+    <sourceConnections
+        id="id-2b3b5a0f82fa47deaf2239f1e1993b57"
+        source="id-33ce023b09e949ab9720efa642661e88"
+        target="id-87ff5e783e594414b2ded77a29541997">
+      <bendpoints
+          startX="112"
+          startY="116"
+          endX="-71"
+          endY="-84"/>
+    </sourceConnections>
+    <sourceConnections
+        id="id-e32ebb231e6440d2bae582b7bf52d289"
+        source="id-33ce023b09e949ab9720efa642661e88"
+        target="id-929af92a4e714747afe2352065900a99"/>
+    <bounds
+        x="864"
+        y="-48"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

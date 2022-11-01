@@ -295,6 +295,10 @@
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-f3eafb3bfa924312b165957db2f39736.xml#id-f3eafb3bfa924312b165957db2f39736"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-c44f9c11f05c4793b32644cc079284e8"
+        source="id-555d4dc0a7b64ac2ab8bd3b9bfa008d6"
+        target="id-4889356e8d224cb6abd9db48f912d632"/>
     <bounds
         x="-120"
         y="228"
@@ -366,7 +370,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5b860bff584344a9ab0b9b9fa024b98e"
-      targetConnections="id-0513047474e246d191269fcb0efe9c32">
+      targetConnections="id-0513047474e246d191269fcb0efe9c32 id-edbe501dfedc4b93b0da92b045b55f4e">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-042dfe8c2aba4fd6a95f01091b4ce949"
@@ -710,7 +714,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-12b7f7e3c7224140a873a7a657be8964"
-        targetConnections="id-4bb5114a5c034e49b8c3130120ed3412">
+        targetConnections="id-4bb5114a5c034e49b8c3130120ed3412 id-a17c33657db241c1b9a3a54ecc38bf2f">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-7241d93a431e49b9be123f32fe0d6168"
@@ -732,7 +736,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-595baf09fca740ea98c885e143d0298f"
-        targetConnections="id-52b5ff4a74b0439da1a83d1d2bba63ab id-70892662b9054c079af2b7d2c19181e4">
+        targetConnections="id-52b5ff4a74b0439da1a83d1d2bba63ab id-70892662b9054c079af2b7d2c19181e4 id-41ebd7f4b9384dbbb435af5010429c8a">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-d2435c5efdf647aca0bf6a87f4c3774f"
@@ -845,7 +849,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-8665ccd651d2454a8629dc9fb6a4a8aa"
-        targetConnections="id-756c3c492c7f4e80866a3f69a2508176">
+        targetConnections="id-756c3c492c7f4e80866a3f69a2508176 id-1038ffdc02ca4560b5ecd86f6fccd1f5">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-ed3ae52060f847d2b538f1db68738acc"
@@ -978,5 +982,55 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-6cfaccf617d34273b879f85e6b512720.xml#id-6cfaccf617d34273b879f85e6b512720"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-4889356e8d224cb6abd9db48f912d632"
+      targetConnections="id-c44f9c11f05c4793b32644cc079284e8"
+      textAlignment="1"
+      content="SB: Definir el evento, o quien lo dispara">
+    <bounds
+        x="-172"
+        y="372"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-4dadaa1fb9564174b55d1dde5ca3026b"
+      textAlignment="1"
+      content="SB: Si es por time out, indicarlo">
+    <sourceConnections
+        id="id-1038ffdc02ca4560b5ecd86f6fccd1f5"
+        source="id-4dadaa1fb9564174b55d1dde5ca3026b"
+        target="id-8665ccd651d2454a8629dc9fb6a4a8aa"/>
+    <bounds
+        x="566"
+        y="432"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-2486110686294960a276480eec675eca"
+      textAlignment="1"
+      content="SB: ¿Quien dispara el trigger?">
+    <sourceConnections
+        id="id-a17c33657db241c1b9a3a54ecc38bf2f"
+        source="id-2486110686294960a276480eec675eca"
+        target="id-12b7f7e3c7224140a873a7a657be8964"/>
+    <sourceConnections
+        id="id-41ebd7f4b9384dbbb435af5010429c8a"
+        source="id-2486110686294960a276480eec675eca"
+        target="id-595baf09fca740ea98c885e143d0298f"/>
+    <sourceConnections
+        id="id-edbe501dfedc4b93b0da92b045b55f4e"
+        source="id-2486110686294960a276480eec675eca"
+        target="id-5b860bff584344a9ab0b9b9fa024b98e"/>
+    <bounds
+        x="1110"
+        y="12"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
