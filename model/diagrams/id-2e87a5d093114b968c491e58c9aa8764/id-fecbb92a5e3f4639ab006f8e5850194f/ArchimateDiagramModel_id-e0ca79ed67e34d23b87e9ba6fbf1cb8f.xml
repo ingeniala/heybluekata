@@ -46,9 +46,9 @@
           endX="-403"
           endY="-164"/>
       <bendpoints
-          startX="420"
+          startX="444"
           startY="57"
-          endX="-19"
+          endX="5"
           endY="-164"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
@@ -314,10 +314,10 @@
         source="id-7415090e01fa4283b204785c2adc3136"
         target="id-b8ca47af1b4947198a6237fb8a257c36">
       <bendpoints
-          startX="-3"
+          startX="34"
           startY="105"
-          endX="-7"
-          endY="-92"/>
+          endX="29"
+          endY="-116"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-2bfdf940124d47aba964682b9ee68c5a.xml#id-2bfdf940124d47aba964682b9ee68c5a"/>
@@ -968,9 +968,9 @@
           target="id-3823b400e6c6466a95b8c2f5d1b84040">
         <bendpoints
             startX="17"
-            startY="-51"
+            startY="-39"
             endX="-129"
-            endY="-8"/>
+            endY="4"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
             href="FlowRelationship_id-1d056a19c06b4124b2c977c1429d85e0.xml#id-1d056a19c06b4124b2c977c1429d85e0"/>
@@ -982,9 +982,9 @@
           target="id-cf056ba7f3ac4c02abe8dcc53a115d90">
         <bendpoints
             startX="17"
-            startY="69"
+            startY="57"
             endX="-79"
-            endY="6"/>
+            endY="-6"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
             href="FlowRelationship_id-6a5fe40f1eb942b0bf85846f21057b69.xml#id-6a5fe40f1eb942b0bf85846f21057b69"/>
@@ -1035,10 +1035,10 @@
           source="id-70eebbdf8a274fb9ba14a07f1c7e2bd9"
           target="id-a6ef8b8bfc2a44cdb73baa36f41636ff">
         <bendpoints
-            startX="17"
-            startY="-39"
-            endX="-283"
-            endY="-3"/>
+            startX="18"
+            startY="-38"
+            endX="-282"
+            endY="-2"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
             href="FlowRelationship_id-5096dfe87f4b43e1a48521a12a15d06f.xml#id-5096dfe87f4b43e1a48521a12a15d06f"/>
