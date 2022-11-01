@@ -138,12 +138,12 @@
       <bendpoints
           startX="-38"
           startY="-63"
-          endX="611"
+          endX="424"
           endY="129"/>
       <bendpoints
-          startX="-626"
+          startX="-434"
           startY="-63"
-          endX="23"
+          endX="28"
           endY="129"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
@@ -216,12 +216,12 @@
       <bendpoints
           startX="-26"
           startY="-75"
-          endX="767"
+          endX="580"
           endY="117"/>
       <bendpoints
-          startX="-758"
+          startX="-566"
           startY="-75"
-          endX="35"
+          endX="40"
           endY="117"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
@@ -396,12 +396,12 @@
       <bendpoints
           startX="-21"
           startY="-51"
-          endX="491"
+          endX="304"
           endY="141"/>
       <bendpoints
-          startX="-501"
+          startX="-309"
           startY="-51"
-          endX="11"
+          endX="16"
           endY="141"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
@@ -555,7 +555,7 @@
         <bendpoints
             startX="17"
             startY="40"
-            endX="-121"
+            endX="-308"
             endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
@@ -949,7 +949,7 @@
             href="FlowRelationship_id-9330793902d643bdbf33e4a981faba62.xml#id-9330793902d643bdbf33e4a981faba62"/>
       </sourceConnections>
       <bounds
-          x="97"
+          x="284"
           y="156"
           width="120"
           height="55"/>
@@ -1103,8 +1103,8 @@
         source="id-5485918a61184649b3200477b556daf2"
         target="id-c2315e2031f54f449d85539ee55f2302"/>
     <bounds
-        x="-120"
-        y="-24"
+        x="60"
+        y="-72"
         width="245"
         height="80"/>
   </children>
@@ -1122,8 +1122,8 @@
         source="id-b04e585b4c954150b3d84727c75c69f7"
         target="id-33056984f9c54ae1b49620b1ca7e9c51"/>
     <bounds
-        x="540"
-        y="528"
+        x="108"
+        y="516"
         width="185"
         height="80"/>
   </children>
@@ -1140,7 +1140,7 @@
           href="ServingRelationship_id-a667e36449f04b93afb87bdd6737f379.xml#id-a667e36449f04b93afb87bdd6737f379"/>
     </sourceConnections>
     <bounds
-        x="84"
+        x="271"
         y="444"
         width="120"
         height="55"/>
