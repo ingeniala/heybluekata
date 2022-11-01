@@ -224,7 +224,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-fef2c3cc6ffc4426938834613938d99d"
-        targetConnections="id-d0c3aea2c2574064a8c814d3898b15ee">
+        targetConnections="id-d0c3aea2c2574064a8c814d3898b15ee id-603ddceab6974957bfadbd1cfb5c9d54">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-e49172d0c5724340add2d9721d342d1d"
@@ -307,7 +307,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-eae543bba7564f8db49ac6dec0daaa2d">
+      id="id-eae543bba7564f8db49ac6dec0daaa2d"
+      targetConnections="id-c10aff27bc704d6fa7b80c9ace088c87">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-400eb9caa5bb418ca9ef35d5c5dd7b35"
@@ -606,5 +607,24 @@
     <archimateElement
         xsi:type="archimate:BusinessActor"
         href="BusinessActor_id-4bac0e06cb534729b3a84c1c3aa6eda3.xml#id-4bac0e06cb534729b3a84c1c3aa6eda3"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d5c4299811774a41919d6d6c2680de40"
+      textAlignment="1"
+      content="SB: Cerrar el loop">
+    <sourceConnections
+        id="id-c10aff27bc704d6fa7b80c9ace088c87"
+        source="id-d5c4299811774a41919d6d6c2680de40"
+        target="id-eae543bba7564f8db49ac6dec0daaa2d"/>
+    <sourceConnections
+        id="id-603ddceab6974957bfadbd1cfb5c9d54"
+        source="id-d5c4299811774a41919d6d6c2680de40"
+        target="id-fef2c3cc6ffc4426938834613938d99d"/>
+    <bounds
+        x="62"
+        y="336"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -149,7 +149,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-be842a88907a4d2d887ebdfdbf391fa0"
-      targetConnections="id-ae0e197fe41a4471b3fb5a5ca981619c id-ef672e69a5ad40eeb85e08f21cd5ef81">
+      targetConnections="id-ae0e197fe41a4471b3fb5a5ca981619c id-ef672e69a5ad40eeb85e08f21cd5ef81 id-ab15ca47def841389895bed90a1db3ed">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-fd7b2a65195b4a578c87c36088155c28"
@@ -423,7 +423,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-68cb63e4dec5464ab4776958194e5538"
-        targetConnections="id-b163c3d5f7ed4d108d3000fb6364a292">
+        targetConnections="id-b163c3d5f7ed4d108d3000fb6364a292 id-0af8a83826274cf7a4ee3e2d943db1e4 id-aaaca024bbcf440ebaf8323964aba08e">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-78ce9d4af4ab41aa918ac17a2471cebb"
@@ -519,7 +519,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-fafa50d12c4f4bd987bdfc0e14753f2c"
-        targetConnections="id-22bfc38c968e4e13add2a26fdcd07fc3 id-c2a798de2f684b3e90f45842dfffc90f id-c06ff3b35834428c9ddd96c6a10e2c3c">
+        targetConnections="id-22bfc38c968e4e13add2a26fdcd07fc3 id-c2a798de2f684b3e90f45842dfffc90f id-c06ff3b35834428c9ddd96c6a10e2c3c id-5db9aba887aa40bdad382f2ed8c428dc">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-8d8a56210c424c7fb0c272d3bb7a5002"
@@ -594,7 +594,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-e48cb5ca316a4f4da7caf7bb1cb59fe9"
-        targetConnections="id-8d8a56210c424c7fb0c272d3bb7a5002">
+        targetConnections="id-8d8a56210c424c7fb0c272d3bb7a5002 id-5dcae8b79d734a5d894e48c2fb715510">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-8b550f8a031e4b0281207fe106f7b904"
@@ -653,5 +653,57 @@
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_id-790b2e476227414ab1839ed8f5980b0f.xml#id-790b2e476227414ab1839ed8f5980b0f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-eaae1513a51347c4afdc8da0d8df10ab"
+      textAlignment="1"
+      content="SB: Si es el mismo evento, cerraría el loop">
+    <sourceConnections
+        id="id-ab15ca47def841389895bed90a1db3ed"
+        source="id-eaae1513a51347c4afdc8da0d8df10ab"
+        target="id-be842a88907a4d2d887ebdfdbf391fa0"/>
+    <sourceConnections
+        id="id-0af8a83826274cf7a4ee3e2d943db1e4"
+        source="id-eaae1513a51347c4afdc8da0d8df10ab"
+        target="id-68cb63e4dec5464ab4776958194e5538"/>
+    <bounds
+        x="101"
+        y="417"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-0c654cec24bd41dfa90c6ab840c53894"
+      textAlignment="1"
+      content="SB: ¿quien dispara eventos?">
+    <sourceConnections
+        id="id-5dcae8b79d734a5d894e48c2fb715510"
+        source="id-0c654cec24bd41dfa90c6ab840c53894"
+        target="id-e48cb5ca316a4f4da7caf7bb1cb59fe9"/>
+    <sourceConnections
+        id="id-aaaca024bbcf440ebaf8323964aba08e"
+        source="id-0c654cec24bd41dfa90c6ab840c53894"
+        target="id-68cb63e4dec5464ab4776958194e5538"/>
+    <bounds
+        x="473"
+        y="483"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-2e782c0e97c3497ea933a498a52f0d36"
+      textAlignment="1"
+      content="SB: ¿No puede ser a través del storefront?">
+    <sourceConnections
+        id="id-5db9aba887aa40bdad382f2ed8c428dc"
+        source="id-2e782c0e97c3497ea933a498a52f0d36"
+        target="id-fafa50d12c4f4bd987bdfc0e14753f2c"/>
+    <bounds
+        x="120"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

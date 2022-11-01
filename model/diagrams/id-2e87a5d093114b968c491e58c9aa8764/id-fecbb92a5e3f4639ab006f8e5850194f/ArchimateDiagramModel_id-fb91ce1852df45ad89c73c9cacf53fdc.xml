@@ -85,7 +85,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e604115678664f1bafaf7c2d0ac78761"
-      targetConnections="id-79ef375547764962bca10b18c3d97df9 id-cf77b61ac47c4561b76ad5845a1daa32">
+      targetConnections="id-79ef375547764962bca10b18c3d97df9 id-cf77b61ac47c4561b76ad5845a1daa32 id-d2dd428e1f11413a9373e0ae059dba16">
     <bounds
         x="1079"
         y="276"
@@ -191,7 +191,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-7d599e9fdd134b5d999c1db0bb9b8e49"
-        targetConnections="id-49d99929e4ca4cd18b925eae1c011da4">
+        targetConnections="id-49d99929e4ca4cd18b925eae1c011da4 id-316900573a9d435c9d439be9c70588f9 id-12f06832263949f28cdda5bc5dc4f106">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-efc5f0ecd052403e88f95b9a437fdaec"
@@ -318,7 +318,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0bf55a4baa084352b17741abbe0a47c7"
-        targetConnections="id-9440770c855e4b5f8a8069f14f855eb4">
+        targetConnections="id-9440770c855e4b5f8a8069f14f855eb4 id-6a08a4e0bb5848aeaa7fa1cb1a21e0b6 id-04e1d7a4944041f68fe275f25f9e678e">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-7738c7a77a764536a63d5346d8b50b98"
@@ -424,7 +424,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-6d5dcfcdb8224f09b46b8586f7cb58c6"
-        targetConnections="id-3bfb4a9fb2674a1289f583162527470b">
+        targetConnections="id-3bfb4a9fb2674a1289f583162527470b id-5208db16efb14254aaaf841106760ba5">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-409b8e99e5f94c508787cba0e853f841"
@@ -534,7 +534,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a190a19316b94fa89b2a5fe8bb3fe915"
-      targetConnections="id-409b8e99e5f94c508787cba0e853f841">
+      targetConnections="id-409b8e99e5f94c508787cba0e853f841 id-0839674edbf745c391dec6e884be80cb">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-18a5d603e651437b97d4e152dc3950b8"
@@ -562,7 +562,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9ef69e7798614e87a2d2783c08087acb"
-      targetConnections="id-6eca47d5274e4b359db9bc6997f63b96">
+      targetConnections="id-6eca47d5274e4b359db9bc6997f63b96 id-c09b4d6a18b445499ea5305e35eafbf3">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-1d10de5b66b8474f98672996083cdee3"
@@ -667,5 +667,81 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-7d1e4cec8006415db6569ec2be73ccd5.xml#id-7d1e4cec8006415db6569ec2be73ccd5"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-a7bfdff6de664c5fa469706fc2e0d85d"
+      textAlignment="1"
+      content="SB: ¿Como es la registración? ¿Quien la aprueba?">
+    <sourceConnections
+        id="id-c09b4d6a18b445499ea5305e35eafbf3"
+        source="id-a7bfdff6de664c5fa469706fc2e0d85d"
+        target="id-9ef69e7798614e87a2d2783c08087acb"/>
+    <bounds
+        x="45"
+        y="331"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-7ae8b80777b747fdb2216360aaaa38b0"
+      textAlignment="1"
+      content="SB ¿En que paso se valida que sea un miembro de una Family in need? ¿en ID Validated? En ese caso, sería diferente al resto de los actores, no? ¿O es parte de los términos y condiciones? - en la cultura Yankie tal vez este sea el mejor escenario">
+    <sourceConnections
+        id="id-316900573a9d435c9d439be9c70588f9"
+        source="id-7ae8b80777b747fdb2216360aaaa38b0"
+        target="id-7d599e9fdd134b5d999c1db0bb9b8e49"/>
+    <sourceConnections
+        id="id-6a08a4e0bb5848aeaa7fa1cb1a21e0b6"
+        source="id-7ae8b80777b747fdb2216360aaaa38b0"
+        target="id-0bf55a4baa084352b17741abbe0a47c7"/>
+    <bounds
+        x="408"
+        y="-43"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-219b10e19187473894f9e0f4e3cc27e6"
+      textAlignment="1"
+      content="SB: Quien dispara los eventos?">
+    <sourceConnections
+        id="id-5208db16efb14254aaaf841106760ba5"
+        source="id-219b10e19187473894f9e0f4e3cc27e6"
+        target="id-6d5dcfcdb8224f09b46b8586f7cb58c6"/>
+    <sourceConnections
+        id="id-12f06832263949f28cdda5bc5dc4f106"
+        source="id-219b10e19187473894f9e0f4e3cc27e6"
+        target="id-7d599e9fdd134b5d999c1db0bb9b8e49"/>
+    <sourceConnections
+        id="id-0839674edbf745c391dec6e884be80cb"
+        source="id-219b10e19187473894f9e0f4e3cc27e6"
+        target="id-a190a19316b94fa89b2a5fe8bb3fe915"/>
+    <sourceConnections
+        id="id-d2dd428e1f11413a9373e0ae059dba16"
+        source="id-219b10e19187473894f9e0f4e3cc27e6"
+        target="id-e604115678664f1bafaf7c2d0ac78761"/>
+    <bounds
+        x="865"
+        y="9"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-cef3638c9f0a4c30a96a55e32a6a0f1e"
+      textAlignment="1"
+      content="SB: Si hay algun actor interno que es parte de la aprobación, lo agregaría">
+    <sourceConnections
+        id="id-04e1d7a4944041f68fe275f25f9e678e"
+        source="id-cef3638c9f0a4c30a96a55e32a6a0f1e"
+        target="id-0bf55a4baa084352b17741abbe0a47c7"/>
+    <bounds
+        x="972"
+        y="372"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
