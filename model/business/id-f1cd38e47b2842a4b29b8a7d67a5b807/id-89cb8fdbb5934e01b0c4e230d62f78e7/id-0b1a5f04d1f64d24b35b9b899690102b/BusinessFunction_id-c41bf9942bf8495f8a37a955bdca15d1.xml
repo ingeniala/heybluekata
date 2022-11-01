@@ -1,0 +1,9 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7.3. Regulatory Compliance"
+    id="id-c41bf9942bf8495f8a37a955bdca15d1"
+    documentation="Compliance management, controlling the appliance of procedures and controls to ensure the conformance to local, regional and international regulations">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>

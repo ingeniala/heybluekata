@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2.2. Addressing"
     id="id-2a7b7f479db148b0a018a80031047861"
-    documentation="Addressing characteristics of the users, including:&#xA;* snail mail address&#xA;* email address&#xA;* Social URIs"/>
+    documentation="Addressing characteristics of the users, including:&#xA;* snail mail address&#xA;* email address&#xA;* Social URIs">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>

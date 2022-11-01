@@ -1,0 +1,9 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7.4. Information Management"
+    id="id-983b1a88a7b740ffa3363e7937b7a790"
+    documentation="Governance and caring of all the information produced by the company, including transactional information, documents, internal wikis and public content.">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>

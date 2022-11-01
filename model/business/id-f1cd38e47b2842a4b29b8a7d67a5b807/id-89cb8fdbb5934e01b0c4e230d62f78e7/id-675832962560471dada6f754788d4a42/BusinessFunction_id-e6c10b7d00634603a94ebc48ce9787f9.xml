@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2.1. Identity"
     id="id-e6c10b7d00634603a94ebc48ce9787f9"
-    documentation="Identity of each users, including:&#xA;* Given and family name (for persons)&#xA;* Company name (for organizations)&#xA;* User name&#xA;* Identity information (ID number, taxes ID, etc)"/>
+    documentation="Identity of each users, including:&#xA;* Given and family name (for persons)&#xA;* Company name (for organizations)&#xA;* User name&#xA;* Identity information (ID number, taxes ID, etc)">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>

@@ -1,0 +1,9 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7.5. Finance &amp; Treasury"
+    id="id-ed41dc69705142119dffd467d2f8a24a"
+    documentation="Finance management. &#xA;Caring of the accounting and the health of the company in financial ways.">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>

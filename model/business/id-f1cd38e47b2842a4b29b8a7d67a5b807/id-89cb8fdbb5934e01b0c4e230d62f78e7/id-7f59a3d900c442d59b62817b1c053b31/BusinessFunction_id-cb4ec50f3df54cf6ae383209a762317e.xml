@@ -5,5 +5,5 @@
     documentation="Widgets to create custom pages or application using the information of the platform (e.g. merchant commerce)">
   <properties
       key="enabled"
-      value="false"/>
+      value="true"/>
 </archimate:BusinessFunction>

@@ -5,5 +5,5 @@
     documentation="Application Program Interfaces that aim another developers to interact with the platform, converting the social network in a platform providing value to a broader ecosystem..">
   <properties
       key="enabled"
-      value="false"/>
+      value="true"/>
 </archimate:BusinessFunction>

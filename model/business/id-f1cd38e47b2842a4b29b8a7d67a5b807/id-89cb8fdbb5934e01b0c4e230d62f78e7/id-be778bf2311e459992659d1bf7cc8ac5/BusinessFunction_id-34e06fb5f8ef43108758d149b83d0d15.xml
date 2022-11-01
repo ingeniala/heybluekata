@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="6.2. Product"
     id="id-34e06fb5f8ef43108758d149b83d0d15"
-    documentation="These functions allows the management of the product Catalog, aiming the creation, configuration (based on redemption rules), modification and elimination of products that can be changed by points."/>
+    documentation="These functions allows the management of the product Catalog, aiming the creation, configuration (based on redemption rules), modification and elimination of products that can be changed by points.">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>
