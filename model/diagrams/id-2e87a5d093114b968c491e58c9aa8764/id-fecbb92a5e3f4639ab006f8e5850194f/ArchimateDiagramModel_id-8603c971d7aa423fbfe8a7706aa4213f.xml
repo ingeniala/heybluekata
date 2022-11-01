@@ -142,7 +142,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-69a4acc5525d4ad69b465663ba983361"
-      targetConnections="id-4aad34bc7d244974a1754bd29dfdb4f5 id-2135e92581644ffdaf1189cb741f6264">
+      targetConnections="id-2135e92581644ffdaf1189cb741f6264 id-4aad34bc7d244974a1754bd29dfdb4f5">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-cd7b50242ea24b718c80a916afe98817"
@@ -209,7 +209,7 @@
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-1f9e41aa200c49eeb188def3925da543"
         source="id-2b4010e6b0204865bb78bc29b5c4a09a"
-        target="id-c17e2ceb34de48f4a126a5a8be312035">
+        target="id-d117118e28bf4ec99eb3d896838b1126">
       <bendpoints
           startX="-37"
           startY="93"
@@ -327,20 +327,6 @@
         targetConnections="id-cd7b50242ea24b718c80a916afe98817">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-657010095848488ab51b722136fa2517"
-          source="id-c3dc554766c04f7aadbfd148d467ff64"
-          target="id-c17e2ceb34de48f4a126a5a8be312035">
-        <bendpoints
-            startX="17"
-            startY="45"
-            endX="-84"
-            endY="-3"/>
-        <archimateRelationship
-            xsi:type="archimate:FlowRelationship"
-            href="FlowRelationship_id-0529b65bd4f24de088b4c4ac7d6769bb.xml#id-0529b65bd4f24de088b4c4ac7d6769bb"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-6a2b85f8727547458f1bce435aeb06f8"
           source="id-c3dc554766c04f7aadbfd148d467ff64"
           target="id-fa26094ee2a34e83b88cdc72ded80637">
@@ -353,6 +339,20 @@
             xsi:type="archimate:FlowRelationship"
             href="FlowRelationship_id-0b8ed0f0aeda437e85f2f6d55f52aa0d.xml#id-0b8ed0f0aeda437e85f2f6d55f52aa0d"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-657010095848488ab51b722136fa2517"
+          source="id-c3dc554766c04f7aadbfd148d467ff64"
+          target="id-d117118e28bf4ec99eb3d896838b1126">
+        <bendpoints
+            startX="17"
+            startY="45"
+            endX="-84"
+            endY="-3"/>
+        <archimateRelationship
+            xsi:type="archimate:FlowRelationship"
+            href="FlowRelationship_id-0529b65bd4f24de088b4c4ac7d6769bb.xml#id-0529b65bd4f24de088b4c4ac7d6769bb"/>
+      </sourceConnections>
       <bounds
           x="12"
           y="78"
@@ -364,34 +364,34 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-c17e2ceb34de48f4a126a5a8be312035"
-        targetConnections="id-657010095848488ab51b722136fa2517 id-1f9e41aa200c49eeb188def3925da543">
+        id="id-d117118e28bf4ec99eb3d896838b1126"
+        targetConnections="id-1f9e41aa200c49eeb188def3925da543 id-657010095848488ab51b722136fa2517">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-4aad34bc7d244974a1754bd29dfdb4f5"
-          source="id-c17e2ceb34de48f4a126a5a8be312035"
+          source="id-d117118e28bf4ec99eb3d896838b1126"
           target="id-69a4acc5525d4ad69b465663ba983361">
         <bendpoints
             startY="47"
             endX="192"
             endY="81"/>
         <bendpoints
-            startX="-180"
+            startX="-156"
             startY="47"
-            endX="12"
+            endX="36"
             endY="81"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
             href="FlowRelationship_id-824239485a874553b0c8afb5f02108d5.xml#id-824239485a874553b0c8afb5f02108d5"/>
       </sourceConnections>
       <bounds
-          x="60"
-          y="94"
+          x="48"
+          y="92"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessEvent"
-          href="BusinessEvent_id-147f556e7ea84b08afeeb2ad15893fc4.xml#id-147f556e7ea84b08afeeb2ad15893fc4"/>
+          href="BusinessEvent_id-3076908da39c4469bbff4117bdfb23cc.xml#id-3076908da39c4469bbff4117bdfb23cc"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessProcess"
