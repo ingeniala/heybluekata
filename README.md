@@ -22,6 +22,19 @@
 
 ## About Los Ingenials
 
+We are a tribe of guys who are enthusiastic about solving complex problems with technology applied vith criteria in a sustainable way. 
+
+Our name is Ingenials, becouse we work together for Ingenia, a consulting firm focused on allowing our customers to strategically and tactically leverage their business with technology. 
+
+### Members
+
+* [Silvia Fresno](https://www.linkedin.com/in/silvia-fresno/)
+* [Paula Ferreyra](https://www.linkedin.com/in/paula-ferreyra-4506a018/)
+* [Fernando Sclavo](https://www.linkedin.com/in/fernando-sclavo-738252b9/)
+* [Federico Catinello](https://www.linkedin.com/in/fcatinello/)
+* [Andres Kitaura](https://www.linkedin.com/in/andreskitaura/)
+* [Santiago Blanco](https://www.linkedin.com/in/santiagomblanco/)
+
 ## Glossary
 
 ## Prelude
