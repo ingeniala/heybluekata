@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Charity registration acceptance"
+    name="Charity registration"
     id="id-c09a797a2ad142f0b03c48cb9fdb2a02"
     viewpoint="application_usage">
   <children
@@ -32,7 +32,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-057d4a3bb95240018d4eed4035afb01c">
     <bounds
-        x="264"
+        x="384"
         y="372"
         width="120"
         height="55"/>
@@ -44,7 +44,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-8e83406c590848e9b64264fc80bea618">
     <bounds
-        x="420"
+        x="552"
         y="372"
         width="120"
         height="55"/>

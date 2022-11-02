@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Civilian Onboarding"
+    name="Civilian onboarding"
     id="id-9514057af7cf489c8c9971ccc5f4073d"
     viewpoint="application_usage">
   <children
@@ -198,7 +198,7 @@
       targetConnections="id-55796a8d8ec2470a829d79d4218d4b18 id-44f28e1770254559a9cad65a6feecb99">
     <bounds
         x="1440"
-        y="288"
+        y="276"
         width="120"
         height="55"/>
     <archimateElement
@@ -388,14 +388,9 @@
           target="id-c304c7b1eb6c4571ab3eee1e7971717d">
         <bendpoints
             startX="21"
-            startY="73"
+            startY="85"
             endX="-1056"
-            endY="-3"/>
-        <bendpoints
-            startX="525"
-            startY="73"
-            endX="-552"
-            endY="-3"/>
+            endY="9"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_id-45ce38c9a9df4ccfa959afe1a83140f4.xml#id-45ce38c9a9df4ccfa959afe1a83140f4"/>
@@ -431,9 +426,9 @@
           source="id-0669a3763fa4404e931907d34b4033c6"
           target="id-c304c7b1eb6c4571ab3eee1e7971717d">
         <bendpoints
-            startX="46"
+            startX="58"
             startY="129"
-            endX="-984"
+            endX="-972"
             endY="-27"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
@@ -782,6 +777,11 @@
         id="id-f56a0c26fd4c43f1bc40ec4e066fae93"
         source="id-5b348b043df44e4e8115020e6dfe38d1"
         target="id-e2c6d850bee843b0a85fc8305a96dd50">
+      <bendpoints
+          startX="12"
+          startY="-135"
+          endX="-1"
+          endY="129"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-b160fb9130184beb8c236e975c7e39aa.xml#id-b160fb9130184beb8c236e975c7e39aa"/>
