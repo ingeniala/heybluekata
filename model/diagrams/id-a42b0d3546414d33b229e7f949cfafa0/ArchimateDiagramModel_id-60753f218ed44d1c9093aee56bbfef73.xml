@@ -474,8 +474,9 @@
           source="id-9c42b5ab09fc4f95a38e83a4fdd358e1"
           target="id-6aaab6f3b5814843bb72a512ae181460">
         <bendpoints
+            startX="12"
             startY="45"
-            endX="-552"
+            endX="-540"
             endY="353"/>
         <bendpoints
             startX="828"
@@ -772,15 +773,20 @@
           source="id-d9f53e9eb9894687a14f1a57a7f74bf8"
           target="id-6aaab6f3b5814843bb72a512ae181460">
         <bendpoints
-            startX="12"
-            startY="57"
-            endX="-84"
-            endY="365"/>
+            startX="72"
+            startY="9"
+            endX="-24"
+            endY="317"/>
+        <bendpoints
+            startX="72"
+            startY="153"
+            endX="-24"
+            endY="461"/>
         <bendpoints
             startX="384"
-            startY="57"
+            startY="153"
             endX="288"
-            endY="365"/>
+            endY="461"/>
         <bendpoints
             startX="384"
             startY="-327"
@@ -937,6 +943,66 @@
       <archimateElement
           xsi:type="archimate:Requirement"
           href="Requirement_id-a9af4023c39845acb11ddf63661e0d56.xml#id-a9af4023c39845acb11ddf63661e0d56"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-32562ebe939c403f980bca06081cf319">
+      <bounds
+          x="176"
+          y="276"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-bd5ab30a7edc4c4b9bf313918b00e0c8.xml#id-bd5ab30a7edc4c4b9bf313918b00e0c8"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-b9ec2637b6dd4d63903b83a095019bd1">
+      <bounds
+          x="324"
+          y="276"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-6d02967f5d214f1fa101909e294b7fe1.xml#id-6d02967f5d214f1fa101909e294b7fe1"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-bcb79358a8894914ac7e8463de23077e">
+      <bounds
+          x="480"
+          y="276"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-d7c07aa8ea3e4ce5aebb3f7515d7db77.xml#id-d7c07aa8ea3e4ce5aebb3f7515d7db77"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-b0cdab0257cb4ecf8126ffb3b20803a0">
+      <bounds
+          x="624"
+          y="276"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-6f7bcf16eb0b4e6a87c732826555d2b4.xml#id-6f7bcf16eb0b4e6a87c732826555d2b4"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-711e38816f014c5d94f692371676ca2e">
+      <bounds
+          x="768"
+          y="276"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-82032fce61544c6380e85c23d893a597.xml#id-82032fce61544c6380e85c23d893a597"/>
     </children>
   </children>
 </archimate:ArchimateDiagramModel>
