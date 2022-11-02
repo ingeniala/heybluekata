@@ -793,6 +793,10 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-567ce62e4c084619a18fd92e374efb15"
       targetConnections="id-7250fbf88b764d73ba127ac1b2ac14ed">
+    <sourceConnections
+        id="id-13ee9292d38448f58d571ff6bb0e0425"
+        source="id-567ce62e4c084619a18fd92e374efb15"
+        target="id-293bb11a227c494797c6aec9f0694b6d"/>
     <bounds
         x="1068"
         y="48"
@@ -837,5 +841,17 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-6cfaccf617d34273b879f85e6b512720.xml#id-6cfaccf617d34273b879f85e6b512720"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-293bb11a227c494797c6aec9f0694b6d"
+      targetConnections="id-13ee9292d38448f58d571ff6bb0e0425"
+      textAlignment="1"
+      content="No estaría también la family in need?">
+    <bounds
+        x="1212"
+        y="48"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
