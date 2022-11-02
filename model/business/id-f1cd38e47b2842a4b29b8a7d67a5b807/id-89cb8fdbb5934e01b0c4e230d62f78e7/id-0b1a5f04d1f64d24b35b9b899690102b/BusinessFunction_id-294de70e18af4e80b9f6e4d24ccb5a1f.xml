@@ -1,0 +1,9 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7.7. Enterprise Wide IT"
+    id="id-294de70e18af4e80b9f6e4d24ccb5a1f"
+    documentation="Process, methods and tools that rule the IT proces and lifecycle, ensuring quality and speed on value delivery">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>

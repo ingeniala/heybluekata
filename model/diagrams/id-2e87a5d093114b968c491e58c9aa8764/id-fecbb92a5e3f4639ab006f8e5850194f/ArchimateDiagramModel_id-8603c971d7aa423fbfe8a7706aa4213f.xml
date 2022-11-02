@@ -180,7 +180,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-69a4acc5525d4ad69b465663ba983361"
-      targetConnections="id-2135e92581644ffdaf1189cb741f6264 id-4aad34bc7d244974a1754bd29dfdb4f5">
+      targetConnections="id-4aad34bc7d244974a1754bd29dfdb4f5">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-cd7b50242ea24b718c80a916afe98817"
@@ -373,12 +373,12 @@
         targetConnections="id-ec35b58c74664d12a1e9e338d0de06f3 id-277d6c854a664a9f9d7cb2b9a606e1e9 id-14d91dcddeda42a7b755b0c899ae219d id-8d781a73edac406fbb83f21119bee147 id-ed757eb04ebb4d139f473f966dfaf727 id-31372c3b760842a696516d3761ab469b id-259a6715a6944735ad5bd6e1dabf31b5">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-f6c5f9a36d404abf9d54f0d198f9acbf"
+          id="id-e7386c8f91d5458bb96cd936d7f94f96"
           source="id-80836498cc024121a87961d8c7390912"
           target="id-e372544f81f24dc5a439c06b388dc027">
         <archimateRelationship
-            xsi:type="archimate:FlowRelationship"
-            href="FlowRelationship_id-d10f461a690a43e5ab4a60b627a40f5a.xml#id-d10f461a690a43e5ab4a60b627a40f5a"/>
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-263f32af01fd4abda06d17965bd5947d.xml#id-263f32af01fd4abda06d17965bd5947d"/>
       </sourceConnections>
       <bounds
           x="528"
@@ -538,7 +538,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e372544f81f24dc5a439c06b388dc027"
-      targetConnections="id-f6c5f9a36d404abf9d54f0d198f9acbf id-6ff01273421a4d24a4c763b61530711c">
+      targetConnections="id-e7386c8f91d5458bb96cd936d7f94f96">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-83cbc11b3be54b13b4af134229a9d8be"
@@ -568,42 +568,6 @@
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-bc795d6597604b75bb42204ce953178e.xml#id-bc795d6597604b75bb42204ce953178e"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-fd30cb98fe974551afdeff39f9231d1c"
-      textAlignment="1"
-      content="SB: Agregaría que este evento lo dispara ¿heyblue Points?">
-    <sourceConnections
-        id="id-2135e92581644ffdaf1189cb741f6264"
-        source="id-fd30cb98fe974551afdeff39f9231d1c"
-        target="id-69a4acc5525d4ad69b465663ba983361">
-      <bendpoints
-          startX="16"
-          startY="-80"
-          endX="-12"
-          endY="69"/>
-    </sourceConnections>
-    <bounds
-        x="-48"
-        y="328"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-8d88f63910734947ac1d368c971e9b03"
-      textAlignment="1"
-      content="SB: ¿Es el mismo que el inicial? Si es asi, cerraría el loop">
-    <sourceConnections
-        id="id-6ff01273421a4d24a4c763b61530711c"
-        source="id-8d88f63910734947ac1d368c971e9b03"
-        target="id-e372544f81f24dc5a439c06b388dc027"/>
-    <bounds
-        x="935"
-        y="240"
-        width="185"
-        height="80"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"

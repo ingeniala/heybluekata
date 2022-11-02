@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2.3. Social Graph"
     id="id-d4b3a9106dc34ce9bbe1f2a92bf4890b"
-    documentation="Management of the social graph, showing the relationship of a user with the universe of users in the platform. Includes:&#xA;* Contacts&#xA;* Groups&#xA;* Brands&#xA;* Access control"/>
+    documentation="Management of the social graph, showing the relationship of a user with the universe of users in the platform. Includes:&#xA;* Contacts&#xA;* Groups&#xA;* Brands&#xA;* Access control">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>

@@ -1,0 +1,9 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7.1. Investments"
+    id="id-8b70ae2cf4ca479aa6d5f1a00ed071a1"
+    documentation="Investment Management to ensure the ongoing and future business">
+  <properties
+      key="enabled"
+      value="false"/>
+</archimate:BusinessFunction>

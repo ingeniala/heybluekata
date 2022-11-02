@@ -1,0 +1,9 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7.2. Human Resources"
+    id="id-5bf2e6e7fa1b49d981b521a95158c470"
+    documentation="Managing the employee lifecycle and experience, including:&#xA;- onboarding&#xA;- offboarding&#xA;- upskilling&#xA;- recruiting">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>

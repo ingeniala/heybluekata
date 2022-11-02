@@ -1,0 +1,9 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7.8. Risk &amp; Fraud Management"
+    id="id-0298e9e28ddd4771a1e563616ed9956e"
+    documentation="Risk control and lifecycle management">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>

@@ -1,0 +1,9 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="7.6. Integration Management"
+    id="id-a6263513920a49d0a9df86983fe44a7a"
+    documentation="In a complex architecture, it is necessary to manage and govern the integration components, including:&#xA;- APIs governance&#xA;- Sync integration&#xA;- Async integrations">
+  <properties
+      key="enabled"
+      value="false"/>
+</archimate:BusinessFunction>

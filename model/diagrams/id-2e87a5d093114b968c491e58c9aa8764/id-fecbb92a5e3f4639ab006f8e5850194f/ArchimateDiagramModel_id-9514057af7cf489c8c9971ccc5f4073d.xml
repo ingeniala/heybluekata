@@ -148,7 +148,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-43017d6b92314b9dbb6208f4a66c9dfc"
-      targetConnections="id-90b05d562aa7407aaa853cf2718f9c3b id-f2856cf129f54b888bf91f6d1d7029cb">
+      targetConnections="id-02046ef659d6403fb5d1577c1d93c043">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-d5fa70303e4e40eb978134149276314c"
@@ -176,7 +176,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c304c7b1eb6c4571ab3eee1e7971717d"
-      targetConnections="id-1bf09c204b144ebf8f92b7fa32b1a130 id-0831559075554654a3305a39a0039af1 id-943dddfc479d427db59f2c309ac81b23">
+      targetConnections="id-55796a8d8ec2470a829d79d4218d4b18 id-44f28e1770254559a9cad65a6feecb99">
     <bounds
         x="1080"
         y="276"
@@ -282,7 +282,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-20634a5218444652af0a1e0f5dd4462f"
-        targetConnections="id-a03765b492f74c63b1dc72c5c2032bc6 id-0f06c4297a954341bb13adb8db658f98">
+        targetConnections="id-975af2e4842241858976dc3288975a2a">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-03255619afa34c62af4fb1c861947448"
@@ -312,12 +312,12 @@
         targetConnections="id-8aab9c5eacf94d10bdbfd05efae049fc id-20aa4d19798b4511ab54302ebb31390e id-5571b25cff78437e8016daf1f6a884da id-63c66adecb3c4eeaa33f932f0cc603c7 id-b129e876ecf74695a500ab81c705cf80">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-8cac7585f65a423793545d70253950f1"
+          id="id-5bbcf0b6690f4f56aaf30d2af7895762"
           source="id-de4a01b5e2814809a61787693d9e1151"
           target="id-534170d6d8bf4ef4ba2ab53ed7bae1ff">
         <archimateRelationship
-            xsi:type="archimate:FlowRelationship"
-            href="FlowRelationship_id-c24b4b742545415c8b0a8a021eaae691.xml#id-c24b4b742545415c8b0a8a021eaae691"/>
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-fb282e8e8b9047abbcdc754c84c6478d.xml#id-fb282e8e8b9047abbcdc754c84c6478d"/>
       </sourceConnections>
       <bounds
           x="624"
@@ -334,7 +334,16 @@
         targetConnections="id-d896eca9fa1c4824b50a5414f66ca4fe id-2da058a22551461088318ade8a13cdb2 id-acb958349ad444ff98020a7621da05a0 id-8b9ef2d4630f4f55b2fb19d00785691a id-86863ed7d73b43f0894eff51c1c6cd18 id-96d33e4364054b91be2404910191eca9">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-0831559075554654a3305a39a0039af1"
+          id="id-24aa5124292f42b896b0e448735e87a5"
+          source="id-614b46cdb8a34c86931de8cbc12f813c"
+          target="id-ff81c412699a437487780371e5bd6345">
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-ff6b1d8bfac54f99a8a19b7fe30fd98e.xml#id-ff6b1d8bfac54f99a8a19b7fe30fd98e"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-44f28e1770254559a9cad65a6feecb99"
           fontColor="#a40000"
           lineColor="#a40000"
           textPosition="2"
@@ -346,17 +355,8 @@
             endX="-672"
             endY="9"/>
         <archimateRelationship
-            xsi:type="archimate:FlowRelationship"
-            href="FlowRelationship_id-5d68498f2105452482fa64f2fad1496f.xml#id-5d68498f2105452482fa64f2fad1496f"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-cb60fe25696045099b31ecdfec1a8adf"
-          source="id-614b46cdb8a34c86931de8cbc12f813c"
-          target="id-ff81c412699a437487780371e5bd6345">
-        <archimateRelationship
-            xsi:type="archimate:FlowRelationship"
-            href="FlowRelationship_id-3b56e65ff18d420e82bb777fd8227d47.xml#id-3b56e65ff18d420e82bb777fd8227d47"/>
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-45ce38c9a9df4ccfa959afe1a83140f4.xml#id-45ce38c9a9df4ccfa959afe1a83140f4"/>
       </sourceConnections>
       <bounds
           x="195"
@@ -373,7 +373,16 @@
         targetConnections="id-ed16b4aecb784f37a8cc6b8146d3835b id-ad70ab01f6614d8ca8d9d65824c18d63 id-ea442a30eda44fd6b04744ab0c6bc1d1 id-3ad3b7ee0a094cedb1d3061b367a865f id-2d3a75fd57f442ad967e3a86180948b1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-1bf09c204b144ebf8f92b7fa32b1a130"
+          id="id-975af2e4842241858976dc3288975a2a"
+          source="id-0669a3763fa4404e931907d34b4033c6"
+          target="id-20634a5218444652af0a1e0f5dd4462f">
+        <archimateRelationship
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-95e750e4c8d94de39d5f069b71390d4b.xml#id-95e750e4c8d94de39d5f069b71390d4b"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-55796a8d8ec2470a829d79d4218d4b18"
           fontColor="#a40000"
           lineColor="#a40000"
           textPosition="2"
@@ -385,17 +394,8 @@
             endX="-624"
             endY="-15"/>
         <archimateRelationship
-            xsi:type="archimate:FlowRelationship"
-            href="FlowRelationship_id-0f48d6639eef43cba61caaced5ccff76.xml#id-0f48d6639eef43cba61caaced5ccff76"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-a03765b492f74c63b1dc72c5c2032bc6"
-          source="id-0669a3763fa4404e931907d34b4033c6"
-          target="id-20634a5218444652af0a1e0f5dd4462f">
-        <archimateRelationship
-            xsi:type="archimate:FlowRelationship"
-            href="FlowRelationship_id-11993cbbb6bd4eaaa2f87eb932b7f5ff.xml#id-11993cbbb6bd4eaaa2f87eb932b7f5ff"/>
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-a75722b7b4004c83ba615bbc29f78d8d.xml#id-a75722b7b4004c83ba615bbc29f78d8d"/>
       </sourceConnections>
       <bounds
           x="242"
@@ -409,7 +409,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ff81c412699a437487780371e5bd6345"
-        targetConnections="id-cb60fe25696045099b31ecdfec1a8adf id-7c295d27ae1847a28bb1e122ca6eef9c">
+        targetConnections="id-24aa5124292f42b896b0e448735e87a5">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-6132949262344c33aea3278f94b88e60"
@@ -515,15 +515,15 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-534170d6d8bf4ef4ba2ab53ed7bae1ff"
-        targetConnections="id-8cac7585f65a423793545d70253950f1 id-487cd87590ab41b698ad6aa5b2b3013d">
+        targetConnections="id-5bbcf0b6690f4f56aaf30d2af7895762">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-90b05d562aa7407aaa853cf2718f9c3b"
+          id="id-02046ef659d6403fb5d1577c1d93c043"
           source="id-534170d6d8bf4ef4ba2ab53ed7bae1ff"
           target="id-43017d6b92314b9dbb6208f4a66c9dfc">
         <archimateRelationship
-            xsi:type="archimate:FlowRelationship"
-            href="FlowRelationship_id-6d3776aea2334661a4c785a83ed0daac.xml#id-6d3776aea2334661a4c785a83ed0daac"/>
+            xsi:type="archimate:TriggeringRelationship"
+            href="TriggeringRelationship_id-8fea8950379545e9a497363038c75635.xml#id-8fea8950379545e9a497363038c75635"/>
       </sourceConnections>
       <bounds
           x="768"
@@ -562,7 +562,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-dac663756fd64f24a38f68a64e802417"
-      targetConnections="id-9d8e56a229784907b4353170201491e9 id-21eab891e70649608a19469e5d863f22">
+      targetConnections="id-9d8e56a229784907b4353170201491e9">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-b7b39b2b3b914ff4b6c10938571b3c3a"
@@ -632,9 +632,9 @@
           endX="201"
           endY="109"/>
       <bendpoints
-          startX="-168"
+          startX="-180"
           startY="-51"
-          endX="45"
+          endX="33"
           endY="109"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
@@ -667,51 +667,5 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-7d1e4cec8006415db6569ec2be73ccd5.xml#id-7d1e4cec8006415db6569ec2be73ccd5"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-19ec099eb8074b3bab76125e84931e89"
-      textAlignment="1"
-      content="SB: ¿Como es el registro? ¿Quien lo aprueba?">
-    <sourceConnections
-        id="id-21eab891e70649608a19469e5d863f22"
-        source="id-19ec099eb8074b3bab76125e84931e89"
-        target="id-dac663756fd64f24a38f68a64e802417"/>
-    <bounds
-        x="3"
-        y="324"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-3bd1ad31ad98469bbc2fd22241f657c9"
-      textAlignment="1"
-      content="SB: ¿Quien dispara el trigger?">
-    <sourceConnections
-        id="id-7c295d27ae1847a28bb1e122ca6eef9c"
-        source="id-3bd1ad31ad98469bbc2fd22241f657c9"
-        target="id-ff81c412699a437487780371e5bd6345"/>
-    <sourceConnections
-        id="id-0f06c4297a954341bb13adb8db658f98"
-        source="id-3bd1ad31ad98469bbc2fd22241f657c9"
-        target="id-20634a5218444652af0a1e0f5dd4462f"/>
-    <sourceConnections
-        id="id-487cd87590ab41b698ad6aa5b2b3013d"
-        source="id-3bd1ad31ad98469bbc2fd22241f657c9"
-        target="id-534170d6d8bf4ef4ba2ab53ed7bae1ff"/>
-    <sourceConnections
-        id="id-f2856cf129f54b888bf91f6d1d7029cb"
-        source="id-3bd1ad31ad98469bbc2fd22241f657c9"
-        target="id-43017d6b92314b9dbb6208f4a66c9dfc"/>
-    <sourceConnections
-        id="id-943dddfc479d427db59f2c309ac81b23"
-        source="id-3bd1ad31ad98469bbc2fd22241f657c9"
-        target="id-c304c7b1eb6c4571ab3eee1e7971717d"/>
-    <bounds
-        x="759"
-        y="-36"
-        width="185"
-        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -2,4 +2,8 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="4.1. Score"
     id="id-950b2e0df4a64488a6cfb92067329e56"
-    documentation="Scoring management for each user, including the history of movements."/>
+    documentation="Scoring management for each user, including the history of movements.">
+  <properties
+      key="enabled"
+      value="true"/>
+</archimate:BusinessFunction>
