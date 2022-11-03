@@ -637,8 +637,9 @@
           source="id-e2c6d850bee843b0a85fc8305a96dd50"
           target="id-04cb96989d494264847209537d4e524d">
         <bendpoints
-            startX="107"
+            startX="143"
             startY="-3"
+            endX="36"
             endY="-83"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
@@ -878,9 +879,8 @@
           endX="936"
           endY="201"/>
       <bendpoints
-          startX="-960"
+          startX="-984"
           startY="-51"
-          endX="24"
           endY="201"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
