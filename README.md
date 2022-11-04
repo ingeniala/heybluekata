@@ -47,6 +47,12 @@ Our name is Ingenials, becouse we work together for Ingenia, a consulting firm f
 
 ## Assumptions
 
+* IRS give information through API or file sharing. that let know when an organization is a charity organization. 
+* A state department inform, through API or file sharing, what are the family in needs.
+* A family in need can redeem their points but can't donate it.
+* Retail can only use Web channel.
+
+
 ## Architecture
 
 ### Business Collaboration View
