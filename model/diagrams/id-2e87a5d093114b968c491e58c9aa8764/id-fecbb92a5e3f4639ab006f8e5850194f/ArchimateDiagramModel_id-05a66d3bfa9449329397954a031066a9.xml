@@ -9,8 +9,8 @@
       id="id-17807ebe0fc34eb698792c03121820d9"
       targetConnections="id-0f5d502b22d145eda0a186920db4601a id-dea159d36aeb45a79da9972da00e031a">
     <bounds
-        x="1079"
-        y="276"
+        x="1044"
+        y="273"
         width="120"
         height="55"/>
     <archimateElement
@@ -85,7 +85,7 @@
     <bounds
         x="167"
         y="108"
-        width="901"
+        width="866"
         height="169"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -128,7 +128,7 @@
             href="FlowRelationship_id-f099cfdb3c254ab8ad819d1328fbab47.xml#id-f099cfdb3c254ab8ad819d1328fbab47"/>
       </sourceConnections>
       <bounds
-          x="447"
+          x="408"
           y="24"
           width="120"
           height="55"/>
@@ -150,7 +150,7 @@
             href="TriggeringRelationship_id-fb282e8e8b9047abbcdc754c84c6478d.xml#id-fb282e8e8b9047abbcdc754c84c6478d"/>
       </sourceConnections>
       <bounds
-          x="624"
+          x="588"
           y="60"
           width="120"
           height="55"/>
@@ -173,8 +173,8 @@
         <bendpoints
             startX="47"
             startY="129"
-            endX="-623"
-            endY="-15"/>
+            endX="-588"
+            endY="-12"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_id-a75722b7b4004c83ba615bbc29f78d8d.xml#id-a75722b7b4004c83ba615bbc29f78d8d"/>
@@ -207,9 +207,9 @@
           source="id-b26049d3bf8c4db6b3b7be8c2e1d216c"
           target="id-30dcd4dd22ab469f8ac2c152baa9deba">
         <bendpoints
-            startX="144"
+            startX="109"
             startY="1"
-            endX="-19"
+            endX="-18"
             endY="45"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
@@ -223,9 +223,9 @@
           source="id-b26049d3bf8c4db6b3b7be8c2e1d216c"
           target="id-1f1b727bdfaa48f0a58f660d3228ba68">
         <bendpoints
-            startX="-23"
+            startX="-47"
             startY="-179"
-            endX="168"
+            endX="144"
             endY="9"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
@@ -295,7 +295,7 @@
             href="FlowRelationship_id-99cbecd2d9a1491cb6d2ffeb58ab0444.xml#id-99cbecd2d9a1491cb6d2ffeb58ab0444"/>
       </sourceConnections>
       <bounds
-          x="588"
+          x="552"
           y="80"
           width="15"
           height="15"/>
@@ -317,7 +317,7 @@
             href="TriggeringRelationship_id-cc40959dfd7b4c0c94574c66ca287aab.xml#id-cc40959dfd7b4c0c94574c66ca287aab"/>
       </sourceConnections>
       <bounds
-          x="768"
+          x="732"
           y="60"
           width="120"
           height="55"/>
@@ -340,8 +340,8 @@
         <bendpoints
             startX="25"
             startY="73"
-            endX="-683"
-            endY="9"/>
+            endX="-648"
+            endY="12"/>
         <archimateRelationship
             xsi:type="archimate:TriggeringRelationship"
             href="TriggeringRelationship_id-d21986f30e354a0399b4f3aeb457ab25.xml#id-d21986f30e354a0399b4f3aeb457ab25"/>
@@ -381,7 +381,7 @@
           href="ServingRelationship_id-e49705f3c8df44368ba1c2acafa1d41e.xml#id-e49705f3c8df44368ba1c2acafa1d41e"/>
     </sourceConnections>
     <bounds
-        x="792"
+        x="756"
         y="360"
         width="120"
         height="55"/>
@@ -400,10 +400,10 @@
       <bendpoints
           startX="12"
           startY="-87"
-          endX="-215"
+          endX="-179"
           endY="105"/>
       <bendpoints
-          startX="216"
+          startX="180"
           startY="-87"
           endX="-11"
           endY="105"/>
@@ -573,17 +573,16 @@
         source="id-d6c0aae457f4486cb24a76ca2d3d7007"
         target="id-1f1b727bdfaa48f0a58f660d3228ba68">
       <bendpoints
-          startX="1"
-          startY="-159"
-          endX="732"
-          endY="-15"/>
+          startY="-144"
+          endX="696"
+          endY="-3"/>
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-97d65d6f2a9d409f824be549525e8c85.xml#id-97d65d6f2a9d409f824be549525e8c85"/>
     </sourceConnections>
     <bounds
-        x="1079"
-        y="168"
+        x="1044"
+        y="165"
         width="120"
         height="55"/>
     <archimateElement
