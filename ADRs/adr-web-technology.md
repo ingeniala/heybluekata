@@ -28,4 +28,4 @@ Folowing table contains all reasons that drive us to make previos decision:
 | Usability                | Easy to test.                                   |
 | Guarranty                | Created and maintained by Facebook.                             									   |
 | Maturity				   | Used by gigants like: Netflix, Airbnb, Asana, Pinterest and more. 									   |
-| Costo					   | Save money: due is widely used. It's easy to find developers who want develop on React 		       |
+| Cost					   | Save money: due is widely used. It's easy to find developers who want develop on React 		       |
