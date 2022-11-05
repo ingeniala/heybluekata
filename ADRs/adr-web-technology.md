@@ -1,0 +1,31 @@
+# Infrastructure
+
+## Summary
+
+The project has an relevant component: web application, so it's necessary define the technology to develop it.
+
+### Alternatives
+
+- React
+- Angular
+- Vue
+- Backbone
+
+## Decision 
+
+Alternative selected: *React*
+
+
+Folowing table contains all reasons that drive us to make previos decision:
+
+| Criteria                 | Description                                                    
+| --------------------     | ----------------------------------------------------------------------------------------------------- | 
+| Control of the market    | Widely used in IT world, comparing with the other options: https://npmtrends.com/angular-vs-backbone-vs-react-vs-vue.              												                                 |
+| Adoption                 | Widely adopted by the community. 																	   | 
+| Reutilization 		   | Share components with React Native ([ADR Mobile Technology](./adr-mobile-technology)). Due to react native having a base on React we could have reutilization code also with the mobile module.      									|
+| Usability          	   | Easy to learn and use: a developer with a background in javascript can easily learn and start with React.				  																											   |
+| Reutilization            | Components reutilization: An React App is based on components which could be reused in the whole app, also these components could be reused by mobile app [ADR Mobile Technology](./adr-mobile-technology).                              |
+| Usability                | Easy to test.                                   |
+| Guarranty                | Created and maintained by Facebook.                             									   |
+| Maturity				   | Used by gigants like: Netflix, Airbnb, Asana, Pinterest and more. 									   |
+| Costo					   | Save money: due is widely used. It's easy to find developers who want develop on React 		       |
