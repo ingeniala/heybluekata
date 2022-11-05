@@ -6,8 +6,8 @@
 * [Glossary](#glossary)
 * [Prelude](#prelude)
 * [Functional requirements](#functional-requirements)
+* [Constraints](#constraints)
 * [Quality Attributes](#quality-attributes-aka-architecture-characteristics)
-* [Restrictions](#restrictions)
 * [Assumptions](#assumptions)
 * [Architecture](#architecture)
     * [Bussiness Collaboration View](#business-collaboration-view)
@@ -107,9 +107,38 @@ The table bellow describe the High level use cases, and the relationship with th
 | UC23 | As IT responsible of HeyBlue I want best practices, tools to ensure an efficient IT Value delivery | |
 | UC24 | As HeyBlue Admin I want to control and manage the risks, mainly the fraud related risks | |
 
+## Constraints
+
 ## Quality Attributes (AKA Architecture Characteristics)
 
-## Constraints
+The figure 1.3. shows the Quality Attributes (A.K.A. Architecture Characteristics) identified for Hey Blue.
+
+![Architecture Characteristics](/images/1.3.Architecture%20Characteristics.png).
+
+In the following sections we describe each architecture characteristics:
+
+* Usability Characteristics
+    * [AC.USA.01 - Web App Usability](/Characteristics/ac-usa-01.md)
+    * [AC.USA.02 - Mobile App Usability](/Characteristics/ac-usa-02.md)
+* Security Characteristics
+    * [AC.SEC.01 - Secure Information](/Characteristics/ac-sec-01.md)
+    * [AC.SEC.02 - End User AAA](/Characteristics/ac-sec-02.md)
+    * [AC.SEC.03 - Device Linking](/Characteristics/ac-sec-03.md)
+    * [AC.SEC.04 - Direction of searching](/Characteristics/ac-sec-04.md)
+* Confidence Characteristics
+    * [AC.CON.01 - Limited ammount of connections](/Characteristics/ac-con-01.md)
+    * [AC.CON.02 - Connection in a limited ratio](/Characteristics/ac-con-02.md)
+    * [AC.CON.03 - Officer location automatic turn of](/Characteristics/ac-con-03.md)
+* Stability Characteristics
+    * [AC.STA.01 - Weekdays uptime](/Characteristics/ac-sta-01.md)
+    * [AC.STA.02 - Weekends uptime](/Characteristics/ac-sta-02.md)
+* Modifiability Characteristics
+    * [AC.MOD.01 - Add new social media](/Characteristics/ac-mod-01.md)
+* Scalability Characteristics
+    * [AC.SCA.01 - Increase capacity as usage](/Characteristics/ac-sca-01.md)
+* Performance Characteristics
+    * [AC.PER.01 - Speed of connection](/Characteristics/ac-per-01.md)
+    * [AC.PER.02 - Speed of change](/Characteristics/ac-per-02.md)
 
 ## Assumptions
 
@@ -121,6 +150,7 @@ The table bellow describe the High level use cases, and the relationship with th
 * If Hey Blue obtain financing from investors, they want to know the performance of the organization.
 * Hey Blue will have a minimal IT team to maintain the application, supported by automated tools.
 * Hey Blue need to avoid risks associated with the business operation.
+* In a future, will be needed to integrate with additional social networks.
 
 
 ## Architecture
