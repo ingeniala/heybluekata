@@ -11,7 +11,7 @@ In the last years, messaging through queues or topics has become in a way to com
 
 ## Decision 
 
-Alternative selected: *WS Kinesis*
+Alternative selected: *AWS Kinesis*
 
 
 Folowing table contains all reasons that drive us to make previos decision:
