@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [ADR Infrastructure](./adr-infrastructure.md)
-* [ADR Cloud](./adr-cloud.md)
+* [ADR Cloud Provider](./adr-cloud.md)
 * [ADR Mobile Technology](./adr-mobile-technology.md)
 * [ADR Web Technology](./adr-web-technology.md)
 * [ADR Containers Runtime Service](./adr-containers-runtime-service.md)
