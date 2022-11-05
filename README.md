@@ -151,6 +151,7 @@ In the following sections we describe each architecture characteristics:
 * Hey Blue will have a minimal IT team to maintain the application, supported by automated tools.
 * Hey Blue need to avoid risks associated with the business operation.
 * In a future, will be needed to integrate with additional social networks.
+* Mentor and mentee feature will be out of scope of the first version of Hey Blue, and must be implemented in future iterations.
 
 
 ## Architecture
