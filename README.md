@@ -11,6 +11,7 @@
 * [Assumptions](#assumptions)
 * [Architecture](#architecture)
     * [Bussiness Collaboration View](#business-collaboration-view)
+    * [Business Entities View](#business-entites-view)
     * [Application Component Collaboration View](#application-component-collaboration-view)
     * [Technology & Deployment View](#technology--deployment-view)
 * [Evolution Roadmap](#evolution-roadmap)
@@ -157,6 +158,8 @@ In the following sections we describe each architecture characteristics:
 ## Architecture
 
 ### Business Collaboration View
+
+### Business Entities View
 
 ### Application Component Collaboration View
 
