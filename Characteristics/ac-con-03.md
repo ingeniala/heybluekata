@@ -2,10 +2,12 @@
 
 ## Description
 
+Police officers location must automatically shut off after 15 minutes
+
 ## Detailed definition
 
-| *Source* | |
-| *Stimulus* | |
-| *Environment* | |
-| *Impacted Artifacts* | |
-| *Respond* | |
+| *Source* | Police Officer |
+| *Stimulus* | Turn on its location |
+| *Environment* | Production, normal conditions |
+| *Impacted Artifacts* | Location |
+| *Respond* | Location must turn off after 15 minutes |

@@ -39,9 +39,15 @@ Our name is Ingenials, becouse we work together for Ingenia, a consulting firm f
 ## Glossary
 
 * API: Application Program Interface.
-* Driver: represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them
-* Goal: represents a high-level statement of intent, direction, or desired end state for an organization and its stakeholders.
+* Charity: Organizations aimed to improve the world each day. In general, non profit organizations. e.g. Greenpeace, WWF, Operation Smile, UNICEF.
+* Civilian: Member of the community that wants to connect to police officers, get points and redem them for products and services, or donate them to a charity organization or a family in needs.
+* Constraint: Represents a factor that limits the realization of goals.
+* Driver: Represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them
+* Family in needs: Members of a community able to receive points as a donation, to after redem them for products and services.
+* Goal: Represents a high-level statement of intent, direction, or desired end state for an organization and its stakeholders.
 * IRS: Internal Revenue Service.
+* Police Officer: Member of a community that can accept connection with a civilian, obtain points and donate them to a charity organization.
+* Retail: Members of a community providing product and services that can be redem for hey blue points.
 
 ## Prelude
 
