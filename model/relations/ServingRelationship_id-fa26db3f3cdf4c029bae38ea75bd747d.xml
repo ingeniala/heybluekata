@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="device enrollment"
+    id="id-fa26db3f3cdf4c029bae38ea75bd747d">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-50d0e1998d034b5ea24f9d713d347e31.xml#id-50d0e1998d034b5ea24f9d713d347e31"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-06f97d27c7f64374b3138fa8abe0ffd1.xml#id-06f97d27c7f64374b3138fa8abe0ffd1"/>
+</archimate:ServingRelationship>
