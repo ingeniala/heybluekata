@@ -110,6 +110,13 @@ The table bellow describe the High level use cases, and the relationship with th
 
 ## Constraints
 
+The figure 1.2 shows the Constraints detected for Hey Blue.
+
+![Constraints](/images/1.2.Constraints.png)
+
+Below, we will describe each one of them.
+
+
 ## Quality Attributes (AKA Architecture Characteristics)
 
 The figure 1.3. shows the Quality Attributes (A.K.A. Architecture Characteristics) identified for Hey Blue.
