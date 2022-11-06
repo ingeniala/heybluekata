@@ -153,7 +153,7 @@ The main takeout of the model involved in this component is the hard relationshi
 
 The model could look like this (nodes and edges with base properties):
 
-![user-domamin](./images/user-domain-graph-example.png)
+![user-domain](./images/user-domain-graph-example.png)
 
 
 *How can we store this?* The quick answer is a native noSQL graph-based db, like Neo4j or AWS Neptune (if we stick to AWS offering).

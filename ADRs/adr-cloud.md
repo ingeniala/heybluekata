@@ -28,3 +28,4 @@ Folowing table contains all reasons that drive us to make previos decision:
 | Features                 | A widely range of services and features, it’s the cloud with more features in: Computing services, storage service, AI/ML. In the case of Databases Services it’s barely surpassed by Azure, but it's a leader in the rest of relevant services.                                 																						   |
 | Presence around the world| More presence a wide the world, with many locations comparing with Azure and GCP.                                 																								 |
 | Growth                   | It's the best option to grow up, because offer better pricing for largest instances comparing with Azure and GCP. 																													   |
+|GDPR 					   | GDPR compliance. [Link](https://aws.amazon.com/es/blogs/security/all-aws-services-gdpr-ready/)        |
