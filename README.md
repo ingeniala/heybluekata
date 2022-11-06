@@ -11,7 +11,7 @@
 * [Assumptions](#assumptions)
 * [Architecture](#architecture)
     * [Bussiness Collaboration View](#business-collaboration-view)
-    * [Business Entities View](#business-entites-view)
+    * [Business Entities View](#business-entities-view)
     * [Application Component Collaboration View](#application-component-collaboration-view)
     * [Technology & Deployment View](#technology--deployment-view)
 * [Evolution Roadmap](#evolution-roadmap)
