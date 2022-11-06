@@ -144,8 +144,8 @@ In the following sections we describe each architecture characteristics:
 
 * IRS give information through API or file sharing. that let know when an organization is a charity organization. 
 * A state department inform, through API or file sharing, what are the family in needs.
-* A family in need can redeem their points but can't donate it.
-* Retail can only use Web channel.
+* A family in need can redeem their points but can't donate them.
+* Due to its user characteristics, retails can only use Web channel.
 * Hey Blue will hire employees or contractors to support its operation.
 * If Hey Blue obtain financing from investors, they want to know the performance of the organization.
 * Hey Blue will have a minimal IT team to maintain the application, supported by automated tools.
