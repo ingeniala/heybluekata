@@ -18,8 +18,8 @@
           href="FlowRelationship_id-6dc4e8d948b64982b7920854248b3a4c.xml#id-6dc4e8d948b64982b7920854248b3a4c"/>
     </sourceConnections>
     <bounds
-        x="-144"
-        y="204"
+        x="-132"
+        y="280"
         width="120"
         height="55"/>
     <archimateElement
@@ -67,8 +67,7 @@
           href="CompositionRelationship_id-a52cecdad281470b98ff3bf37aec2349.xml#id-a52cecdad281470b98ff3bf37aec2349"/>
     </sourceConnections>
     <bounds
-        x="-12"
-        y="92"
+        y="168"
         width="1189"
         height="244"/>
     <children
