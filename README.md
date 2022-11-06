@@ -6,11 +6,12 @@
 * [Glossary](#glossary)
 * [Prelude](#prelude)
 * [Functional requirements](#functional-requirements)
+* [Constraints](#constraints)
 * [Quality Attributes](#quality-attributes-aka-architecture-characteristics)
-* [Restrictions](#restrictions)
 * [Assumptions](#assumptions)
 * [Architecture](#architecture)
     * [Bussiness Collaboration View](#business-collaboration-view)
+    * [Business Entities View](#business-entities-view)
     * [Application Component Collaboration View](#application-component-collaboration-view)
     * [Technology & Deployment View](#technology--deployment-view)
 * [Evolution Roadmap](#evolution-roadmap)
@@ -38,9 +39,15 @@ Our name is Ingenials, becouse we work together for Ingenia, a consulting firm f
 ## Glossary
 
 * API: Application Program Interface.
-* Driver: represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them
-* Goal: represents a high-level statement of intent, direction, or desired end state for an organization and its stakeholders.
+* Charity: Organizations aimed to improve the world each day. In general, non profit organizations. e.g. Greenpeace, WWF, Operation Smile, UNICEF.
+* Civilian: Member of the community that wants to connect to police officers, get points and redem them for products and services, or donate them to a charity organization or a family in needs.
+* Constraint: Represents a factor that limits the realization of goals.
+* Driver: Represents an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them
+* Family in needs: Members of a community able to receive points as a donation, to after redem them for products and services.
+* Goal: Represents a high-level statement of intent, direction, or desired end state for an organization and its stakeholders.
 * IRS: Internal Revenue Service.
+* Police Officer: Member of a community that can accept connection with a civilian, obtain points and donate them to a charity organization.
+* Retail: Members of a community providing product and services that can be redem for hey blue points.
 
 ## Prelude
 
@@ -107,25 +114,75 @@ The table bellow describe the High level use cases, and the relationship with th
 | UC23 | As IT responsible of HeyBlue I want best practices, tools to ensure an efficient IT Value delivery | |
 | UC24 | As HeyBlue Admin I want to control and manage the risks, mainly the fraud related risks | |
 
+## Constraints
+
+The figure 1.2 shows the Constraints detected for Hey Blue.
+
+![Constraints](/images/1.2.Constraints.png)
+
+Below, we will describe each one of them.
+
+* CONS.01 - The cost should be as little as possible. HeyBlue is a non-profit company. The use of resources should be wisely defined. Choose the cheapest alternative if it is possible.
+* CONS.02 - Application should be mobile and web
+* CONS.03 - There is no restriction about technology
+* CONS.04 - The solution should be limited to USA cities (by Zip Codes)
+* CONS.05 - The officer location feature must be implemented in a way that ensure the officer confidence on it.
+* CONS.06 -  Define a solution that evolve with a team
+* CONS.07 - Compliance with GDPR
+
+
 ## Quality Attributes (AKA Architecture Characteristics)
 
-## Constraints
+The figure 1.3. shows the Quality Attributes (A.K.A. Architecture Characteristics) identified for Hey Blue.
+
+![Architecture Characteristics](/images/1.3.Architecture%20Characteristics.png).
+
+In the following sections we describe each architecture characteristics:
+
+* Usability Characteristics
+    * [AC.USA.01 - Web App Usability](/Characteristics/ac-usa-01.md)
+    * [AC.USA.02 - Mobile App Usability](/Characteristics/ac-usa-02.md)
+* Security Characteristics
+    * [AC.SEC.01 - Secure Information](/Characteristics/ac-sec-01.md)
+    * [AC.SEC.02 - End User AAA](/Characteristics/ac-sec-02.md)
+    * [AC.SEC.03 - Device Linking](/Characteristics/ac-sec-03.md)
+    * [AC.SEC.04 - Direction of searching](/Characteristics/ac-sec-04.md)
+* Confidence Characteristics
+    * [AC.CON.01 - Limited ammount of connections](/Characteristics/ac-con-01.md)
+    * [AC.CON.02 - Connection in a limited ratio](/Characteristics/ac-con-02.md)
+    * [AC.CON.03 - Officer location automatic turn of](/Characteristics/ac-con-03.md)
+* Stability Characteristics
+    * [AC.STA.01 - Weekdays uptime](/Characteristics/ac-sta-01.md)
+    * [AC.STA.02 - Weekends uptime](/Characteristics/ac-sta-02.md)
+* Modifiability Characteristics
+    * [AC.MOD.01 - Add new social media](/Characteristics/ac-mod-01.md)
+* Scalability Characteristics
+    * [AC.SCA.01 - Increase capacity as usage](/Characteristics/ac-sca-01.md)
+* Performance Characteristics
+    * [AC.PER.01 - Speed of connection](/Characteristics/ac-per-01.md)
+    * [AC.PER.02 - Speed of change](/Characteristics/ac-per-02.md)
 
 ## Assumptions
 
 * IRS give information through API or file sharing. that let know when an organization is a charity organization. 
 * A state department inform, through API or file sharing, what are the family in needs.
-* A family in need can redeem their points but can't donate it.
-* Retail can only use Web channel.
+* A family in need can redeem their points but can't donate them.
+* Due to its user characteristics, retails can only use Web channel.
 * Hey Blue will hire employees or contractors to support its operation.
 * If Hey Blue obtain financing from investors, they want to know the performance of the organization.
 * Hey Blue will have a minimal IT team to maintain the application, supported by automated tools.
 * Hey Blue need to avoid risks associated with the business operation.
+* In a future, will be needed to integrate with additional social networks.
+* Mentor and mentee feature will be out of scope of the first version of Hey Blue, and must be implemented in future iterations.
+* There is no restriction about technology
+* We must define a solution that evolve with a team, starting with a simple but useful solution with a small team supporting it.
 
 
 ## Architecture
 
 ### Business Collaboration View
+
+### Business Entities View
 
 ### Application Component Collaboration View
 
