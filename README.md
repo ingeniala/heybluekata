@@ -122,6 +122,14 @@ The figure 1.2 shows the Constraints detected for Hey Blue.
 
 Below, we will describe each one of them.
 
+* CONS.01 - The cost should be as little as possible. HeyBlue is a non-profit company. The use of resources should be wisely defined. Choose the cheapest alternative if it is possible.
+* CONS.02 - Application should be mobile and web
+* CONS.03 - There is no restriction about technology
+* CONS.04 - The solution should be limited to USA cities (by Zip Codes)
+* CONS.05 - The officer location feature must be implemented in a way that ensure the officer confidence on it.
+* CONS.06 -  Define a solution that evolve with a team
+* CONS.07 - Compliance with GDPR
+
 
 ## Quality Attributes (AKA Architecture Characteristics)
 
@@ -166,6 +174,8 @@ In the following sections we describe each architecture characteristics:
 * Hey Blue need to avoid risks associated with the business operation.
 * In a future, will be needed to integrate with additional social networks.
 * Mentor and mentee feature will be out of scope of the first version of Hey Blue, and must be implemented in future iterations.
+* There is no restriction about technology
+* We must define a solution that evolve with a team, starting with a simple but useful solution with a small team supporting it.
 
 
 ## Architecture
