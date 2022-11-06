@@ -1025,4 +1025,15 @@
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-6cfaccf617d34273b879f85e6b512720.xml#id-6cfaccf617d34273b879f85e6b512720"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-8902691641804ab19bc5479294dd9a60"
+      textAlignment="1"
+      content="porque puede ser por web?">
+    <bounds
+        x="912"
+        y="444"
+        width="185"
+        height="37"/>
+  </children>
 </archimate:ArchimateDiagramModel>
