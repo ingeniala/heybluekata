@@ -24,3 +24,18 @@ Folowing table contains all reasons that drive us to make previos decision:
 | Integrations             | Can send stream records directly to services such as Amazon S3, Amazon Redshift, Amazon ElasticSearch, Splunk, AWS Lambda, unlike AWS SQS which only allows AWS Lambda.																   |
 | Pub/Sub                  | Build multiple applications reading from the same stream independently, unlike AWS SQS where one application one queue.																											 |
 | Quering data             | “Streaming MapReduce” querying capability (Spark, Flink).											   |
+
+## Constraints mapping
+
+| Constraint ID | Explanation |
+| ------------- | ----------- |
+| CONS.01 | A cloud solution could start with little cost and increase per usage. |
+| CONS.05 | We decided the technology without restrictions except those defined here |
+| CONS.06 | The solution will evolve as needed |
+
+## Architecture Characteristics Mapping
+
+| Characteristic ID | Explanation |
+| ------------- | ----------- |
+| AC.STA.01 and AC.STA.02 | Inherited from [Cloud Technology](./adr-cloud.md) |
+| AC.PER.01 and AC.PER.02 | AWS SNS will enable the compliment of this characteristic |

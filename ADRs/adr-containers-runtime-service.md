@@ -23,3 +23,16 @@ Folowing table contains all reasons that drive us to make previos decision:
 | Community 			   | Community support because is based on an open source product, unlike ECS what is a proprietary AWS product.                  																										   |
 | Capacity                 | Someone of HeyBlue should be in charge of infrastructure, it will be easier found Devops with knowledge in k8s (EKS) than ECS.  										   																    |
 | Integration              | K8s allows integrations / enhacements with many tools, for example the templating deployment tool helm, envoy, istio, a vast array of tracing, monitoring, and metrics reporting solutions (Prometheus, Grafana, Jaeger, and more), unlike ECS.																															   |
+
+## Constraints mapping
+
+| Constraint ID | Explanation |
+| ------------- | ----------- |
+| CONS.01 | EKS avoid vendor lockin, and also have community support, cheaper than ECS |
+
+## Architecture Characteristics Mapping
+
+| Characteristic ID | Explanation |
+| ------------- | ----------- |
+| AC.SCA.01 | Containers are a good fit to enable this characteristic |
+| AC.STA.01 and AC.STA.02 | Containers are a good fit to enable this characteristic |

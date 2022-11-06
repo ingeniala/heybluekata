@@ -19,3 +19,19 @@ Reasons for decision:
 - It's simple to start with.
 - Native integration with the architecture components due to it belongs to AWS.
 - It's not necessary have specialists in an other platforms, we only need people with knowledge in AWS services.
+
+## Constraints mapping
+
+| Constraint ID | Explanation |
+| ------------- | ----------- |
+| CONS.01 | Is a cheap solution if it is managed with Non-profit org AWS offering |
+| CONS.05 | We decided the technology without restrictions except those defined here |
+| CONS.07 | [AWS](https://aws.amazon.com/government-education/nonprofits/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc) is GDPR compliant solution |
+
+## Architecture Characteristics Mapping
+
+| Characteristic ID | Explanation |
+| ------------- | ----------- |
+| AC.SEC.02 | Authentication and Authorization are core features of Cognito |
+| AC.SEC.03 | AWS cognito supports device linking with little effort |
+| AC.STA.01 and AC.STA.02 | Inherited from [Cloud ADR](adr-cloud.md) |

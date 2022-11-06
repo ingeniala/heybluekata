@@ -26,3 +26,11 @@ Folowing table contains all reasons that drive us to make previos decision:
 | Boost productivity       | It allows to have an application with few lines of code, unlike to Java.                                   																					       |
 | Community                | It's widely accepted by community with a large library supports common tasks and commands.			   |
 | Usability                | It contains code that can be used for many different purposes, ranging from generating documentation to unit testing.																										       		    |
+
+## Constraints mapping
+
+| Constraint ID | Explanation |
+| ------------- | ----------- |
+| CONS.01 | With Python es easier to find developers and active community |
+| CONS.05 | We decided the technology without restrictions except those defined here |
+
