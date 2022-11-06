@@ -1,4 +1,4 @@
-# AC.CON.03 - Officer location automatic turn of
+# AC.CON.03 - Officer location automatic turn off
 
 ## Description
 
