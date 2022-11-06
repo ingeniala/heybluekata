@@ -6,6 +6,8 @@ The integration with a new social network have to be implemented in less than tw
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | Product Owner |
 | *Stimulus* | Need to integrate with a new social network |
 | *Environment* | Development, QA |

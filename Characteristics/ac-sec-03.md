@@ -6,6 +6,8 @@ Users must link an email address to a particular phone or device. No user must b
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | New user |
 | *Stimulus* | Trying to register in the platform |
 | *Environment* | Production, normal conditions |

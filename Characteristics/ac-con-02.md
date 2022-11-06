@@ -6,6 +6,8 @@ A connection can only happen if the community member and the police officer are 
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | Civilian |
 | *Stimulus* | Trying to connecto with a police officer |
 | *Environment* | Production, normal conditions |

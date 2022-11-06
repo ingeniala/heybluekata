@@ -6,6 +6,8 @@ Members of the community can only have one connection per officer per 24 hours p
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | Civilian |
 | *Stimulus* | Trying to connect with a police officer |
 | *Environment* | Production, normal conditions |

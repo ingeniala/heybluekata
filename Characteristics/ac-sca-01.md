@@ -6,6 +6,8 @@ Start with little use rate (Friends and Family) and scalate the solution as usag
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | Usage rate |
 | *Stimulus* | Increase the volume of user and interactions |
 | *Environment* | Production, higher use |

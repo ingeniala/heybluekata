@@ -6,6 +6,8 @@ The users of the application (Police officiers, civilians, charity and business)
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | User |
 | *Stimulus* | Want to access the platfomr |
 | *Environment* | Production, normal conditions |

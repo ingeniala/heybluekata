@@ -6,6 +6,8 @@ Connection between police officer and civilians should be established in less th
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | Police Officer |
 | *Stimulus* | Accept the civilian request for connection |
 | *Environment* | Production, normal conditions |

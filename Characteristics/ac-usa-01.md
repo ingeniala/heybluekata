@@ -6,6 +6,8 @@ The design of the web app experience should comply with industry usability guide
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | Web Designer |
 | *Stimulus* | Design a new user experience |
 | *Environment* | Development |

@@ -6,6 +6,8 @@ The application must protect user data, considering what data is stored and what
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | New piece of data |
 | *Stimulus* | New information is generated |
 | *Environment* | Production, normal conditions |

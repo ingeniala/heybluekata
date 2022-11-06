@@ -6,6 +6,8 @@ Changes in the civilian and police officer score should happen in less than 2 mi
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | Balance score movement |
 | *Stimulus* | Connection, Redemption or donation |
 | *Environment* | Production, normal conditions |

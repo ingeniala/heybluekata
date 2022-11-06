@@ -6,6 +6,8 @@ Police officers location must automatically shut off after 15 minutes
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | Police Officer |
 | *Stimulus* | Turn on its location |
 | *Environment* | Production, normal conditions |

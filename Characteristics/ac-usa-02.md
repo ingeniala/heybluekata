@@ -6,6 +6,8 @@ The design of the mobile app experience should comply with industry usability gu
 
 ## Detailed definition
 
+| Aspect   | Value           |
+| -------- | --------------- |
 | *Source* | Mobile Designer |
 | *Stimulus* | Design a new user experience |
 | *Environment* | Development |
