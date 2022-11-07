@@ -189,7 +189,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a8fc652fc8fb41f5a89a941a11e77d14"
-        targetConnections="id-cca5dc4ef046438992fdb491bb27d82c id-3c816c533ce3411d90ae8e7cf9375539 id-d98a612c8daa41d1b72f0d443296d97b">
+        targetConnections="id-cca5dc4ef046438992fdb491bb27d82c id-3c816c533ce3411d90ae8e7cf9375539 id-d98a612c8daa41d1b72f0d443296d97b id-d6a97e10d4c9414697de6366e8e8c96e">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-8ca15580cfa94a8885d0b235445279d0"
@@ -202,6 +202,7 @@
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-bd7504fc76da4a78a69cd2dec9a38afd"
+          targetConnections="id-c76a102d075a4298b68b2103472c57ab"
           source="id-a8fc652fc8fb41f5a89a941a11e77d14"
           target="id-35863bf50c69485c8c3fa9e13610efe6">
         <bendpoints
@@ -245,7 +246,7 @@
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-3bc46cc9a0714bd38e0dd76090535a12"
-          targetConnections="id-8ca15580cfa94a8885d0b235445279d0">
+          targetConnections="id-8ca15580cfa94a8885d0b235445279d0 id-f470f9353c2e490db5259e4fac12d5d6">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-6df37bcc68fc49adaf04ce11ec577827"
@@ -493,7 +494,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-61e763b6d30c425fbbb47214149fc423"
-        targetConnections="id-76c2407ab28d41fdb7e204f2609e6a28">
+        targetConnections="id-76c2407ab28d41fdb7e204f2609e6a28 id-ddaba6a3a82f4657a392d592f3013681">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-359a92ae9d874a8fa8623a25fdfd3c3d"
@@ -651,7 +652,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-30458878eeeb40069d90cec979ca4d60"
-      targetConnections="id-7e0bd21716d142fbbb6b7ebfa8fa6d94">
+      targetConnections="id-7e0bd21716d142fbbb6b7ebfa8fa6d94 id-ef4c64bb23f041c5a07022e284708901">
     <bounds
         x="1092"
         y="648"
@@ -660,5 +661,102 @@
     <archimateElement
         xsi:type="archimate:Node"
         href="Node_id-580f8f5d42a64353b2b66c2f31dd214a.xml#id-580f8f5d42a64353b2b66c2f31dd214a"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-7d192d4f785e46748b89ecc3da79d2af"
+      textAlignment="1"
+      content="¿Tenemos definido el servicio tecnológico para esto?">
+    <sourceConnections
+        id="id-ef4c64bb23f041c5a07022e284708901"
+        source="id-7d192d4f785e46748b89ecc3da79d2af"
+        target="id-30458878eeeb40069d90cec979ca4d60"/>
+    <bounds
+        x="1236"
+        y="647"
+        width="181"
+        height="44"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-239f49886efb418f8c2907cb78e779aa"
+      textAlignment="1"
+      content="La vista no tiene Viewpoint seteado:va Technology Usage">
+    <bounds
+        x="1104"
+        y="36"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-cfbd0f0ca2284391861a0813a9a386e8"
+      textAlignment="1"
+      content="Por mas que sea un nodo archimate, le pondría &quot;Onboarding Containers&quot;">
+    <sourceConnections
+        id="id-f470f9353c2e490db5259e4fac12d5d6"
+        source="id-cfbd0f0ca2284391861a0813a9a386e8"
+        target="id-3bc46cc9a0714bd38e0dd76090535a12"/>
+    <bounds
+        x="864"
+        y="126"
+        width="181"
+        height="68"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-6a2e8b2c2800476f8bea502c3c120a0b"
+      textAlignment="1"
+      content="¿porqué esta asignación? ¿kinesis corre dentro de kubernetes?">
+    <sourceConnections
+        id="id-c76a102d075a4298b68b2103472c57ab"
+        source="id-6a2e8b2c2800476f8bea502c3c120a0b"
+        target="id-bd7504fc76da4a78a69cd2dec9a38afd"/>
+    <bounds
+        x="792"
+        y="635"
+        width="181"
+        height="68"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-6e520d257b2f4d66ad6e86a2107d4e3e"
+      textAlignment="1"
+      content="Si kubernetes es un EKS lo explicitaría: &quot;AWS EKS&quot;">
+    <sourceConnections
+        id="id-d6a97e10d4c9414697de6366e8e8c96e"
+        source="id-6e520d257b2f4d66ad6e86a2107d4e3e"
+        target="id-a8fc652fc8fb41f5a89a941a11e77d14"/>
+    <bounds
+        x="672"
+        y="126"
+        width="181"
+        height="68"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-3bc10d99bf754192aa541b93e0b2e95c"
+      textAlignment="1"
+      content="No coincide el nombre de la vista con lo documentado ni con los flujos:&#xA;- El componente de onboarding se llama &quot;HeyBlue Onboarding Service&quot;&#xA;- El flujo de onboarding tiene varios app components que no están acá">
+    <bounds
+        x="660"
+        y="30"
+        width="397"
+        height="74"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-648f4e46c4224d32b7770cdee7124c30"
+      textAlignment="1"
+      content="Si es AWS Certificate Manager y renombrar">
+    <sourceConnections
+        id="id-ddaba6a3a82f4657a392d592f3013681"
+        source="id-648f4e46c4224d32b7770cdee7124c30"
+        target="id-61e763b6d30c425fbbb47214149fc423"/>
+    <bounds
+        x="48"
+        y="641"
+        width="141"
+        height="69"/>
   </children>
 </archimate:ArchimateDiagramModel>
