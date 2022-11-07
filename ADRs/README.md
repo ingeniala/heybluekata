@@ -15,3 +15,4 @@
 * [ADR Observability platform](./adr-observability-platform.md)
 * [ADR Analytics](./adr-analytics.md)
 * [ADR Rule Engine](./adr-rule-engine.md)
+* [ADR Finance and Treasury](./adr-finance-treasury.md)
