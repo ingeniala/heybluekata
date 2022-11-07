@@ -1,7 +1,7 @@
 # Component responsibility
 
 ## Table of Contents
-------  
+
 [Onboarding](#onboarding)  
 [User Catalogs](#user-catalogs)     
 [Scoring](#scoring)     
