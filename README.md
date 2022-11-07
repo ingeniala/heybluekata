@@ -478,7 +478,7 @@ This set of views are extracted from the Archimate model and detail the:
 - Main business events derived from the flow and how they connect the different business flows
 - Relations between the components
 - Main business entities of the architecture
-- Access operations on those business entities, for example: what process creates, updates or read them
+- Access operations on those business entities, to show what process creates, updates or read them
 
 ### Application Component Collaboration Views
 
