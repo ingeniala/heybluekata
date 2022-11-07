@@ -2,7 +2,7 @@
 
 ## Description
 
-Uptime 99.95% from monday to friday 9AM to 10PM
+Minimum uptime 99.95% from monday to friday 9AM to 10PM
 
 ## Detailed definition
 
@@ -12,4 +12,4 @@ Uptime 99.95% from monday to friday 9AM to 10PM
 | *Stimulus* | Using the platform |
 | *Environment* | Production, monday to friday 9AM to 10PM |
 | *Impacted Artifacts* | All the components |
-| *Respond* | Solution uptime 99.95% |
+| *Respond* | Solution uptime at least 99.95% of the time |
