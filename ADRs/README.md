@@ -13,3 +13,4 @@
 * [ADR IPD Platform](./adr-idp-platform.md)
 * [ADR Notification mechanism](./adr-notification-mechanism.md)
 * [ADR Observability platform](./adr-observability-platform.md)
+* [ADR Analytics](./adr-analytics.md)

@@ -323,3 +323,4 @@ Additionally, we provided an HTML view of the model, in the folder [htmlModel](h
 * [ADR IDP Platform](./ADRs/adr-idp-platform.md)
 * [ADR Notification mechanism](./ADRs/adr-notification-mechanism.md)
 * [ADR Observability platform](./ADRs/adr-observability-platform.md)
+* [ADR Analytics](./adr-analytics.md)
