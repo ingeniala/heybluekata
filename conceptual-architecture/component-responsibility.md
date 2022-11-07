@@ -1,5 +1,20 @@
 # Component responsibility
 
+## Table of Contents
+------  
+[Onboarding](#onboarding)  
+[User Catalogs](#user-catalogs)
+[Scoring](#scoring)
+[Tracking](#tracking)
+[Content Manager](#content-manager)
+[Business Rules](#business-rules)
+[Users Domain](#users-domain)
+[QR Generation](#qr-generation)
+[Data Archiving](#data-archiving)
+[Analytics](#analytics)
+[Messaging Layer](#messaging-layer)
+[Security Concerns](#security-concerns)
+
 ## Onboarding
 
 This service will handle the business logic related to the onboarding process, no matter the entity. This means that not only a police officer or civilian will be able to use it but also the merchants, charitable organizations or families in need. Some of the entities will use the web client to signup and create a user account, and others (police officer,civilian) could use the mobile client.
@@ -203,7 +218,7 @@ Because of costs, the team preferred to **develop this in-house** than integrati
 
 N/A
 
-## Data Archiving/Aging
+## Data Archiving
 
 Every solution needs to hold historical data for several reasons, from legal to technical.
 In this scenario, the team considered it prudent to store all the transactions recorded by users, the points given/earned, the goods acquired, the donations made, etc.
@@ -234,7 +249,7 @@ Following a diagram explaining this scenario:
 
 **ADD_DIAGRAM**
 
-## Messaging
+## Messaging Layer
 
 Backing up the [ADR Messaging](../ADRs/adr-messaging-mechanism.md) decision of designing decoupled components to guarantee async flows, thus no extra waiting time for users (a better experience), this section describes how the information is being exchanged through an event broker, in this case Kinesis stack (using Kinesis Data Streams + Data Firehose). 
 
@@ -243,7 +258,7 @@ _Why using both of them?_ Although any of them provides real-time / near real-ti
 - Kinesis Data Streams provides the data storage needed in case of data loss or corruption on the consumer side, and also nice features like replay capabilities.
 - Kinesis Data Firehose makes it easy to load that streaming data into other AWS services, like ElasticSearch, S3 buckets or Redshift. It's like the glue needed to bind all the data not only to suscribed consumers, but also a datastore which can grow exponentially through time (such as a lake or a telemetry tool).
 
-<img src="./images/kinesis-streams.png" alt="kinesis-streams" width="500"/>
+<img src="./images/kinesis-streams.png" alt="kinesis-streams" width="700"/>
 
 ### Stream distribution
 
@@ -255,9 +270,9 @@ The second one is basically for every transaction registered by the platform (do
 
 As a resume, to logically separate sets of data, there are separate stream for each dataset.
 
-## Security
+## Security Concerns
 
-This component oversees managing the security aspects of the whole solution. 
+This topic involves handling the security aspects of the whole solution. 
 
 Based on the [ADR Cloud Provider](../ADRs/adr-cloud.md), the team decided to stick to the AWS Well Architected Framework, following the [AWS Security Pillar](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/security.html).
 
