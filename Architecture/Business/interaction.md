@@ -32,3 +32,9 @@ The figure 1.5. shows how the *interaction* business function support the functi
 ![Interaction - Motivation Matrix](/Assets/1.5.Motivation-Interaction-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
+
+## Interaction - Conceptual Architecture mapping
+
+The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
+
+![Interaction Conceptual Architecture Mapping](/Assets/Interaction-Conceptual-Architecture-Mapping.png)

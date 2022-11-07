@@ -245,8 +245,6 @@ This set of views are extracted from the Archimate model and detail the:
 * [Device relinking](/Business/Flows/device-relinking.md)
 * [Storefront Management](/Business/Flows/storefront-management.md)
 
-### Business Entities View
-
 ### Application Component Collaboration Views
 
 This set of views are also extracted from the Archimate model and detail the:
