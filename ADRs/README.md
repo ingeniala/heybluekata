@@ -17,3 +17,4 @@
 * [ADR Rule Engine](./adr-rule-engine.md)
 * [ADR Finance and Treasury](./adr-finance-treasury.md)
 * [ADR HR](./adr-hr.md)
+* [ADR Code Repository](./adr-code-repository.md)
