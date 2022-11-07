@@ -17,3 +17,9 @@ The figure 1.10. shows how the *commerce* business function support the function
 ![Commerce - Motivation Matrix](/Assets/1.10-Motivation-Commerce-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
+
+## Commerce - Conceptual Architecture mapping
+
+The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
+
+![Commerce Conceptual Architecture Mapping](/Assets/Commerce-Conceptual-Architecture-Mapping.png)
