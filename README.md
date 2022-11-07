@@ -68,7 +68,7 @@ and [Verdie School Nonprofit](https://www.verdiecoschool.org/heyblue)
 
 The figure 1.1 - Motivation shows the vision of HeyBlue, its functional requirements and how them relate or influence each other.
 
-![Figure 1.1 - Motivation](/images/1.1.Motivation.png "Figure 1.1. - Motivation")
+![Figure 1.1 - Motivation](/Assets/1.1.Motivation.png "Figure 1.1. - Motivation")
 
 Bellow, we will describe each of them.
 
@@ -118,7 +118,7 @@ The table bellow describe the High level use cases, and the relationship with th
 
 The figure 1.2 shows the Constraints detected for Hey Blue.
 
-![Constraints](/images/1.2.Constraints.png)
+![Constraints](/Assets/1.2.Constraints.png)
 
 Below, we will describe each one of them.
 
@@ -135,7 +135,7 @@ Below, we will describe each one of them.
 
 The figure 1.3. shows the Quality Attributes (A.K.A. Architecture Characteristics) identified for Hey Blue.
 
-![Architecture Characteristics](/images/1.3.Architecture%20Characteristics.png).
+![Architecture Characteristics](/Assets/1.3.Architecture%20Characteristics.png).
 
 In the following sections we describe each architecture characteristics:
 
@@ -193,7 +193,7 @@ In the case of Hey Blue, we defined a reference architecture based on the work o
 
 The figure 1.4. shows the reference architecture for social network, which define the business responsibilities associated with the Hey Blue case.
 
-![Social Network Reference Architecture](/images/1.4.Social-Network-Reference-Architecture.png)
+![Social Network Reference Architecture](/Assets/1.4.Social-Network-Reference-Architecture.png)
 
 In the following sections we will describe each one of the business responsibilities.
 
@@ -228,7 +228,7 @@ Ability of a user to find and connect with other users, bases on their profile a
 
 The figure 1.5. shows how the *interaction* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![Interaction - Motivation Matrix](/images/1.5.Motivation-Interaction-mapping.png)
+![Interaction - Motivation Matrix](/Assets/1.5.Motivation-Interaction-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
 
@@ -278,7 +278,7 @@ Profile management of the user in the social network, including:
 
 The figure 1.6. shows how the *user* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![User - Motivation matrix](/images/1.6-Motivation-User-mapping.png)
+![User - Motivation matrix](/Assets/1.6-Motivation-User-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
 
@@ -300,7 +300,7 @@ Device through which the user connects to the platform
 
 The figure 1.7. shows how the *ubiquity* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![Ubiquity - Motivation Matrix](/images/1.7.Motivation-Ubiquity-mapping.png)
+![Ubiquity - Motivation Matrix](/Assets/1.7.Motivation-Ubiquity-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
 
@@ -324,7 +324,7 @@ Rules by a user can redem points for prices, products or services.
 
 The figure 1.8. shows how the *gamification* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![Gamification - Motivation Matrix](/images/1.8-Motivation-Gamification-mapping.png)
+![Gamification - Motivation Matrix](/Assets/1.8-Motivation-Gamification-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
 
@@ -369,7 +369,7 @@ Privacy and security management, including GDPR
 
 The figure 1.9. shows how the *foundation* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![Foundation - Motivation Matrix](/images/1.9.Motivation-Foundation-mapping.png)
+![Foundation - Motivation Matrix](/Assets/1.9.Motivation-Foundation-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
 
@@ -389,7 +389,7 @@ These functions allows the management of the product Catalog, aiming the creatio
 
 The figure 1.10. shows how the *commerce* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![Commerce - Motivation Matrix](/images/1.10-Motivation-Commerce-mapping.png)
+![Commerce - Motivation Matrix](/Assets/1.10-Motivation-Commerce-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
 
@@ -441,7 +441,7 @@ Risk control and lifecycle management
 
 The figure 1.11. shows how the *enterprise* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![Enterprise - Motivation Matrix](/images/1.11.Motivation-Enterprise-mapping.png)
+![Enterprise - Motivation Matrix](/Assets/1.11.Motivation-Enterprise-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture. However, due the maturity of the organization, we recommend that the business functionality associated with *Investment* and *Integration Management* would let out of scope of the firsts versions, and be deployed in future evolutions of the solution.
 
