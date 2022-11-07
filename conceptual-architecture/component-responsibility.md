@@ -130,36 +130,37 @@ This module will store information about the list of devices submitting GPS loca
 
 ## Content Manager
 
-The solution also needs to support a content manager, so the Merchants and Municipalities can manage their sites. In the case of marchants can add the content for the promoted products. On the other hand, municipalities could present all availables types of penalties that could be reedem by civilians. 
+The solution also needs to support a content manager, so the _Merchants and Municipalities_ can manage their sites. In the case of _Merchants_, every one could add content for the products being offered for redemption. On the other hand, _Municipalities_ could present all availables types of fines that could be reedem by civilians. 
 
-**Money cost** is one of the most important drivers/restrictions of the business requirements so in this case the team choses use [Prismic](https://prismic.io/). Prismic provides a plugin for Gatsby (it is a static site generator and based on React, it has a lot of plugins) in order to allow create easly the content. The approach is the following:
+**Money cost** is one of the most important driver/restriction within the business requirements so in this case the team chooses to use [Prismic](https://prismic.io/) as a templating engine for sites creation. Prismic provides a plugin for Gatsby (a static site generator based on React with a lot of plugins) in order to deploy the site easily. The flow is described as follows:
 
-- Configure a webhook in prismic in order to know each time a content is created/updated.
-- Lambda in order to trigger GitHub Action and start de build and upload of Gatsby website.
-- Generated content is stored in S3 AWS.
-- CloudFront present content to user.
+- A webhook is triggered in Prismic every time a content is created/updated.
+- That webhook arrives at the AWS API Gateway (HTTP API), which will then awake a lambda function.
+- The lambda function will trigger a GitHub Action pipeline, which will build the Gatsby site and upload the generated static files (html) to S3 buckets.
+- CloudFront distribution will allow exposition of the content in a distributed fashion, what is called a _CDN_.
 
+**ADD_DIAGRAM**
 
 ### Runtime
 
-In this case, the team proposes Lambda AWS, because this component will not have a frequently use, creation and updates on marchants and municipality stores will not be frecuent.
+In this case, the team proposes a run-to-completion serverless workload, like AWS Lambdas, as this component will not be used frequently and also the nature of this processing is a great fit for these kind of workloads (receive an event and then post to an async API).
 
 
 ### Storage
 
-As was mentioned previously the proposal for storage is AWS S3.
+As was mentioned previously, the proposal for storage layer is AWS S3.
 
 
 ## Catalog Service
 
-This service is in charge of fully manage catalogs for marchants and municipalities. This component should expose capabilities in order to allow:
+This service is intended to fully manage catalogs for _Merchants and Municipalities_. This component should expose capabilities in order to allow:
 
-- create/update/delete/get a product's catalog for a marchant store.
-- create/update/delete/get a penalty's catalog for a municipality.
-- add/update/delete/get products to marchant's catalog.
-- add/update/delete/get penalties to municipality's catalog.
+- create/update/delete/get a catalog of products for a given merchant.
+- create/update/delete/get a catalog of fines for a given municipality.
+- add/update/delete/get products to a certain merchant's catalog.
+- add/update/delete/get fines to municipality's catalog.
 
-Also should have an integration with Business Rules Service in order to return the reedemtion points for products and penalties.
+It should also have an integration with _Business Rules Service_ in order to return the reedemtion points depending on a certain product or fine.
 
 ### Runtime
 
@@ -168,7 +169,7 @@ Like the rest of the cluster containers, it will be built using [FastAPI](https:
 
 ### Storage
 
-Catalogs for marchants and catalogs for municipalities will not have necessary the same structure and data, so the proposal is to use a noSQL DB, like Dynamo DB from AWS due to whole architecture was based on AWS services.
+Catalogs for _merchants_ and municipalities will not have necessary the same data structure, so the proposal is to use a noSQL DB, like Dynamo DB from AWS, to stick to the guidelines defined for the whole architecture (based on AWS services).
 
 
 ## Business Rules
