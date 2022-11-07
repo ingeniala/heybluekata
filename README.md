@@ -458,7 +458,8 @@ As we can see in the previous diagram, all the busines functions will participat
 ## Evolution Roadmap
 
 ## Adoption Practices
-
+### Incident Management
+The incident management process is a set of activities that are performed to identify, report, and resolve incidents. The process is designed to minimize the impact of incidents on the business and to restore normal operations as quickly as possible. The process is also designed to identify the root cause of incidents and to prevent recurrence. Recommended to be integrated and automatized with the monitoring and alerting capabilities, in our case, the AWS CloudWatch, tool defined in the [ADR: Observability Platform](./ADRs/adr-observability-platform.md) section.
 ## Team organization
 
 ## Resources
