@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="General View"
+    name="Conceptual Architecture"
     id="id-8991b222311a45a9b3218155c2619fe7"
     viewpoint="application_cooperation">
   <children
@@ -1018,7 +1018,7 @@
         xsi:type="archimate:DiagramModelNote"
         id="id-f4f78ed9baaf43a5993fb49660e109a9"
         textAlignment="1"
-        content="ej cognito / keycloak">
+        content="ej cognito">
       <bounds
           x="72"
           y="336"
