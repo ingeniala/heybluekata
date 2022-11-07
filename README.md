@@ -474,6 +474,29 @@ The incident management process is a set of activities that are performed to ide
 
 ## Team organization
 
+Following the requirements defined by [CONS.06](#constraints), we strongly recommend to addopt Team Topologies philosophy to define the responsibilities associated with Hey Blue. 
+
+In the very beginning, just one Stream Aligned team will be enough to cover the responsibilities needed to deploy the first versions of Hey Blue in an agile way. The image below describe this initial situation:
+
+![Team Topologies  v1.0](/Assets/TeamTopologies-V1.0.png "Initial Team Topology")
+
+In this initial team deployment, we recommend to have the following roles:
+
+* Web Developer, responsible for the development, evolution and support of the web components.
+* Mobile Developer, responsible for the development, evolution and support of the web components.
+* Backend Developer, responsible for the development, evolution and support of the backend services.
+* Product Owner, responsible for the definition and guidance of the business definitions and backlog priorization.
+* Architect, responsible of ensure that the development activities are compliants with the architecture definition, enabling a feedback loop as needed.
+* Agile Coach, who is in charge of the agile ceremonies that enable team collaboration.
+* OPS, in charge of the opperation of the infrastructure, enabling of the developer platform and support for the deployment of changes.
+* Quality engineer, responsible for quality assurance. 
+
+When the business and platform requirements increase in complexity, it will be possible to add a platform team to support the application lifecycle, or divide the single Strem-aligned team into several, with the following division, for example one Stream-aligned team for Civilian-oriented features, and another Stream-aligned team for non-civilian-oriented features, as shown below.
+
+![Team Topologies v2.0](/Assets/TeamTopologies-V2.0.png "Evolutionary Team Topology")
+
+As we can see, the roles are the same as in the version 1.0 (but for sure we need more people energizing them!). This type of organization enable a team evolve as the platform increase the complexity.
+
 ## Resources
 
 ### Archimate
