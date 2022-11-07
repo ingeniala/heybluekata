@@ -1,8 +1,8 @@
-# Finance and treasury
+# HR
 
 ## Summary
 
-Any business has to manage in an efficient way its numbers, to ensure its health and evolution, not only to investors, but also to internals actors.
+Hey Blue will have amployees, consultants or volunteers working with them. To ensure the experience of these actors, to enable a good performance of the solutions, they need a solution to manage the lifecycle of their collaborators
 
 
 ### Alternatives
