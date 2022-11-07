@@ -2,18 +2,19 @@
 
 ## Table of Contents
 
-[Onboarding](#onboarding)  
-[User Catalogs](#user-catalogs)     
-[Scoring](#scoring)     
-[Tracking](#tracking)       
-[Content Manager](#content-manager)     
-[Business Rules](#business-rules)       
-[Users Domain](#users-domain)   
-[QR Generation](#qr-generation)     
-[Data Archiving](#data-archiving)   
-[Analytics](#analytics)     
-[Messaging Layer](#messaging-layer)     
-[Security Concerns](#security-concerns)     
+- [Onboarding](#onboarding)  
+- [User Catalogs](#user-catalogs)     
+- [Scoring](#scoring)     
+- [Tracking](#tracking)       
+- [Content Manager](#content-manager) 
+- [Catalog Service](#catalog-service)    
+- [Business Rules](#business-rules)       
+- [Users Domain](#users-domain)   
+- [QR Generation](#qr-generation)     
+- [Data Archiving](#data-archiving)   
+- [Analytics](#analytics)     
+- [Messaging Layer](#messaging-layer)     
+- [Security Concerns](#security-concerns)     
 
 ## Onboarding
 
@@ -129,9 +130,45 @@ This module will store information about the list of devices submitting GPS loca
 
 ## Content Manager
 
-The solution also needs to support a content manager so the Merchants can manage their own marketplaces and product catalogs, which eventually the people can redeem by supplying points in exchange.
+The solution also needs to support a content manager, so the Merchants and Municipalities can manage their sites. In the case of marchants can add the content for the promoted products. On the other hand, municipalities could present all availables types of penalties that could be reedem by civilians. 
 
-**Money cost** is one of the most important drivers/restrictions of the business requirements so in this case the team chose to hold static assets on a S3 bucket and then make them available globally in the US by creating a CloudFront distribution in front.
+**Money cost** is one of the most important drivers/restrictions of the business requirements so in this case the team choses use [Prismic](https://prismic.io/). Prismic provides a plugin for Gatsby (it is a static site generator and based on React, it has a lot of plugins) in order to allow create easly the content. The approach is the following:
+
+- Configure a webhook in prismic in order to know each time a content is created/updated.
+- Lambda in order to trigger GitHub Action and start de build and upload of Gatsby website.
+- Generated content is stored in S3 AWS.
+- CloudFront present content to user.
+
+
+### Runtime
+
+In this case, the team proposes Lambda AWS, because this component will not have a frequently use, creation and updates on marchants and municipality stores will not be frecuent.
+
+
+### Storage
+
+As was mentioned previously the proposal for storage is AWS S3.
+
+
+## Catalog Service
+
+This service is in charge of fully manage catalogs for marchants and municipalities. This component should expose capabilities in order to allow:
+
+- create/update/delete/get a product's catalog for a marchant store.
+- create/update/delete/get a penalty's catalog for a municipality.
+- add/update/delete/get products to marchant's catalog.
+- add/update/delete/get penalties to municipality's catalog.
+
+Also should have an integration with Business Rules Service in order to return the reedemtion points for products and penalties.
+
+### Runtime
+
+This one will live as a **long-live running container** inside the distributed microservice architecture, inside the EKS (Kubernetes Service) data planes, because workloads will have a high frequent of use. 
+Like the rest of the cluster containers, it will be built using [FastAPI](https://fastapi.tiangolo.com/) framework over python interpreted language.
+
+### Storage
+
+Catalogs for marchants and catalogs for municipalities will not have necessary the same structure and data, so the proposal is to use a noSQL DB, like Dynamo DB from AWS due to whole architecture was based on AWS services.
 
 
 ## Business Rules
