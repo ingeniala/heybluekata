@@ -328,3 +328,4 @@ Additionally, we provided an HTML view of the model, in the folder [htmlModel](h
 * [ADR Finance and Treasury](./ADRs/adr-finance-treasury.md)
 * [ADR HR](./ADRs/adr-hr.md)
 * [ADR Code Repository](./ADRs/adr-code-repository.md)
+* [ADR Document Management](./ADRs/adr-document-management.md)
