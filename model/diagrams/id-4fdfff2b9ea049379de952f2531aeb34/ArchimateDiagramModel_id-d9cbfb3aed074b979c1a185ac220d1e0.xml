@@ -135,7 +135,7 @@
     </sourceConnections>
     <bounds
         x="-204"
-        y="300"
+        y="216"
         width="1357"
         height="397"/>
     <children
@@ -558,7 +558,7 @@
     </sourceConnections>
     <bounds
         x="600"
-        y="216"
+        y="132"
         width="120"
         height="55"/>
     <archimateElement
@@ -571,7 +571,7 @@
       targetConnections="id-899ebc4276b1463daed44e20238257c2">
     <bounds
         x="600"
-        y="120"
+        y="36"
         width="120"
         height="55"/>
     <archimateElement
@@ -631,7 +631,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="216"
+        y="132"
         width="120"
         height="55"/>
     <archimateElement
@@ -644,7 +644,7 @@
       targetConnections="id-8fc1077b0ab443678cda28554ca1970e">
     <bounds
         x="-132"
-        y="216"
+        y="132"
         width="120"
         height="55"/>
     <archimateElement
@@ -657,7 +657,7 @@
       targetConnections="id-037e52477b3445a38adb01b5c57a6a3e">
     <bounds
         x="-120"
-        y="120"
+        y="36"
         width="120"
         height="55"/>
     <archimateElement
@@ -670,7 +670,7 @@
       targetConnections="id-5ed74cda1fbd41ffa76566217ef49d52">
     <bounds
         x="12"
-        y="120"
+        y="36"
         width="120"
         height="55"/>
     <archimateElement
@@ -683,7 +683,7 @@
       targetConnections="id-f796c0a90205442286659e6ac298208d">
     <bounds
         x="144"
-        y="120"
+        y="36"
         width="120"
         height="55"/>
     <archimateElement
