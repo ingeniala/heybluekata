@@ -2,7 +2,7 @@
 
 ## Summary
 
-The project has an relevant component: mobile application, so it's necessary define the technology to develop it.
+The frontend layer, in this case the mobile module, helps to expose the business capabilities of the solution in an easy, user-friendly way so the users can have a nice experience, creating an unbreakable user-application bind. Defining the technology to build that layer is definitely essential.
 
 ### Alternatives
 
@@ -15,27 +15,27 @@ The project has an relevant component: mobile application, so it's necessary def
 Alternative selected: *React Native*
 
 
-Folowing table contains all reasons that drive us to make previos decision:
+Following table contains all the reasons that drive us to make the decision:
 
 | Criteria                 | Description                                                    
 | --------------------     | ----------------------------------------------------------------------------------------------------- | 
-| Portability 			   | Write once, run on Android and IOS, with React native is possible only have one base code for mobile, in this way we have a maximum reutilization code, because avoid the situation of base code for Android and base code for IOS, unlike with IOS and Android native              												                                           |
-| Cost                     | It's not necessary 2 different teams in charge of development of mobile app. Also developers for native IOS and native Android are scarce in the market, and they are more expensive than react native ones.								| 
-| Reutilization 		   | Share components with React ([ADR Web Technology](./adr-web-technology.md)). Due to react native having a base on React we could have reutilization code also with the web module.      													   |
-| Time to market           | Due we have only one base code we have the same time to market in both platforms.					   |
-| Guarranty                | It was created by Facebook.                                    									   |
-| Costs                    | Save money: due is widely used. It's easy to find developers who want develop on React Native                                     |
-| Community                |  Wide acceptance by the community, with a high collaboration of the community in the development of libraries.                             																							|
-| Maturity				   | Used by gigants like: Skype, Walmart, Instagram, Tesla and more, unlike flutter who isn't widely adoption.  				   															   								             | 
+| Portability 			   | Write once, run on both Android and IOS. With React native is possible to only have a single codebase for every mobile device, reutilizing the code and avoiding the situation of particular codebases (Android and IOS) like when using native development suite |
+| Cost                     | It's not necessary to have 2 teams with different knowledges in charge of the mobile app development. Not to mention that developers for both native IOS Android are scarce in the market, and they are more expensive than react native ones.								| 
+| Reutilization 		   | Shared components with React ([ADR Web Technology](./adr-web-technology.md)). Due to react native relying on React features, there could be reutilization code also with the web module. |
+| Time to market           | Due to having only a single codebase, Time-to-market turns to be the same in both platforms. |
+| Loyalty                  | It was created by Facebook. |
+| Costs                    | Save money: React Native is widely used, so it's quite easy to find developers within the community |
+| Community                |  Wide acceptance by the community, with a high collaboration in the development of libraries. |
+| Maturity				   | Used by gigants on the market like: Skype, Walmart, Instagram, Tesla and more, unlike others like flutter who are not that adopted. | 
 
 ## Constraints mapping
 
 | Constraint ID | Explanation |
 | ------------- | ----------- |
-| CONS.01 | Save money: due is widely used. It's easy to find developers who want develop on React Native |
+| CONS.01 | Save money: React Native is widely used, so it's quite easy to find developers within the community |
 | CONS.02 | With this decision the solution will be mobile |
-| CONS.05 | We decided the technology without restrictions except those defined here |
-| CONS.06 | The mobile solution can start little and grow in complexity when nedded |
+| CONS.05 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.06 | The mobile solution can start with little effort and grow in complexity when nedded |
 
 ## Architecture Characteristics Mapping
 

@@ -2,30 +2,29 @@
 
 ## Summary
 
-The project has an relevant component: the backend who is the core of application, so it's necessary define the technology to develop it.
-
+The backend layer is the core component of the solution, so it's necessary to define the technology involved to build it.
 
 ### Alternatives
 
 - Java
-- Phyton
+- Python
 
 ## Decision 
 
-Alternative selected: *Phyton*
+Alternative selected: *Python*
 
 
-Folowing table contains all reasons that drive us to make previos decision:
+Following table contains all the reasons that drive us to make the decision:
 
 | Criteria                 | Description                                                    
 | --------------------     | ----------------------------------------------------------------------------------------------------- | 
-| Usability                | Python is simpler and easier to learn.	   						                                       |
-| Most In-Demand           | In the last years, Phyton becomes more demanded than Java.	                                           |
-| Offer                    | Due to the high demand more developers choose it, so it's easier to find developers to conform a team.                                         																					 |
-| Deliverability           | Python is dynamically typed, so it's fast and friendly for development. In addition, it uses asynchronous code to tackle situations and challenges faster because each unit of code runs separately.                                																					     |
-| Boost productivity       | It allows to have an application with few lines of code, unlike to Java.                                   																					       |
-| Community                | It's widely accepted by community with a large library supports common tasks and commands.			   |
-| Usability                | It contains code that can be used for many different purposes, ranging from generating documentation to unit testing.																										       		    |
+| Usability                | Python is simpler and easier to learn (lower learning curve). |
+| Most In-Demand           | Over the last years, Python became a more demanded language than Java. |
+| Offer                    | Due to the high demand, the community grows continuously, so it's easier to recruit developers to conform a team. |
+| Deliverability           | Python is dynamically typed, so it's fast and friendly for development. In addition, it uses asynchronous code to tackle situations and challenges faster because each unit of code runs separately. |
+| Boost productivity       | It allows to have a totally functional application within a few lines of code, unlike Java. |
+| Community                | It's widely accepted by the community with a large amount of libraries supporting common tasks and use cases. |
+| Usability                | It contains code that can be used for many different purposes, ranging from generating documentation to unit testing. |
 
 ## Constraints mapping
 

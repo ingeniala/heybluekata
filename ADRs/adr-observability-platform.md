@@ -1,6 +1,6 @@
-#ADR observability platform - Work in progress - formating
+# ADR observability platform - Work in progress - formating
  
-##Amazon CloudWatch
+## Amazon CloudWatch
 
 Based on the preview ADR: which Cloud? AWS CloudWatch is the best integrated solution to monitoring and observability tool
 Easy to use and to visualize through dashboards

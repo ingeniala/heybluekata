@@ -6,8 +6,8 @@ This service will handle the business logic related to the onboarding process, n
 
 This being said, this component will expose an API to receive the needed information to sign an user up, and of course interact with several components:
 
-- First of all, a component in charge of validating the identity supplied by the user to be created. This is what’s been called an “ID validator” within the conceptual architecture diagram. Depending on the user kind (police officer or civilian, etc), this external provider will definitely vary. 
--Then, an identity provider where the user and its credentials are created after the conditions are met.
+- First of all, a component in charge of validating the identity supplied by the user to be created. This is what’s been called an “ID validator” within the conceptual architecture diagram. Depending on the user kind (police officer or civilian, etc), this external provider will definitely vary.    
+- Then, an identity provider where the user and its credentials are created after the conditions are met.
 
 Eventually, when the user is finally created and credentials associated, the service will push an event to a broker (Kinesis DataStreams), so every component subscribed can be notified.
 
@@ -175,7 +175,7 @@ The team decided to represent the idea of a QR to record the encounter between a
 This can be useful in case of:
 
 - automatic instant match based on proximity does not work because of location issues.
-- policy officers are strongly against submitting their location constantly, so this could be a manual way of earning expected points by saying hello.
+- police officers are strongly against submitting their location constantly, so this could be a manual way of earning expected points by saying hello.
 
 *How could this work?* Let’s say a civilian spots a police officer nearby, but not because of the app, which could mean that the officer is not sharing an active location. The civilian can approach and talk to the police officer wondering if he/she would use HeyBlue or even if it’s ok to just “match”. Then, civilians can show a QR which will contain the necessary information to create a transaction between them within the system.
 
