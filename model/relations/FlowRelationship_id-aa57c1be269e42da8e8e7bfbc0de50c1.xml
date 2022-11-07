@@ -1,7 +1,7 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="retail only"
+    name="retail &amp; municipality only"
     id="id-aa57c1be269e42da8e8e7bfbc0de50c1">
   <source
       xsi:type="archimate:Junction"
