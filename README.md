@@ -330,3 +330,4 @@ Additionally, we provided an HTML view of the model, in the folder [htmlModel](h
 * [ADR Code Repository](./ADRs/adr-code-repository.md)
 * [ADR Document Management](./ADRs/adr-document-management.md)
 * [ADR Mailing](./ADRs/adr-mailing.md)
+* [ADR CI CD](./ADRs/adr-ci-cd.md)
