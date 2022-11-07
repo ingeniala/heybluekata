@@ -12,7 +12,7 @@
 * [Architecture](#architecture)
     * [Bussiness Collaboration View](#business-collaboration-view)
     * [Business Entities View](#business-entities-view)
-    * [Application Component Collaboration View](#application-component-collaboration-view)
+    * [Application Component Collaboration Views](#application-component-collaboration-views)
     * [Technology & Deployment View](#technology--deployment-view)
 * [Evolution Roadmap](#evolution-roadmap)
 * [Adoption Practices](#adption-practices)
@@ -447,9 +447,33 @@ As we can see in the previous diagram, all the busines functions will participat
 
 ### Business Collaboration View
 
+In the sections below, we will describe the business flows identified for Hey Blue, and the supporting relationship of Conceptual components (defined in the seccion [Application Components Collaboration Views](#application-component-collaboration-views)).
+
+#### Onboarding flows
+
+* [Charity Onboarding](/Business/Flows/charity-onboarding.md)
+* [Civilian Onboarding](/Business/Flows/civilian-onboarding.md)
+* [Family in need Onboarding](/Business/Flows/family-in-need-onboarding.md)
+* [Municipality Onboarding](/Business/Flows/municipality-onboarding.md)
+* [Police Officer Onboarding](/Business/Flows/police-officer-onboarding.md)
+* [Retail Onboarding](/Business/Flows/retail-onboarding.md)
+
+#### Interaction and scoring flows
+
+* [Charity points redemption](/Business/Flows/charity-points-redemption.md)
+* [Civilian / Police Officer Interaction](/Business/Flows/civilian-police-officer-interaction.md)
+* [Civilian points redemption / Donation](/Business/Flows/civilian-points-redemption-donation.md)
+* [Family in needs points redemption](/Business/Flows/family-in-need-points-redemption.md)
+* [Police Officer points transfer / donation](/Business/Flows/police-points-transfer-donation.md)
+
+#### Support flows
+
+* [Device relinking](/Business/Flows/device-relinking.md)
+* [Storefront Management](/Business/Flows/storefront-management.md)
+
 ### Business Entities View
 
-### Application Component Collaboration View
+### Application Component Collaboration Views
 
 ### Technology & Deployment View
 
