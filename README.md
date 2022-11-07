@@ -447,7 +447,15 @@ As we can see in the previous diagram, all the busines functions will participat
 
 ### Business Collaboration View
 
-In the sections below, we will describe the business flows identified for Hey Blue, and the supporting relationship of Conceptual components (defined in the seccion [Application Components Collaboration Views](#application-component-collaboration-views)).
+In the sections below, we will describe the business flows identified for Hey Blue, the supporting relationship of conceptual components (defined in the seccion [Application Components Collaboration Views](#application-component-collaboration-views)), and how the business entities are impacted or support the business processes.
+
+This set of views are extracted from the Archimate model and detail the:
+- Main business flows of the architecture
+- Main business events derived from the flow and how they connect the different business flows
+- Relations between the components
+- Conceptual Applications components of the architecture and how they support the business processes
+- Main business entities of the architecture
+- Access operations on those business entities, to show what process create, update or read them
 
 #### Onboarding flows
 
@@ -472,13 +480,6 @@ In the sections below, we will describe the business flows identified for Hey Bl
 * [Storefront Management](/Business/Flows/storefront-management.md)
 
 ### Business Entities View
-
-This set of views are extracted from the Archimate model and detail the:
-- Main business flows of the architecture
-- Main business events derived from the flow and how they connect the different business flows
-- Relations between the components
-- Main business entities of the architecture
-- Access operations on those business entities, to show what process create, update or read them
 
 ### Application Component Collaboration Views
 
