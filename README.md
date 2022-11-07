@@ -453,9 +453,24 @@ As we can see in the previous diagram, all the busines functions will participat
 
 ### Technology & Deployment View
 
+[Component Responsibilities](./conceptual-architecture/component-responsibility.md)
+
 ## Evolution Roadmap
 
 ## Adoption Practices
+
+### Agile practices
+
+Derived from the constraint [CONS.01](#constraints) and [CONS.06](#constraints), we highly recommend the adoption of agile practices (Like SCRUM or KANBAN) to manage the development, evolution and support of the solution. It will enable Hey Blue to gain speed of delivery value, cost control and increase the quality of the product delivered.
+
+### DevSecOps 
+
+Based on the constraint [CONS.02](#constraints) and the architecture characteristics [AC.STA.01](./Characteristics/ac-sta-01.md), [AC.STA.02](./Characteristics/ac-sta-02.md) and [AC.MOD.01](./Characteristics/ac-mod-01.md) we recommend the adoption of DevSecOps practices, in particular the application of [Teams Topologies](#team-organization) and adopt the [Type 2 DevOps Topology](https://web.devopstopologies.com/#type-two) at least at the beginning of the project, and transitate to [Type 1 DevOps Topology](https://web.devopstopologies.com/#type-one) as needed. 
+
+### Incident Management
+
+The incident management process is a set of activities that are performed to identify, report, and resolve incidents. The process is designed to minimize the impact of incidents on the business and to restore normal operations as quickly as possible. The process is also designed to identify the root cause of incidents and to prevent recurrence. Recommended to be integrated and automatized with the monitoring and alerting capabilities, in our case, the AWS CloudWatch, tool defined in the [ADR: Observability Platform](./ADRs/adr-observability-platform.md) section.
+
 
 ## Team organization
 
