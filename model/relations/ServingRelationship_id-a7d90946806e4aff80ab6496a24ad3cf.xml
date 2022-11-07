@@ -1,0 +1,12 @@
+<archimate:ServingRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="validate mail"
+    id="id-a7d90946806e4aff80ab6496a24ad3cf">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-089d05bc0bbe45bbb474b4f814dc2abf.xml#id-089d05bc0bbe45bbb474b4f814dc2abf"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_id-06f97d27c7f64374b3138fa8abe0ffd1.xml#id-06f97d27c7f64374b3138fa8abe0ffd1"/>
+</archimate:ServingRelationship>

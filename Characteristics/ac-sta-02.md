@@ -2,7 +2,7 @@
 
 ## Description
 
-Uptime 99.95% from saturday to sunday from 7AM to 11:59PM
+Minimum uptime 99.95% from saturday to sunday from 7AM to 11:59PM
 
 ## Detailed definition
 
@@ -12,4 +12,4 @@ Uptime 99.95% from saturday to sunday from 7AM to 11:59PM
 | *Stimulus* | Using the platform |
 | *Environment* | Production, saturday and sunday from 7AM to 11:59PM |
 | *Impacted Artifacts* | All the components |
-| *Respond* | Uptime 99.95% of the time |
+| *Respond* | Solution uptime at least 99.95% of the time |
