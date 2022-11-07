@@ -26,7 +26,7 @@ Following table contains all the reasons that drive us to make the decision:
 | Cost                     | Free tier for testing. |
 | Cost Models              | Pay as you go, reserved plans (in case of upfront needs) |
 | Features                 | A widely range of services and features, it’s the cloud with more features in: Computing services, storage service, AI/ML. Regarding databases services it’s barely surpassed by Azure, but remains as a leader in the rest of relevant services. |
-| Presence around the world| More presence around the globe, with many more locations compared to Azure and GCP. |
+| Global Expansion         | More presence around the globe, with many more locations compared to Azure and GCP. |
 | Growth                   | It's the best option to grow up, because offers better pricing for largest instances compared to Azure and GCP. |
 |GDPR 					   | GDPR fully-compliant. [Link](https://aws.amazon.com/es/blogs/security/all-aws-services-gdpr-ready/) |
 
