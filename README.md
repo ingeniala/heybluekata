@@ -473,6 +473,13 @@ In the sections below, we will describe the business flows identified for Hey Bl
 
 ### Business Entities View
 
+This set of views, extracted from the Archimate model, detail the:
+- Main business flows of the solution
+- Main business events derived from the flow and how they connect the different business flows
+- Relations between the elements
+- Main business actors interacting with Hey Blue
+- Application coverage that supports the processes and flows
+
 ### Application Component Collaboration Views
 
 ### Technology & Deployment View
