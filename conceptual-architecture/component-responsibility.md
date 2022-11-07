@@ -7,7 +7,7 @@
 [Scoring](#scoring)     
 [Tracking](#tracking)       
 [Content Manager](#content-manager) 
-[Catalogs Service](#catalogs-service)    
+[Catalogs Service](#catalog-service)    
 [Business Rules](#business-rules)       
 [Users Domain](#users-domain)   
 [QR Generation](#qr-generation)     
