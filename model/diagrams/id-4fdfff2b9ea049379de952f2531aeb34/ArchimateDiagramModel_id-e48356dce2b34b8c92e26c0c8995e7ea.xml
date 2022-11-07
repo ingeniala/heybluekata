@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Onboarding - Technology"
-    id="id-e48356dce2b34b8c92e26c0c8995e7ea">
+    id="id-e48356dce2b34b8c92e26c0c8995e7ea"
+    viewpoint="technology_usage">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-59cf89be18ec4c9da45ff609c03f7642">
