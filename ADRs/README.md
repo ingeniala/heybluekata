@@ -14,3 +14,4 @@
 * [ADR Notification mechanism](./adr-notification-mechanism.md)
 * [ADR Observability platform](./adr-observability-platform.md)
 * [ADR Analytics](./adr-analytics.md)
+* [ADR Rule Engine](./adr-rule-engine.md)
