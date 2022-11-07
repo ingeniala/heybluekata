@@ -162,15 +162,6 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-23e8d999210c46c88165d7710278dab6"
-          source="id-515de24703e44783a8b85e7fbc3761db"
-          target="id-2c7a3a9f6f1c4e7d81f1bc6ddf52c74b">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-3fedbaab7d4548dbba1f42750435af66.xml#id-3fedbaab7d4548dbba1f42750435af66"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-f0bb17f6a46b4844a042f4ff303d581f"
           source="id-515de24703e44783a8b85e7fbc3761db"
           target="id-7b915d2b02f544f59dd3283eee6688f6">
@@ -182,6 +173,15 @@
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-fb0015bf0dd44d198c6f2a7e2e6db5c6.xml#id-fb0015bf0dd44d198c6f2a7e2e6db5c6"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-7aa470b4b271451daf146a085cc6c5e0"
+          source="id-515de24703e44783a8b85e7fbc3761db"
+          target="id-c558d1391f244982b9bc1942f36aa1d0">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-3fedbaab7d4548dbba1f42750435af66.xml#id-3fedbaab7d4548dbba1f42750435af66"/>
       </sourceConnections>
       <bounds
           x="1200"
@@ -621,15 +621,15 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-2c7a3a9f6f1c4e7d81f1bc6ddf52c74b"
-      targetConnections="id-23e8d999210c46c88165d7710278dab6">
+      id="id-c558d1391f244982b9bc1942f36aa1d0"
+      targetConnections="id-7aa470b4b271451daf146a085cc6c5e0">
     <bounds
-        x="1128"
+        x="1116"
         y="36"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-7af718b91b53490684bac6f48de98ee7.xml#id-7af718b91b53490684bac6f48de98ee7"/>
+        href="BusinessObject_id-18ebb6b74c344f8b87de0216f8d9c988.xml#id-18ebb6b74c344f8b87de0216f8d9c988"/>
   </children>
 </archimate:ArchimateDiagramModel>
