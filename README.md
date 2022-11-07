@@ -14,7 +14,6 @@
     * [Bussiness Collaboration View](#business-collaboration-view)
     * [Application Component Collaboration Views](#application-component-collaboration-views)
     * [Technology & Deployment View](#technology--deployment-view)
-* [Evolution Roadmap](#evolution-roadmap)
 * [Adoption Practices](#adption-practices)
 * [Team Organization](#team-organization)
 * [Resources](#resources)
@@ -247,18 +246,18 @@ This set of views are extracted from the Archimate model and detail the:
 
 ### Application Component Collaboration Views
 
-This set of views are also extracted from the Archimate model and detail the:
+This view is also extracted from the Archimate model and detail the:
 - Main business flows of the architecture
 - Main business events derived from the flow and how they connect the different business flows
 - Relations between the components
 - Main business actors interacting with Hey Blue architecture
 - Application coverage that supports the business processes and have direct interaction with them
 
+![Conceptual Architecture](./Assets/Architecture-Conceptual.png)
+
+It is possible to get more information about the logical components in [Component Responsibilities](./conceptual-architecture/component-responsibility.md)
+
 ### Technology & Deployment View
-
-[Component Responsibilities](./conceptual-architecture/component-responsibility.md)
-
-## Evolution Roadmap
 
 ## Adoption Practices
 
