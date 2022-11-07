@@ -478,7 +478,7 @@ This set of views, extracted from the Archimate model, detail the:
 - Main business events derived from the flow and how they connect the different business flows
 - Relations between the elements
 - Main business actors interacting with Hey Blue
-- Application coverage that supports the processes and flows
+- Application coverage that supports the business processes and have direct interaction with them
 
 ### Application Component Collaboration Views
 
