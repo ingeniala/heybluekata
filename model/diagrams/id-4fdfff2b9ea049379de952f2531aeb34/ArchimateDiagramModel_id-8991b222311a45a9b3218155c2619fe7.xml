@@ -285,17 +285,6 @@
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_id-7d2b00e92ab84c798d1c5c19c7b4029e.xml#id-7d2b00e92ab84c798d1c5c19c7b4029e"/>
     </children>
-    <children
-        xsi:type="archimate:DiagramModelNote"
-        id="id-daed49241f114611b765327ca03b3d80"
-        textAlignment="1"
-        content="entes validadores validos, ej renaper">
-      <bounds
-          x="96"
-          y="72"
-          width="159"
-          height="47"/>
-    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -1021,39 +1010,6 @@
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_id-50d0e1998d034b5ea24f9d713d347e31.xml#id-50d0e1998d034b5ea24f9d713d347e31"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelNote"
-        id="id-b8f088ac5a4541e0a3e9dd9b8e8febcb"
-        textAlignment="1"
-        content="ej mandril">
-      <bounds
-          x="108"
-          y="36"
-          width="76"
-          height="29"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelNote"
-        id="id-f4f78ed9baaf43a5993fb49660e109a9"
-        textAlignment="1"
-        content="ej cognito">
-      <bounds
-          x="72"
-          y="336"
-          width="134"
-          height="34"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelNote"
-        id="id-5bcfc011bcde4572ae37b620a4013f52"
-        textAlignment="1"
-        content="ej facephi">
-      <bounds
-          x="79"
-          y="152"
-          width="89"
-          height="29"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
