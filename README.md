@@ -1,4 +1,4 @@
-# O'Reilly Architectural Katas - Fall 2022 - HeyBLue
+# O'Reilly Architectural Katas - Fall 2022 - HeyBlue
 
 ## Table of Contents
 
@@ -323,3 +323,5 @@ Additionally, we provided an HTML view of the model, in the folder [htmlModel](h
 * [ADR IDP Platform](./ADRs/adr-idp-platform.md)
 * [ADR Notification mechanism](./ADRs/adr-notification-mechanism.md)
 * [ADR Observability platform](./ADRs/adr-observability-platform.md)
+* [ADR Analytics](./ADRs/adr-analytics.md)
+* [ADR Rule Engine](./ADRs/adr-rule-engine.md)

@@ -42,3 +42,9 @@ The figure 1.9. shows how the *foundation* business function support the functio
 ![Foundation - Motivation Matrix](/Assets/1.9.Motivation-Foundation-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
+
+## Foundation - Conceptual Architecture mapping
+
+The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
+
+![Foundation Conceptual Architecture Mapping](/Assets/Foundation-Conceptual-Architecture-Mapping.png)
