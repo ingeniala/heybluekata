@@ -35,6 +35,6 @@ As we can see in the previous diagram, all the busines functions will participat
 
 ## Interaction - Conceptual Architecture mapping
 
-The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)).
+The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
 
 ![Interaction Conceptual Architecture Mapping](/Assets/Interaction-Conceptual-Architecture-Mapping.png)
