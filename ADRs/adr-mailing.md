@@ -1,8 +1,8 @@
-# Document Management
+# Mailing
 
 ## Summary
 
-A lot of functionality in a startup depends on business document management. A core decision of the architecture is how to manage this documents in a good way.
+A digital company needs to communicate with customers, partners and community in a sustainable way. So A core decision of the architecture is how to manage the email interchange.
 
 
 ### Alternatives
