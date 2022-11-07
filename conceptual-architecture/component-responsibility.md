@@ -3,17 +3,17 @@
 ## Table of Contents
 ------  
 [Onboarding](#onboarding)  
-[User Catalogs](#user-catalogs)
-[Scoring](#scoring)
-[Tracking](#tracking)
-[Content Manager](#content-manager)
-[Business Rules](#business-rules)
-[Users Domain](#users-domain)
-[QR Generation](#qr-generation)
-[Data Archiving](#data-archiving)
-[Analytics](#analytics)
-[Messaging Layer](#messaging-layer)
-[Security Concerns](#security-concerns)
+[User Catalogs](#user-catalogs)     
+[Scoring](#scoring)     
+[Tracking](#tracking)       
+[Content Manager](#content-manager)     
+[Business Rules](#business-rules)       
+[Users Domain](#users-domain)   
+[QR Generation](#qr-generation)     
+[Data Archiving](#data-archiving)   
+[Analytics](#analytics)     
+[Messaging Layer](#messaging-layer)     
+[Security Concerns](#security-concerns)     
 
 ## Onboarding
 
