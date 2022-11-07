@@ -453,6 +453,8 @@ As we can see in the previous diagram, all the busines functions will participat
 
 ### Technology & Deployment View
 
+[Component Responsibilities](./conceptual-architecture/component-responsibility.md)
+
 ## Evolution Roadmap
 
 ## Adoption Practices
