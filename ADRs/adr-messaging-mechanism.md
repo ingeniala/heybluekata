@@ -6,12 +6,12 @@ Over the last years, messaging through queues or topics has become a great optio
 
 ### Alternatives
 
-- AWS Kinesis
+- AWS Kinesis Stack
 - AWS SQS
 
 ## Decision 
 
-Alternative selected: *AWS Kinesis*
+Alternative selected: *AWS Kinesis Stack*
 
 Following table contains all the reasons that drive us to make the decision:
 
