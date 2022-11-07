@@ -325,3 +325,6 @@ Additionally, we provided an HTML view of the model, in the folder [htmlModel](h
 * [ADR Observability platform](./ADRs/adr-observability-platform.md)
 * [ADR Analytics](./ADRs/adr-analytics.md)
 * [ADR Rule Engine](./ADRs/adr-rule-engine.md)
+* [ADR Finance and Treasury](./ADRs/adr-finance-treasury.md)
+* [ADR HR](./ADRs/adr-hr.md)
+* [ADR Code Repository](./ADRs/adr-code-repository.md)
