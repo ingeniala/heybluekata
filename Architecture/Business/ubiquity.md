@@ -19,3 +19,9 @@ The figure 1.7. shows how the *ubiquity* business function support the functiona
 ![Ubiquity - Motivation Matrix](/Assets/1.7.Motivation-Ubiquity-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
+
+## Ubiquity - Conceptual Architecture mapping
+
+The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
+
+![Ubiquity Conceptual Architecture Mapping](/Assets/Ubiquity-Conceptual-Architecture-Mapping.png)
