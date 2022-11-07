@@ -21,3 +21,9 @@ The figure 1.8. shows how the *gamification* business function support the funct
 ![Gamification - Motivation Matrix](/Assets/1.8-Motivation-Gamification-mapping.png)
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
+
+## Gamification - Conceptual Architecture mapping
+
+The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
+
+![Ubiquity Conceptual Architecture Mapping](/Assets/Gamification-Conceptual-Architecture-Mapping.png)
