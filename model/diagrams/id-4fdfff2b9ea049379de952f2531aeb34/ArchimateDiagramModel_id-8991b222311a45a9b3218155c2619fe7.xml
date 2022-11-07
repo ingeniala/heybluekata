@@ -11,7 +11,7 @@
       textAlignment="1">
     <bounds
         x="-228"
-        y="396"
+        y="276"
         width="1177"
         height="157"/>
     <children
@@ -246,7 +246,7 @@
       textAlignment="1">
     <bounds
         x="-228"
-        y="156"
+        y="36"
         width="301"
         height="176"/>
     <children
@@ -293,7 +293,7 @@
       textAlignment="1">
     <bounds
         x="138"
-        y="156"
+        y="36"
         width="445"
         height="176"/>
     <children
@@ -374,7 +374,7 @@
       textAlignment="1">
     <bounds
         x="36"
-        y="600"
+        y="480"
         width="913"
         height="469"/>
     <children
@@ -908,7 +908,7 @@
       textAlignment="1">
     <bounds
         x="-228"
-        y="1092"
+        y="972"
         width="505"
         height="164"/>
   </children>
@@ -919,7 +919,7 @@
       textAlignment="1">
     <bounds
         x="-228"
-        y="600"
+        y="480"
         width="229"
         height="469"/>
     <children
@@ -1079,7 +1079,7 @@
       textAlignment="1">
     <bounds
         x="288"
-        y="1092"
+        y="972"
         width="457"
         height="164"/>
     <children
@@ -1142,7 +1142,7 @@
       textAlignment="1">
     <bounds
         x="660"
-        y="156"
+        y="36"
         width="289"
         height="176"/>
     <children
