@@ -9,7 +9,7 @@
       id="id-29ca6008fa6948b9b67324146a08c203"
       targetConnections="id-ff436ec810374b3387eed47b84ae0b26 id-d8122b68933a4aeab62ae62b978181ec">
     <bounds
-        x="552"
+        x="611"
         y="156"
         width="120"
         height="55"/>
@@ -62,7 +62,7 @@
     <bounds
         x="168"
         y="132"
-        width="361"
+        width="433"
         height="157"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -74,14 +74,13 @@
           source="id-b6fa36874c854bd385f0ae892cea0b00"
           target="id-f3890f02be8540e08960c6165cc1ddb3">
         <bendpoints
-            startX="-36"
+            startX="-12"
             startY="45"
-            endX="156"
+            endX="264"
             endY="93"/>
         <bendpoints
-            startX="-156"
+            startX="-276"
             startY="45"
-            endX="36"
             endY="93"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
@@ -93,8 +92,9 @@
           source="id-b6fa36874c854bd385f0ae892cea0b00"
           target="id-29ca6008fa6948b9b67324146a08c203">
         <bendpoints
-            startX="168"
+            startX="144"
             startY="-3"
+            endX="1"
             endY="45"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
@@ -124,7 +124,7 @@
             href="AccessRelationship_id-55f0489d5b4648b7aa859288b3168833.xml#id-55f0489d5b4648b7aa859288b3168833"/>
       </sourceConnections>
       <bounds
-          x="216"
+          x="300"
           y="72"
           width="120"
           height="55"/>
@@ -187,10 +187,10 @@
           source="id-bfad6cf026984526ac760f73a3b5364d"
           target="id-b6fa36874c854bd385f0ae892cea0b00">
         <bendpoints
-            startX="13"
+            startX="25"
             startY="45"
-            endX="-107"
-            endY="-9"/>
+            endX="-168"
+            endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
             href="FlowRelationship_id-aa57c1be269e42da8e8e7bfbc0de50c1.xml#id-aa57c1be269e42da8e8e7bfbc0de50c1"/>
@@ -222,7 +222,7 @@
       id="id-52ebf66be8064e54ad2fe44b534b0e71"
       targetConnections="id-378441b318c244b1b7025b1abad3eb27 id-5df2c69b12024cd0a17a1933dc5c2d40">
     <bounds
-        x="289"
+        x="312"
         y="48"
         width="120"
         height="55"/>
@@ -235,7 +235,7 @@
       id="id-9ffe3c97cbfa4daf9a9003a86e4b70ac"
       targetConnections="id-47c60e02fce9461cb907028b72602d31">
     <bounds
-        x="444"
+        x="492"
         y="48"
         width="120"
         height="55"/>
