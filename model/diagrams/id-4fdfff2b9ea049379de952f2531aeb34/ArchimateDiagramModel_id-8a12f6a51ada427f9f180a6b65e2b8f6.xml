@@ -918,10 +918,10 @@
           endX="192"
           endY="93"/>
       <bendpoints
-          startX="-156"
-          startY="-75"
-          endX="204"
-          endY="9"/>
+          startX="-132"
+          startY="-63"
+          endX="192"
+          endY="21"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-2c832a2d50c74d528f15a7acedf7bd2c.xml#id-2c832a2d50c74d528f15a7acedf7bd2c"/>
