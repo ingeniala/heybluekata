@@ -8,7 +8,9 @@ _Why using both of them?_ Although any of them provides real-time / near real-ti
 - Kinesis Data Streams provides the data storage needed in case of data loss or corruption on the consumer side, and also nice features like replay capabilities.
 - Kinesis Data Firehose makes it easy to load that streaming data into other AWS services, like ElasticSearch, S3 buckets or Redshift. It's like the glue needed to bind all the data not only to suscribed consumers, but also a datastore which can grow exponentially through time (such as a lake or a telemetry tool).
 
-![Kinesis Streams](/Assets/kinesis-streams.png)
+The figure below (figure 10.13.1) shows what it is said previously:
+
+![Figure 10.13.1 - Kinesis Streams](/Assets/kinesis-streams.png "Figure 10.13.1 - Kinesis Streams")
 
 ## Stream distribution
 
