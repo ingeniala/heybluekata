@@ -13,6 +13,8 @@ Identity of each users, including:
 * User name
 * Identity information (ID number, taxes ID, etc)
 
+**As showing in the seccion [User - Motivation mapping](#user---motivation-mapping), in this case the focus of the defined architecture will be on the management of the identity information about the different actors.**
+
 ## Addressing
 
 Addressing characteristics of the users, including:
@@ -20,6 +22,8 @@ Addressing characteristics of the users, including:
 * Snail mail address
 * Email address
 * Social URIs
+
+**As showing in the seccion [User - Motivation mapping](#user---motivation-mapping), in this case the focus of the defined architecture will be on the management of the email address, social URIs and Postal Code.**
 
 ## Social Graph
 
@@ -30,6 +34,8 @@ Management of the social graph, showing the relationship of a user with the univ
 * Brands
 * Access control
 
+**As showing in the seccion [User - Motivation mapping](#user---motivation-mapping), in this case the focus of the defined architecture will be on the management of the interactions graph that represents the relationships between actors.**
+
 ## Profile
 
 Profile management of the user in the social network, including:
@@ -39,6 +45,8 @@ Profile management of the user in the social network, including:
 * Presence
 * Location
 * Skills / habilities
+
+**As showing in the seccion [User - Motivation mapping](#user---motivation-mapping), in this case the focus of the defined architecture will be on the management of the basic information of the profile, like number of interactions, points redemptions history (relation with gamification).**
 
 ## User - Motivation mapping
 
