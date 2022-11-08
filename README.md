@@ -40,7 +40,6 @@ Our name is Ingenials, becouse we work together for Ingenia, a consulting firm f
 
 ### Members
 
-* [Silvia Fresno](https://www.linkedin.com/in/silvia-fresno/)
 * [Paula Ferreyra](https://www.linkedin.com/in/paula-ferreyra-4506a018/)
 * [Fernando Sclavo](https://www.linkedin.com/in/fernando-sclavo-738252b9/)
 * [Federico Catinello](https://www.linkedin.com/in/fcatinello/)
