@@ -6,11 +6,15 @@ Includes the business functions below:
 
 ## Location
 
-Location of the user
+Location of the user.
+
+**As showing in the seccion [Ubiquity - Motivation mapping](#ubiquity---motivation-mapping), in this case the focus of the defined architecture will be on the real time location management of the police and civilian officers.**
 
 ## Device
 
-Device through which the user connects to the platform 
+Device through which the user connects to the platform.
+
+**As showing in the seccion [Ubiquity - Motivation mapping](#ubiquity---motivation-mapping), in this case the focus of the defined architecture will be on the relationship between users and device, to ensure the uniqueness.**
 
 ## Ubiquity - Motivation mapping
 
