@@ -208,7 +208,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-2325dba5aa3e42e9afd9d5ca48ac2e1d"
-        targetConnections="id-01f4f8856abd4533ad904c85ccc9d1cb id-7719a1b7a477484b91c05f2c816e05a5">
+        targetConnections="id-01f4f8856abd4533ad904c85ccc9d1cb id-7719a1b7a477484b91c05f2c816e05a5 id-488a46bf94b44d189123286b0fb9be1a">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-48e347be88514b8ba6789f3f1b2f0a5d"
@@ -367,7 +367,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-ac67915813de40bbbd3b3b24113f75e5"
-        targetConnections="id-762968119bc247a781c5248589a1742a">
+        targetConnections="id-762968119bc247a781c5248589a1742a id-a264b871a0194e1ba394a9c2306542e1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-f33099c5e1f94ec7a023553315e9ff71"
@@ -466,16 +466,15 @@
           source="id-12588eb3e9554332afec4dfffef3e184"
           target="id-7dcfb7453bd94b52bbf27fd815e153ee">
         <bendpoints
-            startX="12"
             startY="-327"
-            endX="108"
+            endX="84"
             endY="17"/>
         <archimateRelationship
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_id-e8ef141deced4c9395b110812720d276.xml#id-e8ef141deced4c9395b110812720d276"/>
       </sourceConnections>
       <bounds
-          x="852"
+          x="840"
           y="144"
           width="120"
           height="55"/>
@@ -497,7 +496,7 @@
             href="AssignmentRelationship_id-c989598b31c8452483568eae88c6e421.xml#id-c989598b31c8452483568eae88c6e421"/>
       </sourceConnections>
       <bounds
-          x="852"
+          x="840"
           y="216"
           width="120"
           height="55"/>
@@ -519,7 +518,7 @@
             href="ServingRelationship_id-1fb5c17e23f3466cba39069f06da353b.xml#id-1fb5c17e23f3466cba39069f06da353b"/>
       </sourceConnections>
       <bounds
-          x="852"
+          x="840"
           y="288"
           width="120"
           height="55"/>
@@ -541,7 +540,7 @@
             href="AssignmentRelationship_id-a2a0683613a54b96bde8f1a68d802a79.xml#id-a2a0683613a54b96bde8f1a68d802a79"/>
       </sourceConnections>
       <bounds
-          x="984"
+          x="971"
           y="144"
           width="120"
           height="55"/>
@@ -563,7 +562,7 @@
             href="ServingRelationship_id-ffdca2afc7e843cca979c73da32ea640.xml#id-ffdca2afc7e843cca979c73da32ea640"/>
       </sourceConnections>
       <bounds
-          x="984"
+          x="971"
           y="216"
           width="120"
           height="55"/>
@@ -751,7 +750,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-7dcfb7453bd94b52bbf27fd815e153ee"
-      targetConnections="id-6d733ee7325f426893ec0cd0ca873853 id-48056511b77642c6ab2de805fc4c92a4 id-276885dd3d284c49b8f9e101394b801f id-6771439d38314d368180933a2aacf751 id-d3dfdd2f4e664e71b91cb918978e013f id-45c2ec871c654409b00989e5ff3fd2b9">
+      targetConnections="id-6d733ee7325f426893ec0cd0ca873853 id-48056511b77642c6ab2de805fc4c92a4 id-276885dd3d284c49b8f9e101394b801f id-6771439d38314d368180933a2aacf751 id-d3dfdd2f4e664e71b91cb918978e013f id-45c2ec871c654409b00989e5ff3fd2b9 id-d5178ffc21274034b5bacd438b01825f">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-cc19d19b3dc94b908709607a68a3a4dc"
@@ -783,7 +782,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f7f0c27f5327499ba6e08811f63dbaaa"
-      targetConnections="id-086b8130efd2446d93ceb80de62bf5e6 id-fa85f9427a31447ba7fc28911610b6e2 id-2e4d2c98abb74fc2a418ec60e2cfd086">
+      targetConnections="id-086b8130efd2446d93ceb80de62bf5e6 id-fa85f9427a31447ba7fc28911610b6e2 id-2e4d2c98abb74fc2a418ec60e2cfd086 id-87c5c02935af4fc0b22dfcc376141d18">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-6d733ee7325f426893ec0cd0ca873853"
@@ -828,7 +827,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-6f591691b41342ec9c67c1055905c86f">
+      id="id-6f591691b41342ec9c67c1055905c86f"
+      targetConnections="id-15336edc515844e8992c3d2b2659a8bc">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-48056511b77642c6ab2de805fc4c92a4"
@@ -883,7 +883,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d4a98e3de9094057816cd042e1cf6c06"
-      targetConnections="id-cc19d19b3dc94b908709607a68a3a4dc id-34e3f65fc0f64db4b286081cf6c3d65d id-71f947de097b4a5c9fd059de4227b890 id-4ca66b93a3f9497baab123ae14b1cf55 id-4a4ece2920ee40c8b01a6396b026e336">
+      targetConnections="id-cc19d19b3dc94b908709607a68a3a4dc id-34e3f65fc0f64db4b286081cf6c3d65d id-71f947de097b4a5c9fd059de4227b890 id-4ca66b93a3f9497baab123ae14b1cf55 id-4a4ece2920ee40c8b01a6396b026e336 id-f2ec3049095f41f3b627881952bc7c21">
     <bounds
         x="396"
         y="12"
@@ -925,15 +925,16 @@
         source="id-c8d48e92fdf148f8b18f3ac0112804a9"
         target="id-7dcfb7453bd94b52bbf27fd815e153ee">
       <bendpoints
+          startX="1"
           startY="-99"
-          endX="228"
+          endX="216"
           endY="-7"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-e74e4a4f3e6a4aaba7c40d8eaa3def2b.xml#id-e74e4a4f3e6a4aaba7c40d8eaa3def2b"/>
     </sourceConnections>
     <bounds
-        x="792"
+        x="779"
         y="108"
         width="120"
         height="55"/>
@@ -943,7 +944,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-c3a7cb77d7e9444bab9d114242d23008">
+      id="id-c3a7cb77d7e9444bab9d114242d23008"
+      targetConnections="id-ee27d2905b504910bfe3e6a08260a10c">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-7621188c9ac94544a921205b372d2eaa"
@@ -965,6 +967,7 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-cf20389eb18b4107b31da81dea9a8ded"
+        targetConnections="id-cba1a644f1f2457882ab97571fb968cc"
         source="id-c3a7cb77d7e9444bab9d114242d23008"
         target="id-161370210e5d4c4e96d6d08f4d3dc558">
       <bendpoints
@@ -1080,7 +1083,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-7f7c6c6e815f4fe8ace29ff98e674acf"
-      targetConnections="id-05ca70b6bafc45d3aee5e1cb3e8c8391">
+      targetConnections="id-05ca70b6bafc45d3aee5e1cb3e8c8391 id-2604ebe01272496b88572dd207f3626c">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-45c2ec871c654409b00989e5ff3fd2b9"
@@ -1161,5 +1164,91 @@
     <archimateElement
         xsi:type="archimate:Artifact"
         href="Artifact_id-a8b88da0a98b4b7ca9ba4f364371ec8c.xml#id-a8b88da0a98b4b7ca9ba4f364371ec8c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-cc685db04ca84d7c81d44a551a76cc84"
+      textAlignment="1"
+      content="Lo renombraría como AWS Certificate Manager">
+    <sourceConnections
+        id="id-488a46bf94b44d189123286b0fb9be1a"
+        source="id-cc685db04ca84d7c81d44a551a76cc84"
+        target="id-2325dba5aa3e42e9afd9d5ca48ac2e1d"/>
+    <bounds
+        x="4"
+        y="624"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-a84942c0593c43c7ab097306b1dcff1e"
+      textAlignment="1"
+      content="De nodo a nodo sería tráfico de red, si lo que querés representar es que pasa por el API GW relacionaría directamente el app component con el API GW (y lo haría para todos los app components)">
+    <sourceConnections
+        id="id-cba1a644f1f2457882ab97571fb968cc"
+        source="id-a84942c0593c43c7ab097306b1dcff1e"
+        target="id-cf20389eb18b4107b31da81dea9a8ded"/>
+    <sourceConnections
+        id="id-2604ebe01272496b88572dd207f3626c"
+        source="id-a84942c0593c43c7ab097306b1dcff1e"
+        target="id-7f7c6c6e815f4fe8ace29ff98e674acf"/>
+    <sourceConnections
+        id="id-f2ec3049095f41f3b627881952bc7c21"
+        source="id-a84942c0593c43c7ab097306b1dcff1e"
+        target="id-d4a98e3de9094057816cd042e1cf6c06"/>
+    <sourceConnections
+        id="id-15336edc515844e8992c3d2b2659a8bc"
+        source="id-a84942c0593c43c7ab097306b1dcff1e"
+        target="id-6f591691b41342ec9c67c1055905c86f"/>
+    <sourceConnections
+        id="id-d5178ffc21274034b5bacd438b01825f"
+        source="id-a84942c0593c43c7ab097306b1dcff1e"
+        target="id-7dcfb7453bd94b52bbf27fd815e153ee"/>
+    <sourceConnections
+        id="id-87c5c02935af4fc0b22dfcc376141d18"
+        source="id-a84942c0593c43c7ab097306b1dcff1e"
+        target="id-f7f0c27f5327499ba6e08811f63dbaaa"/>
+    <bounds
+        x="24"
+        y="-204"
+        width="145"
+        height="73"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-ea854522167446c1a7466f9d2cc9c3a8"
+      textAlignment="1"
+      content="¿Prismic es un SaaS con nube propia? Si es así la incluiria &quot;Prismic SaaS&quot; como un nodo del mismo nivel que AWS - us-east-coast-1">
+    <sourceConnections
+        id="id-ee27d2905b504910bfe3e6a08260a10c"
+        source="id-ea854522167446c1a7466f9d2cc9c3a8"
+        target="id-c3a7cb77d7e9444bab9d114242d23008"/>
+    <bounds
+        x="-184"
+        y="-180"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d72942665733443d8c64e419ecffaaf9"
+      textAlignment="1"
+      content="Si es un EKS lo llamaria AWS EKS (para que no se confunda que EKS y Kubernetes con cosas diferentes)">
+    <sourceConnections
+        id="id-a264b871a0194e1ba394a9c2306542e1"
+        source="id-d72942665733443d8c64e419ecffaaf9"
+        target="id-ac67915813de40bbbd3b3b24113f75e5">
+      <bendpoints
+          startX="16"
+          startY="-112"
+          endX="-138"
+          endY="129"/>
+    </sourceConnections>
+    <bounds
+        x="216"
+        y="624"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
