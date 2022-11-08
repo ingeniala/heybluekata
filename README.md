@@ -73,7 +73,7 @@ Bellow, we will describe each of them.
 
 ### Drivers
 
-* DR01. Hey Blue is motivated for the reinforcement of a shared pourpouse between community and police officers.
+* DR01. Hey Blue is motivated for the reinforcement of a shared purpouse between community and police officers.
 * DR02. Hey Blue want to create a common awareness of our shared community.
 
 ### Goals
@@ -126,7 +126,7 @@ Below, we will describe each one of them.
 * CONS.03 - There is no restriction about technology
 * CONS.04 - The solution should be limited to USA cities (by Zip Codes)
 * CONS.05 - The officer location feature must be implemented in a way that ensure the officer confidence on it.
-* CONS.06 -  Define a solution that evolve with a team
+* CONS.06 - Define a solution that evolve with a team
 * CONS.07 - Compliance with GDPR
 
 
