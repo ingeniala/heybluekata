@@ -13,3 +13,15 @@ Because of costs, the team preferred to **develop this in-house** than integrati
 ## Storage  
 
 N/A
+
+## Technology Views
+
+For simplicity, it is provided two kinds of views. A simplified view generated using draw.io view that tells the story in a easier way, and the archimate view, useful for analytics purposes.
+
+### Simplified view
+
+![Drawio QR](/Assets/drawio-tech-qr.png "QR in draw.io")
+
+### Archimate View
+
+![Archi QR](/Assets/HeyBlue-QR-Interaction-Technology.png "QR in Archi")
