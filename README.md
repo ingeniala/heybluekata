@@ -255,7 +255,7 @@ This view is also extracted from the Archimate model and detail the:
 - Main business actors interacting with Hey Blue architecture
 - Application coverage that supports the business processes and have direct interaction with them
 
-![Conceptual Architecture](./Assets/Architecture-Conceptual.png)
+![Figure 5 - Conceptual Architecture](./Assets/Architecture-Conceptual.png "Figure 5 - Conceptual Architecture")
 
 It is possible to get more information about the logical components in the sections bellow:
 
@@ -281,9 +281,9 @@ This views have two different viewpoints, one extracted from draw.io and other a
 - Main technology components of the architecture
 - Relations between the components
 
-For a general view, it is presented the figure below (figure 5), a simplified view of the proposed technology components.
+For a general view, it is presented the figure below (figure 6), a simplified view of the proposed technology components.
 
-![Figure 5 - Tech - general](/Assets/drawio-tech-general.png "Figure 5 - Tech - General")
+![Figure 6 - Tech - general](/Assets/drawio-tech-general.png "Figure 6 - Tech - General")
 
 It is possible to get more information about the technological aspects of the architecture in the sections bellow:
 
@@ -318,9 +318,9 @@ The incident management process is a set of activities that are performed to ide
 
 Following the requirements defined by [CONS.06](#constraints), it's strongly recommended to addopt Team Topologies philosophy to define the responsibilities associated with Hey Blue. 
 
-In the very beginning, just one Stream Aligned team will be enough to cover the responsibilities needed to deploy the first versions of Hey Blue in an agile way. The image below (figure 6) describe this initial situation:
+In the very beginning, just one Stream Aligned team will be enough to cover the responsibilities needed to deploy the first versions of Hey Blue in an agile way. The image below (figure 7) describe this initial situation:
 
-![Figure 6 - Team Topologies  v1.0](/Assets/TeamTopologies-V1.0.png "Figure 6 - Initial Team Topology")
+![Figure 7 - Team Topologies  v1.0](/Assets/TeamTopologies-V1.0.png "Figure 7 - Initial Team Topology")
 
 In this initial team deployment, it's recommended to have the following roles:
 
@@ -333,9 +333,9 @@ In this initial team deployment, it's recommended to have the following roles:
 * OPS, in charge of the opperation of the infrastructure, enabling of the developer platform and support for the deployment of changes.
 * Quality engineer, responsible for quality assurance. 
 
-When the business and platform requirements increase in complexity, it will be possible to add a platform team to support the application lifecycle, or divide the single Strem-aligned team into several, with the following division, for example one Stream-aligned team for Civilian-oriented features, and another Stream-aligned team for non-civilian-oriented features, as shown below (figure 7).
+When the business and platform requirements increase in complexity, it will be possible to add a platform team to support the application lifecycle, or divide the single Strem-aligned team into several, with the following division, for example one Stream-aligned team for Civilian-oriented features, and another Stream-aligned team for non-civilian-oriented features, as shown below (figure 8).
 
-![Figure 7 - Team Topologies v2.0](/Assets/TeamTopologies-V2.0.png " Figure 7 - Evolutionary Team Topology")
+![Figure 8 - Team Topologies v2.0](/Assets/TeamTopologies-V2.0.png " Figure 8 - Evolutionary Team Topology")
 
 As above figure describes, the roles are the same as in the version 1.0 (but for sure it's needed more people energizing them!). This type of organization enable a team evolve as the platform increase the complexity.
 
