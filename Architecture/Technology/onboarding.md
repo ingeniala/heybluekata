@@ -7,8 +7,12 @@ In this case, as the performance of this component will depend on several intern
 
 ## Technology Views
 
-For simplicity, it is provided two kinds of views. A high level view generated using draw.io view that tells the story in a easier way, and the archimate view, useful for analytics purposes.
+For simplicity, it is provided two kinds of views. A simplified view generated using draw.io view that tells the story in a easier way, and the archimate view, useful for analytics purposes.
+
+### Simplified view
 
 ![Drawio Onboarding](/Assets/drawio-tech-onboarding.png "Onboarding in draw.io")
+
+### Archimate View
 
 ![Archi Onboarding](/Assets/HeyBlue-Onboarding-Service-Technology.png "Onboarding in Archi")

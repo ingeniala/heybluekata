@@ -284,14 +284,14 @@ This views have two different viewpoints, one extracted from draw.io and other a
 It is possible to get more information about the technological aspects of the architecture in the sections bellow:
 
 - [Onboarding](/Architecture/Technology/onboarding.md)  
-- [User Catalogs]()     
+- [Users Domain](/Architecture/Technology/user-domain.md)     
 - [Scoring]()     
 - [Tracking]()
 - [Store Service]()       
 - [Content Manager]() 
 - [Catalog Service]()    
 - [Business Rules]()       
-- [Users Domain]()   
+- [User Catalogs]()   
 - [QR Generation]()     
 - [Data Archiving]()   
 - [Analytics]()     
