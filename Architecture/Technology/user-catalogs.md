@@ -2,9 +2,10 @@
 
 ## Runtime
 
-This component will live as a **long-live running container** inside the distributed microservice architecture, inside the EKS (Kubernetes Service) data planes. As it provides an internal API for supplying information, the team considered to have this logic “alive” and not to put it in a serverless model because of the lack of triggering mechanism (not an external API gateway call, no need to handle an EventBridge trigger, nor a time-based execution).
+This component will live as a **long-live running container** inside the distributed microservice architecture, inside the EKS (Kubernetes Service) data planes. As it provides an internal API for supplying information, the team considered to have this logic “alive” and not to put it in a Lambda model because of the lack of triggering mechanism (not an external API gateway call, no need to handle an EventBridge trigger, nor a time-based execution).
 Like the rest of the cluster containers, it will be built using [FastAPI](https://fastapi.tiangolo.com/) framework over python interpreted language.
-It will have a Kubernetes cronjob associated responsible for polling the external providers every now and then so the catalogs are kept the most up-to-date as possible. 
+
+It will also have a Kubernetes cronjob associated responsible for polling the external providers every now and then so the catalogs are kept the most up-to-date as possible. 
 
 ## Storage
 
