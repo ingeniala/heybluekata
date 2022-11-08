@@ -69,7 +69,7 @@ The figure 1 - Motivation shows the vision of HeyBlue, its functional requiremen
 
 ![Figure 1 - Motivation](/Assets/1.1.Motivation.png "Figure 1 - Motivation")
 
-Bellow, we will describe each of them.
+Bellow, it will describe each of them.
 
 ### Drivers
 
@@ -119,7 +119,7 @@ The figure 2 shows the Constraints detected for Hey Blue.
 
 ![Figure 2 - Constraints](/Assets/1.2.Constraints.png "Figure 2 - Constraints")
 
-Below, we will describe each one of them.
+Below, it will describe each one of them.
 
 * CONS.01 - The cost should be as little as possible. HeyBlue is a non-profit company. The use of resources should be wisely defined. Choose the cheapest alternative if it is possible.
 * CONS.02 - Application should be mobile and web
@@ -136,7 +136,7 @@ The figure 3. shows the Quality Attributes (A.K.A. Architecture Characteristics)
 
 ![Figure 3 - Architecture Characteristics](/Assets/1.3.Architecture%20Characteristics.png "Figure 3 - Architecture Characteristics")
 
-In the following sections we describe each architecture characteristics:
+The following sections describe each architecture characteristics:
 
 * Usability Characteristics
     * [AC.USA.01 - Web App Usability](/Characteristics/ac-usa-01.md)
@@ -174,7 +174,7 @@ In the following sections we describe each architecture characteristics:
 * In a future, will be needed to integrate with additional social networks.
 * Mentor and mentee feature will be out of scope of the first version of Hey Blue, and must be implemented in future iterations.
 * There is no restriction about technology
-* We must define a solution that evolve with a team, starting with a simple but useful solution with a small team supporting it.
+* The solution must be defined to evolve with a team, starting with a simple but useful solution with a small team supporting it.
 * Charitable organization and Family in need catalogs will be provided by external third-party services and held in another local component (user catalogs service), so it can be retrieved whenever needed to validate user creation.
 * The information for user catalogs will be provided by a certified entity in the US soil (e.g. IRS) so the platform can scrape that information.
 
@@ -302,7 +302,7 @@ It is possible to get more information about the technological aspects of the ar
 
 ### Agile practices
 
-Derived from the constraint [CONS.01](#constraints) and [CONS.06](#constraints), we highly recommend the adoption of agile practices (Like SCRUM or KANBAN) to manage the development, evolution and support of the solution. It will enable Hey Blue to gain speed of delivery value, cost control and increase the quality of the product delivered.
+Derived from the constraint [CONS.01](#constraints) and [CONS.06](#constraints), it's highly recommended the adoption of agile practices (Like SCRUM or KANBAN) to manage the development, evolution and support of the solution. It will enable Hey Blue to gain speed of delivery value, cost control and increase the quality of the product delivered.
 
 ### DevSecOps 
 
@@ -315,13 +315,13 @@ The incident management process is a set of activities that are performed to ide
 
 ## Team organization
 
-Following the requirements defined by [CONS.06](#constraints), we strongly recommend to addopt Team Topologies philosophy to define the responsibilities associated with Hey Blue. 
+Following the requirements defined by [CONS.06](#constraints), it's strongly recommended to addopt Team Topologies philosophy to define the responsibilities associated with Hey Blue. 
 
 In the very beginning, just one Stream Aligned team will be enough to cover the responsibilities needed to deploy the first versions of Hey Blue in an agile way. The image below (figure 6) describe this initial situation:
 
 ![Figure 6 - Team Topologies  v1.0](/Assets/TeamTopologies-V1.0.png "Figure 6 - Initial Team Topology")
 
-In this initial team deployment, we recommend to have the following roles:
+In this initial team deployment, it's recommended to have the following roles:
 
 * Web Developer, responsible for the development, evolution and support of the web components.
 * Mobile Developer, responsible for the development, evolution and support of the web components.
@@ -336,7 +336,7 @@ When the business and platform requirements increase in complexity, it will be p
 
 ![Figure 7 - Team Topologies v2.0](/Assets/TeamTopologies-V2.0.png " Figure 7 - Evolutionary Team Topology")
 
-As we can see, the roles are the same as in the version 1.0 (but for sure we need more people energizing them!). This type of organization enable a team evolve as the platform increase the complexity.
+As above figure describes, the roles are the same as in the version 1.0 (but for sure it's needed more people energizing them!). This type of organization enable a team evolve as the platform increase the complexity.
 
 ## Resources
 
@@ -346,7 +346,7 @@ This architecture and the related decisions was based on [Archimate](https://www
 
 The model was versioned in this repo (folder /model). To connect Archi with this repo and pull the [model](/model), you can use the [Collaboration plugin](https://www.archimatetool.com/plugins/#coArchi) for Archi.
 
-Additionally, we provided an HTML view of the model, in the folder [htmlModel](htmlModel).
+Additionally, it's provided an HTML view of the model, in the folder [htmlModel](htmlModel).
 
 ## Architecture Decision Records
 
