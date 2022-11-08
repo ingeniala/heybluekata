@@ -369,3 +369,5 @@ Additionally, we provided an HTML view of the model, in the folder [htmlModel](h
 * [ADR Document Management](./ADRs/adr-document-management.md)
 * [ADR Mailing](./ADRs/adr-mailing.md)
 * [ADR CI CD](./ADRs/adr-ci-cd.md)
+* [ADR API Gateway](./ADRs/adr-api-gw.md)
+* [ADR EKS Dataplane Runtime](./ADRs/adr-eks-dataplane-runtime.md)
