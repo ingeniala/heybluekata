@@ -22,7 +22,7 @@ Both of them were selected because each one will fit well depending on the scena
 
 | Constraint ID | Explanation |
 | ------------- | ----------- |
-| CONS.05 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | Containers and serverless are good options to evolve in complexity as needed, starting with something simple |
 
 ## Architecture Characteristics Mapping

@@ -14,7 +14,7 @@ Over the last years (OCI)[https://es.wikipedia.org/wiki/Open_Container_Initiativ
 Alternative selected: *EKS*
 
 
-Following table contains all reasons that drive us to make previos decision:
+Following table contains all the reasons that drive us to make the decision:
 
 | Criteria                 | Description                                                    
 | --------------------     | ----------------------------------------------------------------------------------------------------- | 
@@ -29,6 +29,8 @@ Following table contains all reasons that drive us to make previos decision:
 | Constraint ID | Explanation |
 | ------------- | ----------- |
 | CONS.01 | EKS avoids vendor lock-in, has a wide community support, and also could be cheaper than ECS (if the solution is well designed) |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.06 | The solution will evolve as needed |
 
 ## Architecture Characteristics Mapping
 

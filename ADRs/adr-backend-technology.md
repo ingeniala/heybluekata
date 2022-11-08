@@ -31,5 +31,5 @@ Following table contains all the reasons that drive us to make the decision:
 | Constraint ID | Explanation |
 | ------------- | ----------- |
 | CONS.01 | With Python es easier to find developers and active community |
-| CONS.05 | We decided the technology without restrictions except those defined here |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 

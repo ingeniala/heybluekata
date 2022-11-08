@@ -35,7 +35,7 @@ Following table contains all the reasons that drive us to make the decision:
 | ------------- | ----------- |
 | CONS.01 | Save money: React is widely used, so it's quite easy to find developers within the community |
 | CONS.02 | With this decision the solution will be web |
-| CONS.05 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | The web solution can start with little effort and grow in complexity when nedded |
 
 ## Architecture Characteristics Mapping
