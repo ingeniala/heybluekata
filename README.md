@@ -297,6 +297,7 @@ It is possible to get more information about the technological aspects of the ar
 - [QR Generation](/Architecture/Technology/qr-generation.md)     
 - [Data Archiving](/Architecture/Technology/data.md)   
 - [Analytics](/Architecture/Technology/data.md)     
+- [User Channels](/Architecture/Technology/user-channels.md)
 
 ## Adoption Practices
 
