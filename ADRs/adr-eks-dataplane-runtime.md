@@ -40,6 +40,8 @@ Following table contains all the reasons that drive us to make the decision:
 
 There are some drawbacks using Fargate:
 
+| Constraint ID | Explanation |
+| ------------- | ----------- |
 | CONS.10 | Creating Kubernetes Daemonsets objects (not necessary for now, but could be done using a separate node pool with EC2 machines). |
 | CONS.11 | Privileged containers are not supported (although this is actually a best practice to follow). |
 | CONS.12 | GPUs are currently not available in Fargate. (not needed). |
