@@ -226,25 +226,25 @@ This set of views are extracted from the Archimate model and detail the:
 
 #### Onboarding flows
 
-* [Charity Onboarding](/Business/Flows/charity-onboarding.md)
-* [Civilian Onboarding](/Business/Flows/civilian-onboarding.md)
-* [Family in need Onboarding](/Business/Flows/family-in-need-onboarding.md)
-* [Municipality Onboarding](/Business/Flows/municipality-onboarding.md)
-* [Police Officer Onboarding](/Business/Flows/police-officer-onboarding.md)
-* [Retail Onboarding](/Business/Flows/retail-onboarding.md)
+* [Charity Onboarding](/Architecture/Business/Flows/charity-onboarding.md)
+* [Civilian Onboarding](/Architecture/Business/Flows/civilian-onboarding.md)
+* [Family in need Onboarding](/Architecture/Business/Flows/family-in-need-onboarding.md)
+* [Municipality Onboarding](/Architecture/Business/Flows/municipality-onboarding.md)
+* [Police Officer Onboarding](/Architecture/Business/Flows/police-officer-onboarding.md)
+* [Retail Onboarding](/Architecture/Business/Flows/retail-onboarding.md)
 
 #### Interaction and scoring flows
 
-* [Charity points redemption](/Business/Flows/charity-points-redemption.md)
-* [Civilian / Police Officer Interaction](/Business/Flows/civilian-police-officer-interaction.md)
-* [Civilian points redemption / Donation](/Business/Flows/civilian-points-redemption-donation.md)
-* [Family in needs points redemption](/Business/Flows/family-in-need-points-redemption.md)
-* [Police Officer points transfer / donation](/Business/Flows/police-points-transfer-donation.md)
+* [Charity points redemption](/Architecture/Business/Flows/charity-points-redemption.md)
+* [Civilian / Police Officer Interaction](/Architecture/Business/Flows/civilian-police-officer-interaction.md)
+* [Civilian points redemption / Donation](/Architecture/Business/Flows/civilian-points-redemption-donation.md)
+* [Family in needs points redemption](/Architecture/Business/Flows/family-in-need-points-redemption.md)
+* [Police Officer points transfer / donation](/Architecture/Business/Flows/police-points-transfer-donation.md)
 
 #### Support flows
 
-* [Device relinking](/Business/Flows/device-relinking.md)
-* [Storefront Management](/Business/Flows/storefront-management.md)
+* [Device relinking](/Architecture/Business/Flows/device-relinking.md)
+* [Storefront Management](/Architecture/Business/Flows/storefront-management.md)
 
 ### Application Component Collaboration Views
 
