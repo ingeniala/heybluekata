@@ -2,8 +2,12 @@
 
 ## Runtime
 
-Similar to the user catalogs component, this one will live as a **long-live running container** inside the distributed microservice architecture, inside the EKS (Kubernetes Service) data planes. As it provides an internal API for supplying information, the team considered to have this logic “alive” and not to put it in a serverless model because of the lack of triggering mechanism (not an external API gateway call, no need to handle an EventBridge trigger, nor a time-based execution).
+Similar to the user catalogs component, this one will live as a **long-live running container** inside the distributed microservice architecture, inside the EKS (Kubernetes Service) data planes. As it provides an internal API for supplying information, the team considered to have this logic “alive” and not to put it in a Lambda model because of the lack of triggering mechanism (not an external API gateway call, no need to handle an EventBridge trigger, nor a time-based execution).
 Like the rest of the cluster containers, it will be built using [FastAPI](https://fastapi.tiangolo.com/) framework over python interpreted language.
+
+Particularly in this scenario, the team decided to use a special python library to handle the definition and update of business rules, lying on what's called a BRE (business rule engine). See [ADR BRE](../../ADRs/adr-rule-engine.md).
+
+Library reference: [Python Business Rule Engine](https://pypi.org/project/business-rule-engine/)
 
 ## Storage
 
