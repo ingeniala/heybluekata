@@ -267,7 +267,7 @@ It is possible to get more information about the logical components in the secti
 - [Content Manager](/Architecture/Application/content-manager.md) 
 - [Catalog Service](/Architecture/Application/catalog-service.md)    
 - [Business Rules](/Architecture/Application/business-rules.md)       
-- [Users Domain](/Architecture/Application/users-domain.md)   
+- [Users Domain](/Architecture/Application/user-domain.md)   
 - [QR Generation](/Architecture/Application/qr-generation.md)     
 - [Data Archiving](/Architecture/Application/data-archiving.md)   
 - [Analytics](/Architecture/Application/analytics.md)     
