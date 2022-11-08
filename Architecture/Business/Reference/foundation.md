@@ -6,9 +6,13 @@ Foundation group the common functionalities that support the business of any soc
 
 Application Program Interfaces that aim another developers to interact with the platform, converting the social network in a platform providing value to a broader ecosystem.
 
+**As showing in the seccion [Foundation - Motivation mapping](#foundation---motivation-mapping), in this case the focus of the defined architecture will be on the basic features to ensure the expositions of backend APIs to the channels in a secure and controlled way.**
+
 ## Widgets
 
-Widgets to create custom pages or application using the information of the platform (e.g. merchant commerce)
+Widgets to create custom pages or application using the information of the platform (e.g. merchant commerce).
+
+**As showing in the seccion [Foundation - Motivation mapping](#foundation---motivation-mapping), in this case the focus of the defined architecture will be on the basic features to ensure the ability to easily develop front end solutions, mainly the storefronts.**
 
 ## Analytics
 
@@ -19,21 +23,31 @@ Analytics capabilities, including
 * Recommendations
 * Trends
 
+**As showing in the seccion [Foundation - Motivation mapping](#foundation---motivation-mapping), in this case the focus of the defined architecture will be on the features of analytics and archiving of the transactional data.**
+
 ## Notifications
 
 Notification of the activity in the platform to a user, per instance via mobile or browser.
+
+**As showing in the seccion [Foundation - Motivation mapping](#foundation---motivation-mapping), in this case the focus of the defined architecture will be on the features of notifications through email, web or mobile to the end users.**
 
 ## Authentication & Authorization
 
 Authentication and authorization capabilities. Including the ability to validate the user credentials with a third party (e.g. oauth identity provider)
 
+**As showing in the seccion [Foundation - Motivation mapping](#foundation---motivation-mapping), in this case the focus of the defined architecture will be on the features of authentication and authorization of the end users.**
+
 ## Content
 
 Content management
 
+**As showing in the seccion [Foundation - Motivation mapping](#foundation---motivation-mapping), in this case the focus of the defined architecture will be on the features of content management, mainly for front ends and storefronts.**
+
 ## Privacy and Security
 
 Privacy and security management, including GDPR
+
+**As showing in the seccion [Foundation - Motivation mapping](#foundation---motivation-mapping), in this case the focus of the defined architecture will be on the basic features to ensure the compliance with GDPR.**
 
 ## Foundation - Motivation mapping
 
