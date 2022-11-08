@@ -204,13 +204,13 @@ The following sections will describe each one of the business responsibilities, 
 
 Follow each link to get more information about each Reference Architecture meta-functions:
 
-* [Interaction](/Architecture/Business/interaction.md)
-* [User](/Architecture/Business/user.md)
-* [Ubiquity](/Architecture/Business/ubiquity.md)
-* [Gamification](/Architecture/Business/gamification.md)
-* [Foundation](/Architecture/Business/foundation.md)
-* [Commerce](/Architecture/Business/commerce.md)
-* [Enterprise](/Architecture/Business/enterprise.md)
+* [Interaction](/Architecture/Business/Reference/interaction.md)
+* [User](/Architecture/Business/Reference/user.md)
+* [Ubiquity](/Architecture/Business/Reference/ubiquity.md)
+* [Gamification](/Architecture/Business/Reference/gamification.md)
+* [Foundation](/Architecture/Business/Reference/foundation.md)
+* [Commerce](/Architecture/Business/Reference/commerce.md)
+* [Enterprise](/Architecture/Business/Reference/enterprise.md)
 
 ### Business Collaboration View
 
