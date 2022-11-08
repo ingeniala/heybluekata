@@ -5,7 +5,8 @@
 - [Onboarding](#onboarding)  
 - [User Catalogs](#user-catalogs)     
 - [Scoring](#scoring)     
-- [Tracking](#tracking)       
+- [Tracking](#tracking)
+- [Store Service](#store-service)       
 - [Content Manager](#content-manager) 
 - [Catalog Service](#catalog-service)    
 - [Business Rules](#business-rules)       
@@ -128,11 +129,19 @@ Runtime layer consists in 2 layers:
 
 This module will store information about the list of devices submitting GPS localization and how it changes in time. Once again, this unstructured data will live in DynamoDB. 
 
+
+## Store Service
+
+The solution also needs to support a store service, so the _Merchants and Municipalities_ can manage their sites. In the case of _Merchants_, every one could add content for the products being offered for redemption. On the other hand, _Municipalities_ could present all availables types of fines that could be reedem by civilians. 
+
+**Money cost** is one of the most important driver/restriction within the business requirements so in this case the team chooses to use [Prismic](https://prismic.io/) as a templating engine for sites creation. Prismic provides a plugin for Gatsby (a static site generator based on React with a lot of plugins) in order to deploy the site easily. 
+
+This component is fully supported by Prismic like technical solution in the backend, and it's integrated with the [Content manager](#content-manager). 
+
+
 ## Content Manager
 
-The solution also needs to support a content manager, so the _Merchants and Municipalities_ can manage their sites. In the case of _Merchants_, every one could add content for the products being offered for redemption. On the other hand, _Municipalities_ could present all availables types of fines that could be reedem by civilians. 
-
-**Money cost** is one of the most important driver/restriction within the business requirements so in this case the team chooses to use [Prismic](https://prismic.io/) as a templating engine for sites creation. Prismic provides a plugin for Gatsby (a static site generator based on React with a lot of plugins) in order to deploy the site easily. The flow is described as follows:
+As was described previously, the architecture has a Content Manager which main responsibility is manage static content of StoreFronts (for Marchants and Municipalities) and it has integraton with [Store Service](#store-service). The flow is described as follows:
 
 - A webhook is triggered in Prismic every time a content is created/updated.
 - That webhook arrives at the AWS API Gateway (HTTP API), which will then awake a lambda function.
