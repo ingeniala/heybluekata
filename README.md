@@ -175,6 +175,8 @@ In the following sections we describe each architecture characteristics:
 * Mentor and mentee feature will be out of scope of the first version of Hey Blue, and must be implemented in future iterations.
 * There is no restriction about technology
 * We must define a solution that evolve with a team, starting with a simple but useful solution with a small team supporting it.
+* Charitable organization and Family in need catalogs will be provided by external third-party services and held in another local component (user catalogs service), so it can be retrieved whenever needed to validate user creation.
+* The information for user catalogs will be provided by a certified entity in the US soil (e.g. IRS) so the platform can scrape that information.
 
 
 ## Architecture
@@ -255,7 +257,22 @@ This view is also extracted from the Archimate model and detail the:
 
 ![Conceptual Architecture](./Assets/Architecture-Conceptual.png)
 
-It is possible to get more information about the logical components in [Component Responsibilities](./conceptual-architecture/component-responsibility.md)
+It is possible to get more information about the logical components in the sections bellow:
+
+- [Onboarding](/Architecture/Application/onboarding.md)  
+- [User Catalogs](/Architecture/Application/user-catalogs.md)     
+- [Scoring](/Architecture/Application/scoring.md)     
+- [Tracking](/Architecture/Application/tracking.md)
+- [Store Service](/Architecture/Application/store-service.md)       
+- [Content Manager](/Architecture/Application/content-manager.md) 
+- [Catalog Service](/Architecture/Application/catalog-service.md)    
+- [Business Rules](/Architecture/Application/business-rules.md)       
+- [Users Domain](/Architecture/Application/users-domain.md)   
+- [QR Generation](/Architecture/Application/qr-generation.md)     
+- [Data Archiving](/Architecture/Application/data-archiving.md)   
+- [Analytics](/Architecture/Application/analytics.md)     
+- [Messaging Layer](/Architecture/Application/messaging-layer.md)     
+- [Security Concerns](/Architecture/Application/security-concerns.md) 
 
 ### Technology & Deployment View
 

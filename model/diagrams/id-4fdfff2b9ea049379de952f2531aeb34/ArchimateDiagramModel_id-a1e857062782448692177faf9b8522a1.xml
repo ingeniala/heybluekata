@@ -1326,7 +1326,7 @@
           target="id-e87054da5e204e5c974a981d4fcad376">
         <bendpoints
             startX="-96"
-            startY="10"
+            startY="-2"
             endX="108"
             endY="226"/>
         <archimateRelationship
@@ -1349,9 +1349,9 @@
           target="id-8384a0a2cbf34bb3a09929e78faf8794">
         <bendpoints
             startX="-84"
-            startY="-2"
+            startY="-14"
             endX="96"
-            endY="70"/>
+            endY="58"/>
         <bendpoints
             startX="-84"
             startY="-74"
