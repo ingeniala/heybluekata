@@ -4,11 +4,15 @@ These functionalities are not part of the Social Network Reference Architecture,
 
 ## Marketplace
 
-Functions allowing the creation. maintenance and deletion of market place related to the users of the platforms, based on the profile and business rules
+Functions allowing the creation. maintenance and deletion of market place related to the users of the platforms, based on the profile and business rules.
+
+**As showing in the seccion [Commerce - Motivation mapping](#commerce---motivation-mapping), in this case the focus of the defined architecture will be on the full coverage of marketplace management by the retail and municipality actors.**
 
 ## Product
 
 These functions allows the management of the product Catalog, aiming the creation, configuration (based on redemption rules), modification and elimination of products that can be changed by points.
+
+**As showing in the seccion [Commerce - Motivation mapping](#commerce---motivation-mapping), in this case the focus of the defined architecture will be on the full coverage of produt management by the retail and municipality actors.**
 
 ## Commerce - Motivation mapping
 

@@ -4,7 +4,9 @@ Enterprise business functions cover the common responsabilities associated with 
 
 ## Investments
 
-Investment Management to ensure the ongoing and future business
+Investment Management to ensure the ongoing and future business.
+
+**As showing in the seccion [Enterprise - Motivation mapping](#enterprise---motivation-matrix), in this case the focus of the defined architecture will be on the basic finance and accounting functions to share with investors.**
 
 ## Human resources
 
@@ -14,18 +16,26 @@ Managing the employee lifecycle and experience, including:
 - Upskilling
 - Recruiting
 
+**As showing in the seccion [Enterprise - Motivation mapping](#enterprise---motivation-matrix), in this case the focus of the defined architecture will be on the basic people care features, like onboarding, recruiting, ofboarding, upskilling.**
+
 ## Regulatory Compliance
 
-Compliance management, controlling the appliance of procedures and controls to ensure the conformance to local, regional and international regulations
+Compliance management, controlling the appliance of procedures and controls to ensure the conformance to local, regional and international regulations.
+
+**As showing in the seccion [Enterprise - Motivation mapping](#enterprise---motivation-matrix), in this case the focus of the defined architecture will be on the basic features to ensure that all the components are compliants with GDPR.**
 
 ## Information Management
 
 Governance and caring of all the information produced by the company, including transactional information, documents, internal wikis and public content.
 
+**As showing in the seccion [Enterprise - Motivation mapping](#enterprise---motivation-matrix), in this case the focus of the defined architecture will be on the features of analytics and archiving of the transactional data.**
+
 ## Finance & Trasury
 
 Finance management. 
 Caring of the accounting and the health of the company in financial ways.
+
+**As showing in the seccion [Enterprise - Motivation mapping](#enterprise---motivation-matrix), in this case the focus of the defined architecture will be on the basic finance and accounting functions to ensure the business health.**
 
 ## Integration Management
 
@@ -34,13 +44,19 @@ In a complex architecture, it is necessary to manage and govern the integration 
 - Sync integration
 - Async integrations
 
+**Due to the startup state of HeyBlue, this features are not needed in this stage**
+
 ## Enterprise Wide IT
 
 Process, methods and tools that rule the IT proces and lifecycle, ensuring quality and speed on value delivery
 
+**As showing in the seccion [Enterprise - Motivation mapping](#enterprise---motivation-matrix), in this case the focus of the defined architecture will be on the basic features to ensure the implementation of best practices of IT management and DevOps.**
+
 ## Risk and Fraud Management
 
 Risk control and lifecycle management
+
+**As showing in the seccion [Enterprise - Motivation mapping](#enterprise---motivation-matrix), in this case the focus of the defined architecture will be on the basic features to detect, manage and follow risks.**
 
 ## Enterprise - Motivation matrix
 
