@@ -1,7 +1,7 @@
 # ADR Observability Platform
 
 ## Summary
-The observability platform is a set of tools that allow us to monitor the health of our systems and applications. It is a critical component of our infrastructure and is used by all teams to ensure that our systems are running smoothly.
+The observability platform is a set of tools that allows to monitor the health of systems and applications. It is a critical component of the infrastructure and is used by all teams to ensure that systems are running smoothly.
 
 ### Alternatives
 * [New Relic](https://newrelic.com/)
@@ -11,17 +11,17 @@ The observability platform is a set of tools that allow us to monitor the health
 * [AWS CloudWatch](https://aws.amazon.com/cloudwatch/)
 
 ## Decision
-Based on the preview [ADR: Cloud Provider](./adr-cloud.md) and costs, AWS CloudWatch is the best integrated solution to monitoring and observability tool
+Based on the preview [ADR: Cloud Provider](./adr-cloud.md) and costs, AWS CloudWatch is the best integrated solution to monitor and observe the whole solution.
 
-Easy to use and to visualize through dashboards
+What is more, it's easy to use and to visualize the system overall status through dashboards.
 
 | Criteria | Description |
 | -------- | ----------- |
-| Pricing | Starting with the free tier, the price is the most economical and ties to the consumption as pay as you go. |
-| Collect | Near real-time logs and metrics from resources, applications and services |
-| Monitor | Provide dashboards and the possibility to create reusable graphs, alarming with configurable thresholds on metrics and triggering action based on it, correlate logs and metrics, integrated with EKS and k8s, monitor application endpoints and client side performance to enhance end users experience. |
-| Act | Based on the monitored metrics and logs, it is possible to automate actions like autoscaling and executing actions via lambda functions or alarming through SNS topics. |
-| Analyze | CloudWatch can manage custom operations on metrics, log analysis including container and lambda metrics logs and traces, external custom metrics such us on-premise apps. |
+| Pricing | Starting with the free tier, the price is the most convenient and ties to the consumption as pay as you go. |
+| Collect | Near real-time logs and metrics from resources, applications and services. |
+| Monitor | Provides dashboards and the ability to create reusable graphs, alarms with configurable thresholds on metrics and trigger action based on them, correlate logs and metrics, integrate with EKS, monitor application endpoints and client side performance to enhance end users experience. |
+| Act | Based on the collected metrics and logs, it is possible to automate actions like autoscaling and executing actions via lambda functions or alarming through SNS topics. |
+| Analyze | CloudWatch can manage custom operations on metrics, log analysis including container and lambda metrics logs and traces, external custom metrics such as on-premise apps. |
 
 ## Constraints mapping
 

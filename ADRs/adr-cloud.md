@@ -2,7 +2,7 @@
 
 ## Summary
 
-Previous [ADR for Infrastructure](./adr-infrastructure.md) defined Cloud as the option where the solution will live. Nevertheless, it's also necessary to decide which cloud-based provider to use because the market gives many options as of today.
+Previous [ADR for Infrastructure](./adr-infrastructure.md) defined cloud as the layer where the solution will reside. Nevertheless, it's also necessary to decide which cloud-based provider to use because the market provides many options as of today.
 
 ### Alternatives
 
@@ -14,28 +14,27 @@ Previous [ADR for Infrastructure](./adr-infrastructure.md) defined Cloud as the 
 
 Alternative selected: *AWS*
 
+Following table contains all the reasons that drives the decision:
 
-Following table contains all the reasons that drive us to make the decision:
-
-| Criteria                 | Description                                                    
+| Criteria                 | Description
 | --------------------     | ----------------------------------------------------------------------------------------------------- | 
-| Maturity                 | It's the most mature cloud services solution on the market, comparing with GCP and Azure. |
-| Market                   | AWS is a leader in the market with around 32%, unlike Azure with 19% and GCP with 7%, approximately.  | 
-| Capacity 				   | Being a leader on the market translates into a bunch of IT professionals with knowledge about it. |
-| Cost                     | Dedicated plan for startups with 100.000 AWS credits.	Also, AWS has plans for [Non-profit organizations](https://aws.amazon.com/government-education/nonprofits/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc) |
+| Maturity                 | It's the most mature cloud services provider on the market, compared with GCP and Azure. |
+| Market                   | AWS is a leader in the market with around 32%, unlike Azure with 19% and GCP with 7%, approximately.  |
+| Capacity | Being a leader on the market translates into a bunch of IT professionals with knowledge about it. |
+| Cost                     | Dedicated plan for startups with 100.000 AWS credits.
+Also, AWS has plans for [Non-profit organizations](https://aws.amazon.com/government-education/nonprofits/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc) |
 | Cost                     | Free tier for testing. |
 | Cost Models              | Pay as you go, reserved plans (in case of upfront needs) |
 | Features                 | A widely range of services and features, it’s the cloud with more features in: Computing services, storage service, AI/ML. Regarding databases services it’s barely surpassed by Azure, but remains as a leader in the rest of relevant services. |
 | Global Expansion         | More presence around the globe, with many more locations compared to Azure and GCP. |
 | Growth                   | It's the best option to grow up, because offers better pricing for largest instances compared to Azure and GCP. |
-|GDPR 					   | GDPR fully-compliant. [Link](https://aws.amazon.com/es/blogs/security/all-aws-services-gdpr-ready/) |
-
+|GDPR | GDPR fully-compliant. [Link](https://aws.amazon.com/es/blogs/security/all-aws-services-gdpr-ready/) |
 
 ## Constraints mapping
 
 | Constraint ID | Explanation |
 | ------------- | ----------- |
-| CONS.01 | Dedicated plan for startups with 100.000 AWS credits.	Also, AWS has plans for [Non-profit organizations](https://aws.amazon.com/government-education/nonprofits/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc) |
+| CONS.01 | Dedicated plan for startups with 100.000 AWS credits. Also, AWS has plans for [Non-profit organizations](https://aws.amazon.com/government-education/nonprofits/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc) |
 | CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | Cloud solution is a simple way to support the implementation |
 | CONS.07 | AWS is a [GDPR compliant solution](https://aws.amazon.com/compliance/gdpr-center/) |

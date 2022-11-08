@@ -14,7 +14,7 @@ One of the most important decisions to make consist in defining the backend runt
 
 Alternative selected: *Containers and Serverless*
 
-Both of them were selected because each one will fit well depending on the scenario. In this project there are several needs to solve, so it's necessary to have a special care in order to know when and where to use every alternative, however both will be necessary.
+Both of them were selected because each one will be a good fit depending on the scenario. In this project there are several needs to be solved, so it's necessary to have a special care in order to know when and where to use every alternative, however both will be necessary.
 
 **Note: In the section describing the responsibilities of each component will be explained the "why" and the "which" of the selected model.**
 

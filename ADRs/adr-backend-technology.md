@@ -13,8 +13,7 @@ The backend layer is the core component of the solution, so it's necessary to de
 
 Alternative selected: *Python*
 
-
-Following table contains all the reasons that drive us to make the decision:
+Following table contains all the reasons that drives the decision:
 
 | Criteria                 | Description                                                    
 | --------------------     | ----------------------------------------------------------------------------------------------------- | 

@@ -37,14 +37,14 @@ Privacy and security management, including GDPR
 
 ## Foundation - Motivation mapping
 
-The figure 1.9. shows how the *foundation* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
+The figure 8.5.1 shows how the *foundation* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![Foundation - Motivation Matrix](/Assets/1.9.Motivation-Foundation-mapping.png)
+![Figure 8.5.1 - Foundation - Motivation Matrix](/Assets/1.9.Motivation-Foundation-mapping.png "Figure 8.5.1 - Foundation - Motivation Matrix")
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
 
 ## Foundation - Conceptual Architecture mapping
 
-The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
+The figure below (figure 8.5.2) shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
 
-![Foundation Conceptual Architecture Mapping](/Assets/Foundation-Conceptual-Architecture-Mapping.png)
+![Figure 8.5.2 - Foundation Conceptual Architecture Mapping](/Assets/Foundation-Conceptual-Architecture-Mapping.png "Figure 8.5.2 - Foundation Conceptual Architecture Mapping")

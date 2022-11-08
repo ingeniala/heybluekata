@@ -27,14 +27,14 @@ Ability of a user to find and connect with other users, bases on their profile a
 
 ## Interaction - Motivation mapping
 
-The figure 1.5. shows how the *interaction* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
+The figure 8.1.1 shows how the *interaction* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![Interaction - Motivation Matrix](/Assets/1.5.Motivation-Interaction-mapping.png)
+![Figure 8.1.1 - Interaction - Motivation Matrix](/Assets/1.5.Motivation-Interaction-mapping.png "Figure 8.1.1 - Interaction - Motivation Matrix")
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
 
 ## Interaction - Conceptual Architecture mapping
 
-The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
+The figure below (figure 8.1.2) shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
 
-![Interaction Conceptual Architecture Mapping](/Assets/Interaction-Conceptual-Architecture-Mapping.png)
+![Figure 8.1.2 - Interaction Conceptual Architecture Mapping](/Assets/Interaction-Conceptual-Architecture-Mapping.png "Figure 8.1.2 - Interaction Conceptual Architecture Mapping")

@@ -10,3 +10,15 @@ Runtime layer consists in 2 layers:
 ## Storage  
 
 This module will store information about the list of devices submitting GPS localization and how it changes in time. Once again, this unstructured data will live in DynamoDB. 
+
+## Technology Views
+
+For simplicity, it is provided two kinds of views. A simplified view generated using draw.io view that tells the story in a easier way, and the archimate view, useful for analytics purposes.
+
+### Simplified view
+
+![Drawio Tracking](/Assets/drawio-tech-tracking.png "Tracking in draw.io")
+
+### Archimate View
+
+![Archi Tracking](/Assets/HeyBlue-Tracking-Notification-Technology.png "Tracking in Archi")

@@ -2,7 +2,7 @@
 
 ## Summary
 
-One relevant aspect of the solution are notifications, police officers and civians will be notified every time they are closeby to enable social interactions. So it's necessary to select a robust notification mechanism for the architecture. 
+One relevant aspect of the solution are notifications, so police officers and civians can be notified every time they are closeby in order to enable social interactions. Thus, it's necessary to select a robust notification mechanism for the architecture. 
 
 ### Alternatives
 
@@ -15,7 +15,7 @@ Alternative selected: *AWS SNS*
 
 AWS SNS was selected due to the following reasons:
 
-- It's a service of AWS (selected cloud provider for infrasture [ADR Cloud Provider](./adr-cloud.md)). 
+- It's an AWS service (selected cloud provider for infrasture [ADR Cloud Provider](./adr-cloud.md)). 
 - The core of AWS SNS is based in Firebase, so no reasons to select Firebase which belongs to other cloud provider.
 - It's widely adopted for severals organizations.
 - It's a mature technology supported by AWS.
@@ -24,7 +24,7 @@ AWS SNS was selected due to the following reasons:
 
 | Constraint ID | Explanation |
 | ------------- | ----------- |
-| CONS.01 | A cloud solution could start with little cost and increase per usage. |
+| CONS.01 | A cloud solution could start with little-to-no cost and increase per usage. |
 | CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | The solution will evolve as needed |
 

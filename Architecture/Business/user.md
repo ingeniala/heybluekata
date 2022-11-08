@@ -42,14 +42,14 @@ Profile management of the user in the social network, including:
 
 ## User - Motivation mapping
 
-The figure 1.6. shows how the *user* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
+The figure 8.2.1. shows how the *user* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![User - Motivation matrix](/Assets/1.6-Motivation-User-mapping.png)
+![Figure 8.2.1 - User - Motivation matrix](/Assets/1.6-Motivation-User-mapping.png "Figure 8.2.1 - User - Motivation matrix")
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
 
 ## User - Conceptual Architecture mapping
 
-The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
+The figure below (Figure 8.2.2) shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
 
-![User Conceptual Architecture Mapping](/Assets/User-Conceptual-Architecture-Mapping.png)
+![Figure 8.2.2 - User Conceptual Architecture Mapping](/Assets/User-Conceptual-Architecture-Mapping.png "Figure 8.2.2 - User Conceptual Architecture Mapping")

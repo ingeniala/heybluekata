@@ -2,7 +2,7 @@
 
 ## Summary
 
-The frontend layer, in this case the web module, helps to expose the business capabilities of the solution in an easy, user-friendly way so the users can have a nice experience, creating an unbreakable user-application bind. Defining the technology to build that layer is definitely essential.
+The frontend layer, in this case the web module, helps to expose the solution business capabilities in an easy, user-friendly way so the users can have a nice experience, creating an unbreakable user-application binding. Defining the technology to build that layer is definitely essential.
 
 ### Alternatives
 
@@ -15,19 +15,19 @@ The frontend layer, in this case the web module, helps to expose the business ca
 
 Alternative selected: *React*
 
-Following table contains all the reasons that drive us to make the decision:
+Following table contains all the reasons that drives the decision:
 
-| Criteria                 | Description                                                    
-| --------------------     | ----------------------------------------------------------------------------------------------------- | 
+| Criteria                 | Description
+| --------------------     | ----------------------------------------------------------------------------------------------------- |
 | Control of the market    | Widely used in the IT industry compared with the other options: https://npmtrends.com/angular-vs-backbone-vs-react-vs-vue. |
-| Adoption                 | Widely adopted by the community. | 
-| Reutilization 		   | Shared components with React Native ([ADR Mobile Technology](./adr-mobile-technology.md)). Due to react native relying on React features, there could be reutilization code also with the mobile module.      									|
-| Usability          	   | Easy to learn and use: a developer with a background in javascript can easily learn and start with React. |
+| Adoption                 | Widely adopted by the community. |
+| Reutilization | Shared components with React Native ([ADR Mobile Technology](./adr-mobile-technology.md)). Due to react native relying on React features, there could be reutilization code also with the mobile module. |
+| Usability | Easy to learn and use: a developer with a background in javascript can easily learn and start with React. |
 | Reutilization            | Components reutilization: An React App is based on components which could be reused in the whole app, also these components could be reused by mobile app [ADR Mobile Technology](./adr-mobile-technology.md). |
 | Usability                | Easy to test. |
 | Loyalty                  | Created and maintained by Facebook. |
-| Maturity				   | Used by gigants on the market like: Netflix, Airbnb, Asana, Pinterest and more. |
-| Cost					   | Save money: React is widely used, so it's quite easy to find developers within the community |
+| Maturity | Used by gigants on the market like: Netflix, Airbnb, Asana, Pinterest and more. |
+| Cost | Save money: React is widely used, so it's quite easy to find developers within the community |
 
 ## Constraints mapping
 

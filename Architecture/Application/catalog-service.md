@@ -12,4 +12,4 @@ This service is intended to fully manage catalogs for _Merchants and Municipalit
 It should also have an integration with _Business Rules Service_ in order to return the reedemtion points depending on a certain product or fine.
 
 ## Technology
-More info about technology concerns in [Technology](/Architecture/Technology/catalog-service.md)
+More info about technology concerns in [Technology](/Architecture/Technology/content-manager.md)
