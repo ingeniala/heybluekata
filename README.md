@@ -14,7 +14,7 @@
     * [Bussiness Collaboration View](#business-collaboration-view)
     * [Application Component Collaboration Views](#application-component-collaboration-views)
     * [Technology & Deployment View](#technology--deployment-view)
-* [Adoption Practices](#adption-practices)
+* [Adoption Practices](#adoption-practices)
 * [Team Organization](#team-organization)
 * [Resources](#resources)
 * [ADRs](#architecture-decision-records)
