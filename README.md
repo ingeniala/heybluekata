@@ -302,7 +302,7 @@ It is possible to get more information about the technological aspects of the ar
 
 ### Agile practices
 
-Derived from the constraint [CONS.01](#constraints) and [CONS.06](#constraints), it's highly recommend the adoption of agile practices (Like SCRUM or KANBAN) to manage the development, evolution and support of the solution. It will enable Hey Blue to gain speed of delivery value, cost control and increase the quality of the product delivered.
+Derived from the constraint [CONS.01](#constraints) and [CONS.06](#constraints), it's highly recommended the adoption of agile practices (Like SCRUM or KANBAN) to manage the development, evolution and support of the solution. It will enable Hey Blue to gain speed of delivery value, cost control and increase the quality of the product delivered.
 
 ### DevSecOps 
 
