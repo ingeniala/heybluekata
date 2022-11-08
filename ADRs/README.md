@@ -18,3 +18,6 @@
 * [ADR Finance and Treasury](./adr-finance-treasury.md)
 * [ADR HR](./adr-hr.md)
 * [ADR Code Repository](./adr-code-repository.md)
+* [ADR Document Management](./adr-document-management.md)
+* [ADR Mailing](./adr-mailing.md)
+* [ADR CI CD](./adr-ci-cd.md)
