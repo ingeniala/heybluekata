@@ -315,13 +315,13 @@ The incident management process is a set of activities that are performed to ide
 
 ## Team organization
 
-Following the requirements defined by [CONS.06](#constraints), it's strongly recommend to addopt Team Topologies philosophy to define the responsibilities associated with Hey Blue. 
+Following the requirements defined by [CONS.06](#constraints), it's strongly recommended to addopt Team Topologies philosophy to define the responsibilities associated with Hey Blue. 
 
 In the very beginning, just one Stream Aligned team will be enough to cover the responsibilities needed to deploy the first versions of Hey Blue in an agile way. The image below describe this initial situation:
 
 ![Team Topologies  v1.0](/Assets/TeamTopologies-V1.0.png "Initial Team Topology")
 
-In this initial team deployment, it's recommend to have the following roles:
+In this initial team deployment, it's recommended to have the following roles:
 
 * Web Developer, responsible for the development, evolution and support of the web components.
 * Mobile Developer, responsible for the development, evolution and support of the web components.
