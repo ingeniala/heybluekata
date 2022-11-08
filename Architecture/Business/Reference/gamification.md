@@ -6,13 +6,19 @@ A social network needs to manage a way to incentivize the interaction between us
 
 Scoring management for each user, including the history of movements.
 
+**As showing in the seccion [Gamification - Motivation mapping](#gamification---motivation-mapping), in this case the focus of the defined architecture will be on the features of score balance management, including history.**
+
 ## Scoring Rules
 
-Rules by a user can obtain points
+Rules by a user can obtain points.
+
+**As showing in the seccion [Gamification - Motivation mapping](#gamification---motivation-mapping), in this case the focus of the defined architecture will be on the rules that enable the different actors to obtain points for their actions.**
 
 ## Redemption Rules
 
 Rules by a user can redem points for prices, products or services.
+
+**As showing in the seccion [Gamification - Motivation mapping](#gamification---motivation-mapping), in this case the focus of the defined architecture will be on the rules that enable the different actors to redeem points.**
 
 ## Gamification - Motivation mapping
 
