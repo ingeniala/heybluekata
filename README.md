@@ -276,6 +276,28 @@ It is possible to get more information about the logical components in the secti
 
 ### Technology & Deployment View
 
+This views have two different viewpoints, one extracted from draw.io and other also extracted from the Archimate model. Both detail the:
+- Main application components of the architecture
+- Main technology components of the architecture
+- Relations between the components
+
+It is possible to get more information about the technological aspects of the architecture in the sections bellow:
+
+- [Onboarding](/Architecture/Technology/onboarding.md)  
+- [User Catalogs]()     
+- [Scoring]()     
+- [Tracking]()
+- [Store Service]()       
+- [Content Manager]() 
+- [Catalog Service]()    
+- [Business Rules]()       
+- [Users Domain]()   
+- [QR Generation]()     
+- [Data Archiving]()   
+- [Analytics]()     
+- [Messaging Layer]()     
+- [Security Concerns]() 
+
 ## Adoption Practices
 
 ### Agile practices
