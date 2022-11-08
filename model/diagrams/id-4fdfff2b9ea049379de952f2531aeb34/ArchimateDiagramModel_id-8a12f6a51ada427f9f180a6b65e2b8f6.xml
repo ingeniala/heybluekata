@@ -655,17 +655,6 @@
         href="Artifact_id-7a834ad3b78e49139cec174b677a20a1.xml#id-7a834ad3b78e49139cec174b677a20a1"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-b7587a3d0de64e3c82cbfe6e6af36fcd"
-      textAlignment="1"
-      content="ver CMS">
-    <bounds
-        x="576"
-        y="629"
-        width="97"
-        height="56"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ed6e32365f7d4be18f84923def7f3817"
       targetConnections="id-506a1471903d47febe1c8002869ec3be id-9d64859571044d55bc82a1023760cc48">
