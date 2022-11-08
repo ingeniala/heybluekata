@@ -2,7 +2,7 @@
 
 ## Summary
 
-Over the last years (OCI)[https://es.wikipedia.org/wiki/Open_Container_Initiative] based containers become in a _de facto_ strategy to build applications, because they are lightweight, allow fast delivery code, high portability between environments, and save money doing a better use of resources. Although they have many advantages, when architectures are designed around dozens or hundreds of them, some new challenges appear like orchestration, discovery, communication, self-healing, resilience, balanced replication at scale. Luckily, some platforms were created to mitigate these situations.
+Over the last years (OCI)[https://es.wikipedia.org/wiki/Open_Container_Initiative] based containers become in a _de facto_ strategy to build applications, because they are lightweight, allow fast delivery code, high portability between environments, and save money making a better use of resources. Although they have many advantages, when architectures are designed around dozens or hundreds of them, some new challenges appear like orchestration, discovery, communication, self-healing, resilience, balanced replication at scale. Luckily, some platforms were created to mitigate these situations.
 
 ### Alternatives
 
@@ -14,7 +14,7 @@ Over the last years (OCI)[https://es.wikipedia.org/wiki/Open_Container_Initiativ
 Alternative selected: *EKS*
 
 
-Following table contains all the reasons that drives to make the decision:
+Following table contains all the reasons that drives the decision:
 
 | Criteria                 | Description                                                    
 | --------------------     | ----------------------------------------------------------------------------------------------------- | 

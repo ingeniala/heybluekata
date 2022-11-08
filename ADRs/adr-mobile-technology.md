@@ -15,7 +15,7 @@ The frontend layer, in this case the mobile module, helps to expose the business
 Alternative selected: *React Native*
 
 
-Following table contains all the reasons that drives to make the decision:
+Following table contains all the reasons that drives the decision:
 
 | Criteria                 | Description
 | --------------------     | ----------------------------------------------------------------------------------------------------- |

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Previous [ADR for Infrastructure](./adr-infrastructure.md) defined Cloud as the option where the solution will live. Nevertheless, it's also necessary to decide which cloud-based provider to use because the market gives many options as of today.
+Previous [ADR for Infrastructure](./adr-infrastructure.md) defined cloud as the layer where the solution will reside. Nevertheless, it's also necessary to decide which cloud-based provider to use because the market provides many options as of today.
 
 ### Alternatives
 
@@ -14,12 +14,11 @@ Previous [ADR for Infrastructure](./adr-infrastructure.md) defined Cloud as the 
 
 Alternative selected: *AWS*
 
-
-Following table contains all the reasons that drives to make the decision:
+Following table contains all the reasons that drives the decision:
 
 | Criteria                 | Description
 | --------------------     | ----------------------------------------------------------------------------------------------------- | 
-| Maturity                 | It's the most mature cloud services solution on the market, comparing with GCP and Azure. |
+| Maturity                 | It's the most mature cloud services provider on the market, compared with GCP and Azure. |
 | Market                   | AWS is a leader in the market with around 32%, unlike Azure with 19% and GCP with 7%, approximately.  |
 | Capacity | Being a leader on the market translates into a bunch of IT professionals with knowledge about it. |
 | Cost                     | Dedicated plan for startups with 100.000 AWS credits.

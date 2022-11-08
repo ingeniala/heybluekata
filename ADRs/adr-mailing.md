@@ -14,7 +14,7 @@ A digital company needs to communicate with customers, partners and community in
 
 Alternative selected: GSuite
 
-The team chooses GSuite over Office 365 due to easy of deploy, manage and use. And due to its community support to solve issues and to manage startups issues with templates in an easy way.
+The team chooses GSuite over Office 365 due to ease of deploy, manage and use. And due to its community support to solve issues and to manage startups issues with templates in an easy way.
 
 ## Constraints mapping
 

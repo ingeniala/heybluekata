@@ -2,7 +2,7 @@
 
 ## Summary
 
-Based on other decisions made by the team such as using [AWS](./adr-cloud.md) as preferred cloud provider and [AWS EKS](./adr-containers-runtime-service.md) as the default solution for managing the containers where main functionalities will reside; another third related decision came up, how to optimize the compute needs inside EKS, referring to not only saving some money but also using only what's needed by applications. 
+Based on other decisions made by the team such as using [AWS](./adr-cloud.md) as preferred cloud provider and [AWS EKS](./adr-containers-runtime-service.md) as the default solution for managing the containers where main functionalities will reside; another third related decision came up: how to optimize the compute needs inside EKS, referring to not only saving some money but also using only what's needed by applications. 
 
 ### Alternatives
 

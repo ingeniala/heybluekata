@@ -2,7 +2,7 @@
 
 ## Summary
 
-One of the first of many decisions to make at the beginning of a project is basically where the solution should exist, where the components should live taking account of the key drivers and mandatory constraints given by the business (e.g. time matters, no extra costs allowed, easy-to-setup-and-scale solution).
+One of the first of many decisions to make at the beginning of a project is basically define where the solution will exist, where the components should live taking account of the key drivers and mandatory constraints given by the business (e.g. time matters, no extra costs allowed, easy-to-setup-and-scale solution).
 
 ### Alternatives
 
@@ -13,7 +13,7 @@ One of the first of many decisions to make at the beginning of a project is basi
 
 Alternative selected: *Cloud*
 
-Following table contains all the reasons that drives to make the decision:
+Following table contains all the reasons that drives the decision:
 
 | Criteria                 | Description
 | --------------------     | ----------------------------------------------------------------------------------------------------- |

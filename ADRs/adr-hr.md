@@ -4,7 +4,6 @@
 
 Hey Blue will have employees, consultants or volunteers working with them. To ensure the experience of these actors, to enable a good performance of the solutions, they need a solution to manage the lifecycle of their collaborators
 
-
 ### Alternatives
 
 - Gsuite
