@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="1.2.6. Motivation - Commerce mapping"
-    id="id-b779811f7d1043238be5330c79ab7329">
+    id="id-b779811f7d1043238be5330c79ab7329"
+    viewpoint="requirements_realization">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-501e3c83c12245b5a10163afc76a01ce">

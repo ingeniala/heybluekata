@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2.2.2.5. Foundation - Conceptual Architecture Mapping"
-    id="id-95ba15411896483da8b90480a7360227">
+    id="id-95ba15411896483da8b90480a7360227"
+    viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f3fcd97200004257a8d3b626ae14e4f5">
