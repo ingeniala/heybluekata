@@ -281,6 +281,10 @@ This views have two different viewpoints, one extracted from draw.io and other a
 - Main technology components of the architecture
 - Relations between the components
 
+For a general view, it is presented the figure below, a simplified view of the proposed technology components.
+
+![Tech - general](/Assets/drawio-tech-general.png)
+
 It is possible to get more information about the technological aspects of the architecture in the sections bellow:
 
 - [Onboarding](/Architecture/Technology/onboarding.md)  
