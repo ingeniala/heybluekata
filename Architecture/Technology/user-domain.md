@@ -25,3 +25,15 @@ Although the graph model fits the best, the team also considered that the develo
 
 So if the model can be represented as a plain table to hold the 5 different “user” entities and another table to hold transactions (and some utils tables as well), and guarantee they can be searched and joined easily, then there is no need to overdesign putting in there a graph native db, there are more cons than pros.
 Therefore, and to follow other decisions about infrastructure, the db engine chosen is Amazon Aurora (Postgres SQL).
+
+## Technology Views
+
+For simplicity, it is provided two kinds of views. A simplified view generated using draw.io view that tells the story in a easier way, and the archimate view, useful for analytics purposes.
+
+### Simplified view
+
+![Drawio User domain](/Assets/drawio-tech-user-domain.png "User domain in draw.io")
+
+### Archimate View
+
+![Archi User domain](/Assets/HeyBlue-User-Service-Technology.png "Onboarding in Archi")
