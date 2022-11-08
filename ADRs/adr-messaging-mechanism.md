@@ -13,7 +13,7 @@ Over the last years, messaging through queues or topics has become a great optio
 
 Alternative selected: *AWS Kinesis Stack*
 
-Following table contains all the reasons that drives to make the decision:
+Following table contains all the reasons that drives the decision:
 
 | Criteria                 | Description
 | --------------------     | ----------------------------------------------------------------------------------------------------- |

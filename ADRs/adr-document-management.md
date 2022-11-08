@@ -4,7 +4,6 @@
 
 A lot of functionality in a startup depends on business document management. A core decision of the architecture is how to manage this documents in a good way.
 
-
 ### Alternatives
 
 - GSuite

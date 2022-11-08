@@ -15,16 +15,16 @@ One relevant aspect of an IT solution is how to manage the build and deployment 
 
 Alternative selected: *AWS Code Build and AWS Code Pipeline*
 
-AWS Code Build and Code Pipeline was selected due to the following reasons:
+AWS Code Build and Code Pipeline were selected due to the following reasons:
 
-- They're services of AWS (selected cloud provider for infrasture [ADR Cloud Provider](./adr-cloud.md)). 
-- They're adopted for severals organizations.
+- They're AWS services (selected cloud provider for infrasture [ADR Cloud Provider](./adr-cloud.md)). 
+- They're adopted for severals organizations (high maturity & adoption).
 
 ## Constraints mapping
 
 | Constraint ID | Explanation |
 | ------------- | ----------- |
-| CONS.01 | A cloud solution could start with little cost and increase per usage. |
+| CONS.01 | A cloud solution could start with little-to-no cost and increase per usage. |
 | CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | The solution will evolve as needed |
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-The frontend layer, in this case the web module, helps to expose the business capabilities of the solution in an easy, user-friendly way so the users can have a nice experience, creating an unbreakable user-application bind. Defining the technology to build that layer is definitely essential.
+The frontend layer, in this case the web module, helps to expose the solution business capabilities in an easy, user-friendly way so the users can have a nice experience, creating an unbreakable user-application binding. Defining the technology to build that layer is definitely essential.
 
 ### Alternatives
 
@@ -15,7 +15,7 @@ The frontend layer, in this case the web module, helps to expose the business ca
 
 Alternative selected: *React*
 
-Following table contains all the reasons that drives to make the decision:
+Following table contains all the reasons that drives the decision:
 
 | Criteria                 | Description
 | --------------------     | ----------------------------------------------------------------------------------------------------- |

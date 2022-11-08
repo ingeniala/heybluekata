@@ -2,19 +2,19 @@
 
 ## Summary
 
-One of the main decisions had to made is to choose the best Analytics engine that supports the Hey Blue requirements.
+One of the main decisions to make consist in choosing the best Analytics platform able to support Hey Blue requirements.
 
 
 ### Alternatives
 
 - Metabase
-- Qlick
+- Qlik
 
 ## Decision 
 
 Alternative selected: *Metabase*
 
-Selected Metabase over Qlick due mainly to cost constraint, extensibility and usability of the solution for new entry users.
+Selected Metabase over Qlik due mainly to cost constraint, extensibility and usability of the solution for new entry users.
 
 ## Constraints mapping
 
