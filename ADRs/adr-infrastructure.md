@@ -31,7 +31,7 @@ Following table contains all the reasons that drive us to make the decision:
 | Constraint ID | Explanation |
 | ------------- | ----------- |
 | CONS.01 | Cloud is a less expensive solution, not only in infrasture and licences, but also in cost of maintenance |
-| CONS.05 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.04 | A cloud based architecture should improve the confidence of the police officers as part of the solution |
 | CONS.06 | Cloud solutions enable the evolution of the applications as needed |
 | CONS.07 | Cloud providers are often compliance with GDPR and other policies |

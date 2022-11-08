@@ -21,6 +21,6 @@ We choose Metabase over Qlick due mainly to cost constraint, extensibility and u
 | Constraint ID | Explanation |
 | ------------- | ----------- |
 | CONS.01 | Metabase is an open source and free solution |
-| CONS.05 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | Metabase is a good options to evolve in complexity as needed, starting with something simple |
 | CONS.07 | Metabase is compliant with [GDPR](https://www.metabase.com/docs/latest/installation-and-operation/privacy) |

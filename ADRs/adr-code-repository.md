@@ -16,7 +16,7 @@ Alternative selected: *AWS Code Commit*
 
 AWS Code Commit was selected due to the following reasons:
 
-- It's a service of AWS (selected cloud provider for infrasture [ADR Cloud Provider](./adr-cloud.md)). 
+- It's a service of AWS (selected cloud provider for infrasture [ADR Cloud Provider](./adr-cloud.md). 
 - The core of AWS Code Commit is GIT, so no reasons to no choose AWS Code Commit.
 - It's adopted for severals organizations.
 
@@ -25,7 +25,7 @@ AWS Code Commit was selected due to the following reasons:
 | Constraint ID | Explanation |
 | ------------- | ----------- |
 | CONS.01 | A cloud solution could start with little cost and increase per usage. |
-| CONS.05 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | The solution will evolve as needed |
 
 ## Architecture Characteristics Mapping

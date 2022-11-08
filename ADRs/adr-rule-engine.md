@@ -14,7 +14,7 @@ A lot of functionality in Hey Blue solution depends on business rules. A core de
 
 Alternative selected: *Python Business Rule Engine*
 
-We choose Python Business Rule Engine over Hardcoding due mainly to cost constraint (code is hard to maintain than markup language in maintainance mode), extensibility and usability of the solution for developers.
+The team chooses Python Business Rule Engine over Hardcoding due mainly to cost constraint (code is hard to maintain than markup language in maintainance mode), extensibility and usability of the solution for developers.
 
 Due to the startup nature of Hey Blue, and trying to minimize the need of code development to a minimum (see restrictions) there are several benefits in usinge some business DSL (Domain Specific Language):
 
@@ -29,7 +29,7 @@ Due to the startup nature of Hey Blue, and trying to minimize the need of code d
 | Constraint ID | Explanation |
 | ------------- | ----------- |
 | CONS.01 | Python Business Rule Engine is an open source and free solution |
-| CONS.05 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | A rule engine is a good option to evolve in complexity as needed, starting with something simple |
 
 ## Architecture Characteristics Mapping

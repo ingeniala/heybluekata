@@ -28,7 +28,7 @@ Easy to use and to visualize through dashboards
 | Constraint ID | Explanation |
 | ------------- | ----------- |
 | CONS.01 | Dedicated plan for startups with 100.000 AWS credits. Also, AWS has plans for [Non-profit organizations](https://aws.amazon.com/government-education/nonprofits/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc) |
-| CONS.05 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | Cloud solution is a simple way to support the implementation |
 | CONS.07 | AWS is a [GDPR compliant solution](https://aws.amazon.com/compliance/gdpr-center/) |
 

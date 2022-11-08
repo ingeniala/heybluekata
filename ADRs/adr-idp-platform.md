@@ -25,7 +25,7 @@ Here are the main reasons backing up this decision:
 | Constraint ID | Explanation |
 | ------------- | ----------- |
 | CONS.01 | Is a cheap solution if it is managed with Non-profit organization AWS offering |
-| CONS.05 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.07 | AWS is a [GDPR compliant solution](https://aws.amazon.com/compliance/gdpr-center/) |
 
 ## Architecture Characteristics Mapping

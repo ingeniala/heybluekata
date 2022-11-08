@@ -10,3 +10,15 @@ It will also have a Kubernetes cronjob associated responsible for polling the ex
 ## Storage
 
 Catalogs will be held in a durable datastore so it can be retrieved anytime needed. For this purpose, and based on the nature of the data involved (which can vary among entities), the team picked a non-structural approach, therefore a noSQL engine. To stick with the rest of the decisions in terms of infrastructure and scalability, DynamoDB is the chosen repository. 
+
+## Technology Views
+
+For simplicity, it is provided two kinds of views. A simplified view generated using draw.io view that tells the story in a easier way, and the archimate view, useful for analytics purposes.
+
+### Simplified view
+
+![Drawio User catalogs](/Assets/drawio-user-catalogs.png "User catalogs in draw.io")
+
+### Archimate View
+
+![Archi User catalogs](/Assets/HeyBlue-User-Catalog-Technology.png "Onboarding in Archi")

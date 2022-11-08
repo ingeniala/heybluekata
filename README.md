@@ -276,6 +276,28 @@ It is possible to get more information about the logical components in the secti
 
 ### Technology & Deployment View
 
+This views have two different viewpoints, one extracted from draw.io and other also extracted from the Archimate model. Both detail the:
+- Main application components of the architecture
+- Main technology components of the architecture
+- Relations between the components
+
+It is possible to get more information about the technological aspects of the architecture in the sections bellow:
+
+- [Onboarding](/Architecture/Technology/onboarding.md)  
+- [Users Domain](/Architecture/Technology/user-domain.md)     
+- [Scoring]()     
+- [Tracking]()
+- [Store Service]()       
+- [Content Manager]() 
+- [Catalog Service]()    
+- [Business Rules]()       
+- [User Catalogs](/Architecture/Technology/user-catalogs.md)   
+- [QR Generation]()     
+- [Data Archiving]()   
+- [Analytics]()     
+- [Messaging Layer]()     
+- [Security Concerns]() 
+
 ## Adoption Practices
 
 ### Agile practices
@@ -347,3 +369,5 @@ Additionally, we provided an HTML view of the model, in the folder [htmlModel](h
 * [ADR Document Management](./ADRs/adr-document-management.md)
 * [ADR Mailing](./ADRs/adr-mailing.md)
 * [ADR CI CD](./ADRs/adr-ci-cd.md)
+* [ADR API Gateway](./ADRs/adr-api-gw.md)
+* [ADR EKS Dataplane Runtime](./ADRs/adr-eks-dataplane-runtime.md)

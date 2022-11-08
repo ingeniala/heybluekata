@@ -25,7 +25,7 @@ AWS SNS was selected due to the following reasons:
 | Constraint ID | Explanation |
 | ------------- | ----------- |
 | CONS.01 | A cloud solution could start with little cost and increase per usage. |
-| CONS.05 | There were no restrictions, except for those defined here, about technology related decisions |
+| CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | The solution will evolve as needed |
 
 ## Architecture Characteristics Mapping
