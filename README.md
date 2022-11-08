@@ -361,7 +361,7 @@ The model was versioned in this repo (folder /model). To connect Archi with this
 
 Additionally, it's provided an HTML view of the model, in the folder [htmlModel](htmlModel).
 
-## Architecture Decision Records
+## [Architecture Decision Records](https://github.com/ingeniala/heybluekata#architecture-decision-records)
 
 * [ADR Infrastructure](./ADRs/adr-infrastructure.md)
 * [ADR Cloud](./ADRs/adr-cloud.md)
