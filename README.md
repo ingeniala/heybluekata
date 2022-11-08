@@ -2,29 +2,41 @@
 
 ## Table of Contents
 
-* [About Los Ingenials](#about-los-ingenials)
-* [Glossary](#glossary)
-* [Prelude](#prelude)
-* [Functional requirements](#functional-requirements)
-* [Constraints](#constraints)
-* [Quality Attributes](#quality-attributes-aka-architecture-characteristics)
-* [Assumptions](#assumptions)
-* [Architecture](#architecture)
-    * [Reference Architecture](#reference-architecture)
-    * [Bussiness Collaboration View](#business-collaboration-view)
-    * [Application Component Collaboration Views](#application-component-collaboration-views)
-    * [Technology & Deployment View](#technology--deployment-view)
-* [Adoption Practices](#adoption-practices)
-* [Team Organization](#team-organization)
-* [Resources](#resources)
-* [ADRs](#architecture-decision-records)
-
+- [O'Reilly Architectural Katas - Fall 2022 - HeyBlue](#oreilly-architectural-katas---fall-2022---heyblue)
+  - [Table of Contents](#table-of-contents)
+  - [About Los Ingenials](#about-los-ingenials)
+    - [Members](#members)
+  - [Glossary](#glossary)
+  - [Prelude](#prelude)
+  - [Functional requirements](#functional-requirements)
+    - [Drivers](#drivers)
+    - [Goals](#goals)
+    - [High level use Cases](#high-level-use-cases)
+  - [Constraints](#constraints)
+  - [Quality Attributes (AKA Architecture Characteristics)](#quality-attributes-aka-architecture-characteristics)
+  - [Assumptions](#assumptions)
+  - [Architecture](#architecture)
+    - [Reference architecture](#reference-architecture)
+    - [Business Collaboration View](#business-collaboration-view)
+      - [Onboarding flows](#onboarding-flows)
+      - [Interaction and scoring flows](#interaction-and-scoring-flows)
+      - [Support flows](#support-flows)
+    - [Application Component Collaboration Views](#application-component-collaboration-views)
+    - [Technology & Deployment View](#technology--deployment-view)
+  - [Adoption Practices](#adoption-practices)
+    - [Agile practices](#agile-practices)
+    - [DevSecOps](#devsecops)
+    - [Incident Management](#incident-management)
+  - [Team organization](#team-organization)
+  - [Resources](#resources)
+    - [Archimate](#archimate)
+  - [Architecture Decision Records](#architecture-decision-records)
 
 ## About Los Ingenials
 
-We are a tribe of guys who are enthusiastic about solving complex problems with technology applied vith criteria in a sustainable way. 
+We are a tribe of guys who are enthusiastic about solving complex problems with technology applied vith criteria in a sustainable way.
 
-Our name is Ingenials, becouse we work together for Ingenia, a consulting firm focused on allowing our customers to strategically and tactically leverage their business with technology. 
+Our name is Ingenials, becouse we work together for Ingenia, a consulting firm focused on allowing our customers to strategically and tactically leverage their business with technology.
 
 ### Members
 
@@ -129,7 +141,6 @@ Below, it will describe each one of them.
 * CONS.06 - Define a solution that evolve with a team
 * CONS.07 - Compliance with GDPR
 
-
 ## Quality Attributes (AKA Architecture Characteristics)
 
 The figure 3. shows the Quality Attributes (A.K.A. Architecture Characteristics) identified for Hey Blue.
@@ -139,31 +150,31 @@ The figure 3. shows the Quality Attributes (A.K.A. Architecture Characteristics)
 The following sections describe each architecture characteristics:
 
 * Usability Characteristics
-    * [AC.USA.01 - Web App Usability](/Characteristics/ac-usa-01.md)
-    * [AC.USA.02 - Mobile App Usability](/Characteristics/ac-usa-02.md)
+  * [AC.USA.01 - Web App Usability](/Characteristics/ac-usa-01.md)
+  * [AC.USA.02 - Mobile App Usability](/Characteristics/ac-usa-02.md)
 * Security Characteristics
-    * [AC.SEC.01 - Secure Information](/Characteristics/ac-sec-01.md)
-    * [AC.SEC.02 - End User AAA](/Characteristics/ac-sec-02.md)
-    * [AC.SEC.03 - Device Linking](/Characteristics/ac-sec-03.md)
-    * [AC.SEC.04 - Direction of searching](/Characteristics/ac-sec-04.md)
+  * [AC.SEC.01 - Secure Information](/Characteristics/ac-sec-01.md)
+  * [AC.SEC.02 - End User AAA](/Characteristics/ac-sec-02.md)
+  * [AC.SEC.03 - Device Linking](/Characteristics/ac-sec-03.md)
+  * [AC.SEC.04 - Direction of searching](/Characteristics/ac-sec-04.md)
 * Confidence Characteristics
-    * [AC.CON.01 - Limited ammount of connections](/Characteristics/ac-con-01.md)
-    * [AC.CON.02 - Connection in a limited ratio](/Characteristics/ac-con-02.md)
-    * [AC.CON.03 - Officer location automatic turn of](/Characteristics/ac-con-03.md)
+  * [AC.CON.01 - Limited ammount of connections](/Characteristics/ac-con-01.md)
+  * [AC.CON.02 - Connection in a limited ratio](/Characteristics/ac-con-02.md)
+  * [AC.CON.03 - Officer location automatic turn of](/Characteristics/ac-con-03.md)
 * Stability Characteristics
-    * [AC.STA.01 - Weekdays uptime](/Characteristics/ac-sta-01.md)
-    * [AC.STA.02 - Weekends uptime](/Characteristics/ac-sta-02.md)
+  * [AC.STA.01 - Weekdays uptime](/Characteristics/ac-sta-01.md)
+  * [AC.STA.02 - Weekends uptime](/Characteristics/ac-sta-02.md)
 * Modifiability Characteristics
-    * [AC.MOD.01 - Add new social media](/Characteristics/ac-mod-01.md)
+  * [AC.MOD.01 - Add new social media](/Characteristics/ac-mod-01.md)
 * Scalability Characteristics
-    * [AC.SCA.01 - Increase capacity as usage](/Characteristics/ac-sca-01.md)
+  * [AC.SCA.01 - Increase capacity as usage](/Characteristics/ac-sca-01.md)
 * Performance Characteristics
-    * [AC.PER.01 - Speed of connection](/Characteristics/ac-per-01.md)
-    * [AC.PER.02 - Speed of change](/Characteristics/ac-per-02.md)
+  * [AC.PER.01 - Speed of connection](/Characteristics/ac-per-01.md)
+  * [AC.PER.02 - Speed of change](/Characteristics/ac-per-02.md)
 
 ## Assumptions
 
-* IRS give information through API or file sharing. that let know when an organization is a charity organization. 
+* IRS give information through API or file sharing. that let know when an organization is a charity organization.
 * A state department inform, through API or file sharing, what are the family in needs.
 * A family in need can redeem their points but can't donate them.
 * Due to its user characteristics, retails can only use Web channel.
@@ -177,7 +188,6 @@ The following sections describe each architecture characteristics:
 * The solution must be defined to evolve with a team, starting with a simple but useful solution with a small team supporting it.
 * Charitable organization and Family in need catalogs will be provided by external third-party services and held in another local component (user catalogs service), so it can be retrieved whenever needed to validate user creation.
 * The information for user catalogs will be provided by a certified entity in the US soil (e.g. IRS) so the platform can scrape that information.
-
 
 ## Architecture
 
@@ -198,9 +208,9 @@ The figure 4 shows the reference architecture for social network, which define t
 
 The following sections will describe each one of the business responsibilities, with views exported from the Archimate and detail the following topics:
 
-- How the Reference Architecture components support the Functional Requirements
-- How the Reference Architecture components support the Architecture Characteristics
-- How the defined Constraints influence the Reference Architecture Components
+* How the Reference Architecture components support the Functional Requirements
+* How the Reference Architecture components support the Architecture Characteristics
+* How the defined Constraints influence the Reference Architecture Components
 
 Follow each link to get more information about each Reference Architecture meta-functions:
 
@@ -217,12 +227,13 @@ Follow each link to get more information about each Reference Architecture meta-
 In the sections below, we will describe the business flows identified for Hey Blue, the supporting relationship of conceptual components (defined in the seccion [Application Components Collaboration Views](#application-component-collaboration-views)), and how the business entities are impacted or support the business processes.
 
 This set of views are extracted from the Archimate model and detail the:
-- Main business flows of the architecture
-- Main business events derived from the flow and how they connect the different business flows
-- Relations between the components
-- Conceptual Applications components of the architecture and how they support the business processes
-- Main business entities of the architecture
-- Access operations on those business entities, to show what process create, update or read them
+
+* Main business flows of the architecture
+* Main business events derived from the flow and how they connect the different business flows
+* Relations between the components
+* Conceptual Applications components of the architecture and how they support the business processes
+* Main business entities of the architecture
+* Access operations on those business entities, to show what process create, update or read them
 
 #### Onboarding flows
 
@@ -249,37 +260,39 @@ This set of views are extracted from the Archimate model and detail the:
 ### Application Component Collaboration Views
 
 This view is also extracted from the Archimate model and detail the:
-- Main business flows of the architecture
-- Main business events derived from the flow and how they connect the different business flows
-- Relations between the components
-- Main business actors interacting with Hey Blue architecture
-- Application coverage that supports the business processes and have direct interaction with them
+
+* Main business flows of the architecture
+* Main business events derived from the flow and how they connect the different business flows
+* Relations between the components
+* Main business actors interacting with Hey Blue architecture
+* Application coverage that supports the business processes and have direct interaction with them
 
 ![Figure 5 - Conceptual Architecture](./Assets/Architecture-Conceptual.png "Figure 5 - Conceptual Architecture")
 
 It is possible to get more information about the logical components in the sections bellow:
 
-- [Onboarding](/Architecture/Application/onboarding.md)  
-- [User Catalogs](/Architecture/Application/user-catalogs.md)     
-- [Scoring](/Architecture/Application/scoring.md)     
-- [Tracking](/Architecture/Application/tracking.md)
-- [Store Service](/Architecture/Application/store-service.md)       
-- [Content Manager](/Architecture/Application/content-manager.md) 
-- [Catalog Service](/Architecture/Application/catalog-service.md)    
-- [Business Rules](/Architecture/Application/business-rules.md)       
-- [Users Domain](/Architecture/Application/user-domain.md)   
-- [QR Generation](/Architecture/Application/qr-generation.md)     
-- [Data Archiving](/Architecture/Application/data-archiving.md)   
-- [Analytics](/Architecture/Application/analytics.md)     
-- [Messaging Layer](/Architecture/Application/messaging-layer.md)     
-- [Security Concerns](/Architecture/Application/security-concerns.md) 
+* [Onboarding](/Architecture/Application/onboarding.md)  
+* [User Catalogs](/Architecture/Application/user-catalogs.md)
+* [Scoring](/Architecture/Application/scoring.md)
+* [Tracking](/Architecture/Application/tracking.md)
+* [Store Service](/Architecture/Application/store-service.md)
+* [Content Manager](/Architecture/Application/content-manager.md)
+* [Catalog Service](/Architecture/Application/catalog-service.md)
+* [Business Rules](/Architecture/Application/business-rules.md)
+* [Users Domain](/Architecture/Application/user-domain.md)
+* [QR Generation](/Architecture/Application/qr-generation.md)
+* [Data Archiving](/Architecture/Application/data-archiving.md)
+* [Analytics](/Architecture/Application/analytics.md)
+* [Messaging Layer](/Architecture/Application/messaging-layer.md)
+* [Security Concerns](/Architecture/Application/security-concerns.md)
 
 ### Technology & Deployment View
 
 This views have two different viewpoints, one extracted from draw.io and other also extracted from the Archimate model. Both detail the:
-- Main application components of the architecture
-- Main technology components of the architecture
-- Relations between the components
+
+* Main application components of the architecture
+* Main technology components of the architecture
+* Relations between the components
 
 For a general view, it is presented the figure below (figure 6), a simplified view of the proposed technology components.
 
@@ -287,17 +300,17 @@ For a general view, it is presented the figure below (figure 6), a simplified vi
 
 It is possible to get more information about the technological aspects of the architecture in the sections bellow:
 
-- [Onboarding](/Architecture/Technology/onboarding.md)  
-- [Users Domain](/Architecture/Technology/user-domain.md)     
-- [Scoring](/Architecture/Technology/scoring.md)     
-- [Tracking](/Architecture/Technology/tracking.md)      
-- [Content Manager](/Architecture/Technology/content-manager.md)    
-- [Business Rules](/Architecture/Technology/business-rules.md)       
-- [User Catalogs](/Architecture/Technology/user-catalogs.md)   
-- [QR Generation](/Architecture/Technology/qr-generation.md)     
-- [Data Archiving](/Architecture/Technology/data.md)   
-- [Analytics](/Architecture/Technology/data.md)     
-- [User Channels](/Architecture/Technology/user-channels.md)
+* [Onboarding](/Architecture/Technology/onboarding.md)
+* [Users Domain](/Architecture/Technology/user-domain.md)
+* [Scoring](/Architecture/Technology/scoring.md)
+* [Tracking](/Architecture/Technology/tracking.md)
+* [Content Manager](/Architecture/Technology/content-manager.md)
+* [Business Rules](/Architecture/Technology/business-rules.md)
+* [User Catalogs](/Architecture/Technology/user-catalogs.md)
+* [QR Generation](/Architecture/Technology/qr-generation.md)
+* [Data Archiving](/Architecture/Technology/data.md)
+* [Analytics](/Architecture/Technology/data.md)
+* [User Channels](/Architecture/Technology/user-channels.md)
 
 ## Adoption Practices
 
@@ -305,18 +318,17 @@ It is possible to get more information about the technological aspects of the ar
 
 Derived from the constraint [CONS.01](#constraints) and [CONS.06](#constraints), it's highly recommended the adoption of agile practices (Like SCRUM or KANBAN) to manage the development, evolution and support of the solution. It will enable Hey Blue to gain speed of delivery value, cost control and increase the quality of the product delivered.
 
-### DevSecOps 
+### DevSecOps
 
-Based on the constraint [CONS.02](#constraints) and the architecture characteristics [AC.STA.01](./Characteristics/ac-sta-01.md), [AC.STA.02](./Characteristics/ac-sta-02.md) and [AC.MOD.01](./Characteristics/ac-mod-01.md) we recommend the adoption of DevSecOps practices, in particular the application of [Teams Topologies](#team-organization) and adopt the [Type 2 DevOps Topology](https://web.devopstopologies.com/#type-two) at least at the beginning of the project, and transitate to [Type 1 DevOps Topology](https://web.devopstopologies.com/#type-one) as needed. 
+Based on the constraint [CONS.02](#constraints) and the architecture characteristics [AC.STA.01](./Characteristics/ac-sta-01.md), [AC.STA.02](./Characteristics/ac-sta-02.md) and [AC.MOD.01](./Characteristics/ac-mod-01.md) we recommend the adoption of DevSecOps practices, in particular the application of [Teams Topologies](#team-organization) and adopt the [Type 2 DevOps Topology](https://web.devopstopologies.com/#type-two) at least at the beginning of the project, and transitate to [Type 1 DevOps Topology](https://web.devopstopologies.com/#type-one) as needed.
 
 ### Incident Management
 
 The incident management process is a set of activities that are performed to identify, report, and resolve incidents. The process is designed to minimize the impact of incidents on the business and to restore normal operations as quickly as possible. The process is also designed to identify the root cause of incidents and to prevent recurrence. Recommended to be integrated and automatized with the monitoring and alerting capabilities, in our case, the AWS CloudWatch, tool defined in the [ADR: Observability Platform](./ADRs/adr-observability-platform.md) section.
 
-
 ## Team organization
 
-Following the requirements defined by [CONS.06](#constraints), it's strongly recommended to addopt Team Topologies philosophy to define the responsibilities associated with Hey Blue. 
+Following the requirements defined by [CONS.06](#constraints), it's strongly recommended to addopt Team Topologies philosophy to define the responsibilities associated with Hey Blue.
 
 In the very beginning, just one Stream Aligned team will be enough to cover the responsibilities needed to deploy the first versions of Hey Blue in an agile way. The image below (figure 7) describe this initial situation:
 
@@ -331,7 +343,7 @@ In this initial team deployment, it's recommended to have the following roles:
 * Architect, responsible of ensure that the development activities are compliants with the architecture definition, enabling a feedback loop as needed.
 * Agile Coach, who is in charge of the agile ceremonies that enable team collaboration.
 * OPS, in charge of the opperation of the infrastructure, enabling of the developer platform and support for the deployment of changes.
-* Quality engineer, responsible for quality assurance. 
+* Quality engineer, responsible for quality assurance.
 
 When the business and platform requirements increase in complexity, it will be possible to add a platform team to support the application lifecycle, or divide the single Strem-aligned team into several, with the following division, for example one Stream-aligned team for Civilian-oriented features, and another Stream-aligned team for non-civilian-oriented features, as shown below (figure 8).
 
@@ -343,7 +355,7 @@ As above figure describes, the roles are the same as in the version 1.0 (but for
 
 ### Archimate
 
-This architecture and the related decisions was based on [Archimate](https://www.opengroup.org/archimate-forum/archimate-overview), the Open Group Architecture Modelling Language, using the open source tool [Archi](https://www.archimatetool.com/download/). 
+This architecture and the related decisions was based on [Archimate](https://www.opengroup.org/archimate-forum/archimate-overview), the Open Group Architecture Modelling Language, using the open source tool [Archi](https://www.archimatetool.com/download/).
 
 The model was versioned in this repo (folder /model). To connect Archi with this repo and pull the [model](/model), you can use the [Collaboration plugin](https://www.archimatetool.com/plugins/#coArchi) for Archi.
 
