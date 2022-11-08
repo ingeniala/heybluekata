@@ -2,6 +2,7 @@
 
 ## Summary
 
+In an architecture based in microservices, we have many access points to distributed microservices, so it's necessary apply polices in a performant and centralized way, so in this scenario an API GW becomes in a relevant piece of infrastructure.
 
 ### Alternatives
 
