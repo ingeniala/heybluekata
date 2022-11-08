@@ -12,14 +12,14 @@ These functions allows the management of the product Catalog, aiming the creatio
 
 ## Commerce - Motivation mapping
 
-The figure 1.10. shows how the *commerce* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
+The figure 8.6.1 shows how the *commerce* business function support the functional requirements and how they are influenced by the architecture characteristics and constraints.
 
-![Commerce - Motivation Matrix](/Assets/1.10-Motivation-Commerce-mapping.png)
+![Figure 8.6.1 - Commerce - Motivation Matrix](/Assets/1.10-Motivation-Commerce-mapping.png "Figure 8.6.1 - Commerce - Motivation Matrix")
 
 As we can see in the previous diagram, all the busines functions will participate in some way covering the Hey Blue architecture.
 
 ## Commerce - Conceptual Architecture mapping
 
-The figure below shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
+The figure below (8.6.2) shows how the components of the conceptual architecture (more info in [Application Components Collaboration Views](/README.md#application-component-collaboration-views)) realize the Reference Architecture.
 
-![Commerce Conceptual Architecture Mapping](/Assets/Commerce-Conceptual-Architecture-Mapping.png)
+![Figure 8.6.2 - Commerce Conceptual Architecture Mapping](/Assets/Commerce-Conceptual-Architecture-Mapping.png "Figure 8.6.2 - Commerce Conceptual Architecture Mapping")

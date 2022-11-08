@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="HeyBlue Business Rules - Technology"
+    name="3.3. HeyBlue Business Rules - Technology"
     id="id-8a12f6a51ada427f9f180a6b65e2b8f6"
     viewpoint="technology_usage">
   <children
@@ -940,10 +940,10 @@
           endX="192"
           endY="93"/>
       <bendpoints
-          startX="-156"
-          startY="-75"
-          endX="204"
-          endY="9"/>
+          startX="-132"
+          startY="-63"
+          endX="192"
+          endY="21"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-2c832a2d50c74d528f15a7acedf7bd2c.xml#id-2c832a2d50c74d528f15a7acedf7bd2c"/>
