@@ -288,7 +288,7 @@ It is possible to get more information about the technological aspects of the ar
 - [Scoring](/Architecture/Technology/scoring.md)     
 - [Tracking]()
 - [Store Service]()       
-- [Content Manager]() 
+- [Content Manager](/Architecture/Technology/content-manager.md) 
 - [Catalog Service]()    
 - [Business Rules]()       
 - [User Catalogs](/Architecture/Technology/user-catalogs.md)   

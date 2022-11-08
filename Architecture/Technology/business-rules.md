@@ -12,3 +12,19 @@ Library reference: [Python Business Rule Engine](https://pypi.org/project/busine
 ## Storage
 
 Business rules will be held in a durable datastore so it can be retrieved anytime needed. For this purpose, and based on the nature of the data involved (unstructured, every rule can have different config or conditions to be met), the team picked a non-structural approach, in this case a noSQL document-based store. To stick with the rest of the decisions in terms of infrastructure and scalability, DynamoDB is the chosen repository. 
+
+## Storage
+
+As was mentioned previously, the proposal for storage layer is AWS S3.
+
+## Technology Views
+
+For simplicity, it is provided two kinds of views. A simplified view generated using draw.io view that tells the story in a easier way, and the archimate view, useful for analytics purposes.
+
+### Simplified view
+
+![Drawio Business Rules](/Assets/drawio-tech-business-rules.png "Business Rules in draw.io")
+
+### Archimate View
+
+![Archi Business Rules](/Assets/HeyBlue-Business-Rules-Technology.png "Business Rules in Archi")
