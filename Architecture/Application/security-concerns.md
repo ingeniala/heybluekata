@@ -15,7 +15,7 @@ The design principles include:
 - Keep people away from data: Minimize the needs of accessing the data, automatize the data processing to avoid manual intervention procedures.   
 - Prepare for security events: Be prepared for an incident, use an incident management tool and processes aligned with the organization model. 
 
-As part of this pillar, AWS will be responsible for the security **of** the cloud, while the customers will be responsible for the security **in** the cloud. 
+As part of this pillar (figure 10.14.1), AWS will be responsible for the security **of** the cloud, while the customers will be responsible for the security **in** the cloud. 
 
-![Security Pillar](/Assets/security-pillar.png)
+![Figure 10.14.1 - Security Pillar](/Assets/security-pillar.png "Figure 10.14.1 - Security Pillar")
 
