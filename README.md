@@ -65,9 +65,9 @@ and [Verdie School Nonprofit](https://www.verdiecoschool.org/heyblue)
 
 ## Functional requirements
 
-The figure 1.1 - Motivation shows the vision of HeyBlue, its functional requirements and how them relate or influence each other.
+The figure 1 - Motivation shows the vision of HeyBlue, its functional requirements and how them relate or influence each other.
 
-![Figure 1.1 - Motivation](/Assets/1.1.Motivation.png "Figure 1.1. - Motivation")
+![Figure 1 - Motivation](/Assets/1.1.Motivation.png "Figure 1 - Motivation")
 
 Bellow, we will describe each of them.
 
@@ -115,9 +115,9 @@ The table bellow describe the High level use cases, and the relationship with th
 
 ## Constraints
 
-The figure 1.2 shows the Constraints detected for Hey Blue.
+The figure 2 shows the Constraints detected for Hey Blue.
 
-![Constraints](/Assets/1.2.Constraints.png)
+![Figure 2 - Constraints](/Assets/1.2.Constraints.png "Figure 2 - Constraints")
 
 Below, we will describe each one of them.
 
@@ -132,9 +132,9 @@ Below, we will describe each one of them.
 
 ## Quality Attributes (AKA Architecture Characteristics)
 
-The figure 1.3. shows the Quality Attributes (A.K.A. Architecture Characteristics) identified for Hey Blue.
+The figure 3. shows the Quality Attributes (A.K.A. Architecture Characteristics) identified for Hey Blue.
 
-![Architecture Characteristics](/Assets/1.3.Architecture%20Characteristics.png).
+![Figure 3 - Architecture Characteristics](/Assets/1.3.Architecture%20Characteristics.png "Figure 3 - Architecture Characteristics")
 
 In the following sections we describe each architecture characteristics:
 
@@ -192,9 +192,9 @@ An architecture's main objective is the clear communication of the roles and res
 
 In the case of Hey Blue, we defined a reference architecture based on the work of the [W3 consortium](https://www.w3.org/2013/socialweb/presentations/krebs1.pdf), with a few extensions of our part to cover specific requirements about produc, storefront and enterprise needs.
 
-The figure 1.4. shows the reference architecture for social network, which define the business responsibilities associated with the Hey Blue case.
+The figure 4 shows the reference architecture for social network, which define the business responsibilities associated with the Hey Blue case.
 
-![Social Network Reference Architecture](/Assets/1.4.Social-Network-Reference-Architecture.png)
+![Figure 4 - Social Network Reference Architecture](/Assets/1.4.Social-Network-Reference-Architecture.png "Figure 4 - Social Network Reference Architecture")
 
 The following sections will describe each one of the business responsibilities, with views exported from the Archimate and detail the following topics:
 
@@ -281,9 +281,9 @@ This views have two different viewpoints, one extracted from draw.io and other a
 - Main technology components of the architecture
 - Relations between the components
 
-For a general view, it is presented the figure below, a simplified view of the proposed technology components.
+For a general view, it is presented the figure below (figure 5), a simplified view of the proposed technology components.
 
-![Tech - general](/Assets/drawio-tech-general.png)
+![Figure 5 - Tech - general](/Assets/drawio-tech-general.png "Figure 5 - Tech - General")
 
 It is possible to get more information about the technological aspects of the architecture in the sections bellow:
 
@@ -317,9 +317,9 @@ The incident management process is a set of activities that are performed to ide
 
 Following the requirements defined by [CONS.06](#constraints), we strongly recommend to addopt Team Topologies philosophy to define the responsibilities associated with Hey Blue. 
 
-In the very beginning, just one Stream Aligned team will be enough to cover the responsibilities needed to deploy the first versions of Hey Blue in an agile way. The image below describe this initial situation:
+In the very beginning, just one Stream Aligned team will be enough to cover the responsibilities needed to deploy the first versions of Hey Blue in an agile way. The image below (figure 6) describe this initial situation:
 
-![Team Topologies  v1.0](/Assets/TeamTopologies-V1.0.png "Initial Team Topology")
+![Figure 6 - Team Topologies  v1.0](/Assets/TeamTopologies-V1.0.png "Figure 6 - Initial Team Topology")
 
 In this initial team deployment, we recommend to have the following roles:
 
@@ -332,9 +332,9 @@ In this initial team deployment, we recommend to have the following roles:
 * OPS, in charge of the opperation of the infrastructure, enabling of the developer platform and support for the deployment of changes.
 * Quality engineer, responsible for quality assurance. 
 
-When the business and platform requirements increase in complexity, it will be possible to add a platform team to support the application lifecycle, or divide the single Strem-aligned team into several, with the following division, for example one Stream-aligned team for Civilian-oriented features, and another Stream-aligned team for non-civilian-oriented features, as shown below.
+When the business and platform requirements increase in complexity, it will be possible to add a platform team to support the application lifecycle, or divide the single Strem-aligned team into several, with the following division, for example one Stream-aligned team for Civilian-oriented features, and another Stream-aligned team for non-civilian-oriented features, as shown below (figure 7).
 
-![Team Topologies v2.0](/Assets/TeamTopologies-V2.0.png "Evolutionary Team Topology")
+![Figure 7 - Team Topologies v2.0](/Assets/TeamTopologies-V2.0.png " Figure 7 - Evolutionary Team Topology")
 
 As we can see, the roles are the same as in the version 1.0 (but for sure we need more people energizing them!). This type of organization enable a team evolve as the platform increase the complexity.
 
