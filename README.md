@@ -286,17 +286,13 @@ It is possible to get more information about the technological aspects of the ar
 - [Onboarding](/Architecture/Technology/onboarding.md)  
 - [Users Domain](/Architecture/Technology/user-domain.md)     
 - [Scoring](/Architecture/Technology/scoring.md)     
-- [Tracking](/Architecture/Technology/tracking.md)
-- [Store Service]()       
-- [Content Manager](/Architecture/Technology/content-manager.md) 
-- [Catalog Service]()    
+- [Tracking](/Architecture/Technology/tracking.md)      
+- [Content Manager](/Architecture/Technology/content-manager.md)    
 - [Business Rules](/Architecture/Technology/business-rules.md)       
 - [User Catalogs](/Architecture/Technology/user-catalogs.md)   
 - [QR Generation](/Architecture/Technology/qr-generation.md)     
-- [Data Archiving]()   
-- [Analytics]()     
-- [Messaging Layer]()     
-- [Security Concerns]() 
+- [Data Archiving](/Architecture/Technology/data.md)   
+- [Analytics](/Architecture/Technology/data.md)     
 
 ## Adoption Practices
 
