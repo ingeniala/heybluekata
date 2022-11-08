@@ -359,7 +359,7 @@ This architecture and the related decisions was based on [Archimate](https://www
 
 The model was versioned in this repo (folder /model). To connect Archi with this repo and pull the [model](/model), you can use the [Collaboration plugin](https://www.archimatetool.com/plugins/#coArchi) for Archi.
 
-Additionally, it's provided an HTML view of the model, in the folder [html-model](html-model).
+Additionally, it's provided an HTML view of the model, in the folder [html-model](html-model) or in [Github Pages](https://ingeniala.github.io/heybluekata).
 
 ## [Architecture Decision Records](https://github.com/ingeniala/heybluekata#architecture-decision-records)
 
