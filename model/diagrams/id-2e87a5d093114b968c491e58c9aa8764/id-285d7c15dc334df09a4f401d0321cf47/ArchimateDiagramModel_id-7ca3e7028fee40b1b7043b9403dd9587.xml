@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Device relinking - Business Entities"
     id="id-7ca3e7028fee40b1b7043b9403dd9587"
-    viewpoint="business_process_cooperation">
+    viewpoint="application_usage">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9734377bb38b4f17815c408f0a9479eb">

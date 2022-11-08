@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="2.2.2.6. Commerce - Conceptual Architecture Mapping"
-    id="id-d9cb45195ea24908a4bf24ddfc992af4">
+    id="id-d9cb45195ea24908a4bf24ddfc992af4"
+    viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-cf2326a2770b4bc9b82f12f6f0f6c1fc">
