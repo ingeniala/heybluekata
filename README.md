@@ -196,7 +196,7 @@ The figure 1.4. shows the reference architecture for social network, which defin
 
 ![Social Network Reference Architecture](/Assets/1.4.Social-Network-Reference-Architecture.png)
 
-In the following sections we will describe each one of the business responsibilities, with views exported from the Archimate and detail the following topics:
+The following sections will describe each one of the business responsibilities, with views exported from the Archimate and detail the following topics:
 
 - How the Reference Architecture components support the Functional Requirements
 - How the Reference Architecture components support the Architecture Characteristics

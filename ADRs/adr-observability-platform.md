@@ -1,7 +1,7 @@
 # ADR Observability Platform
 
 ## Summary
-The observability platform is a set of tools that allow us to monitor the health of our systems and applications. It is a critical component of our infrastructure and is used by all teams to ensure that our systems are running smoothly.
+The observability platform is a set of tools that allows to monitor the health of our systems and applications. It is a critical component of our infrastructure and is used by all teams to ensure that our systems are running smoothly.
 
 ### Alternatives
 * [New Relic](https://newrelic.com/)

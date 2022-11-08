@@ -19,9 +19,9 @@ This is where an API Gateway takes precedence in the architecture and becomes a 
 Alternative selected: *Amazon API Gateway*.
 
 
-Following table contains all the reasons that drive us to make the decision:
+Following table contains all the reasons that drives to make the decision:
 
-| Criteria                 | Description                                                    
+| Criteria                 | Description
 | --------------------     | ----------------------------------------------------------------------------------------------------- | 
 | Operation                | Amazon API Gateway is a managed service, no extra effort is necessary to manage it, unlike Kong where an infraestructure layer is needed to make it work, and then a day-2 operation strategy, generating extra costs to the organization. |
 | Integration              | Amazon API Gateway being part of the AWS Suite implies a better integration with the rest of architecture components. |

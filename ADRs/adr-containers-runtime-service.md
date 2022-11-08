@@ -14,7 +14,7 @@ Over the last years (OCI)[https://es.wikipedia.org/wiki/Open_Container_Initiativ
 Alternative selected: *EKS*
 
 
-Following table contains all the reasons that drive us to make the decision:
+Following table contains all the reasons that drives to make the decision:
 
 | Criteria                 | Description                                                    
 | --------------------     | ----------------------------------------------------------------------------------------------------- | 

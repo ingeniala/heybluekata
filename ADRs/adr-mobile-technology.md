@@ -15,18 +15,18 @@ The frontend layer, in this case the mobile module, helps to expose the business
 Alternative selected: *React Native*
 
 
-Following table contains all the reasons that drive us to make the decision:
+Following table contains all the reasons that drives to make the decision:
 
-| Criteria                 | Description                                                    
-| --------------------     | ----------------------------------------------------------------------------------------------------- | 
-| Portability 			   | Write once, run on both Android and IOS. With React native is possible to only have a single codebase for every mobile device, reutilizing the code and avoiding the situation of particular codebases (Android and IOS) like when using native development suite |
-| Cost                     | It's not necessary to have 2 teams with different knowledges in charge of the mobile app development. Not to mention that developers for both native IOS Android are scarce in the market, and they are more expensive than react native ones.								| 
-| Reutilization 		   | Shared components with React ([ADR Web Technology](./adr-web-technology.md)). Due to react native relying on React features, there could be reutilization code also with the web module. |
+| Criteria                 | Description
+| --------------------     | ----------------------------------------------------------------------------------------------------- |
+| Portability | Write once, run on both Android and IOS. With React native is possible to only have a single codebase for every mobile device, reutilizing the code and avoiding the situation of particular codebases (Android and IOS) like when using native development suite |
+| Cost                     | It's not necessary to have 2 teams with different knowledges in charge of the mobile app development. Not to mention that developers for both native IOS Android are scarce in the market, and they are more expensive than react native ones. |
+| Reutilization | Shared components with React ([ADR Web Technology](./adr-web-technology.md)). Due to react native relying on React features, there could be reutilization code also with the web module. |
 | Time to market           | Due to having only a single codebase, Time-to-market turns to be the same in both platforms. |
 | Loyalty                  | It was created by Facebook. |
 | Costs                    | Save money: React Native is widely used, so it's quite easy to find developers within the community |
 | Community                |  Wide acceptance by the community, with a high collaboration in the development of libraries. |
-| Maturity				   | Used by gigants on the market like: Skype, Walmart, Instagram, Tesla and more, unlike others like flutter who are not that adopted. | 
+| Maturity | Used by gigants on the market like: Skype, Walmart, Instagram, Tesla and more, unlike others like flutter who are not that adopted. |
 
 ## Constraints mapping
 
