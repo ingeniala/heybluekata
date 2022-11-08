@@ -230,7 +230,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-e018eb95b7e846e893d5abc779111d97"
-        targetConnections="id-744d5344c96846c18be0a4d9039e2b89 id-c22da1b039f14a15b1c1578f1998abac id-73889c12e3cf40599746a9da9fb5575d id-bdead18f1abb4512907421b25ddd7501">
+        targetConnections="id-744d5344c96846c18be0a4d9039e2b89 id-c22da1b039f14a15b1c1578f1998abac id-bdead18f1abb4512907421b25ddd7501 id-73889c12e3cf40599746a9da9fb5575d">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-9cbe42d679254e0a876b022c61ae100e"
@@ -528,21 +528,21 @@
         targetConnections="id-608b8c8dbe3945d3818d010c75085ecd id-02af0ae635424b5f94b1b108b0939763">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-73889c12e3cf40599746a9da9fb5575d"
-          source="id-9367373a6a14453fb608efa3cf9b6710"
-          target="id-e018eb95b7e846e893d5abc779111d97">
-        <archimateRelationship
-            xsi:type="archimate:ServingRelationship"
-            href="ServingRelationship_id-2cf57660a9ee41e7ac2f7946593105a4.xml#id-2cf57660a9ee41e7ac2f7946593105a4"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-8fc1077b0ab443678cda28554ca1970e"
           source="id-9367373a6a14453fb608efa3cf9b6710"
           target="id-1267f78b00cb4fb7bafabd1f8fd8d212">
         <archimateRelationship
             xsi:type="archimate:AssignmentRelationship"
             href="AssignmentRelationship_id-55f0c5090a8f41b39a286cc509747340.xml#id-55f0c5090a8f41b39a286cc509747340"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-73889c12e3cf40599746a9da9fb5575d"
+          source="id-9367373a6a14453fb608efa3cf9b6710"
+          target="id-e018eb95b7e846e893d5abc779111d97">
+        <archimateRelationship
+            xsi:type="archimate:ServingRelationship"
+            href="ServingRelationship_id-2cf57660a9ee41e7ac2f7946593105a4.xml#id-2cf57660a9ee41e7ac2f7946593105a4"/>
       </sourceConnections>
       <bounds
           x="36"
