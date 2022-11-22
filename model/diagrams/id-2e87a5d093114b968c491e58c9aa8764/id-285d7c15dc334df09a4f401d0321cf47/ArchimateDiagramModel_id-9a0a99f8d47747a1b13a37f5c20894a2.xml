@@ -516,13 +516,13 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-9e6bae05b3f6433d94b370d4dd722341"
+      id="id-5e49dfc8dd984f7a9cf69b0b02263523"
       textAlignment="1"
-      content="This view details the main business entities involved in the different processes of the business flow and the main access operations affecting them.">
+      content="For the represented business flow, this view describes:&#xA;- Main business process and the flow through its activities&#xA;- Main events represented as significant state changes&#xA;- Main business entities and the access relations with the process components affecting them">
     <bounds
         x="-120"
-        y="290"
-        width="433"
-        height="47"/>
+        y="288"
+        width="517"
+        height="73"/>
   </children>
 </archimate:ArchimateDiagramModel>

@@ -610,4 +610,15 @@
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-089d05bc0bbe45bbb474b4f814dc2abf.xml#id-089d05bc0bbe45bbb474b4f814dc2abf"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-da8a740b0c7c49748501f26f0517f57d"
+      textAlignment="1"
+      content="For the represented business flow, this view describes:&#xA;- Main business process and the flow through its activities&#xA;- Main events represented as significant state changes&#xA;- Actors and the interactions with the processes and events&#xA;- How each business process component is covered by the conceptual applications">
+    <bounds
+        x="167"
+        y="432"
+        width="470"
+        height="97"/>
+  </children>
 </archimate:ArchimateDiagramModel>
