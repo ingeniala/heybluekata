@@ -40,7 +40,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-46ddaaf4e6e048c49d82666610fedc6b">
+      id="id-46ddaaf4e6e048c49d82666610fedc6b"
+      alpha="150">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-edd192e954194280bcbbdef05db2de82"
@@ -119,6 +120,11 @@
           id="id-47c60e02fce9461cb907028b72602d31"
           source="id-b6fa36874c854bd385f0ae892cea0b00"
           target="id-9ffe3c97cbfa4daf9a9003a86e4b70ac">
+        <bendpoints
+            startX="24"
+            startY="-111"
+            endX="-12"
+            endY="57"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-55f0489d5b4648b7aa859288b3168833.xml#id-55f0489d5b4648b7aa859288b3168833"/>
@@ -223,7 +229,7 @@
       targetConnections="id-378441b318c244b1b7025b1abad3eb27 id-5df2c69b12024cd0a17a1933dc5c2d40">
     <bounds
         x="312"
-        y="48"
+        y="36"
         width="120"
         height="55"/>
     <archimateElement
@@ -235,8 +241,8 @@
       id="id-9ffe3c97cbfa4daf9a9003a86e4b70ac"
       targetConnections="id-47c60e02fce9461cb907028b72602d31">
     <bounds
-        x="492"
-        y="48"
+        x="504"
+        y="36"
         width="120"
         height="55"/>
     <archimateElement
@@ -249,11 +255,22 @@
       targetConnections="id-b9494760aa49474fa89c894a7769851d">
     <bounds
         x="132"
-        y="48"
+        y="36"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-2649af7a104947eea27083e0fa65b1ac.xml#id-2649af7a104947eea27083e0fa65b1ac"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-650d2b8e9fb14a639baf1f3432d04ad8"
+      textAlignment="1"
+      content="This view details the main business entities involved in the different processes of the business flow and the main access operations affecting them.">
+    <bounds
+        x="168"
+        y="300"
+        width="433"
+        height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>
