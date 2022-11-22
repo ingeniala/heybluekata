@@ -449,11 +449,11 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-606395c51ec441f2811372b263495c12"
       textAlignment="1"
-      content="This view describes how each reference business function is covered by a conceptual application">
+      content="For the represented domain, this view describes how each reference business function is covered by a conceptual application">
     <bounds
         x="60"
         y="444"
-        width="301"
+        width="385"
         height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>

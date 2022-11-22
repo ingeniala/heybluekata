@@ -431,13 +431,13 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-65f9625f52734394816196e42497c6f1"
+      id="id-bd0d67f072fd4b3c9a6f6d92aeea9bb7"
       textAlignment="1"
-      content="This view describes how each reference business function is covered by a conceptual application">
+      content="For the represented domain, this view describes how each reference business function is covered by a conceptual application">
     <bounds
         x="27"
         y="432"
-        width="301"
+        width="385"
         height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>
