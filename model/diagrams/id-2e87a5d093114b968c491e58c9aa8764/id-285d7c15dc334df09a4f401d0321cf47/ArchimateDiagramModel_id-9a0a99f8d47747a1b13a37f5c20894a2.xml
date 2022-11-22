@@ -147,6 +147,11 @@
           id="id-122ef3477a9d46f9a49c1dc75492cae5"
           source="id-b8d2c5d23f6b4b46b68aedea50a6dbb8"
           target="id-0f0678fe4cca4eb29fdb925c3718f512">
+        <bendpoints
+            startX="36"
+            startY="-67"
+            endX="-12"
+            endY="70"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-3fedbaab7d4548dbba1f42750435af66.xml#id-3fedbaab7d4548dbba1f42750435af66"/>
@@ -157,9 +162,9 @@
           source="id-b8d2c5d23f6b4b46b68aedea50a6dbb8"
           target="id-212562b80ed64650a431adadf5226a03">
         <bendpoints
-            startX="-12"
-            startY="-139"
-            endX="828"
+            startX="-36"
+            startY="-138"
+            endX="804"
             endY="-2"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
@@ -210,9 +215,9 @@
           source="id-ae740b0242074052804e98256cb9809a"
           target="id-212562b80ed64650a431adadf5226a03">
         <bendpoints
-            startX="-1"
-            startY="-87"
-            endX="444"
+            startX="-36"
+            startY="-86"
+            endX="408"
             endY="10"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
@@ -429,7 +434,7 @@
           target="id-212562b80ed64650a431adadf5226a03">
         <bendpoints
             startX="-36"
-            startY="-155"
+            startY="-154"
             endX="360"
             endY="22"/>
         <archimateRelationship
@@ -488,7 +493,7 @@
       id="id-0f0678fe4cca4eb29fdb925c3718f512"
       targetConnections="id-122ef3477a9d46f9a49c1dc75492cae5">
     <bounds
-        x="864"
+        x="852"
         y="35"
         width="120"
         height="55"/>
@@ -508,5 +513,16 @@
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-d0d257e8a4314b5fbc2141c6b8f82657.xml#id-d0d257e8a4314b5fbc2141c6b8f82657"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-9e6bae05b3f6433d94b370d4dd722341"
+      textAlignment="1"
+      content="This view details the main business entities involved in the different processes of the business flow and the main access operations affecting them.">
+    <bounds
+        x="-120"
+        y="290"
+        width="433"
+        height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>
