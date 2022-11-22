@@ -697,14 +697,14 @@
         source="id-72bea556f3134246a2145bc74a18ccaa"
         target="id-f35a89c12b6542e9a2ca1d5e31016323">
       <bendpoints
-          startY="-51"
+          startY="-39"
           endX="204"
-          endY="57"/>
+          endY="69"/>
       <bendpoints
           startX="-156"
-          startY="-51"
+          startY="-39"
           endX="48"
-          endY="57"/>
+          endY="69"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-8d4852edf8c5432ca3df0c5707506471.xml#id-8d4852edf8c5432ca3df0c5707506471"/>

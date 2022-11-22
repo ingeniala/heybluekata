@@ -408,7 +408,7 @@
             startX="72"
             startY="-3"
             endX="-48"
-            endY="333"/>
+            endY="285"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
             href="FlowRelationship_id-b9e9edbfa3e4421581eae65e9f1dd2f3.xml#id-b9e9edbfa3e4421581eae65e9f1dd2f3"/>
@@ -684,6 +684,7 @@
       targetConnections="id-40ea34a623d942dd885b5ff75cb21009">
     <bounds
         x="168"
+        y="-12"
         width="120"
         height="55"/>
     <archimateElement
