@@ -6,7 +6,8 @@
     viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-f3fcd97200004257a8d3b626ae14e4f5">
+      id="id-f3fcd97200004257a8d3b626ae14e4f5"
+      alpha="150">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-6c42bf728e59435db2c89593a87a01f9"
@@ -71,8 +72,8 @@
           href="CompositionRelationship_id-982b234a0f1840b096e49b59ba4c0231.xml#id-982b234a0f1840b096e49b59ba4c0231"/>
     </sourceConnections>
     <bounds
-        x="51"
-        y="111"
+        x="27"
+        y="135"
         width="601"
         height="169"/>
     <children
@@ -183,8 +184,8 @@
           href="RealizationRelationship_id-75881c4af1f24403984d504ac4716a11.xml#id-75881c4af1f24403984d504ac4716a11"/>
     </sourceConnections>
     <bounds
-        x="72"
-        y="-12"
+        x="48"
+        y="12"
         width="120"
         height="55"/>
     <archimateElement
@@ -208,8 +209,8 @@
           href="RealizationRelationship_id-d63090eaad9b405a927839dbd8cc5a86.xml#id-d63090eaad9b405a927839dbd8cc5a86"/>
     </sourceConnections>
     <bounds
-        x="204"
-        y="-12"
+        x="180"
+        y="12"
         width="120"
         height="55"/>
     <archimateElement
@@ -239,8 +240,8 @@
           href="RealizationRelationship_id-b488725e106b41609be5af93937300b6.xml#id-b488725e106b41609be5af93937300b6"/>
     </sourceConnections>
     <bounds
-        x="335"
-        y="-12"
+        x="311"
+        y="12"
         width="120"
         height="55"/>
     <archimateElement
@@ -288,8 +289,8 @@
           href="RealizationRelationship_id-d262c14178ae4135a41d20084b379b1d.xml#id-d262c14178ae4135a41d20084b379b1d"/>
     </sourceConnections>
     <bounds
-        x="468"
-        y="-12"
+        x="444"
+        y="12"
         width="120"
         height="55"/>
     <archimateElement
@@ -309,8 +310,8 @@
           href="RealizationRelationship_id-5b220008da9c4f7dab6dbb65b70c3221.xml#id-5b220008da9c4f7dab6dbb65b70c3221"/>
     </sourceConnections>
     <bounds
-        x="672"
-        y="108"
+        x="648"
+        y="132"
         width="120"
         height="55"/>
     <archimateElement
@@ -330,8 +331,8 @@
           href="RealizationRelationship_id-45861e20cb33484593e41df88e1dbb74.xml#id-45861e20cb33484593e41df88e1dbb74"/>
     </sourceConnections>
     <bounds
-        x="672"
-        y="168"
+        x="648"
+        y="192"
         width="120"
         height="55"/>
     <archimateElement
@@ -374,8 +375,8 @@
           href="RealizationRelationship_id-8e55fb5ebf534b9b8a58afbae511f3ec.xml#id-8e55fb5ebf534b9b8a58afbae511f3ec"/>
     </sourceConnections>
     <bounds
-        x="216"
-        y="336"
+        x="192"
+        y="360"
         width="120"
         height="55"/>
     <archimateElement
@@ -399,8 +400,8 @@
           href="RealizationRelationship_id-d6fb55ab2c284fa3baaad91a93cf845c.xml#id-d6fb55ab2c284fa3baaad91a93cf845c"/>
     </sourceConnections>
     <bounds
-        x="504"
-        y="336"
+        x="480"
+        y="360"
         width="120"
         height="55"/>
     <archimateElement
@@ -420,8 +421,8 @@
           href="RealizationRelationship_id-626c2552d4e043288589d95a45531255.xml#id-626c2552d4e043288589d95a45531255"/>
     </sourceConnections>
     <bounds
-        x="72"
-        y="336"
+        x="48"
+        y="360"
         width="120"
         height="55"/>
     <archimateElement
@@ -430,13 +431,13 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-015bb060e43d473c9762690358724e17"
+      id="id-65f9625f52734394816196e42497c6f1"
       textAlignment="1"
-      content="This view details the application functional coverage for every represented reference business functions on the Foundation Domain.">
+      content="This view describes how each reference business function is covered by a conceptual application">
     <bounds
-        x="51"
-        y="408"
-        width="433"
+        x="27"
+        y="432"
+        width="301"
         height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>

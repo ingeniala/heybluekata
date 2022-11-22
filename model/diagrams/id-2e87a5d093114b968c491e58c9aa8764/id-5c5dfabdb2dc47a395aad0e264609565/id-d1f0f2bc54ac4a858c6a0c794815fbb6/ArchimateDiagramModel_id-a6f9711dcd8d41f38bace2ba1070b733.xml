@@ -6,7 +6,8 @@
     viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-8dd377bc002345e3adc63af23cc829cb">
+      id="id-8dd377bc002345e3adc63af23cc829cb"
+      alpha="150">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-377461096a7b4287aae40d28bab5a68e"
@@ -26,8 +27,8 @@
           href="CompositionRelationship_id-b3b7310c016c4cb3b923f50847d74fbc.xml#id-b3b7310c016c4cb3b923f50847d74fbc"/>
     </sourceConnections>
     <bounds
-        x="120"
-        y="24"
+        x="60"
+        y="48"
         width="301"
         height="97"/>
     <children
@@ -73,8 +74,8 @@
           href="RealizationRelationship_id-dbd0a9b78d9a4c3c9b3e81bc9adc0045.xml#id-dbd0a9b78d9a4c3c9b3e81bc9adc0045"/>
     </sourceConnections>
     <bounds
-        x="240"
-        y="216"
+        x="180"
+        y="240"
         width="120"
         height="55"/>
     <archimateElement
@@ -94,8 +95,8 @@
           href="RealizationRelationship_id-b4a40b378d9449169e175e69e342bd88.xml#id-b4a40b378d9449169e175e69e342bd88"/>
     </sourceConnections>
     <bounds
-        x="192"
-        y="144"
+        x="132"
+        y="168"
         width="120"
         height="55"/>
     <archimateElement
@@ -115,8 +116,8 @@
           href="RealizationRelationship_id-fa2409d24249467ebfd1e70b9ed2458d.xml#id-fa2409d24249467ebfd1e70b9ed2458d"/>
     </sourceConnections>
     <bounds
-        x="336"
-        y="144"
+        x="276"
+        y="168"
         width="120"
         height="55"/>
     <archimateElement
@@ -136,8 +137,8 @@
           href="RealizationRelationship_id-f2a39ed7c40449bba25e9cd9a4f1b1f2.xml#id-f2a39ed7c40449bba25e9cd9a4f1b1f2"/>
     </sourceConnections>
     <bounds
-        x="96"
-        y="216"
+        x="36"
+        y="240"
         width="120"
         height="55"/>
     <archimateElement
@@ -146,13 +147,13 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-2bea55bd54fe45fb9919736b2b91bd74"
+      id="id-9a1cd168a0c2407fa79554ee7318157b"
       textAlignment="1"
-      content="This view details the application functional coverage for every represented reference business functions on the Ubiquity Domain.">
+      content="This view describes how each reference business function is covered by a conceptual application">
     <bounds
-        x="54"
-        y="288"
-        width="433"
+        x="60"
+        y="312"
+        width="301"
         height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>

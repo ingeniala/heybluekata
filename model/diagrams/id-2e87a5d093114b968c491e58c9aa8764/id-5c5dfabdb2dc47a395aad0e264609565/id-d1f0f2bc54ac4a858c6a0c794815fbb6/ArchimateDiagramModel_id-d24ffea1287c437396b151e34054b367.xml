@@ -6,7 +6,8 @@
     viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-14268513685f4f9f9a41fb9adfe36281">
+      id="id-14268513685f4f9f9a41fb9adfe36281"
+      alpha="150">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-642653d416d249c0ab087d2381978ec6"
@@ -448,11 +449,11 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-606395c51ec441f2811372b263495c12"
       textAlignment="1"
-      content="This view details the application functional coverage for every represented reference business functions on the Enterprise Domain.">
+      content="This view describes how each reference business function is covered by a conceptual application">
     <bounds
         x="60"
         y="444"
-        width="433"
+        width="301"
         height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>
