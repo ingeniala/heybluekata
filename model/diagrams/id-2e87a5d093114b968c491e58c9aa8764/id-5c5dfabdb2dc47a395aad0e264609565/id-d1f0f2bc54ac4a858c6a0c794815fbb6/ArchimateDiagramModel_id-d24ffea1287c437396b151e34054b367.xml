@@ -280,9 +280,9 @@
         source="id-4212421abbf64f1b9eb49423df3dc131"
         target="id-f64d81c8c9d2433597e6246a99fca417">
       <bendpoints
-          startX="36"
+          startX="48"
           startY="57"
-          endX="-504"
+          endX="-492"
           endY="-87"/>
       <bendpoints
           startX="540"
@@ -448,7 +448,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-606395c51ec441f2811372b263495c12"
       textAlignment="1"
-      content="This view details the application functional coverage for every represented reference business functions.">
+      content="This view details the application functional coverage for every represented reference business functions on the Enterprise Domain.">
     <bounds
         x="60"
         y="444"

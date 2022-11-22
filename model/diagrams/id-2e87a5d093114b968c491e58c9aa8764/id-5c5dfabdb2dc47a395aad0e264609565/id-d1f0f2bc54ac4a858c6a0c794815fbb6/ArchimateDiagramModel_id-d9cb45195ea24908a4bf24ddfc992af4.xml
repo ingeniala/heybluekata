@@ -26,8 +26,8 @@
           href="CompositionRelationship_id-fa0f2426a5e8495db616fd23e88b0464.xml#id-fa0f2426a5e8495db616fd23e88b0464"/>
     </sourceConnections>
     <bounds
-        x="264"
-        y="156"
+        x="228"
+        y="60"
         width="169"
         height="169"/>
     <children
@@ -73,8 +73,8 @@
           href="RealizationRelationship_id-1bbdf16ad8f0453ab314747c51028aac.xml#id-1bbdf16ad8f0453ab314747c51028aac"/>
     </sourceConnections>
     <bounds
-        x="96"
-        y="252"
+        x="60"
+        y="156"
         width="120"
         height="55"/>
     <archimateElement
@@ -113,8 +113,8 @@
           href="RealizationRelationship_id-7d94e16d2d7f42b2ac46ee8d65d8686c.xml#id-7d94e16d2d7f42b2ac46ee8d65d8686c"/>
     </sourceConnections>
     <bounds
-        x="96"
-        y="180"
+        x="60"
+        y="84"
         width="120"
         height="55"/>
     <archimateElement
@@ -134,12 +134,23 @@
           href="RealizationRelationship_id-0486eb3c81734b868bd5b9546ea2eccc.xml#id-0486eb3c81734b868bd5b9546ea2eccc"/>
     </sourceConnections>
     <bounds
-        x="480"
-        y="180"
+        x="444"
+        y="84"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-f8f7f79c580944dc938791bf4bd46b6b.xml#id-f8f7f79c580944dc938791bf4bd46b6b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-b6a9db64ce994a31800a1c5de1c39b25"
+      textAlignment="1"
+      content="This view details the application functional coverage for every represented reference business functions on the Commerce Domain.">
+    <bounds
+        x="96"
+        y="252"
+        width="433"
+        height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>
