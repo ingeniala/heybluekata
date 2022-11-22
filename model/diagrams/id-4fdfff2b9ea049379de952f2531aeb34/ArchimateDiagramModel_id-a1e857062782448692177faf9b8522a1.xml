@@ -10,18 +10,19 @@
       name="Exposition"
       textAlignment="1"
       fillColor="#8ae234"
-      alpha="150">
+      alpha="120">
     <features
         name="lineAlpha"
         value="150"/>
     <bounds
         x="-204"
         y="276"
-        width="1069"
+        width="1057"
         height="133"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-2106acf13284458da888fcf69abbd2a7">
+        id="id-2106acf13284458da888fcf69abbd2a7"
+        alpha="150">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-10e3aa961efa44b8bdfd7d5d6d0b4811"
@@ -388,20 +389,20 @@
       name="Core &amp; Backend Services"
       textAlignment="1"
       fillColor="#ad7fa8"
-      alpha="150">
+      alpha="120">
     <features
         name="lineAlpha"
         value="150"/>
     <bounds
         x="-36"
         y="444"
-        width="901"
+        width="889"
         height="349"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-93d810d7f6fa40d2b9e48bdc8838f9c5"
         targetConnections="id-9f9a78d06c3c4bf8906dd1f0b47ad7f5"
-        alpha="220">
+        alpha="175">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-1e2c958b8b12436192ae1c22c977edba"
@@ -484,8 +485,9 @@
             href="CompositionRelationship_id-e0306e170d964b8db0ec13f50cc5df75.xml#id-e0306e170d964b8db0ec13f50cc5df75"/>
       </sourceConnections>
       <bounds
+          x="12"
           y="24"
-          width="877"
+          width="865"
           height="313"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
@@ -534,7 +536,7 @@
               href="RealizationRelationship_id-06c561643d6c489881e987b45ce4287b.xml#id-06c561643d6c489881e987b45ce4287b"/>
         </sourceConnections>
         <bounds
-            x="180"
+            x="168"
             y="24"
             width="120"
             height="55"/>
@@ -585,7 +587,7 @@
               href="AccessRelationship_id-69edb5605fc44840a0905c0eb153c769.xml#id-69edb5605fc44840a0905c0eb153c769"/>
         </sourceConnections>
         <bounds
-            x="564"
+            x="552"
             y="228"
             width="120"
             height="55"/>
@@ -612,7 +614,7 @@
               href="ServingRelationship_id-11db20c677954385b9cdbad759b42a57.xml#id-11db20c677954385b9cdbad759b42a57"/>
         </sourceConnections>
         <bounds
-            x="49"
+            x="37"
             y="126"
             width="120"
             height="55"/>
@@ -663,7 +665,7 @@
               href="AccessRelationship_id-44f7a9e75c404ed9a71cb55a26f79e6b.xml#id-44f7a9e75c404ed9a71cb55a26f79e6b"/>
         </sourceConnections>
         <bounds
-            x="49"
+            x="37"
             y="24"
             width="120"
             height="55"/>
@@ -676,7 +678,7 @@
           id="id-e87054da5e204e5c974a981d4fcad376"
           targetConnections="id-b84ef27a0d0e4cb0b1e92261cce07a7c id-6ed2c60e710c4e5fa3bb7f53f628f942 id-a7a32cfec7984503b34ecde30f7d07e1 id-cfa751466bec4531bddea503dcf20721 id-86997cb435e344c6a7f2080ebd7837f9 id-d640048d427c44b8b00663ba3699c6f6">
         <bounds
-            x="72"
+            x="60"
             y="228"
             width="262"
             height="55"/>
@@ -717,7 +719,7 @@
               href="ServingRelationship_id-b337198fb9264a2197ed07fd3e3d792a.xml#id-b337198fb9264a2197ed07fd3e3d792a"/>
         </sourceConnections>
         <bounds
-            x="744"
+            x="732"
             y="24"
             width="120"
             height="55"/>
@@ -758,7 +760,7 @@
               href="ServingRelationship_id-cdbd943b62a3433aa0f22137b41f888d.xml#id-cdbd943b62a3433aa0f22137b41f888d"/>
         </sourceConnections>
         <bounds
-            x="613"
+            x="601"
             y="24"
             width="120"
             height="55"/>
@@ -827,7 +829,7 @@
               href="ServingRelationship_id-02921c30a35544069133910257519a35.xml#id-02921c30a35544069133910257519a35"/>
         </sourceConnections>
         <bounds
-            x="360"
+            x="348"
             y="228"
             width="120"
             height="55"/>
@@ -867,7 +869,7 @@
               href="CompositionRelationship_id-fea9e4e4ca57445581dc2fbeeb0da4e9.xml#id-fea9e4e4ca57445581dc2fbeeb0da4e9"/>
         </sourceConnections>
         <bounds
-            x="310"
+            x="298"
             y="24"
             width="279"
             height="157"/>
@@ -1477,5 +1479,16 @@
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_id-f9c0db8c13964589a54c3f0ec56f2d1c.xml#id-f9c0db8c13964589a54c3f0ec56f2d1c"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-0d50968f99fc41df93b53018336ab9f4"
+      textAlignment="1"
+      content="This view represents the general conceptual proposed architecture, identifying:&#xA;- Architecture layers and domains&#xA;- Main applications with their components and API&#xA;- Major relations and dependencies between the elements&#xA;- Cross and support systems for the entire architecture">
+    <bounds
+        x="432"
+        y="816"
+        width="421"
+        height="109"/>
   </children>
 </archimate:ArchimateDiagramModel>

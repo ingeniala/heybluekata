@@ -1024,4 +1024,15 @@
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-ccaf7465d044430c87e3ec37da676545.xml#id-ccaf7465d044430c87e3ec37da676545"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-4160c32723f7409ab705280e85cae405"
+      textAlignment="1"
+      content="This view describes the main technology details for the referenced application, including:&#xA;- Main application components&#xA;- Technologies and services used for each one&#xA;- Software artifacts and configurations (as assets to be governed by Hey Blue)&#xA;- Runtime infraestructure (as nodes, cloud zones/regions or third party SaaS)&#xA;- Main relations between the elements, identifying major data flows and dependencies as serving relations">
+    <bounds
+        x="-60"
+        y="552"
+        width="589"
+        height="109"/>
+  </children>
 </archimate:ArchimateDiagramModel>
