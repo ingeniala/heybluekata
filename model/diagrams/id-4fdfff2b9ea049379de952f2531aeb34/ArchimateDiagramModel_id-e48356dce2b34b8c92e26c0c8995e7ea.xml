@@ -802,10 +802,10 @@
         source="id-ee49cd9c42a44c70a2cbfaa0123bf7e8"
         target="id-1a9b0656ce7c4ef3aae6c2570717e231">
       <bendpoints
-          startX="-48"
-          startY="-87"
-          endX="96"
-          endY="9"/>
+          startX="-50"
+          startY="-75"
+          endX="94"
+          endY="21"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-6b059fd09b0c49fc96e9786ef8f06692.xml#id-6b059fd09b0c49fc96e9786ef8f06692"/>
