@@ -217,9 +217,9 @@
           target="id-8267c4f767774137877a59b4e5f02a70">
         <bendpoints
             startX="-31"
-            startY="-172"
+            startY="-220"
             endX="-24"
-            endY="165"/>
+            endY="105"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-e162b3f19fcf4b51afcf59d63ca9be99.xml#id-e162b3f19fcf4b51afcf59d63ca9be99"/>
@@ -251,6 +251,11 @@
           id="id-699aed2dd7bd431ea884b7a348bf138e"
           source="id-0160db9dba3745bd93db6ef24c3156dd"
           target="id-8267c4f767774137877a59b4e5f02a70">
+        <bendpoints
+            startX="-31"
+            startY="-152"
+            endX="24"
+            endY="105"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-67887f0c6a18422286384c83f5c0e5e1.xml#id-67887f0c6a18422286384c83f5c0e5e1"/>
@@ -903,5 +908,16 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-2649af7a104947eea27083e0fa65b1ac.xml#id-2649af7a104947eea27083e0fa65b1ac"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-28e1ab2cd04641f09ebce601e7b6b653"
+      textAlignment="1"
+      content="This view details the main business entities involved in the different processes of the business flow and the main access operations affecting them.">
+    <bounds
+        x="-36"
+        y="444"
+        width="433"
+        height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>
