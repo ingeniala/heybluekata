@@ -6,7 +6,8 @@
     viewpoint="business_process_cooperation">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-66fd09cd46234476b9d82f3435e05769">
+      id="id-66fd09cd46234476b9d82f3435e05769"
+      alpha="150">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-bd40f1154e6345eba4d3f204e29be73b"
@@ -791,5 +792,16 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-50d0e1998d034b5ea24f9d713d347e31.xml#id-50d0e1998d034b5ea24f9d713d347e31"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-33f16d6c6aff4b1d96a691137f811e20"
+      textAlignment="1"
+      content="For the represented business flow, this view describes:&#xA;- Main business process and the flow through its activities&#xA;- Main events represented as significant state changes&#xA;- Actors and the interactions with the processes and events&#xA;- How each business process component is covered by the conceptual applications">
+    <bounds
+        x="61"
+        y="528"
+        width="470"
+        height="97"/>
   </children>
 </archimate:ArchimateDiagramModel>

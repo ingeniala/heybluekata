@@ -393,10 +393,10 @@
         name="lineAlpha"
         value="150"/>
     <bounds
-        x="-48"
+        x="-36"
         y="444"
-        width="913"
-        height="337"/>
+        width="901"
+        height="349"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-93d810d7f6fa40d2b9e48bdc8838f9c5"
@@ -484,10 +484,9 @@
             href="CompositionRelationship_id-e0306e170d964b8db0ec13f50cc5df75.xml#id-e0306e170d964b8db0ec13f50cc5df75"/>
       </sourceConnections>
       <bounds
-          x="12"
           y="24"
           width="877"
-          height="301"/>
+          height="313"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-b2172eb6bc4e4517b35adee28b80db4c"
@@ -555,7 +554,7 @@
           <bendpoints
               startX="-24"
               startY="-291"
-              endX="66"
+              endX="42"
               endY="66"/>
           <bendpoints
               startX="-84"
@@ -587,7 +586,7 @@
         </sourceConnections>
         <bounds
             x="564"
-            y="216"
+            y="228"
             width="120"
             height="55"/>
         <archimateElement
@@ -678,7 +677,7 @@
           targetConnections="id-b84ef27a0d0e4cb0b1e92261cce07a7c id-6ed2c60e710c4e5fa3bb7f53f628f942 id-a7a32cfec7984503b34ecde30f7d07e1 id-cfa751466bec4531bddea503dcf20721 id-86997cb435e344c6a7f2080ebd7837f9 id-d640048d427c44b8b00663ba3699c6f6">
         <bounds
             x="49"
-            y="216"
+            y="228"
             width="262"
             height="55"/>
         <archimateElement
@@ -777,15 +776,15 @@
             source="id-c48fa628eb4e41d7ba1b975ab43ab687"
             target="id-b2172eb6bc4e4517b35adee28b80db4c">
           <bendpoints
-              startX="-24"
-              startY="-122"
+              startX="-25"
+              startY="-39"
               endX="132"
-              endY="70"/>
+              endY="165"/>
           <bendpoints
-              startX="-132"
-              startY="-122"
+              startX="-133"
+              startY="-39"
               endX="24"
-              endY="70"/>
+              endY="165"/>
           <archimateRelationship
               xsi:type="archimate:ServingRelationship"
               href="ServingRelationship_id-4ef95ad591a148e3bf15de12773a4f72.xml#id-4ef95ad591a148e3bf15de12773a4f72"/>
@@ -824,7 +823,7 @@
         </sourceConnections>
         <bounds
             x="337"
-            y="216"
+            y="228"
             width="120"
             height="55"/>
         <archimateElement
@@ -991,7 +990,7 @@
         value="150"/>
     <bounds
         x="-204"
-        y="804"
+        y="816"
         width="445"
         height="181"/>
     <children
@@ -1094,9 +1093,9 @@
           target="id-93d810d7f6fa40d2b9e48bdc8838f9c5">
         <bendpoints
             startX="-72"
-            startY="-2"
-            endX="-294"
-            endY="306"/>
+            startY="-15"
+            endX="-306"
+            endY="312"/>
         <archimateRelationship
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_id-5cba197942d34329b959841faae5a8d7.xml#id-5cba197942d34329b959841faae5a8d7"/>
@@ -1108,24 +1107,24 @@
           target="id-54abe5030b57415aa0da62d7ad1deb48">
         <bendpoints
             startX="-84"
-            startY="10"
+            startY="9"
             endX="216"
-            endY="430"/>
+            endY="453"/>
         <bendpoints
             startX="-84"
             startY="-147"
             endX="216"
-            endY="285"/>
+            endY="297"/>
         <bendpoints
-            startX="-228"
+            startX="-216"
             startY="-147"
-            endX="72"
-            endY="285"/>
+            endX="84"
+            endY="297"/>
         <bendpoints
-            startX="-228"
-            startY="-398"
-            endX="72"
-            endY="22"/>
+            startX="-216"
+            startY="-411"
+            endX="84"
+            endY="21"/>
         <archimateRelationship
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_id-e8242b1487ca421fbce5b0d55cee231f.xml#id-e8242b1487ca421fbce5b0d55cee231f"/>
@@ -1154,7 +1153,7 @@
         x="-204"
         y="444"
         width="145"
-        height="337"/>
+        height="349"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-cbc5b70a38ac4356a32506b9113cd55e"
@@ -1313,7 +1312,7 @@
         value="150"/>
     <bounds
         x="276"
-        y="804"
+        y="816"
         width="145"
         height="181"/>
     <children

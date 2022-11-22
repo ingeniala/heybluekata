@@ -250,7 +250,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-231223d5eb7c4533b8d1fef3fb2b0e77">
+      id="id-231223d5eb7c4533b8d1fef3fb2b0e77"
+      alpha="150">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ee545a29841e4944b5e0c32cf14489a8"
@@ -463,5 +464,16 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-f8f7f79c580944dc938791bf4bd46b6b.xml#id-f8f7f79c580944dc938791bf4bd46b6b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-314402a336194577a1a10a32fece52a0"
+      textAlignment="1"
+      content="For the represented business flow, this view describes:&#xA;- Main business process and the flow through its activities&#xA;- Main events represented as significant state changes&#xA;- Actors and the interactions with the processes and events&#xA;- How each business process component is covered by the conceptual applications">
+    <bounds
+        x="155"
+        y="456"
+        width="470"
+        height="97"/>
   </children>
 </archimate:ArchimateDiagramModel>
