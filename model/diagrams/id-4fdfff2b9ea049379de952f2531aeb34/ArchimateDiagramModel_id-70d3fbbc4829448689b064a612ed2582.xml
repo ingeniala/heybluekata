@@ -126,9 +126,9 @@
           href="AssignmentRelationship_id-2e33a933e0a544c6a9d840d1c58d8280.xml#id-2e33a933e0a544c6a9d840d1c58d8280"/>
     </sourceConnections>
     <bounds
-        x="12"
+        x="24"
         y="216"
-        width="1093"
+        width="1081"
         height="313"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -155,7 +155,7 @@
       <bounds
           x="12"
           y="36"
-          width="1057"
+          width="1045"
           height="55"/>
       <archimateElement
           xsi:type="archimate:Node"
@@ -175,7 +175,7 @@
             href="FlowRelationship_id-0e1ebba26cc94d6ca0ebb5c9bab6be4f.xml#id-0e1ebba26cc94d6ca0ebb5c9bab6be4f"/>
       </sourceConnections>
       <bounds
-          x="360"
+          x="348"
           y="108"
           width="120"
           height="55"/>
@@ -197,7 +197,7 @@
             href="ServingRelationship_id-c71c6f45dc3b404ab25bfb4474e26fdf.xml#id-c71c6f45dc3b404ab25bfb4474e26fdf"/>
       </sourceConnections>
       <bounds
-          x="360"
+          x="348"
           y="180"
           width="120"
           height="55"/>
@@ -228,7 +228,7 @@
             href="AggregationRelationship_id-17602c2f47484a0d866a2f5c2e65e24e.xml#id-17602c2f47484a0d866a2f5c2e65e24e"/>
       </sourceConnections>
       <bounds
-          x="504"
+          x="492"
           y="108"
           width="289"
           height="97"/>
@@ -299,7 +299,7 @@
             href="ServingRelationship_id-ca8b9586abf746599e3dd74688227396.xml#id-ca8b9586abf746599e3dd74688227396"/>
       </sourceConnections>
       <bounds
-          x="660"
+          x="648"
           y="216"
           width="120"
           height="55"/>
@@ -321,7 +321,7 @@
             href="AssignmentRelationship_id-778da0cbefe64594b0175661986a6cd0.xml#id-778da0cbefe64594b0175661986a6cd0"/>
       </sourceConnections>
       <bounds
-          x="948"
+          x="936"
           y="180"
           width="120"
           height="55"/>
@@ -343,7 +343,7 @@
             href="ServingRelationship_id-2fc7e749b86a4962bb0038097961f8c1.xml#id-2fc7e749b86a4962bb0038097961f8c1"/>
       </sourceConnections>
       <bounds
-          x="816"
+          x="804"
           y="108"
           width="120"
           height="55"/>
@@ -365,7 +365,7 @@
             href="ServingRelationship_id-b46ac48bbd54408bbfa4914e3df99b85.xml#id-b46ac48bbd54408bbfa4914e3df99b85"/>
       </sourceConnections>
       <bounds
-          x="816"
+          x="804"
           y="180"
           width="120"
           height="55"/>
@@ -387,7 +387,7 @@
             href="ServingRelationship_id-11d59a4ba39d4f1986b4b777bdc0de25.xml#id-11d59a4ba39d4f1986b4b777bdc0de25"/>
       </sourceConnections>
       <bounds
-          x="948"
+          x="936"
           y="252"
           width="120"
           height="55"/>
@@ -414,7 +414,7 @@
             href="FlowRelationship_id-b9e9edbfa3e4421581eae65e9f1dd2f3.xml#id-b9e9edbfa3e4421581eae65e9f1dd2f3"/>
       </sourceConnections>
       <bounds
-          x="516"
+          x="504"
           y="216"
           width="120"
           height="55"/>
@@ -436,7 +436,7 @@
             href="ServingRelationship_id-1b4d4debecbb4ddf9bc97303da41845e.xml#id-1b4d4debecbb4ddf9bc97303da41845e"/>
       </sourceConnections>
       <bounds
-          x="264"
+          x="252"
           y="252"
           width="120"
           height="55"/>
@@ -472,7 +472,7 @@
             href="AssignmentRelationship_id-d3b1ed5307244d5a946dcad422d8c20e.xml#id-d3b1ed5307244d5a946dcad422d8c20e"/>
       </sourceConnections>
       <bounds
-          x="156"
+          x="144"
           y="108"
           width="120"
           height="55"/>
@@ -494,7 +494,7 @@
             href="ServingRelationship_id-486f2409f18b49318bc20894c21a1304.xml#id-486f2409f18b49318bc20894c21a1304"/>
       </sourceConnections>
       <bounds
-          x="156"
+          x="144"
           y="180"
           width="120"
           height="55"/>
@@ -578,7 +578,7 @@
             href="ServingRelationship_id-32cdc3a9b5374999b7ff58587e60b230.xml#id-32cdc3a9b5374999b7ff58587e60b230"/>
       </sourceConnections>
       <bounds
-          x="948"
+          x="936"
           y="108"
           width="120"
           height="55"/>
@@ -617,7 +617,7 @@
       id="id-a3c595c4d43a4179b45477d0c4d72ef6"
       targetConnections="id-0e5fd838077544c4832b6ce0e04ff8b7">
     <bounds
-        x="24"
+        x="36"
         y="144"
         width="120"
         height="55"/>
@@ -815,7 +815,7 @@
       textAlignment="1"
       content="This view describes the main technology details for the referenced application, including:&#xA;- Main application components&#xA;- Technologies and services used for each one&#xA;- Software artifacts and configurations (as assets to be governed by Hey Blue)&#xA;- Runtime infraestructure (as nodes, cloud zones/regions or third party SaaS)&#xA;- Main relations between the elements, identifying major data flows and dependencies as serving relations">
     <bounds
-        x="12"
+        x="24"
         y="540"
         width="589"
         height="109"/>

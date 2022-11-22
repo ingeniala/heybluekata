@@ -998,13 +998,18 @@
         id="id-5983f4bd6e2b4aa2bb151372016b2bed"
         source="id-e9c624803fe04143986b1bf456b7d392"
         target="id-a9a375c6f26042b08350a58f67c39e20">
+      <bendpoints
+          startX="-120"
+          startY="-3"
+          endX="24"
+          endY="69"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-f5b8b2da5dd24749b28a554700110ca8.xml#id-f5b8b2da5dd24749b28a554700110ca8"/>
     </sourceConnections>
     <bounds
         x="1104"
-        y="72"
+        y="144"
         width="120"
         height="55"/>
     <archimateElement
