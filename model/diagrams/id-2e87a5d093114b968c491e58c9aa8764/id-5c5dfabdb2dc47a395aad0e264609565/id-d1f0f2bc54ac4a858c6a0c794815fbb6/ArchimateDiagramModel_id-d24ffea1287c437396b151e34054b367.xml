@@ -240,13 +240,22 @@
         id="id-81dda436e5e74a6889055625269f58e4"
         source="id-3cb9297129dc46a6b0e62b3a17901d50"
         target="id-74fc1af8644b4ae6a866d520f75bc647">
+      <bendpoints
+          startY="-51"
+          endX="204"
+          endY="129"/>
+      <bendpoints
+          startX="-156"
+          startY="-51"
+          endX="48"
+          endY="129"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-e9a8ce14fac1498390b904060fb9dc9c.xml#id-e9a8ce14fac1498390b904060fb9dc9c"/>
     </sourceConnections>
     <bounds
-        x="552"
-        y="48"
+        x="756"
+        y="372"
         width="120"
         height="55"/>
     <archimateElement
