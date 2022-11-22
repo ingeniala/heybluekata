@@ -14,14 +14,14 @@
         target="id-8efcaa10ae7045bd83e05a2e617acd70">
       <bendpoints
           startX="-12"
-          startY="-86"
+          startY="-63"
           endX="84"
-          endY="174"/>
+          endY="197"/>
       <bendpoints
           startX="-84"
-          startY="-86"
+          startY="-63"
           endX="12"
-          endY="174"/>
+          endY="197"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-49fedc6df4184863a362e4d0a98dc8b1.xml#id-49fedc6df4184863a362e4d0a98dc8b1"/>

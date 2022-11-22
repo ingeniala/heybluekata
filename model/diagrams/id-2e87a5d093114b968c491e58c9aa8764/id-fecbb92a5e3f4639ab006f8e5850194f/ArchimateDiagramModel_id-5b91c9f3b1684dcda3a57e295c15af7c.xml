@@ -786,4 +786,15 @@
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-d0d257e8a4314b5fbc2141c6b8f82657.xml#id-d0d257e8a4314b5fbc2141c6b8f82657"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-64acc5d5b9534276b7084e90935d2905"
+      textAlignment="1"
+      content="For the Onboarding business flow, this view describe:&#xA;- Main processes involved and how the business flows across them&#xA;- Main events represented as significant state changes&#xA;- Actors and their interactions with the processes and/or events&#xA;- Application functional coverage involved for every process of the business flow">
+    <bounds
+        x="-121"
+        y="504"
+        width="506"
+        height="97"/>
+  </children>
 </archimate:ArchimateDiagramModel>

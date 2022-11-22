@@ -41,15 +41,15 @@
         source="id-c9a744d792654888bea7bb1da6c6ab42"
         target="id-0c625e6f57184ff5ba76f4d5106ebb21">
       <bendpoints
-          startX="-36"
-          startY="-53"
-          endX="336"
-          endY="93"/>
+          startX="-12"
+          startY="-41"
+          endX="360"
+          endY="105"/>
       <bendpoints
           startX="-360"
-          startY="-53"
+          startY="-41"
           endX="12"
-          endY="93"/>
+          endY="105"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-06e20172d9b9493fa5f8856d15394cb5.xml#id-06e20172d9b9493fa5f8856d15394cb5"/>
@@ -105,14 +105,14 @@
         target="id-0c625e6f57184ff5ba76f4d5106ebb21">
       <bendpoints
           startX="-24"
-          startY="-77"
+          startY="-65"
           endX="480"
-          endY="69"/>
+          endY="81"/>
       <bendpoints
           startX="-480"
-          startY="-77"
+          startY="-65"
           endX="24"
-          endY="69"/>
+          endY="81"/>
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_id-193c32c9d50f44af8f4f17a9a5d0736a.xml#id-193c32c9d50f44af8f4f17a9a5d0736a"/>
@@ -381,18 +381,18 @@
           source="id-d117118e28bf4ec99eb3d896838b1126"
           target="id-69a4acc5525d4ad69b465663ba983361">
         <bendpoints
-            startY="47"
+            startY="59"
             endX="324"
-            endY="81"/>
+            endY="93"/>
         <bendpoints
-            startX="-252"
-            startY="47"
-            endX="72"
-            endY="81"/>
+            startX="-72"
+            startY="59"
+            endX="252"
+            endY="93"/>
         <bendpoints
             startX="-324"
-            startY="47"
-            endY="81"/>
+            startY="59"
+            endY="93"/>
         <archimateRelationship
             xsi:type="archimate:FlowRelationship"
             href="FlowRelationship_id-824239485a874553b0c8afb5f02108d5.xml#id-824239485a874553b0c8afb5f02108d5"/>
