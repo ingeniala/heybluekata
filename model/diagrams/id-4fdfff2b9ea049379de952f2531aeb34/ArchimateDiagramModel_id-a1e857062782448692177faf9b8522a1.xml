@@ -1484,7 +1484,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-0d50968f99fc41df93b53018336ab9f4"
       textAlignment="1"
-      content="This view represents the general conceptual proposed architecture, identifying:&#xA;- Architecture layers and domains&#xA;- Main applications with their components and API&#xA;- Major relations and dependencies between the elements&#xA;- Cross and support systems for the entire architecture">
+      content="This view represents the general conceptual proposed architecture, identifying:&#xA;- Architecture layers and domains&#xA;- Main applications with their components and APIs&#xA;- Major relations and dependencies between the elements&#xA;- Cross and support systems for the entire architecture">
     <bounds
         x="432"
         y="816"
