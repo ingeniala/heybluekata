@@ -450,15 +450,6 @@
           id="id-91167a9711ba42b3ad5e0290b484163b"
           source="id-5836eacade2d4cc4864a48120f3fb314"
           target="id-ea39b7340b13432a9f83e50c8abedb5f">
-        <bendpoints
-            startY="-159"
-            endX="-72"
-            endY="57"/>
-        <bendpoints
-            startX="36"
-            startY="-159"
-            endX="-36"
-            endY="57"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-5b343e82b92a434eb2cd82333cdf92fc.xml#id-5b343e82b92a434eb2cd82333cdf92fc"/>
@@ -536,14 +527,14 @@
           target="id-ea39b7340b13432a9f83e50c8abedb5f">
         <bendpoints
             startX="-48"
-            startY="-87"
+            startY="-99"
             endX="396"
-            endY="129"/>
+            endY="117"/>
         <bendpoints
-            startX="-432"
-            startY="-87"
-            endX="12"
-            endY="129"/>
+            startX="-420"
+            startY="-99"
+            endX="24"
+            endY="117"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-693be7fcda2648529af229d5a5a24f46.xml#id-693be7fcda2648529af229d5a5a24f46"/>
@@ -670,14 +661,14 @@
           target="id-ea39b7340b13432a9f83e50c8abedb5f">
         <bendpoints
             startX="-36"
-            startY="-65"
+            startY="-53"
             endX="228"
-            endY="117"/>
+            endY="129"/>
         <bendpoints
-            startX="-240"
-            startY="-65"
-            endX="24"
-            endY="117"/>
+            startX="-252"
+            startY="-53"
+            endX="12"
+            endY="129"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-37808564921343118bb69e7e632246e6.xml#id-37808564921343118bb69e7e632246e6"/>
@@ -780,12 +771,23 @@
       id="id-9f8fd58507cd41b7ab826b4150b7cae2"
       targetConnections="id-405f3819017a41db9c690ea42b61bb90">
     <bounds
-        x="1261"
+        x="1272"
         y="12"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-18ebb6b74c344f8b87de0216f8d9c988.xml#id-18ebb6b74c344f8b87de0216f8d9c988"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-293725df9d164cc2bd0618ab71e7589b"
+      textAlignment="1"
+      content="This view details the main business entities involved in the different processes of the business flow and the main access operations affecting them.">
+    <bounds
+        x="12"
+        y="372"
+        width="433"
+        height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>
