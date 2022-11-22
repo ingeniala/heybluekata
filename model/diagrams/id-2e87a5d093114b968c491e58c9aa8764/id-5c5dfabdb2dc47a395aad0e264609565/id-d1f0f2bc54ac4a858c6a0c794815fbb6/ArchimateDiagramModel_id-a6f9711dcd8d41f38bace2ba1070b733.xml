@@ -26,8 +26,8 @@
           href="CompositionRelationship_id-b3b7310c016c4cb3b923f50847d74fbc.xml#id-b3b7310c016c4cb3b923f50847d74fbc"/>
     </sourceConnections>
     <bounds
-        x="168"
-        y="36"
+        x="120"
+        y="24"
         width="301"
         height="97"/>
     <children
@@ -73,8 +73,8 @@
           href="RealizationRelationship_id-dbd0a9b78d9a4c3c9b3e81bc9adc0045.xml#id-dbd0a9b78d9a4c3c9b3e81bc9adc0045"/>
     </sourceConnections>
     <bounds
-        x="336"
-        y="192"
+        x="240"
+        y="216"
         width="120"
         height="55"/>
     <archimateElement
@@ -95,7 +95,7 @@
     </sourceConnections>
     <bounds
         x="192"
-        y="192"
+        y="144"
         width="120"
         height="55"/>
     <archimateElement
@@ -110,18 +110,13 @@
         id="id-95332e4b59334d5e9c2fbbf07a3fcbc2"
         source="id-23297c61d7a94c5c840b4ecc51689257"
         target="id-015cee6614bd41f2aa404c08967bb30e">
-      <bendpoints
-          startX="12"
-          startY="-123"
-          endX="156"
-          endY="9"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-fa2409d24249467ebfd1e70b9ed2458d.xml#id-fa2409d24249467ebfd1e70b9ed2458d"/>
     </sourceConnections>
     <bounds
-        x="480"
-        y="192"
+        x="336"
+        y="144"
         width="120"
         height="55"/>
     <archimateElement
@@ -136,21 +131,28 @@
         id="id-faa6ecbf538e40709b154d30a445b0e2"
         source="id-9c1228c6b62c4e1aa391fed8330c4c46"
         target="id-5af01cde04d248eb8ad1ff69fcc28055">
-      <bendpoints
-          startX="12"
-          startY="-123"
-          endX="-180"
-          endY="9"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-f2a39ed7c40449bba25e9cd9a4f1b1f2.xml#id-f2a39ed7c40449bba25e9cd9a4f1b1f2"/>
     </sourceConnections>
     <bounds
-        y="192"
+        x="96"
+        y="216"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-17c7da0f831748049a149a0bae8ce937.xml#id-17c7da0f831748049a149a0bae8ce937"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-2bea55bd54fe45fb9919736b2b91bd74"
+      textAlignment="1"
+      content="This view details the application functional coverage for every represented reference business functions on the Ubiquity Domain.">
+    <bounds
+        x="54"
+        y="288"
+        width="433"
+        height="47"/>
   </children>
 </archimate:ArchimateDiagramModel>
