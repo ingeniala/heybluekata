@@ -632,4 +632,15 @@
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-18ebb6b74c344f8b87de0216f8d9c988.xml#id-18ebb6b74c344f8b87de0216f8d9c988"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-77cec0d6e5be4e5fa5188625f204139c"
+      textAlignment="1"
+      content="This view details the main business entities involved in the different processes of the business flow and the main access operations affecting them.">
+    <bounds
+        x="-96"
+        y="288"
+        width="433"
+        height="47"/>
+  </children>
 </archimate:ArchimateDiagramModel>
