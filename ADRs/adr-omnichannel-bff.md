@@ -36,6 +36,8 @@ Some benefits of implementing BFFs:
 
 ### Internal Constraints
 
-| Constraint ID | Explanation |
+There are some drawbacks using BFF:
+
+| Drawbacks ID | Explanation |
 | ------------- | ----------- |
-| CONS.10 | BFF now becomes a SPOF (single point of failure), because any downtime affects directly to the channel. To remediate the situation, the BFF will be deployed in the AWS cloud, in a environment where high availabilty and scalability are key pillars for applications. |
+| DRA.6 | BFF now becomes a SPOF (single point of failure), because any downtime affects directly to the channel. To remediate the situation, the BFF will be deployed in the AWS cloud, in a environment where high availabilty and scalability are key pillars for applications. |
