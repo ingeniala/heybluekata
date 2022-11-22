@@ -129,7 +129,7 @@
         x="12"
         y="216"
         width="1153"
-        height="397"/>
+        height="349"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-8e06e999c082444f98dd621106dbd77c"
@@ -154,7 +154,7 @@
       </sourceConnections>
       <bounds
           x="12"
-          y="60"
+          y="36"
           width="1116"
           height="55"/>
       <archimateElement
@@ -176,7 +176,7 @@
       </sourceConnections>
       <bounds
           x="420"
-          y="156"
+          y="132"
           width="120"
           height="55"/>
       <archimateElement
@@ -198,7 +198,7 @@
       </sourceConnections>
       <bounds
           x="420"
-          y="240"
+          y="216"
           width="120"
           height="55"/>
       <archimateElement
@@ -229,7 +229,7 @@
       </sourceConnections>
       <bounds
           x="564"
-          y="156"
+          y="132"
           width="289"
           height="139"/>
       <children
@@ -295,7 +295,7 @@
       </sourceConnections>
       <bounds
           x="720"
-          y="312"
+          y="288"
           width="120"
           height="55"/>
       <archimateElement
@@ -317,7 +317,7 @@
       </sourceConnections>
       <bounds
           x="1008"
-          y="240"
+          y="216"
           width="120"
           height="55"/>
       <archimateElement
@@ -339,7 +339,7 @@
       </sourceConnections>
       <bounds
           x="876"
-          y="156"
+          y="132"
           width="120"
           height="55"/>
       <archimateElement
@@ -361,7 +361,7 @@
       </sourceConnections>
       <bounds
           x="876"
-          y="240"
+          y="216"
           width="120"
           height="55"/>
       <archimateElement
@@ -383,7 +383,7 @@
       </sourceConnections>
       <bounds
           x="1008"
-          y="312"
+          y="288"
           width="120"
           height="55"/>
       <archimateElement
@@ -405,7 +405,7 @@
       </sourceConnections>
       <bounds
           x="576"
-          y="312"
+          y="288"
           width="120"
           height="55"/>
       <archimateElement
@@ -427,7 +427,7 @@
       </sourceConnections>
       <bounds
           x="288"
-          y="156"
+          y="132"
           width="120"
           height="55"/>
       <archimateElement
@@ -463,7 +463,7 @@
       </sourceConnections>
       <bounds
           x="156"
-          y="156"
+          y="132"
           width="120"
           height="55"/>
       <archimateElement
@@ -485,7 +485,7 @@
       </sourceConnections>
       <bounds
           x="156"
-          y="240"
+          y="216"
           width="120"
           height="55"/>
       <archimateElement
@@ -521,7 +521,7 @@
       </sourceConnections>
       <bounds
           x="12"
-          y="156"
+          y="132"
           width="120"
           height="55"/>
       <archimateElement
@@ -543,7 +543,7 @@
       </sourceConnections>
       <bounds
           x="12"
-          y="240"
+          y="216"
           width="120"
           height="55"/>
       <archimateElement
@@ -560,16 +560,16 @@
           source="id-f06d0908c6bf4add9a3c7f2301f699b1"
           target="id-80fcc0389816410bbcd91d2ea06b6564">
         <bendpoints
-            startY="-327"
+            startY="-315"
             endX="215"
-            endY="9"/>
+            endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_id-32cdc3a9b5374999b7ff58587e60b230.xml#id-32cdc3a9b5374999b7ff58587e60b230"/>
       </sourceConnections>
       <bounds
           x="1008"
-          y="156"
+          y="132"
           width="120"
           height="55"/>
       <archimateElement
@@ -600,7 +600,7 @@
     </sourceConnections>
     <bounds
         x="624"
-        y="636"
+        y="588"
         width="120"
         height="55"/>
     <archimateElement
@@ -815,7 +815,7 @@
       id="id-e00a2762d62e4388aa996e3991d2eaff"
       targetConnections="id-389cfec24fd947dea333df2aa5ddc27c">
     <bounds
-        x="648"
+        x="660"
         y="36"
         width="120"
         height="55"/>
