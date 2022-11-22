@@ -693,9 +693,9 @@
         source="id-0a87e79ea12445c38103f9aaaec28940"
         target="id-c3e7756687b14ea0b46954c34d3ea275">
       <bendpoints
-          startX="23"
+          startX="11"
           startY="-51"
-          endX="-96"
+          endX="-108"
           endY="45"/>
       <bendpoints
           startX="132"
