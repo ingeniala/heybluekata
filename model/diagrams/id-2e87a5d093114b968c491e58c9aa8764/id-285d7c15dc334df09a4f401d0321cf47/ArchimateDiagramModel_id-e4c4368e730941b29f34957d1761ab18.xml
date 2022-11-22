@@ -130,6 +130,9 @@
           id="id-bb36c40b72a0445f916ff51546559e67"
           source="id-caed023780c34a428293d6f55ffd8640"
           target="id-4addfff74fbf498396027a49b9c090aa">
+        <bendpoints
+            startY="-77"
+            endY="57"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-2b5ec0b5e48e4e7b9aa0d2f9d5da630f.xml#id-2b5ec0b5e48e4e7b9aa0d2f9d5da630f"/>
@@ -261,9 +264,9 @@
           target="id-a59e130674f245a695c6c0457fd9487b">
         <bendpoints
             startX="24"
-            startY="-87"
+            startY="-123"
             endX="-48"
-            endY="81"/>
+            endY="45"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-c97929c683104cca9ded6bc79a602be8.xml#id-c97929c683104cca9ded6bc79a602be8"/>
@@ -275,9 +278,9 @@
           target="id-e9d9901083db4da5b3c3400ab0cccade">
         <bendpoints
             startX="-36"
-            startY="-87"
+            startY="-99"
             endX="24"
-            endY="81"/>
+            endY="69"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-ba8187ed036546929488f2eb9e2abeea.xml#id-ba8187ed036546929488f2eb9e2abeea"/>
@@ -412,13 +415,13 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-d94f2b2e57e54ced91413a1577cfe35c"
+      id="id-7952e76cd5b84c6895af2a4180c95456"
       textAlignment="1"
-      content="This view details the main business entities involved in the different processes of the business flow and the main access operations affecting them.">
+      content="For the represented business flow, this view describes:&#xA;- Main business process and the flow through its activities&#xA;- Main events represented as significant state changes&#xA;- Main business entities and the access relations with the process components affecting them">
     <bounds
         x="156"
-        y="324"
-        width="433"
-        height="47"/>
+        y="312"
+        width="517"
+        height="73"/>
   </children>
 </archimate:ArchimateDiagramModel>

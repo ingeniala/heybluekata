@@ -653,12 +653,12 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-1d2f0d90c9bc46c0be724055d6ae2737"
+      id="id-5802bdf6ed0546d68fa4d60adef16638"
       textAlignment="1"
-      content="This view details the main business entities involved in the different processes of the business flow and the main access operations affecting them.">
+      content="For the represented business flow, this view describes:&#xA;- Main business process and the flow through its activities&#xA;- Main events represented as significant state changes&#xA;- Main business entities and the access relations with the process components affecting them">
     <bounds
         y="384"
-        width="433"
-        height="47"/>
+        width="517"
+        height="73"/>
   </children>
 </archimate:ArchimateDiagramModel>
