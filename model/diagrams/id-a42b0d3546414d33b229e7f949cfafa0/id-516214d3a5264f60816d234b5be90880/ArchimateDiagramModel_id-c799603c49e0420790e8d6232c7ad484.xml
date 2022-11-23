@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1.2.2. Motivation - User mapping (copy)"
+    name="1.2.2. Motivation - User mapping"
     id="id-c799603c49e0420790e8d6232c7ad484"
     viewpoint="requirements_realization">
   <children
@@ -11,6 +11,9 @@
       textAlignment="1"
       fillColor="#729fcf"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="-204"
         y="468"
@@ -128,6 +131,9 @@
       textAlignment="1"
       fillColor="#fcaf3e"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="-204"
         y="324"
@@ -141,6 +147,9 @@
       textAlignment="1"
       fillColor="#8ae234"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="-204"
         y="24"

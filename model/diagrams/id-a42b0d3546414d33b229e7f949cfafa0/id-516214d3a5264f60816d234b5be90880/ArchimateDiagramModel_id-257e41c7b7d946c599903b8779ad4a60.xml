@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1.2.1. Motivation - Interaction mapping (copy)"
+    name="1.2.1. Motivation - Interaction mapping"
     id="id-257e41c7b7d946c599903b8779ad4a60"
     viewpoint="requirements_realization">
   <children
@@ -11,6 +11,9 @@
       textAlignment="1"
       fillColor="#fcaf3e"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="12"
         y="144"
@@ -24,6 +27,9 @@
       textAlignment="1"
       fillColor="#729fcf"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="12"
         y="276"
@@ -102,6 +108,9 @@
       textAlignment="1"
       fillColor="#8ae234"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="12"
         y="-108"

@@ -10,6 +10,9 @@
       name="Security Characteristics"
       textAlignment="1"
       alpha="150">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="348"
         y="24"
@@ -151,6 +154,9 @@
       name="Usability Characteristics"
       textAlignment="1"
       alpha="150">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="24"
         y="24"
@@ -197,6 +203,9 @@
       name="Confidence Characteristics"
       textAlignment="1"
       alpha="150">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="24"
         y="156"
@@ -269,6 +278,9 @@
       name="Stability Characteristics"
       textAlignment="1"
       alpha="150">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="348"
         y="228"
@@ -337,6 +349,9 @@
       name="Modifiability Characteristics"
       textAlignment="1"
       alpha="150">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="24"
         y="360"
@@ -361,6 +376,9 @@
       name="Scalability Characteristics"
       textAlignment="1"
       alpha="150">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="348"
         y="348"
@@ -386,6 +404,9 @@
       name="Performance Characteristics"
       textAlignment="1"
       alpha="150">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="24"
         y="480"

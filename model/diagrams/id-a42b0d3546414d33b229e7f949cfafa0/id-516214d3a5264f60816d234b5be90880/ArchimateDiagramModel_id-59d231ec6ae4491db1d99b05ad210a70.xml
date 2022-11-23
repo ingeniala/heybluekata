@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1.2.5. Motivation - Foundation mapping (copy)"
+    name="1.2.5. Motivation - Foundation mapping"
     id="id-59d231ec6ae4491db1d99b05ad210a70"
     viewpoint="requirements_realization">
   <children
@@ -11,6 +11,9 @@
       textAlignment="1"
       fillColor="#729fcf"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="24"
         y="216"
@@ -24,6 +27,9 @@
       textAlignment="1"
       fillColor="#fcaf3e"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="24"
         y="84"
@@ -37,6 +43,9 @@
       textAlignment="1"
       fillColor="#8ae234"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="24"
         y="-120"

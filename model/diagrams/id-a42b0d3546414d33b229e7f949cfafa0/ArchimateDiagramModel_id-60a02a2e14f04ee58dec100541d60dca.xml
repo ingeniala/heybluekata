@@ -11,6 +11,9 @@
       textAlignment="1"
       fillColor="#729fcf"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="24"
         y="24"

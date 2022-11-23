@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1.2.6. Motivation - Commerce mapping (copy)"
+    name="1.2.6. Motivation - Commerce mapping"
     id="id-0472650ae6384f0c8502c76801aa5ba7"
     viewpoint="requirements_realization">
   <children
@@ -11,6 +11,9 @@
       textAlignment="1"
       fillColor="#729fcf"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="49"
         y="283"
@@ -102,6 +105,9 @@
       textAlignment="1"
       fillColor="#fcaf3e"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="49"
         y="144"
@@ -115,6 +121,9 @@
       textAlignment="1"
       fillColor="#8ae234"
       alpha="120">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="49"
         y="-36"
@@ -125,13 +134,26 @@
         id="id-4dc96e1bfa31476887dfa4cfad0f8fd3"
         targetConnections="id-e3e4248ab8e94e9a8adb1623df2d1d15">
       <bounds
-          x="864"
+          x="852"
           y="96"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:Requirement"
           href="Requirement_id-d7f9fe3914c34042aa94e3b14a17e46a.xml#id-d7f9fe3914c34042aa94e3b14a17e46a"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-5c7e78d7e23b42e7b13b3b653626ac63"
+        targetConnections="id-d7fecc1ddae7467d997ed044ce1eb7e0 id-b01b8027055640b2897a61d713adc730">
+      <bounds
+          x="780"
+          y="24"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-36dd96f6e4bd4bc7894d41ab4c5483a3.xml#id-36dd96f6e4bd4bc7894d41ab4c5483a3"/>
     </children>
   </children>
   <children
@@ -422,19 +444,6 @@
     <archimateElement
         xsi:type="archimate:Requirement"
         href="Requirement_id-d773866a8a074cdd9ecb5096ee48c307.xml#id-d773866a8a074cdd9ecb5096ee48c307"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-5c7e78d7e23b42e7b13b3b653626ac63"
-      targetConnections="id-d7fecc1ddae7467d997ed044ce1eb7e0 id-b01b8027055640b2897a61d713adc730">
-    <bounds
-        x="840"
-        y="-9"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Requirement"
-        href="Requirement_id-36dd96f6e4bd4bc7894d41ab4c5483a3.xml#id-36dd96f6e4bd4bc7894d41ab4c5483a3"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"

@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="1.1. Motivation (copy)"
+    name="1.1. Motivation"
     id="id-ce242095374f43d9aff2b602d7668461"
     viewpoint="motivation">
   <children
@@ -10,6 +10,9 @@
       name="Strategic motivation"
       textAlignment="1"
       alpha="150">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="-96"
         y="-72"
@@ -157,6 +160,9 @@
       name="Use cases"
       textAlignment="1"
       alpha="150">
+    <features
+        name="lineAlpha"
+        value="120"/>
     <bounds
         x="-96"
         y="264"
