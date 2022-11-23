@@ -1220,19 +1220,20 @@
           source="id-e6720bfd549f4bd9a9b68ff696996ee6"
           target="id-3c9c641b10774e5e8b74a5a401a83ff4">
         <bendpoints
-            startY="-38"
-            endX="-180"
-            endY="106"/>
+            startX="-24"
+            startY="-39"
+            endX="-229"
+            endY="105"/>
         <bendpoints
-            startX="120"
-            startY="-38"
-            endX="-84"
-            endY="106"/>
+            startX="108"
+            startY="-39"
+            endX="-97"
+            endY="105"/>
         <bendpoints
-            startX="120"
-            startY="-134"
-            endX="-84"
-            endY="10"/>
+            startX="108"
+            startY="-135"
+            endX="-97"
+            endY="9"/>
         <archimateRelationship
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_id-fa26db3f3cdf4c029bae38ea75bd747d.xml#id-fa26db3f3cdf4c029bae38ea75bd747d"/>
