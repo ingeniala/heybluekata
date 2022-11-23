@@ -72,7 +72,7 @@
           href="AssignmentRelationship_id-34916440b635470d8086e0e76b819bfb.xml#id-34916440b635470d8086e0e76b819bfb"/>
     </sourceConnections>
     <bounds
-        x="-49"
+        x="48"
         y="180"
         width="601"
         height="385"/>
@@ -603,7 +603,7 @@
           href="AssignmentRelationship_id-5886f5ca630142fbbff717f882d7e5ff.xml#id-5886f5ca630142fbbff717f882d7e5ff"/>
     </sourceConnections>
     <bounds
-        x="120"
+        x="217"
         y="108"
         width="120"
         height="55"/>
@@ -625,7 +625,7 @@
           href="RealizationRelationship_id-94e5b7d9e48c4b57b1746d4a82eac741.xml#id-94e5b7d9e48c4b57b1746d4a82eac741"/>
     </sourceConnections>
     <bounds
-        x="263"
+        x="360"
         y="108"
         width="120"
         height="55"/>
@@ -638,7 +638,7 @@
       id="id-a95b2aee003e441bb3c25795befe9bfb"
       targetConnections="id-035594a7c91b48aaa2fbcec679204529">
     <bounds
-        x="-25"
+        x="72"
         y="108"
         width="120"
         height="55"/>
@@ -651,7 +651,7 @@
       id="id-0e3b6a6fbd0143b5a4f1495be96b1139"
       targetConnections="id-17e1eca349224ce09a5bf2b221a5a2be id-bf3c693dc70b427086c685ebe46cfee1">
     <bounds
-        x="335"
+        x="432"
         y="24"
         width="120"
         height="55"/>
@@ -673,7 +673,7 @@
           href="RealizationRelationship_id-f14b11a140944f628bc81c783982b3ba.xml#id-f14b11a140944f628bc81c783982b3ba"/>
     </sourceConnections>
     <bounds
-        x="407"
+        x="504"
         y="108"
         width="120"
         height="55"/>
@@ -687,7 +687,7 @@
       textAlignment="1"
       content="This view describes the main technology details for the referenced application, including:&#xA;- Main application components&#xA;- Technologies and services used for each one&#xA;- Software artifacts and configurations (as assets to be governed by Hey Blue)&#xA;- Runtime infraestructure (as nodes, cloud zones/regions or third party SaaS)&#xA;- Main relations between the elements, identifying major data flows and dependencies as serving relations">
     <bounds
-        x="-49"
+        x="48"
         y="576"
         width="589"
         height="109"/>

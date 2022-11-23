@@ -445,15 +445,14 @@
           source="id-12588eb3e9554332afec4dfffef3e184"
           target="id-7dcfb7453bd94b52bbf27fd815e153ee">
         <bendpoints
-            startX="12"
-            startY="-147"
-            endX="132"
-            endY="203"/>
+            startY="-183"
+            endX="120"
+            endY="167"/>
         <bendpoints
             startX="-84"
-            startY="-147"
+            startY="-183"
             endX="36"
-            endY="203"/>
+            endY="167"/>
         <archimateRelationship
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_id-e8ef141deced4c9395b110812720d276.xml#id-e8ef141deced4c9395b110812720d276"/>
@@ -963,7 +962,7 @@
           href="FlowRelationship_id-e109491ed0c842fab8d32d7410a508ad.xml#id-e109491ed0c842fab8d32d7410a508ad"/>
     </sourceConnections>
     <bounds
-        x="-48"
+        x="-24"
         y="156"
         width="120"
         height="55"/>
@@ -982,14 +981,14 @@
         target="id-d4a98e3de9094057816cd042e1cf6c06">
       <bendpoints
           startY="-75"
-          endX="-276"
+          endX="-252"
           endY="-1"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-8d3a830f81f2405e9d718075571df279.xml#id-8d3a830f81f2405e9d718075571df279"/>
     </sourceConnections>
     <bounds
-        x="24"
+        x="48"
         y="72"
         width="120"
         height="55"/>
@@ -1011,7 +1010,7 @@
           href="AssociationRelationship_id-d25f3f617f2c41fd8eaeb2eb9c23ccd1.xml#id-d25f3f617f2c41fd8eaeb2eb9c23ccd1"/>
     </sourceConnections>
     <bounds
-        x="108"
+        x="132"
         y="156"
         width="120"
         height="55"/>
@@ -1030,14 +1029,14 @@
         target="id-f7f0c27f5327499ba6e08811f63dbaaa">
       <bendpoints
           startY="-159"
-          endX="396"
+          endX="408"
           endY="-1"/>
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-f5b8b2da5dd24749b28a554700110ca8.xml#id-f5b8b2da5dd24749b28a554700110ca8"/>
     </sourceConnections>
     <bounds
-        x="984"
+        x="996"
         y="156"
         width="120"
         height="55"/>

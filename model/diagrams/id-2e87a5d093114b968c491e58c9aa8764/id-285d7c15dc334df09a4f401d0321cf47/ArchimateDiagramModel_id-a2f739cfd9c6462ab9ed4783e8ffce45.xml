@@ -331,14 +331,14 @@
           target="id-ea39b7340b13432a9f83e50c8abedb5f">
         <bendpoints
             startX="12"
-            startY="-171"
+            startY="-159"
             endX="-348"
-            endY="45"/>
+            endY="57"/>
         <bendpoints
             startX="312"
-            startY="-171"
+            startY="-159"
             endX="-48"
-            endY="45"/>
+            endY="57"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-bc41651914894b5faf9da36684858814.xml#id-bc41651914894b5faf9da36684858814"/>

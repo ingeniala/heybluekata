@@ -647,4 +647,15 @@
         xsi:type="archimate:Requirement"
         href="Requirement_id-82032fce61544c6380e85c23d893a597.xml#id-82032fce61544c6380e85c23d893a597"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-f23f4cda068e4cc3952c2008858e58b7"
+      textAlignment="1"
+      content="This view represents the constraints and requirements that have influence over a specific reference business function or entire reference business domain">
+    <bounds
+        x="48"
+        y="552"
+        width="541"
+        height="49"/>
+  </children>
 </archimate:ArchimateDiagramModel>

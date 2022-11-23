@@ -794,7 +794,7 @@
           href="RealizationRelationship_id-b05ce9353db54cfd9f56ab1ac0ab08f3.xml#id-b05ce9353db54cfd9f56ab1ac0ab08f3"/>
     </sourceConnections>
     <bounds
-        x="600"
+        x="612"
         y="144"
         width="120"
         height="55"/>
@@ -807,7 +807,7 @@
       id="id-6f32b64a6ead425ca67ddc0a82b9d5d8"
       targetConnections="id-c3c189964eb849a2be3e7580e0109730">
     <bounds
-        x="600"
+        x="612"
         y="60"
         width="120"
         height="55"/>

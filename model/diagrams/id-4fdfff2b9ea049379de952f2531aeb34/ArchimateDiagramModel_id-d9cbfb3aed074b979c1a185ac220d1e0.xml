@@ -144,8 +144,8 @@
           href="AssignmentRelationship_id-8ba98727c6cf4ae9884587c5767843ab.xml#id-8ba98727c6cf4ae9884587c5767843ab"/>
     </sourceConnections>
     <bounds
-        x="-204"
-        y="216"
+        x="-12"
+        y="192"
         width="852"
         height="361"/>
     <children
@@ -604,8 +604,8 @@
           href="RealizationRelationship_id-b05ce9353db54cfd9f56ab1ac0ab08f3.xml#id-b05ce9353db54cfd9f56ab1ac0ab08f3"/>
     </sourceConnections>
     <bounds
-        x="528"
-        y="144"
+        x="720"
+        y="120"
         width="120"
         height="55"/>
     <archimateElement
@@ -617,8 +617,8 @@
       id="id-4bd95535fcf14314b83340d9561ba43d"
       targetConnections="id-899ebc4276b1463daed44e20238257c2">
     <bounds
-        x="528"
-        y="48"
+        x="720"
+        y="24"
         width="120"
         height="55"/>
     <archimateElement
@@ -675,8 +675,8 @@
           href="RealizationRelationship_id-9be33ba3192c45a99def6b28fe7ed365.xml#id-9be33ba3192c45a99def6b28fe7ed365"/>
     </sourceConnections>
     <bounds
-        x="-60"
-        y="144"
+        x="132"
+        y="120"
         width="120"
         height="55"/>
     <archimateElement
@@ -688,8 +688,7 @@
       id="id-1267f78b00cb4fb7bafabd1f8fd8d212"
       targetConnections="id-8fc1077b0ab443678cda28554ca1970e">
     <bounds
-        x="-192"
-        y="144"
+        y="120"
         width="120"
         height="55"/>
     <archimateElement
@@ -701,8 +700,7 @@
       id="id-d5105751d1d2492dbfef234872043cba"
       targetConnections="id-037e52477b3445a38adb01b5c57a6a3e">
     <bounds
-        x="-192"
-        y="48"
+        y="24"
         width="120"
         height="55"/>
     <archimateElement
@@ -714,8 +712,8 @@
       id="id-0b25a673389c46fa80cb0d256651076b"
       targetConnections="id-5ed74cda1fbd41ffa76566217ef49d52">
     <bounds
-        x="-60"
-        y="48"
+        x="132"
+        y="24"
         width="120"
         height="55"/>
     <archimateElement
@@ -727,8 +725,8 @@
       id="id-f85b795ff7624986a20d33c647ebf4d1"
       targetConnections="id-f796c0a90205442286659e6ac298208d">
     <bounds
-        x="72"
-        y="48"
+        x="264"
+        y="24"
         width="120"
         height="55"/>
     <archimateElement
@@ -740,8 +738,8 @@
       id="id-39da5f93782f44ee84536d72ad4a8664"
       targetConnections="id-c88b186c1a7349e4b5aad58281334193 id-70df826e6f8d44b9ac6af413065fc57e">
     <bounds
-        x="228"
-        y="48"
+        x="420"
+        y="24"
         width="120"
         height="55"/>
     <archimateElement
@@ -762,8 +760,8 @@
           href="RealizationRelationship_id-76b1a821c5c24a2681c0e7b1743ecc0d.xml#id-76b1a821c5c24a2681c0e7b1743ecc0d"/>
     </sourceConnections>
     <bounds
-        x="228"
-        y="144"
+        x="420"
+        y="120"
         width="120"
         height="55"/>
     <archimateElement
@@ -776,8 +774,8 @@
       textAlignment="1"
       content="This view describes the main technology details for the referenced application, including:&#xA;- Main application components&#xA;- Technologies and services used for each one&#xA;- Software artifacts and configurations (as assets to be governed by Hey Blue)&#xA;- Runtime infraestructure (as nodes, cloud zones/regions or third party SaaS)&#xA;- Main relations between the elements, identifying major data flows and dependencies as serving relations">
     <bounds
-        x="-204"
-        y="588"
+        x="-12"
+        y="564"
         width="589"
         height="109"/>
   </children>

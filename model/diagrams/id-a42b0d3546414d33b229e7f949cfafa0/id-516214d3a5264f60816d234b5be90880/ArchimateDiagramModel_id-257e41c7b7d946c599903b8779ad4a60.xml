@@ -125,7 +125,7 @@
         id="id-40f0143839b24808849cf2fb53bcd37f"
         targetConnections="id-753558faae2348758161aeb0785a89e9">
       <bounds
-          x="144"
+          x="156"
           y="180"
           width="120"
           height="55"/>
@@ -219,6 +219,19 @@
       <archimateElement
           xsi:type="archimate:Requirement"
           href="Requirement_id-4e62b6592bb349058fec214693ad1d3d.xml#id-4e62b6592bb349058fec214693ad1d3d"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-84bc8bf2c1db4cbba5291a64b1902357"
+        targetConnections="id-87677eb5268b401eb16cbc6abfc82454 id-40fbe68c8b9545f6b6b22838c07850c8">
+      <bounds
+          x="72"
+          y="72"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-36dd96f6e4bd4bc7894d41ab4c5483a3.xml#id-36dd96f6e4bd4bc7894d41ab4c5483a3"/>
     </children>
   </children>
   <children
@@ -795,16 +808,14 @@
         href="Requirement_id-717649665e004e29845c03782a5e2a7b.xml#id-717649665e004e29845c03782a5e2a7b"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-84bc8bf2c1db4cbba5291a64b1902357"
-      targetConnections="id-87677eb5268b401eb16cbc6abfc82454 id-40fbe68c8b9545f6b6b22838c07850c8">
+      xsi:type="archimate:DiagramModelNote"
+      id="id-1768a5d6ca2a4cf9b798c0afbacaed8f"
+      textAlignment="1"
+      content="This view represents the constraints and requirements that have influence over a specific reference business function or entire reference business domain">
     <bounds
-        x="72"
-        y="-27"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Requirement"
-        href="Requirement_id-36dd96f6e4bd4bc7894d41ab4c5483a3.xml#id-36dd96f6e4bd4bc7894d41ab4c5483a3"/>
+        x="12"
+        y="456"
+        width="541"
+        height="49"/>
   </children>
 </archimate:ArchimateDiagramModel>

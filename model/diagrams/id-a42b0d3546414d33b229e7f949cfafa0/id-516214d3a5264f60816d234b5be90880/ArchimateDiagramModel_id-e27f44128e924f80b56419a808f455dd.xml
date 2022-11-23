@@ -13,9 +13,9 @@
       alpha="120">
     <bounds
         x="-84"
-        y="-144"
+        y="-132"
         width="829"
-        height="172"/>
+        height="157"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -26,7 +26,7 @@
       alpha="120">
     <bounds
         x="-84"
-        y="36"
+        y="43"
         width="829"
         height="120"/>
   </children>
@@ -52,7 +52,7 @@
       alpha="120">
     <bounds
         x="-84"
-        y="168"
+        y="180"
         width="829"
         height="157"/>
     <children
@@ -287,13 +287,13 @@
           target="id-9f1e6a1617b9471ea25ee713e533e16f">
         <bendpoints
             startX="156"
-            startY="-87"
+            startY="-75"
             endX="-60"
-            endY="117"/>
+            endY="129"/>
         <bendpoints
             startX="216"
-            startY="-87"
-            endY="117"/>
+            startY="-75"
+            endY="129"/>
         <archimateRelationship
             xsi:type="archimate:RealizationRelationship"
             href="RealizationRelationship_id-9d5906acf82542cfad1ce413d176ccdb.xml#id-9d5906acf82542cfad1ce413d176ccdb"/>
@@ -303,6 +303,11 @@
           id="id-647ba4af94bf460e8c1437012cca216a"
           source="id-0a217ec850124f3facf621aaf9180560"
           target="id-7900be8440e14b0ab3288628cce0ce13">
+        <bendpoints
+            startX="144"
+            startY="-63"
+            endX="-1"
+            endY="69"/>
         <archimateRelationship
             xsi:type="archimate:RealizationRelationship"
             href="RealizationRelationship_id-6654168e66cd4e979a0b506f20281e42.xml#id-6654168e66cd4e979a0b506f20281e42"/>
@@ -454,5 +459,16 @@
     <archimateElement
         xsi:type="archimate:Requirement"
         href="Requirement_id-d773866a8a074cdd9ecb5096ee48c307.xml#id-d773866a8a074cdd9ecb5096ee48c307"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-4d79b8bb78464d26a4079b02e1f4164f"
+      textAlignment="1"
+      content="This view represents the constraints and requirements that have influence over a specific reference business function or entire reference business domain">
+    <bounds
+        x="-84"
+        y="348"
+        width="541"
+        height="49"/>
   </children>
 </archimate:ArchimateDiagramModel>
