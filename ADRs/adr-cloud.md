@@ -14,6 +14,8 @@ Previous [ADR for Infrastructure](./adr-infrastructure.md) defined cloud as the 
 
 Alternative selected: *AWS*
 
+Region picked: us-east-2 (Ohio)
+
 Following table contains all the reasons that drives the decision:
 
 | Criteria                 | Description
@@ -28,7 +30,8 @@ Also, AWS has plans for [Non-profit organizations](https://aws.amazon.com/govern
 | Features                 | A widely range of services and features, it’s the cloud with more features in: Computing services, storage service, AI/ML. Regarding databases services it’s barely surpassed by Azure, but remains as a leader in the rest of relevant services. |
 | Global Expansion         | More presence around the globe, with many more locations compared to Azure and GCP. |
 | Growth                   | It's the best option to grow up, because offers better pricing for largest instances compared to Azure and GCP. |
-|GDPR | GDPR fully-compliant. [Link](https://aws.amazon.com/es/blogs/security/all-aws-services-gdpr-ready/) |
+| GDPR | GDPR fully-compliant. [Link](https://aws.amazon.com/es/blogs/security/all-aws-services-gdpr-ready/) |
+| Region | Based on a low pricing tier and a low rate of popularity, Ohio is the best AWS region to go with as it's as cheap as North Virginia, but not that heavily used (lots of people hire services in us-east-1 by default, which makes sense because it was created first and it provides more AZs). Ohio, on the other hand, provides only 3 AZs (availability zones) which the team considered enough for the architecture designed. [Link1](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/) / [Link2](https://openupthecloud.com/which-aws-region-cheapest/) |
 
 ## Constraints mapping
 
