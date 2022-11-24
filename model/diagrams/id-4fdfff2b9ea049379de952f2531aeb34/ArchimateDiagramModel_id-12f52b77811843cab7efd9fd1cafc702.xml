@@ -1277,9 +1277,9 @@
           target="id-f6f59a375c71473aa2c92f82d274e147">
         <bendpoints
             startX="-84"
-            startY="-3"
-            endX="109"
-            endY="231"/>
+            startY="-14"
+            endX="110"
+            endY="220"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-0c53dd6e50f04570977dfbe38dca4aa6.xml#id-0c53dd6e50f04570977dfbe38dca4aa6"/>
@@ -1300,9 +1300,9 @@
           target="id-18e9dc0fe3f248dcb35b43be28d27c9e">
         <bendpoints
             startX="-96"
-            startY="9"
+            startY="-2"
             endX="84"
-            endY="81"/>
+            endY="70"/>
         <bendpoints
             startX="-96"
             startY="-75"
