@@ -38,3 +38,4 @@ What is more, it's easy to use and to visualize the system overall status throug
 | ------------- | ----------- |
 | AC.STA.01 and AC.STA.02 | The AWS [SLA](https://aws.amazon.com/compute/sla/) defines a minimum uptime of 99.99% with penalties |
 | AC.SCA.01 | Cloud solution enables to start with the few resources as possible |
+| AC.SEC.01 | The observability layer could help improve user data securization, in this case application telemetry (metrics, logs, traces). Hashing, masking or obfuscation are some of these strategies. Not to mention that suspicious anomalies are alerted, thus could be investigated and turned into actions. |

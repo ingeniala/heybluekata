@@ -48,4 +48,4 @@ Also, AWS has plans for [Non-profit organizations](https://aws.amazon.com/govern
 | ------------- | ----------- |
 | AC.STA.01 and AC.STA.02 | The AWS [SLA](https://aws.amazon.com/compute/sla/) defines a minimum uptime of 99.99% with penalties |
 | AC.SCA.01 | Cloud solution enables to start with the few resources as possible |
-
+| AC.SEC.01 | AWS offers something called Well Architected Framework, which helps implement best practices regarding several topics or pillars, including [AWS Security Pillar](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/security.html). More information [here](/Architecture/Application/security-concerns.md) |

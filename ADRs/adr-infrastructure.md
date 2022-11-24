@@ -41,3 +41,4 @@ Following table contains all the reasons that drives the decision:
 | ------------- | ----------- |
 | AC.STA.01 and AC.STA.02 | Stability in cloud is cheaper and easier than in on premises |
 | AC.SCA.01 | Scalability is one of the bigger advantages of cloud solutions |
+| AC.SEC.01 | Cloud solutions can be secured as needed, there is a complete toolset available to improve this topic. From _security at rest_ mechanisms (specially in storage services) to _in transit_ as well by helping encrypt inter-process communications and put certificates to provide confidence. |

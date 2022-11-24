@@ -54,3 +54,4 @@ There are some drawbacks using Fargate:
 | ------------- | ----------- |
 | AC.STA.01 and AC.STA.02 | The AWS [SLA](https://aws.amazon.com/compute/sla/) defines a minimum uptime of 99.99% with penalties |
 | AC.SCA.01 | Cloud solution enables to start with the few resources as possible |
+| AC.SEC.01 | Secure isolation by design: individual EKS pods run in their own dedicated kernel runtime environment and do not share resources with any other pod. |
