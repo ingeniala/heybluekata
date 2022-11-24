@@ -23,3 +23,10 @@ The team chooses GSuite over Office 365 due to easy of deploy, manage and use. A
 | CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | GSuite is a good option to evolve in complexity as needed, starting with something simple and evolve to an enterprise solution when it would be needed |
 | CONS.07 | Gsuite is compliant with [GDPR](https://cloud.google.com/privacy/gdpr) |
+
+## Architecture Characteristics Mapping
+
+| Characteristic ID | Explanation |
+| ------------- | ----------- |
+| AC.STA.01 and AC.STA.02 | Google defines a minimum uptime of 99.99% with penalties |
+| AC.SCA.01 | Google, as a cloud solution enables to start with the few resources as possible |

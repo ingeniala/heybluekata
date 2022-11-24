@@ -14,4 +14,4 @@ The second diagram (figure 9.2.2), by its side, maps the business processes with
 
 ## Flow - Entity Diagram
 
-![Figure 9.2.2 - Civilian Onboarding Entity](/Assets/Charity-onboarding-Business-Entities.png "Figure 9.2.2 - Civilian Onboarding Entity")
+![Figure 9.2.2 - Civilian Onboarding Entity](/Assets/Civilian-onboarding-Business-Entities.png "Figure 9.2.2 - Civilian Onboarding Entity")

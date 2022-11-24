@@ -32,3 +32,10 @@ Following table contains all the reasons that drives the decision:
 | CONS.01 | With Python es easier to find developers and active community |
 | CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 
+## Architecture Characteristics Mapping
+
+| Characteristic ID | Explanation |
+| ------------- | ----------- |
+| AC.MOD.01 | Python is a good fit to ensure the best modifiability |
+
+

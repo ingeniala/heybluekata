@@ -42,3 +42,4 @@ Following table contains all the reasons that drives the decision:
 | Characteristic ID | Explanation |
 | ------------- | ----------- |
 | AC.USA.01 | React supports Material Design using [MDB](https://mdbootstrap.com/docs/react/) |
+| AC.USA.03 | React supports a omnichannel experience in collaboration with a BFF |

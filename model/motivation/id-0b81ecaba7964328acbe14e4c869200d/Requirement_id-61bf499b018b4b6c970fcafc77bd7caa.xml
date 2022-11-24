@@ -1,0 +1,8 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="AC.USA.03. [Assumption] Omnichannel experience"
+    id="id-61bf499b018b4b6c970fcafc77bd7caa"
+    documentation="The solution must ensure an omnichannel experience, meaning that the information showne in a given channel (e.g. mobile) should be the same that other channels at the same time (e.g. web). ">
+  <profiles
+      href="folder.xml#id-9f9a33df2fc04254918def06a0735e48"/>
+</archimate:Requirement>

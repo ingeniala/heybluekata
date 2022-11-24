@@ -151,6 +151,7 @@ The following sections describe each architecture characteristics:
 * Usability Characteristics
   * [AC.USA.01 - Web App Usability](/Characteristics/ac-usa-01.md)
   * [AC.USA.02 - Mobile App Usability](/Characteristics/ac-usa-02.md)
+  * [AC.USA.03 - Omnichannel experience](/Characteristics/ac-usa-03.md)
 * Security Characteristics
   * [AC.SEC.01 - Secure Information](/Characteristics/ac-sec-01.md)
   * [AC.SEC.02 - End User AAA](/Characteristics/ac-sec-02.md)
@@ -295,7 +296,7 @@ This views have two different viewpoints, one extracted from draw.io and other a
 
 For a general view, it is presented the figure below (figure 6), a simplified view of the proposed technology components.
 
-![Figure 6 - Tech - general](/Assets/drawio-tech-general.png "Figure 6 - Tech - General")
+![Figure 6 - Tech - general](/Assets/drawio-tech-general-diagram.png "Figure 6 - Tech - General")
 
 It is possible to get more information about the technological aspects of the architecture in the sections bellow:
 
@@ -359,6 +360,10 @@ This architecture and the related decisions was based on [Archimate](https://www
 The model was versioned in this repo (folder /model). To connect Archi with this repo and pull the [model](/model), you can use the [Collaboration plugin](https://www.archimatetool.com/plugins/#coArchi) for Archi.
 
 Additionally, it's provided an HTML view of the model, in the folder [html-model](html-model) or in [Github Pages](https://ingeniala.github.io/heybluekata).
+
+Archimate was chosen because it is the de facto standard on architecture modelling and is very efficient to manage complex and detailed representations of the architecture. In addition, no matter how complex a model is, there is always the possibility to navigate it through the elements and relations or, given that the architecture model is not only a static diagram, it could be analyzed to generate more advanced information as, for example: what if scenarios, impact, heatmap or complexity analysis.
+
+And lastly, the model is an architecture asset that Hey Blue as an organization could evolve over time.
 
 ## [Architecture Decision Records](https://github.com/ingeniala/heybluekata#architecture-decision-records)
 
