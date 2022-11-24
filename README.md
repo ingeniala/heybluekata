@@ -151,6 +151,7 @@ The following sections describe each architecture characteristics:
 * Usability Characteristics
   * [AC.USA.01 - Web App Usability](/Characteristics/ac-usa-01.md)
   * [AC.USA.02 - Mobile App Usability](/Characteristics/ac-usa-02.md)
+  * [AC.USA.03 - Omnichannel experience](/Characteristics/ac-usa-03.md)
 * Security Characteristics
   * [AC.SEC.01 - Secure Information](/Characteristics/ac-sec-01.md)
   * [AC.SEC.02 - End User AAA](/Characteristics/ac-sec-02.md)
