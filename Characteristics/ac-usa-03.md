@@ -1,4 +1,4 @@
-# AC.USA.02 - [Assumption] Omnichannel experience
+# AC.USA.03 - [Assumption] Omnichannel experience
 
 ## Description
 
