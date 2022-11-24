@@ -361,6 +361,10 @@ The model was versioned in this repo (folder /model). To connect Archi with this
 
 Additionally, it's provided an HTML view of the model, in the folder [html-model](html-model) or in [Github Pages](https://ingeniala.github.io/heybluekata).
 
+Archimate was chosen because it is the de facto standard on architecture modelling and is very efficient to manage complex and detailed representations of the architecture. In addition, no matter how complex a model is, there is always the possibility to navigate it through the elements and relations or, given that the architecture model is not only a static diagram, it could be analyzed to generate more advanced information as, for example: what if scenarios, impact, heatmap or complexity analysis.
+
+And lastly, the model is an architecture asset that Hey Blue as an organization could evolve over time.
+
 ## [Architecture Decision Records](https://github.com/ingeniala/heybluekata#architecture-decision-records)
 
 * [ADR Infrastructure](./ADRs/adr-infrastructure.md)
