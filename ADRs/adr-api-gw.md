@@ -35,3 +35,11 @@ Following table contains all the reasons that drives the decision:
 | CONS.01 | Amazon API Gateway is not a FOSS solution, however it has a wide free-tier where the price ties to the API calls received. |
 | CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.07 | AWS is a [GDPR compliant solution](https://aws.amazon.com/compliance/gdpr-center/) |
+
+## Architecture Characteristics Mapping
+
+| Characteristic ID | Explanation |
+| ------------- | ----------- |
+| AC.STA.01 and AC.STA.02 | AWS defines a minimum uptime of 99.99% with penalties |
+| AC.SCA.01 | AWS, as a cloud solution enables to start with the few resources as possible |
+| AC.USA.03 | An API GW enables a omnichannel architecture |

@@ -41,3 +41,11 @@ There are some drawbacks using BFF:
 | Drawbacks ID | Explanation |
 | ------------- | ----------- |
 | DRA.6 | BFF now becomes a SPOF (single point of failure), because any downtime affects directly to the channel. To remediate the situation, the BFF will be deployed in the AWS cloud, in a environment where high availabilty and scalability are key pillars for applications. |
+
+## Architecture Characteristics Mapping
+
+| Characteristic ID | Explanation |
+| ------------- | ----------- |
+| AC.STA.01 and AC.STA.02 | AWS (cloud supporting this functionality) defines a minimum uptime of 99.99% with penalties |
+| AC.SCA.01 | AWS, as a cloud solution enables to start with the few resources as possible |
+| AC.USA.03 | A BFF enables a omnichannel architecture |
