@@ -24,3 +24,9 @@ The team chooses Zoho Suite because of its functionality over Google Sheets, and
 | CONS.06 | Zoho is a good options to evolve in complexity as needed, starting with something simple |
 | CONS.07 | Zoho is compliant with [GDPR](https://www.zoho.com/gdpr.html) |
 
+## Architecture Characteristics Mapping
+
+| Characteristic ID | Explanation |
+| ------------- | ----------- |
+| AC.SEC.01 | Zoho Suite has features to support the security of the information |
+| AC.STA.01 | Zoho Suite supports the stability requirements |

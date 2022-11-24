@@ -24,3 +24,9 @@ Selected Metabase over Qlik due mainly to cost constraint, extensibility and usa
 | CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.06 | Metabase is a good options to evolve in complexity as needed, starting with something simple |
 | CONS.07 | Metabase is compliant with [GDPR](https://www.metabase.com/docs/latest/installation-and-operation/privacy) |
+
+## Architecture Characteristics Mapping
+
+| Characteristic ID | Explanation |
+| ------------- | ----------- |
+| AC.SEC.01 | Metabase has features to support the security of the information |
