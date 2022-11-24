@@ -296,7 +296,7 @@ This views have two different viewpoints, one extracted from draw.io and other a
 
 For a general view, it is presented the figure below (figure 6), a simplified view of the proposed technology components.
 
-![Figure 6 - Tech - general](/Assets/drawio-tech-general.png "Figure 6 - Tech - General")
+![Figure 6 - Tech - general](/Assets/drawio-tech-general-diagram.png "Figure 6 - Tech - General")
 
 It is possible to get more information about the technological aspects of the architecture in the sections bellow:
 
