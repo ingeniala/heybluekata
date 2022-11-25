@@ -2,7 +2,7 @@
 
 ## Description
 
-The solution must ensure an omnichannel experience, meaning that the information showne in a given channel (e.g. mobile) should be the same that other channels at the same time (e.g. web).
+The solution must ensure an omnichannel experience, meaning that the information shown in a given channel (e.g. mobile) should be the same that other channels at the same time (e.g. web).
 
 ## Detailed definition
 
