@@ -26,7 +26,7 @@ Following table contains all the reasons that drives the decision:
 | Reutilization            | Components reutilization: An React App is based on components which could be reused in the whole app, also these components could be reused by mobile app [ADR Mobile Technology](./adr-mobile-technology.md). |
 | Usability                | Easy to test. |
 | Loyalty                  | Created and maintained by Facebook. |
-| Maturity | Used by gigants on the market like: Netflix, Airbnb, Asana, Pinterest and more. |
+| Maturity | Used by giants on the market like: Netflix, Airbnb, Asana, Pinterest and more. |
 | Cost | Save money: React is widely used, so it's quite easy to find developers within the community |
 
 ## Constraints mapping
