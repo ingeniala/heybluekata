@@ -29,7 +29,7 @@ Following table contains all the reasons that drives the decision:
 
 | Constraint ID | Explanation |
 | ------------- | ----------- |
-| CONS.01 | Cloud is a less expensive solution, not only in infrasture and licences, but also in cost of maintenance |
+| CONS.01 | Cloud is a less expensive solution, not only in infrastructure and licences, but also in cost of maintenance |
 | CONS.03 | There were no restrictions, except for those defined here, about technology related decisions |
 | CONS.04 | A cloud based architecture should improve the confidence of the police officers as part of the solution |
 | CONS.06 | Cloud solutions enable the evolution of the applications as needed |
