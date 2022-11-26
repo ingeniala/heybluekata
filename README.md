@@ -80,7 +80,7 @@ The figure 1 - Motivation shows the vision of HeyBlue, its functional requiremen
 
 ![Figure 1 - Motivation](/Assets/1.1.Motivation.png "Figure 1 - Motivation")
 
-Bellow, it will describe each of them.
+Below is a description of each one of them.
 
 ### Drivers
 
@@ -95,7 +95,7 @@ Bellow, it will describe each of them.
 
 ### High level use Cases
 
-The table bellow describe the High level use cases, and the relationship with the goals described above.
+The table below describe the High level use cases, and the relationship with the goals described above.
 
 | UC ID | Description | Related Goals |
 | ----- | ----------- | ------------- |
@@ -109,7 +109,7 @@ The table bellow describe the High level use cases, and the relationship with th
 | UC08 | As a user i want to opt-in and out of push notifications | GO01 |
 | UC09 | As a civilian I want to find retail stablishments to redeem my points | GO03 |
 | UC10 | As an officer I want to find charities where I can gift the points | GO02 |
-| UC11 | As a business/charitie I want to create a storefront to encourage users to redeem or donate their points | GO01, GO02 |
+| UC11 | As a business/charity I want to create a storefront to encourage users to redeem or donate their points | GO01, GO02 |
 | UC12 | As a Business I want to manage the catalog of products and the point value assigned to them | GO03 |
 | UC13 | As a municipality I want to allow civilians to redeem the points to pay fines or fees | GO03 |
 | UC14 | As a user I want to receive positive reinforcement through intrinsec reward system based on my activity | GO01, GO03 |
@@ -119,9 +119,9 @@ The table bellow describe the High level use cases, and the relationship with th
 | UC18 | As heyBlue Admin I want to know the users zip codes to share revenues with community in the user area | GO03 |
 | UC19 | As a civilian I want to say hi to a police officer to gain points | GO01 |
 | UC20 | As a HeyBlue Admin I want to ensure the employee experience, including recruiting, upskilling and lifecycle | |
-| UC21 | As an investor I want to get information about the numbers of the company | |
+| UC21 | As an investor I want to get information about the financial and accounting statements of the company | |
 | UC22 | As HeyBlue Admin I want to control the financial performance | |
-| UC23 | As IT responsible of HeyBlue I want best practices, tools to ensure an efficient IT Value delivery | |
+| UC23 | As IT responsible of HeyBlue I want best practices and tools to ensure an efficient IT Value delivery | |
 | UC24 | As HeyBlue Admin I want to control and manage the risks, mainly the fraud related risks | |
 
 ## Constraints
@@ -134,11 +134,12 @@ Below, it will describe each one of them.
 
 * CONS.01 - The cost should be as little as possible. HeyBlue is a non-profit company. The use of resources should be wisely defined. Choose the cheapest alternative if it is possible.
 * CONS.02 - Application should be mobile and web
-* CONS.03 - There is no restriction about technology
-* CONS.04 - The solution should be limited to USA cities (by Zip Codes)
-* CONS.05 - The officer location feature must be implemented in a way that ensure the officer confidence on it.
+* CONS.03 - The solution should be limited to USA cities (by Zip Codes)
+* CONS.04 - The officer location feature must be implemented in a way that ensure the officer confidence on its privacy, non disclosure and safety.
+* CONS.05 - There is no restriction about technology
 * CONS.06 - Define a solution that evolve with a team
 * CONS.07 - Compliance with GDPR
+* CONS.08 - Solution should be launched on september 11, 2023
 
 ## Quality Attributes (AKA Architecture Characteristics)
 
@@ -200,7 +201,7 @@ An architecture's main objective is the clear communication of the roles and res
 * Enable automation.
 * Facilitate the selection of COTS (Commercial off the Shelf) solutions.
 
-In the case of Hey Blue, we defined a reference architecture based on the work of the [W3 consortium](https://www.w3.org/2013/socialweb/presentations/krebs1.pdf), with a few extensions of our part to cover specific requirements about produc, storefront and enterprise needs.
+In the case of Hey Blue, we defined a reference architecture based on the work of the [W3 consortium](https://www.w3.org/2013/socialweb/presentations/krebs1.pdf), with a few extensions of our part to cover specific requirements about product, storefront and enterprise needs.
 
 The figure 4 shows the reference architecture for social network, which define the business responsibilities associated with the Hey Blue case.
 
@@ -269,7 +270,7 @@ This view is also extracted from the Archimate model and detail the:
 
 ![Figure 5 - Conceptual Architecture](./Assets/Architecture-Conceptual.png "Figure 5 - Conceptual Architecture")
 
-It is possible to get more information about the logical components in the sections bellow:
+It is possible to get more information about the logical components in the sections below:
 
 * [Onboarding](/Architecture/Application/onboarding.md)  
 * [User Catalogs](/Architecture/Application/user-catalogs.md)
@@ -298,7 +299,7 @@ For a general view, it is presented the figure below (figure 6), a simplified vi
 
 ![Figure 6 - Tech - general](/Assets/drawio-tech-general-diagram.png "Figure 6 - Tech - General")
 
-It is possible to get more information about the technological aspects of the architecture in the sections bellow:
+It is possible to get more information about the technological aspects of the architecture in the sections below:
 
 * [Onboarding](/Architecture/Technology/onboarding.md)
 * [Users Domain](/Architecture/Technology/user-domain.md)
