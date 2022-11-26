@@ -23,8 +23,7 @@ Following table contains all the reasons that drives the decision:
 | Maturity                 | It's the most mature cloud services provider on the market, compared with GCP and Azure. |
 | Market                   | AWS is a leader in the market with around 32%, unlike Azure with 19% and GCP with 7%, approximately.  |
 | Capacity | Being a leader on the market translates into a bunch of IT professionals with knowledge about it. |
-| Cost                     | Dedicated plan for startups with 100.000 AWS credits.
-Also, AWS has plans for [Non-profit organizations](https://aws.amazon.com/government-education/nonprofits/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc) |
+| Cost                     | Dedicated plan for startups with 100.000 AWS credits. Also, AWS has plans for [Non-profit organizations](https://aws.amazon.com/government-education/nonprofits/?wwps-cards.sort-by=item.additionalFields.sortDate&wwps-cards.sort-order=desc) |
 | Cost                     | Free tier for testing. |
 | Cost Models              | Pay as you go, reserved plans (in case of upfront needs) |
 | Features                 | A widely range of services and features, it’s the cloud with more features in: Computing services, storage service, AI/ML. Regarding databases services it’s barely surpassed by Azure, but remains as a leader in the rest of relevant services. |
