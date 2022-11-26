@@ -2,7 +2,7 @@
 
 ## Description
 
-Reference Architecture describes that not only redemptions but also encounters between users may have rules defined by the business in order to establish the amount of points to give to every party in the transaction.
+Reference Architecture describes that not only redemptions but also interactions between users may have rules defined by the business in order to establish the amount of points to give to every party in the transaction.
 
 All those rules are handled by a single component, as shown in the technical architecture, and can be changed/adjusted by using a web client. 
 
