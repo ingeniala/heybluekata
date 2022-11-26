@@ -15,7 +15,7 @@ Alternative selected: *AWS SNS*
 
 AWS SNS was selected due to the following reasons:
 
-- It's an AWS service (selected cloud provider for infrasture [ADR Cloud Provider](./adr-cloud.md)). 
+- It's an AWS service (selected cloud provider for infrastructure [ADR Cloud Provider](./adr-cloud.md)). 
 - The core of AWS SNS is based in Firebase, so no reasons to select Firebase which belongs to other cloud provider.
 - It's widely adopted for severals organizations.
 - It's a mature technology supported by AWS.
